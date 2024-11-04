@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/settings_background">
+
+    <com.sharkninja.ninja.connected.kitchen.ui.views.CookToolbarItemView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:isPreCook="true"
+        />
+
+    <ScrollView
+        android:id="@+id/cook_settings_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/cook_fragment_background"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@id/start_cooking_button_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_normal">
+
+            <include
+                android:id="@+id/cook_type_tabs"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                layout="@layout/layout_cook_type_selector"
+                />
+
+            <com.sharkninja.ninja.connected.kitchen.ui.views.HorizontalScrollMenuCookType
+                android:id="@+id/grill_settings_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:isDarkThemeMenu="false" />
+
+            <TextView
+                android:id="@+id/cookSettingsText"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="@dimen/margin_xlarge"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:fontFamily="@font/gotham_book_medium"
+                android:lineHeight="16sp"
+                android:text="@string/cook_settings_label"
+                android:textColor="@color/black1"
+                android:textFontWeight="700"
+                android:textSize="12sp" />
+
+
+            <com.sharkninja.ninja.connected.kitchen.ui.views.CookToggleCardItemView
+                android:id="@+id/wood_fire_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_large"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:background="@drawable/precook_cook_card_background"
+                android:elevation="8dp"
+                app:isWoodFireCardView="true"
+                app:woodfireIcon="@drawable/ic_woodfire"
+                app:woodfireLabel="@string/wood_fire_cardview_label" />
+
+            <com.sharkninja.ninja.connected.kitchen.ui.views.CookTimeTempCardItemView
+                android:id="@+id/edit_time_temp_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:elevation="8dp"
+                android:background="@drawable/precook_cook_card_background"
+                app:isTimedCook="true"
+                app:valueLeftIcon="@drawable/ic_timer"
+                app:valueLeftLabel="@string/cook_time"
+                app:valueRightIcon="@drawable/ic_thermometer"
+                app:valueRightLabel="@string/grill_temp" />
+
+            <com.sharkninja.ninja.connected.kitchen.ui.views.CookTimeTempCardItemView
+                android:id="@+id/edit_temp_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:elevation="8dp"
+                android:background="@drawable/precook_cook_card_background"
+                app:isTimedCook="false"
+                app:valueLeftIcon="@drawable/ic_thermometer"
+                app:valueLeftLabel="@string/grill_temp" />
+
+            <com.sharkninja.ninja.connected.kitchen.ui.views.CookToggleCardItemView
+                android:id="@+id/probe_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_large"
+                android:elevation="8dp"
+                android:background="@drawable/precook_cook_card_background"
+                app:probeIcon="@drawable/ic_thermometer_probe_unpluged"
+                app:tempLabel="@string/target_temp"
+                app:probeName="Thermometer #1" />
+
+            <com.sharkninja.ninja.connected.kitchen.ui.views.CookToggleCardItemView
+                android:id="@+id/probe_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_marginBottom="@dimen/margin_large"
+                android:elevation="8dp"
+                android:background="@drawable/precook_cook_card_background"
+                app:tempLabel="@string/target_temp"
+                app:probeIcon="@drawable/ic_thermometer_probe_unpluged"
+                app:probeName="Thermometer #2" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/start_cooking_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cook_fragment_background"
+        android:paddingVertical="20dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/buttonStartCooking"
+            style="@style/Ninja.ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_large"
+            android:text="@string/start_cooking_button_online"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/grillSelectorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#59000000"
+        android:clickable="true"
+        android:focusable="true"
+        android:elevation="16dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

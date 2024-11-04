@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="@dimen/margin_large"
+    android:layout_marginEnd="@dimen/margin_large"
+    tools:context=".sections.home.fragments.pairing.dialogs.NetworkTipsDialogFragment">
+
+
+    <TextView
+        android:id="@+id/network_dialog_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_bold"
+        android:textFontWeight="700"
+        android:textColor="@color/theme_reverse"
+        android:text="@string/dialog_network_tips_title"
+        android:textSize="@dimen/text_size_normal"
+        android:lineHeight="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tip_one_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textFontWeight="700"
+        android:textColor="@color/theme_reverse"
+        android:text="@string/dialog_network_tips_router"
+        android:textSize="@dimen/text_size_small"
+        android:lineHeight="@dimen/text_size_normal"
+        app:layout_constraintTop_toBottomOf="@id/network_dialog_header"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tip_one_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/darker_grey"
+        android:text="@string/dialog_network_tips_unplug"
+        android:textSize="14sp"
+        android:lineHeight="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tip_one_title" />
+
+    <View
+        android:id="@+id/divider_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@color/lighter_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tip_one_sub" />
+
+    <TextView
+        android:id="@+id/tip_two_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textFontWeight="700"
+        android:textColor="@color/theme_reverse"
+        android:text="@string/dialog_network_tips_check_type"
+        android:textSize="@dimen/text_size_small"
+        android:lineHeight="@dimen/text_size_normal"
+        app:layout_constraintTop_toBottomOf="@id/divider_1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tip_two_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/darker_grey"
+        android:text="@string/dialog_network_tips_ninja_grills"
+        android:textSize="14sp"
+        android:lineHeight="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tip_two_title" />
+
+    <View
+        android:id="@+id/divider_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@color/lighter_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tip_two_sub" />
+
+    <TextView
+        android:id="@+id/tip_three_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textFontWeight="700"
+        android:textColor="@color/theme_reverse"
+        android:text="@string/food_type_other"
+        android:textSize="@dimen/text_size_small"
+        android:lineHeight="@dimen/text_size_normal"
+        app:layout_constraintTop_toBottomOf="@id/divider_2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tip_three_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:paddingBottom="@dimen/padding_xxlarge"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/darker_grey"
+        android:text="@string/dialog_network_tips_internet_issues"
+        android:textSize="14sp"
+        android:lineHeight="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tip_three_title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/exploreFragment"
+        android:icon="@drawable/ic_explore"
+        android:title="@string/nav_bar_charts" />
+
+    <item
+        android:id="@+id/cook_graph"
+        android:icon="@drawable/icon_cook"
+        android:title="@string/nav_bar_cook" />
+
+    <item
+        android:id="@+id/settings_graph"
+        android:icon="@drawable/icon_settings"
+        android:title="@string/nav_bar_settings" />
+</menu>

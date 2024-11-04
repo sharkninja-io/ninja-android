@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!-- drawable/c_m_fullscr.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:shape="rectangle" >
+
+    <gradient
+        android:type="linear"
+        android:endColor="#000000"
+        android:startColor="#3F325E"
+        android:angle="90"
+        />
+
+</shape>

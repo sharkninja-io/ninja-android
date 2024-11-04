@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:maxLevel="9" android:drawable="@drawable/preheat_00" />
+<item android:maxLevel="19" android:drawable="@drawable/preheat_01" />
+<item android:maxLevel="29" android:drawable="@drawable/preheat_02" />
+<item android:maxLevel="39" android:drawable="@drawable/preheat_03" />
+<item android:maxLevel="49" android:drawable="@drawable/preheat_04" />
+<item android:maxLevel="59" android:drawable="@drawable/preheat_05" />
+<item android:maxLevel="69" android:drawable="@drawable/preheat_06" />
+<item android:maxLevel="79" android:drawable="@drawable/preheat_07" />
+<item android:maxLevel="89" android:drawable="@drawable/preheat_08" />
+<item android:maxLevel="99" android:drawable="@drawable/preheat_09" />
+</level-list>

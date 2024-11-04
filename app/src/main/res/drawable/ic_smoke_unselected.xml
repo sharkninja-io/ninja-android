@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+  <path
+      android:pathData="M72,36C72,53.673 57.673,68 40,68C22.327,68 8,53.673 8,36C8,18.327 22.327,4 40,4C57.673,4 72,18.327 72,36Z"
+      android:fillColor="@color/menu_icon_unselected_background"/>
+  <path
+      android:pathData="M40.818,29.818C40.454,29.636 39.985,29.455 39.306,29.455C37.129,29.455 35.363,31.083 35.363,33.091C35.363,35.099 37.129,36.727 39.306,36.727"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.2"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/menu_unselected_icon"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M40.091,32.184C40.172,31.299 40.499,30.487 41.003,29.818C41.835,28.713 43.149,28 44.626,28C47.142,28 49.182,30.066 49.182,32.615C49.182,34.774 47.718,36.588 45.74,37.091"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.2"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/menu_unselected_icon"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M33,41.091L37.7,41.091C37.7,40.091 38.606,39.279 39.727,39.273"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.2"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/menu_unselected_icon"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M31,44H45.707C47.632,43.964 49.182,42.431 49.182,40.546C49.182,38.66 47.655,37.152 45.75,37.093C45.713,37.091 45.674,37.091 45.636,37.091C45.294,37.091 44.963,37.138 44.65,37.226H44.65"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.2"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/menu_unselected_icon"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M41.182,39.635C41.162,39.636 41.143,39.636 41.124,39.636C39.951,39.636 39,38.741 39,37.636C39,36.532 39.951,35.636 41.124,35.636"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.2"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/menu_unselected_icon"
+      android:strokeLineCap="round"/>
+</vector>

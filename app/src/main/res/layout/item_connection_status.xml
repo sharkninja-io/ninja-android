@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/online_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/all_online_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/ninja_green"
+            app:cardCornerRadius="@dimen/radius_large">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="3dp">
+
+                <TextView
+                    android:id="@+id/all_online_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gotham_book_bold"
+                    android:text="@string/all_online"
+                    android:textColor="@color/white_6F"
+                    android:textSize="@dimen/text_size_xsmall"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/iv_wifi_online"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:paddingLeft="3dp"
+                    android:src="@drawable/iconoir_wifi_online"
+                    app:layout_constraintStart_toEndOf="@id/all_online_tv"
+                    app:layout_constraintTop_toTopOf="@id/all_online_tv" />
+
+                <ImageView
+                    android:id="@+id/iv_bt_online"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:src="@drawable/iconoir_bluetooth_online"
+                    app:layout_constraintStart_toEndOf="@id/iv_wifi_online"
+                    app:layout_constraintTop_toTopOf="@id/iv_wifi_online" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:id="@+id/iv_wifi_offline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_wifi_off_light_theme" />
+        <ImageView
+            android:id="@+id/iv_bluetooth_offline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_bluetooth_off_light_theme" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/all_offline_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/all_offline_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white_6F"
+            app:cardCornerRadius="@dimen/radius_large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="@color/medium_grey"
+            app:strokeWidth="1dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="3dp">
+
+                <TextView
+                    android:id="@+id/all_offline_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gotham_book_bold"
+                    android:text="@string/all_offline"
+                    android:textColor="@color/medium_grey"
+                    android:textSize="@dimen/text_size_xsmall"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/all_offline_wifi_ic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:paddingLeft="3dp"
+                    android:src="@drawable/iconoir_wifi_off_light_theme"
+                    app:layout_constraintStart_toEndOf="@id/all_offline_tv"
+                    app:layout_constraintTop_toTopOf="@id/all_offline_tv" />
+
+                <ImageView
+                    android:id="@+id/all_offline_bt_ic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:src="@drawable/iconoir_bluetooth_off_light_theme"
+                    app:layout_constraintStart_toEndOf="@id/all_offline_wifi_ic"
+                    app:layout_constraintTop_toTopOf="@id/all_offline_wifi_ic" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:id="@+id/iv_info_all_offline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:src="@drawable/ic_connection_status_info_light_theme"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/all_offline_card"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

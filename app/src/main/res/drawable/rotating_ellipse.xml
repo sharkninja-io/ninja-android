@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <rotate
+            android:drawable="@drawable/ellipse_3"
+            android:fillAfter="true"
+            android:fromDegrees="0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:duration="@integer/material_motion_duration_short_1"
+            android:toDegrees="1080" />
+    </item>
+</layer-list>

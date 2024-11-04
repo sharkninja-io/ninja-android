@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="@dimen/margin_large"
+    android:layout_marginEnd="@dimen/margin_large"
+    tools:context=".sections.home.fragments.pairing.bluetooth.BluetoothPairingPreparationFragment">
+
+    <include
+        android:id="@+id/progress_indicator"
+        layout="@layout/pairing_progress_indicator_international" />
+
+    <TextView
+        android:id="@+id/indicator_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/element_spacing_xs"
+        android:textSize="12sp"
+        android:lineHeight="16sp"
+        android:textColor="@color/ninja_green"
+        android:fontFamily="@font/gotham_book_bold"
+        android:textFontWeight="400"
+        app:layout_constraintTop_toBottomOf="@id/progress_indicator"
+        android:text="@string/pairing_international_step_two" />
+
+    <TextView
+        android:id="@+id/indicator_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dp"
+        android:textSize="12sp"
+        android:lineHeight="16sp"
+        android:textColor="@color/ninja_green"
+        android:fontFamily="@font/gotham_book_bold"
+        android:textFontWeight="700"
+        app:layout_constraintTop_toBottomOf="@id/indicator_step"
+        android:text="@string/powering_the_grill" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintTop_toBottomOf="@id/indicator_header"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/grey_separation_line" />
+
+    <TextView
+        android:id="@+id/step_one_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/gotham_book_medium"
+        android:lineHeight="16sp"
+        android:text="@string/plug_in_grill_international"
+        android:textColor="@color/black1"
+        android:textFontWeight="500"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/line1" />
+
+    <TextView
+        android:id="@+id/firstDot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/step_one_text"
+        android:textSize="12sp"
+        android:lineHeight="14.4sp"
+        android:text="  • "/>
+    
+    <TextView
+        android:id="@+id/step_one_bluetooth_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/firstDot"
+        app:layout_constraintRight_toLeftOf="@+id/step_one_image_view"
+        app:layout_constraintTop_toBottomOf="@id/step_one_text"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/gotham_book_medium"
+        android:textSize="@dimen/text_size_xsmall"
+        android:lineHeight="14.4sp"
+        android:textColor="@color/text_view_medium_grey_light_grey"
+        android:text="@string/plug_in_grill_international_first" />
+
+    <TextView
+        android:id="@+id/secondDot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/step_one_bluetooth_description"
+        android:layout_marginTop="14.4sp"
+        android:textSize="12sp"
+        android:lineHeight="14.4sp"
+        android:text="  • "/>
+
+    <TextView
+        android:id="@+id/step_one_bluetooth_description_second"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/secondDot"
+        app:layout_constraintRight_toLeftOf="@+id/step_one_image_view"
+        app:layout_constraintTop_toTopOf="@id/secondDot"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/gotham_book_medium"
+        android:textSize="@dimen/text_size_xsmall"
+        android:lineHeight="14.4sp"
+        android:textColor="@color/text_view_medium_grey_light_grey"
+        android:text="@string/plug_in_grill_international_second" />
+
+    <TextView
+        android:id="@+id/step_one_more_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/step_one_bluetooth_description_second"
+        android:textSize="16sp"
+        android:textFontWeight="500"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/gotham_book_medium"
+        android:text="@string/more_info"
+        android:textColor="@color/ninja_green" />
+
+    <ImageView
+        android:id="@+id/step_one_image_view"
+        android:layout_width="91dp"
+        android:layout_height="149dp"
+        app:layout_constraintTop_toTopOf="@id/line1"
+        app:layout_constraintBottom_toBottomOf="@+id/line2"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:background="@drawable/rcd_graphic" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintTop_toBottomOf="@id/step_one_more_info"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/grey_separation_line" />
+
+    <TextView
+        android:id="@+id/step_two_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/gotham_book_medium"
+        android:lineHeight="16sp"
+        android:textFontWeight="500"
+        android:text="@string/bluetooth_step_two"
+        android:textColor="@color/black1"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/line2" />
+
+    <TextView
+        android:id="@+id/step_two_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/start_button_image"
+        app:layout_constraintTop_toBottomOf="@id/step_two_text"
+        android:layout_marginRight="@dimen/margin_xlarge"
+        android:layout_marginTop="4dp"
+        android:textFontWeight="400"
+        android:fontFamily="@font/gotham_book_medium"
+        android:textSize="12sp"
+        android:lineHeight="14.4sp"
+        android:textColor="@color/text_view_medium_grey_light_grey"
+        android:text="@string/turn_on_grill_international_updated" />
+
+    <TextView
+        android:id="@+id/step_two_more_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/step_two_description"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textFontWeight="500"
+        android:fontFamily="@font/gotham_book_medium"
+        android:text="@string/more_info"
+        android:textColor="@color/ninja_green" />
+
+    <ImageView
+        android:id="@+id/start_button_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/line2"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="27dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/power_switch_graphic" />
+
+    <ImageView
+        android:id="@+id/power_button_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/start_button_image"
+        app:layout_constraintLeft_toLeftOf="@+id/start_button_image"
+        app:layout_constraintRight_toRightOf="@+id/start_button_image"
+        android:background="@drawable/power_button"
+        />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_xlarge"
+        android:text="@string/next_caps"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

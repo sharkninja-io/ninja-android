@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="requesting_permissions">REQUESTING PERMISSIONS</string>
+    <string name="important_caps">IMPORTANT</string>
+    <string name="detect_your_grill_description">Allow to find and determine the relative\nposition of nearby devices</string>
+    <string name="detect_your_grill">Detect your Grill</string>
+    <string name="enable_location_description">Allow access to your location while you are\nusing the app</string>
+    <string name="enable_location">Enable location</string>
+    <string name="pairing_preparation">PAIRING PREPARATION</string>
+</resources>

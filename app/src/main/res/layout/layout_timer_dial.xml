@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/dial_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xlarge"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:fontFamily="@font/gotham_book_bold"
+        android:text="@string/time"
+        android:textColor="@color/black1"
+        android:textFontWeight="700"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_xlarge"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:background="@drawable/custom_dial_background"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dial_label">
+
+        <TextView
+            android:id="@+id/value_left_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_large"
+            android:fontFamily="@font/gotham_book_normal"
+            android:textColor="@color/black1"
+            android:textSize="@dimen/text_size_xsmall"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="HOURS" />
+
+        <TextView
+            android:id="@+id/value_right_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:fontFamily="@font/gotham_book_normal"
+            android:textColor="@color/black1"
+            android:textSize="@dimen/text_size_xsmall"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="MINUTES" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/timer_value_left_rv"
+            android:layout_width="wrap_content"
+            android:layout_height="192dp"
+            android:clipToPadding="false"
+            android:paddingVertical="72dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/semi_colon_divider"
+            app:layout_constraintStart_toEndOf="@id/value_left_label"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/item_timer" />
+
+        <TextView
+            android:id="@+id/semi_colon_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotham_book_normal"
+            android:text="@string/colon"
+            android:textColor="@color/black1"
+            android:textFontWeight="700"
+            android:textSize="@dimen/text_size_xlarge"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/timer_value_right_rv"
+            android:layout_width="wrap_content"
+            android:layout_height="192dp"
+            android:clipToPadding="false"
+            android:paddingVertical="72dp"
+            app:layout_constraintBottom_toBottomOf="@id/timer_value_left_rv"
+            app:layout_constraintEnd_toStartOf="@id/value_right_label"
+            app:layout_constraintStart_toEndOf="@id/semi_colon_divider"
+            app:layout_constraintTop_toTopOf="@id/timer_value_left_rv"
+            tools:listitem="@layout/item_timer" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

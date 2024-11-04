@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/margin_large"
+    android:layout_marginEnd="@dimen/margin_large"
+    tools:context=".sections.home.fragments.pairing.bluetooth.BluetoothPairingPreparationFragment">
+
+    <include
+        android:id="@+id/progress_indicator"
+        layout="@layout/pairing_progress_indicator_international" />
+
+    <TextView
+        android:id="@+id/indicator_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham_book_bold"
+        android:lineHeight="16sp"
+        android:paddingTop="@dimen/element_spacing_xs"
+        android:text="@string/pairing_international_step_three"
+        android:textColor="@color/ninja_green"
+        android:textFontWeight="400"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/progress_indicator" />
+
+    <TextView
+        android:id="@+id/indicator_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham_book_bold"
+        android:lineHeight="16sp"
+        android:paddingTop="1dp"
+        android:text="@string/pairing_preparation"
+        android:textColor="@color/ninja_green"
+        android:textFontWeight="700"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/indicator_step" />
+
+    <TextView
+        android:id="@+id/might_take_moment_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/gotham_book_medium"
+        android:lineHeight="28sp"
+        android:text="@string/might_take_a_moment"
+        android:textColor="@color/black1"
+        android:textFontWeight="400"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@id/indicator_header" />
+
+    <TextView
+        android:id="@+id/bear_with_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/gotham_book_medium"
+        android:text="@string/bear_with_me"
+        android:textFontWeight="400"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/might_take_moment_text" />
+
+    <ProgressBar
+        android:id="@+id/ellipse_waiting"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        style="?android:attr/progressBarStyle"
+        android:indeterminateDrawable="@drawable/rotating_ellipse"
+        android:indeterminate="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

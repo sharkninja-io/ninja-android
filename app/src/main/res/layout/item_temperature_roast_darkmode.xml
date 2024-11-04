@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp">
+
+    <View
+        android:id="@+id/temp_line_short_top"
+        android:layout_width="32dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/dial_line_color"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/temp_line_short_top_middle"
+        app:layout_constraintStart_toStartOf="@id/temp_line_long_center" />
+
+    <View
+        android:id="@+id/temp_line_short_top_middle"
+        android:layout_width="32dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/dial_line_color"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/temp_line_long_center"
+        app:layout_constraintStart_toStartOf="@id/temp_line_short_top" />
+
+    <View
+        android:id="@+id/temp_line_long_center"
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:background="@color/dial_line_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/temp_line_short_bottom_middle"
+        android:layout_width="32dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/dial_line_color"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@id/temp_line_long_center"
+        app:layout_constraintTop_toBottomOf="@id/temp_line_long_center" />
+
+    <View
+        android:id="@+id/temp_line_short_bottom"
+        android:layout_width="32dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/dial_line_color"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@id/temp_line_short_bottom_middle"
+        app:layout_constraintTop_toBottomOf="@id/temp_line_short_bottom_middle" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/centerGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="206dp" />
+
+    <TextView
+        android:id="@+id/temp_unselected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/dial_line_color"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/temp_line_long_center"
+        android:layout_marginStart="@dimen/margin_large"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="100" />
+
+    <TextView
+        android:id="@+id/temp_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_large"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/black1"
+        android:textFontWeight="700"
+        android:textSize="@dimen/text_size_xlarge"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/temp_line_long_center"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="100" />
+
+    <TextView
+        android:id="@+id/degree_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/black1"
+        android:textFontWeight="700"
+        android:textSize="@dimen/text_size_xlarge"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/temp_selected"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="°F" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

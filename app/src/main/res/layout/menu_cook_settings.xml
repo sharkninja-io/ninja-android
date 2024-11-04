@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/cook_mode_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/gotham_book_medium"
+        android:lineHeight="16sp"
+        android:text="@string/cook_mode_label"
+        android:textColor="@color/black1"
+        android:textFontWeight="700"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="a scrolling container for Buttons horizontally Oriented"
+        android:orientation="horizontal"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cook_mode_label">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_large">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/grill_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/grill_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_grill" />
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:id="@+id/grill_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:text="@string/grill"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    android:maxLines="25"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="@id/grill_icon"
+                    app:layout_constraintStart_toStartOf="@id/grill_icon"
+                    app:layout_constraintTop_toBottomOf="@id/grill_icon" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerOne"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/smoke_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/smoke_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_smoke" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/smoke_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:lineHeight="14.4sp"
+                    android:text="@string/smoke"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    android:maxLines="25"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="@id/smoke_icon"
+                    app:layout_constraintStart_toStartOf="@id/smoke_icon"
+                    app:layout_constraintTop_toBottomOf="@id/smoke_icon" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerTwo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/aircrisp_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/aircrisp_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_aircrisp" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/aircrisp_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:lineHeight="14.4sp"
+                    android:text="@string/aircrisp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    android:maxLines="25"
+                    app:layout_constraintEnd_toEndOf="@id/aircrisp_icon"
+                    app:layout_constraintStart_toStartOf="@id/aircrisp_icon"
+                    app:layout_constraintTop_toBottomOf="@id/aircrisp_icon" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerThree"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/roast_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/roast_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_roast" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/roast_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:lineHeight="14.4sp"
+                    android:text="@string/roast"
+                    android:textAlignment="center"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    android:maxLines="25"
+                    app:layout_constraintEnd_toEndOf="@id/roast_icon"
+                    app:layout_constraintStart_toStartOf="@id/roast_icon"
+                    app:layout_constraintTop_toBottomOf="@id/roast_icon" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerFour"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/bake_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/bake_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bake" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/bake_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:lineHeight="14.4sp"
+                    android:text="@string/bake"
+                    android:textAlignment="center"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    android:maxLines="25"
+                    app:layout_constraintEnd_toEndOf="@id/bake_icon"
+                    app:layout_constraintStart_toStartOf="@id/bake_icon"
+                    app:layout_constraintTop_toBottomOf="@id/bake_icon" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerFive"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/broil_button_container"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/broil_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/broil_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_broil" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/broil_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:lineHeight="14.4sp"
+                    android:text="@string/broil"
+                    android:textAlignment="center"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    android:maxLines="25"
+                    app:layout_constraintEnd_toEndOf="@id/broil_icon"
+                    app:layout_constraintStart_toStartOf="@id/broil_icon"
+                    app:layout_constraintTop_toBottomOf="@id/broil_icon" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/reheat_button_container"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content" >
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/reheat_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/reheat_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_reheat" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/reheat_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:lineHeight="14.4sp"
+                    android:text="@string/reheat"
+                    android:textAlignment="center"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/reheat_icon"
+                    app:layout_constraintStart_toStartOf="@id/reheat_icon"
+                    app:layout_constraintTop_toBottomOf="@id/reheat_icon" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <View
+                android:id="@+id/spacerSix"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="85dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dehydrate_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginEnd="@dimen/margin_normal"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/dehydrate_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/dehydrate" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/dehydrate_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:lineHeight="14.4sp"
+                    android:text="@string/dehydrate"
+                    android:textAlignment="center"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    android:maxLines="25"
+                    app:layout_constraintEnd_toEndOf="@id/dehydrate_icon"
+                    app:layout_constraintStart_toStartOf="@id/dehydrate_icon"
+                    app:layout_constraintTop_toBottomOf="@id/dehydrate_icon" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

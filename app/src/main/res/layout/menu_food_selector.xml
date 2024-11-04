@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/food_selector_menu_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xlarge"
+        android:fontFamily="@font/gotham_book_bold"
+        android:text="@string/food_type_select"
+        android:textColor="@color/black1"
+        android:textFontWeight="700"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="a scrolling container for Buttons horizontally Oriented"
+        android:orientation="horizontal"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/food_selector_menu_label">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/container_manual"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_large">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/manual_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/manual_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/iconoir_thermometer" />
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:id="@+id/manual_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:text="@string/food_type_manual"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    android:maxLines="25"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="@id/manual_icon"
+                    app:layout_constraintStart_toStartOf="@id/manual_icon"
+                    app:layout_constraintTop_toBottomOf="@id/manual_icon" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerOne"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/container_chicken"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/chicken_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/chicken_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_poultry" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/chicken_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:lineHeight="14.4sp"
+                    android:text="@string/food_type_chicken"
+                    android:textAlignment="center"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    android:maxLines="25"
+                    app:layout_constraintEnd_toEndOf="@id/chicken_icon"
+                    app:layout_constraintStart_toStartOf="@id/chicken_icon"
+                    app:layout_constraintTop_toBottomOf="@id/chicken_icon" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerTwo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/container_beef"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/beef_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/beef_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_beef" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/beef_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:lineHeight="14.4sp"
+                    android:text="@string/food_type_beef"
+                    android:textAlignment="center"
+                    android:textColor="@color/black1"
+                    android:maxLines="25"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/beef_icon"
+                    app:layout_constraintStart_toStartOf="@id/beef_icon"
+                    app:layout_constraintTop_toBottomOf="@id/beef_icon" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerThree"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/container_pork"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pork_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/pork_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_pork" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/pork_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:lineHeight="14.4sp"
+                    android:text="@string/food_type_pork"
+                    android:textAlignment="center"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:maxLines="25"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/pork_icon"
+                    app:layout_constraintStart_toStartOf="@id/pork_icon"
+                    app:layout_constraintTop_toBottomOf="@id/pork_icon" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerFour"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/container_lamb"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/lamb_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/lamb_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_explore_lamb_unselected" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/lamb_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:lineHeight="14.4sp"
+                    android:text="@string/lamb"
+                    android:textAlignment="center"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/lamb_icon"
+                    app:layout_constraintStart_toStartOf="@id/lamb_icon"
+                    app:layout_constraintTop_toBottomOf="@id/lamb_icon" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerFive"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/container_fish"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fish_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/fish_icon_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_fish" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/fish_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:lineHeight="14.4sp"
+                    android:text="@string/food_type_fish"
+                    android:textAlignment="center"
+                    android:textColor="@color/black1"
+                    android:textFontWeight="700"
+                    android:maxLines="25"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/fish_icon"
+                    app:layout_constraintStart_toStartOf="@id/fish_icon"
+                    app:layout_constraintTop_toBottomOf="@id/fish_icon" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/modal_rounded"
+    android:padding="@dimen/padding_xlarge"
+    android:layout_marginStart="@dimen/margin_large"
+    android:layout_marginEnd="@dimen/margin_large">
+
+    <TextView
+        android:id="@+id/support_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/theme_reverse"
+        android:text="@string/support_trouble"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_large"
+        android:lineHeight="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/support_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_normal"
+        android:textColor="@color/darker_grey"
+        android:lineHeight="@dimen/text_size_medium"
+        android:text="@string/pairing_customer_support_number"
+        app:layout_constraintTop_toBottomOf="@id/support_title" />
+
+    <Button
+        android:id="@+id/button_call_us"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:drawableLeft="@drawable/icon_support_phone"
+        android:text="@string/support_call_us"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/support_sub" />
+
+    <Button
+        android:id="@+id/button_nevermind"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        style="@style/Ninja.ButtonStyleSecondary"
+        android:text="@string/support_nevermind"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_call_us" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

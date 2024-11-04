@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fdm4_url_scheme" translatable="false">https</string>
+
+    <string name="fdm4_authority" translatable="false">www.sharkclean.com</string>
+    <string name="fdm4_authority_path_env" translatable="false">livew</string>
+
+    <string name="fdm4_authority_path_cgi" translatable="false">cgi-bin</string>
+    <string name="fdm4_authority_path_web" translatable="false">web</string>
+
+    <string name="fdm4_header_service" translatable="false">fdm4service</string>
+    <string name="fdm4_header_service_value" translatable="false">fdm4ma</string>
+
+    <string name="fdm4_endpoint_account" translatable="false">ma_account.p</string>
+    <string name="fdm4_endpoint_account_parameter_command" translatable="false">cmd</string>
+    <string name="fdm4_endpoint_account_parameter_command_value_changeemail" translatable="false">chgusrn</string>
+
+    <string name="fdm4_endpoint_customer" translatable="false">ma_customer.p</string>
+    <string name="fdm4_endpoint_customer_parameter_command" translatable="false">cmd</string>
+    <string name="fdm4_endpoint_customer_parameter_command_value_address" translatable="false">mycustomer</string>
+    <string name="fdm4_endpoint_customer_parameter_email" translatable="false">userid</string>
+    <string name="fdm4_endpoint_customer_parameter_token" translatable="false">token</string>
+
+    <string name="fdm4_endpoint_productreg" translatable="false">ma_prodRegistration.p</string>
+    <string name="fdm4_endpoint_productreg_parameter_command" translatable="false">cmd</string>
+    <string name="fdm4_endpoint_productreg_parameter_command_value" translatable="false">myproducts</string>
+    <string name="fdm4_endpoint_productreg_parameter_email" translatable="false">userid</string>
+    <string name="fdm4_endpoint_productreg_parameter_token" translatable="false">token</string>
+
+
+</resources>

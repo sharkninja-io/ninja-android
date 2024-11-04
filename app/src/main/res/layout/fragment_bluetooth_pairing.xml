@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/margin_large"
+    android:layout_marginEnd="@dimen/margin_large"
+    tools:context=".sections.home.fragments.pairing.bluetooth.BluetoothPairingFragment">
+
+    <include
+        android:id="@+id/progress_indicator"
+        layout="@layout/pairing_progress_indicator" />
+
+    <TextView
+        android:id="@+id/indicator_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham_book_bold"
+        android:lineHeight="@dimen/line_height_xsmall"
+        android:paddingTop="@dimen/element_spacing_xs"
+        android:paddingBottom="@dimen/element_spacing_xs"
+        android:text="@string/pairing_step_three"
+        android:textColor="@color/ninja_green"
+        android:textFontWeight="700"
+        android:textSize="8sp"
+        app:layout_constraintTop_toBottomOf="@id/progress_indicator" />
+
+    <TextView
+        android:id="@+id/indicator_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham_book_bold"
+        android:lineHeight="@dimen/line_height_xsmall"
+        android:paddingTop="@dimen/element_spacing_xs"
+        android:paddingBottom="@dimen/element_spacing_xs"
+        android:text="@string/bluetooth_connect_to_grill"
+        android:textColor="@color/ninja_green"
+        android:textFontWeight="700"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/indicator_step" />
+
+    <TextView
+        android:id="@+id/waiting_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_medium"
+        android:lineHeight="@dimen/text_size_header"
+        android:text="@string/bluetooth_few_minutes"
+        android:textColor="@color/theme_reverse"
+        android:textSize="@dimen/text_size_large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/indicator_header" />
+
+    <TextView
+        android:id="@+id/connected_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:alpha="0"
+        android:fontFamily="@font/gotham_book_normal"
+        android:lineHeight="@dimen/text_size_header"
+        android:text="@string/bluetooth_paired_success_default"
+        android:textColor="@color/theme_reverse"
+        android:textSize="@dimen/text_size_large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/indicator_header" />
+
+    <TextView
+        android:id="@+id/waiting_sub"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:lineHeight="@dimen/text_size_medium"
+        android:text="@string/bluetooth_keep_open"
+        android:textColor="@color/darker_grey"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/waiting_title" />
+
+    <ProgressBar
+        android:id="@+id/ellipse_waiting"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        style="?android:attr/progressBarStyle"
+        android:indeterminateDrawable="@drawable/rotating_ellipse"
+        android:indeterminate="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <View
+        android:id="@+id/paired_check"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/verified_check"
+        android:scaleX="0"
+        android:scaleY="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/appRatingPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:gravity="center"
+            android:text="@string/af00145a691750156e6e82ef7f62d207709481be9"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:gravity="center"
+            android:padding="@dimen/padding_normal"
+            android:text="@string/ac08e6f2622a1c2ee1732d29a1c7faa76c7bf472d"
+            android:textColor="@color/black1"
+            android:textSize="@dimen/text_size_small"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_text" />
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/group_toggle_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/padding_normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_text"
+            app:singleSelection="true">
+
+            <Button
+                android:id="@+id/btn_thumbs_down"
+                style="@style/Widget.App.Button.IconOnly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:icon="@drawable/ic_baseline_thumb_down_24"
+                app:iconTint="@color/action_icon_button_color" />
+
+            <Button
+                android:id="@+id/btn_thumbs_up"
+                style="@style/Widget.App.Button.IconOnly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:icon="@drawable/ic_baseline_thumb_up_24"
+                app:iconTint="@color/action_icon_button_color" />
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="@dimen/width_none"
+            android:layout_height="wrap_content"
+            style="@style/Ninja.ButtonStyle"
+            android:layout_margin="@dimen/margin_xxsmall"
+            android:enabled="false"
+            android:text="@string/a9f39f03bb0109fec245555473333ea958a5997ec"
+            app:layout_constraintEnd_toEndOf="@id/group_toggle_btn"
+            app:layout_constraintStart_toStartOf="@id/group_toggle_btn"
+            app:layout_constraintTop_toBottomOf="@+id/group_toggle_btn" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/container_sad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title_sad_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_xlarge"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_xlarge"
+            android:fontFamily="@font/gotham_book_normal"
+            android:gravity="center"
+            android:text="@string/sad_submission_dialog_text"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            style="@style/Ninja.ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_xxxxlarge"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:text="@string/a89f5c281e8c6d66f20b3374e5cf48e07b95e88e9" />
+
+        <Button
+            android:id="@+id/btn_dismiss"
+            style="@style/Ninja.ButtonStyleSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_xxxxlarge"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:text="@string/ab498945c3419dd2b537bb56c3f8caa01c5cc74bc" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,674 @@
+<resources>
+    <string name="app_name">Ninja ProConnect</string>
+    <string name="forgot_password_header_text">Can\’t login?</string>
+    <string name="forgot_password_sub_text">We\’ll email you instructions to reset your password.</string>
+    <string name="forgot_password_button_text">RESET PASSWORD</string>
+    <string name="reset_password_header_text">Great!</string>
+    <string name="reset_password_sub_text">Now let\'s create a new password.</string>
+
+    <string name="nav_bar_charts">Charts</string>
+    <string name="nav_bar_cook">Cook</string>
+    <string name="nav_bar_settings">Settings</string>
+
+    <string name="auth_login_confirm_email_text">You must confirm your email account before continuing.</string>
+    <string name="auth_login_reset_password_label">We\'ve emailed you instructions for signing in.</string>
+    <string name="auth_login_error_text">This email/password combination is invalid. Please try again.</string>
+    <string name="auth_welcome_back_text">Good to see you again</string>
+    <string name="auth_login_text">Log in with your Ninja account to start.</string>
+    <string name="continue_button">CONTINUE</string>
+    <string name="continue_proper">Continue</string>
+    <string name="auth_shark_ninja_login_hint">Do you know that you can use your Shark|Ninja account to log in?</string>
+    <string name="auth_dont_have_account">Don\'t have an account?</string>
+    <string name="auth_already_have_account">Already have an account?</string>
+    <string name="auth_sign_up_here"><u>Sign Up here</u></string>
+    <string name="auth_log_in_here"><u>Log In</u></string>
+    <string name="auth_button_login">LOGIN</string>
+    <string name="auth_email_label">EMAIL</string>
+    <string name="auth_password_label">PASSWORD</string>
+    <string name="auth_button_register">REGISTER NOW</string>
+    <string name="auth_username_hint">Type your email</string>
+    <string name="auth_password_hint">Type your password</string>
+    <string name="auth_password_create_hint">Create a new password</string>
+    <string name="auth_create_account">Create an Account</string>
+    <string name="auth_login_forgot_password"><u>Forgot your password?</u></string>
+    <string name="reset_password_new_email">Another email has been sent.</string>
+    <string name="did_not_get_email_desc">Didn\'t get the email? Check your spam folder. If the message still hasn\'t arrived after a few minutes, tap the button below and we will re-send it. </string>
+    <string name="reset_password_almost_there">Almost there.</string>
+    <string name="reset_password_sent_email_text">We sent you an email with instructions on how to reset your password. Open the email and tap the Reset Password link to get started.</string>
+    <string name="reset_password_enter_code">Enter the code</string>
+    <string name="reset_password_resend_code">RESEND CODE</string>
+
+    <string name="auth_welcome">Welcome!</string>
+    <string name="auth_create_account_text">Let\'s create your new Ninja account.</string>
+    <string name="auth_agree_to_terms">I agree to the <u>Terms &amp; Conditions</u></string>
+    <string name="auth_privacy_notice_check_text">I have read and understand the <u>Privacy Notice</u></string>
+
+    <string name="auth_verify_email_header_text">We\'re almost there</string>
+    <string name="auth_verify_email_sub_text">We sent an email to %1$s. Open the email and tap Verify to proceed.</string>
+    <string name="auth_verify_resent_email_text">We just resent the email! Check your email to confirm your account.</string>
+    <string name="auth_verify_resend_button">RESEND EMAIL</string>
+    <string name="auth_verify_verifying_header">Verifying... please hold on a few seconds.</string>
+    <string name="auth_verify_verified_header">Your account has been verified!</string>
+
+
+    <string name="pairing_step_one">Step 1 <font color="#E5E5E5">of 3</font></string>
+    <string name="pairing_step_two">Step 2 <font color="#E5E5E5">of 3</font></string>
+    <string name="pairing_step_three">Step 3 <font color="#E5E5E5">of 3</font></string>
+    <string name="pairing_network_tips_text"><u>I don\'t see my network</u></string>
+
+    <string name="step_one_of_two"><font color="#767676">Step</font> <font color="#45BE55">1</font> <font color="#767676">of 2</font></string>
+    <string name="step_two_of_two"><font color="#767676">Step</font> <font color="#45BE55">2</font> <font color="#767676">of 2</font></string>
+
+    <string name="woodFireDescription">Add Rich, fully developed smokiness to any dish you make flavored by pellets.</string>
+
+    <string name="cooking_charts_description">Our Ninja culinary team has developed cooking charts that will guide you toward a successful cook.</string>
+
+    <string name="pairing_permissions_error_sub_text">Please go to your mobile settings to grant access.
+    \n1. Open your mobile device\'s settings
+    \n2. Select Privacy
+    \n3. Select Local Network
+    \n4. Look for the Ninja Kitchen app and
+    \ntoggle on to grant permission
+    \n5. Return to the Ninja Kitchen app</string>
+
+    <string name="pairing_grill_network_error_tip_1"><b>Reset your Grill:</b> Turn off your Grill presing the button</string>
+    <string name="pairing_grill_network_error_tip_2"><b>Reactivate Discoverable mode:</b> Hold for tree seconds the mode button on the Grill.</string>
+    <string name="pairing_wifi_network_error_tip_1"><b>Forgot password:</b> Try checking the back of your router or contact someone who may know it.</string>
+    <string name="pairing_wifi_network_error_tip_2"><b>Server Issue:</b> Make sure your network is not a VPN or proxy server.</string>
+    <string name="pairing_wifi_network_error_tip_3"><b>Other:</b> If you\'re having internet issues with other products in your home, contact your internet service provider.</string>
+
+    <string name="pairing_btle_wifi_network_error_tip_1_header"><b>1. Forgot password:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_1_sub">Try checking the back of your router or contact someone who may know it.</string>
+    <string name="pairing_btle_wifi_network_error_tip_2_header"><b>2. Server Issue:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_2_sub">Make sure your network is not a VPN or proxy server.</string>
+    <string name="pairing_btle_wifi_network_error_tip_3_header"><b>3. Other:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_3_sub">If you\'re having internet issues with other products in your home, contact your internet service provider.</string>
+
+
+    <string name="pairing_customer_support_number">Get in touch with us by calling <b>1-855-427-5123</b></string>
+    <string name="customer_support_number">1-855-427-5123</string>
+
+    <string name="dialog_network_tips_title">Network Tips</string>
+    <string name="dialog_network_tips_router">Reset Router</string>
+    <string name="dialog_network_tips_unplug">Unplug the power cord from the wall (or the back of the router), wait 60 seconds, then plug it back in.</string>
+    <string name="dialog_network_tips_check_type">Check Network Type</string>
+    <string name="dialog_network_tips_ninja_grills">Ninja Grills only connect to 2.4GHz networks. Make sure your 2.4GHz network is not hidden or turned off. If you have an app for your router, use it to unhide or turn on your 2.4GHz network. Alternatively, contact your internet service provider.</string>
+    <string name="dialog_network_tips_internet_issues">If you’re having internet issues with other products in your home, contact your internet service provider.</string>
+
+    <!--password validation-->
+    <string name="password_req_one_upper_letter">1 uppercase letter</string>
+    <string name="password_req_one_lower_letter">1 lowercase letter</string>
+    <string name="password_req_eight_characters">8 or more characters</string>
+    <string name="password_req_one_number">1 number</string>
+
+    <string name="ninja_verify_deep_link">app://open.ninjakitchen.app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Settings Fragment-->
+    <string name="account">Account</string>
+    <string name="account_description">Profile, Change Email, Log out…</string>
+    <string name="your_appliance">Your appliance</string>
+    <string name="your_appliance_description">Appliance Detail, Warranty Information, Support…</string>
+    <string name="about_this_app">About this app</string>
+    <string name="about_this_app_description">Data Protection, Terms of Use, Privacy Policy…</string>
+    <string name="cooking_notifications">Cooking notifications(push)</string>
+
+    <!-- Account Fragment-->
+    <string name="profile">Profile</string>
+    <string name="preferences">Preferences</string>
+    <string name="log_out">Log out</string>
+    <string name="account_info_description">Name, Address, Phone number...</string>
+    <string name="preferences_description">Your appliance, Weight unit, Temperature unit…</string>
+    <string name="sign_out_description">Are you sure you want to log out?</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_upper">CANCEL</string>
+    <string name="change_email">Change email</string>
+    <string name="change_password">Change password</string>
+
+    <!-- Change Email Fragment-->
+
+    <string name="new_email">NEW EMAIL</string>
+    <string name="confirm_new_email">CONFIRM NEW EMAIL</string>
+    <string name="change_email_hint">Type your email</string>
+    <string name="change_email_btn">UPDATE + LOG OUT</string>
+
+    <!-- Profile Fragment -->
+    <string name="first_name">FIRST NAME*</string>
+    <string name="last_name">LAST NAME*</string>
+    <string name="address">ADDRESS*</string>
+    <string name="address_two">ADDRESS LINE TWO</string>
+    <string name="city">CITY*</string>
+    <string name="state_province">STATE/PROVINCE*</string>
+    <string name="zip_code">ZIP CODE*</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="required_field">(*) This field is required</string>
+    <string name="account_subtitle">ACCOUNT</string>
+    <string name="delete_account_btn"><u>Delete Account</u></string>
+    <string name="save_changes">Save Changes</string>
+    <string name="okay">Okay</string>
+    <string name="state">State</string>
+    <string name="required_field_error_msg">Field required</string>
+
+    <!-- Profile Save Changes Dialog -->
+    <string name="dialog_save_changes_title">You have unsaved changes.</string>
+    <string name="dialog_save_changes_desc">Would you like to save?</string>
+    <string name="dialog_save_changes_btn_save">Save Changes</string>
+    <string name="dialog_save_changes_btn_discard">Discard Changes</string>
+    <string name="dialog_save_changes_btn_cancel"><u>Cancel</u></string>
+
+    <!-- About This App Fragment -->
+    <!--    data protection, terms of use, privacy policy, information/legal notice-->
+    <string name="data_protection">Data Protection</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="privacy_notice_btn">SHARKNINJA\'S PRIVACY NOTICE</string>
+    <string name="info_legal_notice">Information/Legal notice</string>
+    <string name="privacy_policy_description">SharkNinja (“us” or “we”) collects personal information (e.g. email address and connected IP address) about you when you use this Ninja Pro Connect App. We use your personal information to administer your account and to provide connected appliance related products and services you have requested from us. We may share the information collected with our affiliates and service providers.</string>
+    <string name="privacy_policy_description_pt_two">When you successfully login, the Ninja Pro Connect App will generate an authorization token which is stored locally on your phone and is refreshed every time you use the Ninja Pro Connect App. This token is only used to keep you logged into the app.For more details on how we use the collected information, please see:</string>
+
+    <string name="about_this_app_caps">ABOUT THIS APP</string>
+
+    <!--    Delete Account-->
+    <string name="delete_account">Delete Account</string>
+    <string name="listitem_settings_info_description">Deleting your account permanently removes all account information including appliance connections.\n\nYou will need to create a new account during your next log in attempt.</string>
+    <string name="listitem_settings_info_name">Are you sure?</string>
+    <string name="delete_account_button_text">DELETE PERMANENTLY</string>
+    <!--    Delete Account Dialog-->
+    <string name="delete_account_dialog_title_text">Are you sure you want to delete your account?</string>
+    <string name="delete_account_dialog_description_text">This cannot be undone and may take a moment to work.</string>
+    <string name="delete_account_dialog_delete_btn">DELETE MY ACCOUNT</string>
+    <string name="account_has_been_deleted">Your account has been deleted! Hope to see you soon!</string>
+    <!-- Change Password Fragment-->
+    <string name="old_password">OLD PASSWORD</string>
+    <string name="password">NEW PASSWORD</string>
+    <string name="confirm_password">CONFIRM NEW PASSWORD</string>
+    <string name="lets_create_new_password">Now let’s create a new password.</string>
+    <string name="passwords_dont_match">Passwords don\'t match</string>
+    <string name="forgot_password_btn"><u>Forgot your password?</u></string>
+    <string name="enter_your_password_hint">Type your password</string>
+    <string name="enter_your_new_password_hint">Type your new password</string>
+
+
+    <!-- Preferences Fragment -->
+    <string name="your_appliance_caps">YOUR APPLIANCE</string>
+    <string name="weight_unit">WEIGHT UNIT</string>
+    <string name="temperature_unit">TEMPERATURE UNIT</string>
+
+    <!-- Error Dialog -->
+    <string name="something_went_wrong_title">Oops, something went wrong!</string>
+    <string name="something_went_wrong_description">The save attempt has failed. Try again?</string>
+    <string name="retry_btn">Retry</string>
+
+
+    <!--    Appliance Fragment-->
+    <string name="appliance_name">Ninja Woodfire&#8482; ProConnect XL Outdoor Grill &amp; Smoker</string>
+    <string name="appliance_detail">Appliance Detail</string>
+    <string name="your_appliances">Your appliances</string>
+
+    <!--    Appliance Detail Fragment-->
+    <string name="fake_appliance_name">Ninja® Foodi® XL Pro</string>
+    <string name="appliance_notification_volume">Appliance notification volume</string>
+    <string name="serial_number">Serial number</string>
+    <string name="model_number">Model Number</string>
+    <string name="dsn">DSN</string>
+    <string name="mac_address">Mac address</string>
+    <string name="app_version">App version</string>
+    <string name="firmware_version">Firmware version</string>
+    <string name="appliance_error_log">Appliance error log</string>
+    <string name="restore_factory_settings">Restore factory settings</string>
+    <string name="delete_appliance">Delete Appliance</string>
+    <string name="support">Support</string>
+    <string name="warranty_information">Warranty Information</string>
+    <string name="no_appliances_description">It looks like there\'s no paired appliance yet. To start monitoring your cooking sessions from your device, add an appliance below.</string>
+    <string name="add_appliance_btn">ADD APPLIANCE</string>
+    <string name="add_another_appliance">ADD ANOTHER APPLIANCE</string>
+    <string name="dialog_delete_appliance_title">Are you sure you want to delete your appliance?</string>
+    <string name="dialog_delete_appliance_description">You will restore factory settings, are you sure?</string>
+    <string name="dialog_restore_factory_settings_title">You will restore factory settings, are you sure?</string>
+    <string name="dialog_restore_factory_settings_description">This cannot be undone and may take a moment to work.</string>
+    <string name="delete_appliance_btn">Delete appliance</string>
+    <string name="restore_settings_btn">Restore factory settings</string>
+    <string name="requesting_permissions">REQUESTING PERMISSIONS</string>
+    <string name="allow_permissions_main_prompt">Please allow permissions\nto connect to your Grill.</string>
+    <string name="permissions_overview">Tap “OK” or “Allow” to accept the permission prompts. These prompts must be accepted for the app to connect to your Grill.</string>
+    <string name="important_caps">IMPORTANT</string>
+    <string name="next_caps">NEXT</string>
+    <string name="enable_bluetooth_description">Turn on Bluetooth for this device.</string>
+    <string name="detect_your_grill_description">Allow to find and determine the relative\nposition of nearby devices</string>
+    <string name="detect_your_grill">Detect your Grill</string>
+    <string name="enable_location_description">Allow access to your location while you are\nusing the app</string>
+    <string name="enable_location">Enable location</string>
+    <string name="pairing_preparation">PAIRING PREPARATION</string>
+    <string name="plug_in_grill">1. Plug-in your Grill</string>
+    <string name="plug_in_grill_default"></string>
+    <string name="bluetooth_step_one_description">Plug unit in to proper 3-prong GFCI\noutlets only.</string>
+    <string name="more_info">More info</string>
+    <string name="bluetooth_step_two">2. Turn on your Grill</string>
+    <string name="bluetooth_step_two_description">Turn on your Grill presing the button\nfor 3 seconds.</string>
+    <string name="bluetooth_step_three">3. Pair your Grill.</string>
+    <string name="bluetooth_step_three_description">&#8226; Press and hold the dial for 3-5 seconds until you hear an audible beep.\n\n&#8226; Press NEXT button below to select your Grill.</string>
+    <string name="might_take_a_moment">This might take a moment.</string>
+    <string name="bear_with_me">Please bear with me!</string>
+
+    <!--    Bluetooth-->
+    <string name="android_permission_bluetooth_title">TITLE</string>
+    <string name="android_permission_bluetooth_description">bluetooth description</string>
+    <string name="android_permission_bluetooth_denied_description">denied description</string>
+    <string name="bluetooth_disabled_dialog_title">Oops! It seems like you have disabled bluetooth.</string>
+    <string name="bluetooth_disabled_dialog_description">You can find it in the settings section of your mobile phone.</string>
+    <string name="bluetooth_disabled_dialog_button">Turn On</string>
+    <string name="nearby_devices_error_title">Whoops, you declined to allow to know the position of nearby devices!</string>
+    <string name="nearby_devices_error_desc">When prompted, allow your mobile device to connect to your bluetooth to be able to control and monitor your Grill.</string>
+    <string name="location_error_title">Whoops, you declined to allow location permission!</string>
+    <string name="location_error_desc">When prompted, allow your mobile device to connect your location to be able to detect your Grill easily.</string>
+    <string name="bluetooth_paired_success_header">Great! We are going to be good friends!</string>
+    <string name="bluetooth_paired_success_default">All set! We are going to be good friends!</string>
+    <string name="bt_error_grill_connecting_title">Oops, looks like there has been an incident while connecting.</string>
+    <string name="bt_error_grill_connecting_instructions">Please try to connect to your grill again.</string>
+    <string name="bt_connect_error_first_title">Whoops... There was a problem finding your Grill. Please try again!</string>
+    <string name="bt_connect_error_first_intruction_title">Activate discovery mode</string>
+    <string name="bt_connect_error_first_instruction">Press and hold the dial for 3-5 seconds on the Grill, to activate the discovery mode. You have successfully paired when the Bluetooth icon has transitioned from flashing to solid white.</string>
+    <string name="default_grill_name">Ninja ProConnect</string>
+    <string name="choose_a_name">CHOOSE A NAME</string>
+    <string name="cool_name">Do you want to pick a cool name for me?</string>
+    <string name="name_your_grill_empty_continue_button">NO THANKS, CONTINUE</string>
+    <string name="bluetooth_permissions_error_button_go_to_settings">GO TO SETTINGS</string>
+    <string name="hours_label">HOURS</string>
+    <string name="minutes_label">MIN</string>
+    <string name="seconds_label">SEC</string>
+
+    <!-- Cook Settings Dialog -->
+    <string name="cook_settings_go_back_dialog_title">Want go back?</string>
+    <string name="cook_settings_go_back_dialog_description">All changes will be lost. Are you sure you want to discard them?</string>
+    <string name="cook_settings_go_back_dialog_top_button">DISCARD CHANGES</string>
+
+    <string name="cook_tip_title">Do you want to help chef?</string>
+    <string name="cook_tip_description">Our culinary team has developed cooking charts to guide you how to set your cook session successfully.</string>
+    <string name="cook_tip_link">Go to cooking charts</string>
+
+    <string name="grill_accessory_dialog_title">Grill Cook Mode</string>
+    <string name="smoke_accessory_dialog_title">Smoker Cook Mode</string>
+    <string name="air_crisp_accessory_dialog_title">Aircrisp Cook Mode</string>
+    <string name="roast_accessory_dialog_title">Roast Cook Mode</string>
+    <string name="bake_accessory_dialog_title">Bake Cook Mode</string>
+    <string name="reheat_accessory_dialog_title">Reheat Cook Mode</string>
+    <string name="broil_accessory_dialog_title">Broil Cook Mode</string>
+    <string name="dehydrate_accessory_dialog_title">Dehydrate Cook Mode</string>
+
+    <string name="grill_accessory_dialog_description">For this cook mode, you need to add the grill plate and the grease tray. Please confirm your grill is safe to begin Heating.</string>
+    <string name="aircrisp_accessory_dialog_description">For this cook mode, you need to add all accessories. Please confirm your grill is safe to begin Heating.</string>
+    <string name="grill_accessory_dialog_button">Done</string>
+    <string name="empty"></string>
+
+    <string name="wood_fire_cardview_label">Woodfire flavor technology</string>
+    <string name="cook_time">COOK TIME</string>
+    <string name="grill_temp">GRILL TEMP</string>
+
+    <string name="place_your_thermometer_dialog_description">Insert the Built-In Thermometer\n into the thickest part of your\n protein while the grill is\n preheating.</string>
+    <string name="roast_settings_toolbar_title">Roast Settings</string>
+    <string name="grill_settings_toolbar_title">Grill Settings</string>
+    <string name="smoke_settings_toolbar_title">Smoke Settings</string>
+    <string name="air_crisp_settings_toolbar_title">Air Crisp Settings</string>
+    <string name="bake_settings_toolbar_title">Bake Crisp Settings</string>
+    <string name="broil_settings_toolbar_title">Broil Settings</string>
+    <string name="dehydrate_settings_toolbar_title">Dehydrate Settings</string>
+    <string name="probe0_manual_title">Thermometer #1</string>
+    <string name="probe1_manual_title">Thermometer #2</string>
+    <string name="therm_cook_tip_title">How to place your thermometer?</string>
+    <string name="therm_cook_tip_desc">Insert the Built-In Thermometer into the\nthickest part of your protein while the\ngrill is preheating.</string>
+    <string name="target_temp">TARGET TEMP</string>
+    <string name="poultry_probe_title">Poultry</string>
+    <string name="cook_mode_label">COOK MODE</string>
+    <string name="dialog_change_to_thermometer_cook_title">Want to set a thermometer?</string>
+    <string name="dialog_change_to_thermometer_cook_description">You are about to change the cooking control type, you will have to add new settings. The grill will no longer operate on a timed setting.</string>
+    <string name="dialog_change_to_thermometer_cook_positive_button">YES, ADD A THERMOMETER</string>
+    <string name="dialog_change_to_timed_cook_title">Want to change to Timed Cook?</string>
+    <string name="dialog_change_to_timed_cook_description"> Your cook will complete when the timer runs out, rather than when your thermometers meet their target temperatures. You will lose your thermometer settings.</string>
+    <string name="dialog_change_to_timed_cook_positive_button">CONTINUE TO TIMED COOK</string>
+    <string name="dialog_thermometer_not_plugged_in_title">Thermometer not plugged in.</string>
+    <string name="dialog_thermometer_not_plugged_in_description">At least one thermometer must be\nplugged into the grill to use\nthermometer mode.</string>
+    <string name="dialog_thermometer_not_plugged_in_button">BACK TO COOK</string>
+    <string name="dialog_thermometer_1_not_plugged_in_dashboard_description">Your first thermometer must be plugged in to track its readings.</string>
+    <string name="dialog_thermometer_2_not_plugged_in_dashboard_description">Your second thermometer must be plugged in to track its readings.</string>
+    <string name="dialog_thermometer_not_plugged_in_dashboard_button">OKAY</string>
+    <string name="dial_state_offline_timed_cooking">COOKING</string>
+    <string name="dial_state_lid_open">Close Lid</string>
+    <string name="doneness">DONENESS</string>
+    <string name="email_verification_loading_header">Verifying..., please hold on a few seconds.</string>
+    <string name="email_verification_verified_loading_header">Your account has been verified!</string>
+    <string name="sp_user_cred_email">sharedPrefKeyEmail</string>
+    <string name="sp_user_cred_pw">sharedPrefKeyPW</string>
+
+    <!-- Request Notifications Dialog -->
+    <string name="dialog_request_notifications_title">Turn on notifications?</string>
+    <string name="dialog_request_notifications_body">You will receive real-time notifications about the status of your grill and cook.</string>
+    <string name="dialog_request_notifications_primary">Yes, keep me informed!</string>
+    <string name="dialog_request_notifications_secondary">I don\'t want to be notified.</string>
+
+<!--    Not Supported Dialog-->
+    <string name="dialog_not_supported_title">Not Supported</string>
+    <string name="dialog_not_supported_body">Dehydrate and Broil cooking modes do not support thermometer cooking. Try changing the cook mode if you’d like to monitor thermometers.</string>
+    <string name="dialog_not_supported_body_intl">Dehydrate and Reheat cooking modes do not support thermometer cooking. Try changing the cook mode if you’d like to monitor thermometers.</string>
+    <string name="dialog_not_supported_primary">GOT IT</string>
+
+    <string name="save_changes_btn_cook_edit_probe">SAVE CHANGES</string>
+    <string name="cook_settings_label">COOK SETTINGS</string>
+    <string name="save_changes_btn_cook_edit_probe_one_disabled">PLUG IN THERMOMETER #1</string>
+    <string name="save_changes_btn_cook_edit_probe_two_disabled">PLUG IN THERMOMETER #2</string>
+    <string name="start_cooking_button_online">START COOKING</string>
+    <string name="start_cooking_button_chart">START COOKING WITH CHART</string>
+    <string name="start_preheating_button_online">START PREHEAT</string>
+    <string name="start_ignition_button_online">START IGNITION</string>
+    <string name="start_cooking_button_offline">GRILL OFFLINE</string>
+    <string name="grill_cooling">Grill Cooling</string>
+    <string name="grill_heating">Grill Heating</string>
+
+    <string name="sign_out_pairing_dialog_title">Log Out?</string>
+    <string name="sign_out_pairing_dialog_description">Pairing is required to access the app. Canceling the process will log you out.</string>
+    <string name="sign_out_pairing_dialog_top_button">Yes, log out</string>
+    <string name="sign_out_pairing_dialog_top_bottom_button">No, continue pairing</string>
+
+    <string name="cancel_pairing_dialog_title">Cancel Pairing?</string>
+    <string name="cancel_pairing_dialog_description">You will have to start the process over again if you’d like to pair a new appliance.</string>
+    <string name="cancel_pairing_dialog_top_button">Yes, cancel pairing</string>
+    <string name="cancel_pairing_dialog_bottom_button">No, continue pairing</string>
+    <string name="stronger_connection_screen_content">By pairing with WiFi, you can control your Grill anywhere, so long as there\'s an internet connection.</string>
+    <string name="close_lid">Close\nLid</string>
+    <string name="not_set">Not Set</string>
+    <string name="add_food">Add\nFood</string>
+    <string name="flip_food">Flip\nFood</string>
+    <string name="current_temp">Current Temp</string>
+    <string name="double_dash">--</string>
+    <string name="get_food">Get Food</string>
+    <string name="done">Done</string>
+    <string name="unplugged">Unplugged</string>
+    <string name="cannot_read_temp">Can\'t Read Temp</string>
+    <string name="until_complete">Until Complete</string>
+    <string name="percent_progress">%1$s%%</string>
+    <string name="current_temp_and_temp_unit">%1$s%2$s</string>
+    <string name="faren">°F</string>
+    <string name="faren_with_temp">%1$s°F</string>
+    <string name="celsius">°C</string>
+    <string name="cook_complete">Cook Complete</string>
+    <string name="therm_has_reached_temp">Thermometer %1$s: We’ve reached your set resting temperature.</string>
+    <string name="check_it_out">CHECK IT OUT</string>
+    <string name="okay_button">OKAY</string>
+    <string name="stop_cooking">STOP COOKING</string>
+    <string name="back_to_dashboard">BACK TO DASHBOARD</string>
+    <string name="timed_cook">TIMED COOK</string>
+    <string name="therm_cook">THERMOMETER</string>
+    <string name="thermometers">Thermometers</string>
+    <string name="grill_settings">Grill Settings</string>
+    <string name="all_offline">OFFLINE</string>
+    <string name="all_online">ONLINE</string>
+    <string name="skip_preheat">SKIP PREHEAT</string>
+    <string name="preheating">PREHEATING</string>
+    <string name="skip_ignition">SKIP IGNITION</string>
+    <string name="time">TIME</string>
+    <string name="colon">:</string>
+    <string name="dial_zero">0%</string>
+
+    <string name="mini_charts_chart_choice">What are you thinking to %1$s today?</string>
+    <string name="charts_filters_view_results">VIEW [%1$s] RESULTS</string>
+    <string name="charts_use_chart_button">USE THIS CHART</string>
+    <string name="charts_popular_groupings">Popular Filter Groupings</string>
+    <string name="charts_popular_groupings_results">%1$s results</string>
+    <string name="name_grill_confirm_text">I\'m your new cooking partner, %1$s.</string>
+    <string name="air_crisp_label">Air Crisp</string>
+    <string name="smoker_label">Smoker</string>
+    <string name="name_length_label">%1$s/15</string>
+    <string name="notification_permission_dialog_title">Change Notification Settings</string>
+    <string name="notification_permission_dialog_body">You need to allow this app to send push notifications to use this feature.</string>
+
+    <string name="roast">Roast</string>
+    <string name="bake">Bake</string>
+    <string name="aircrisp">Air Crisp</string>
+    <string name="grill">Grill</string>
+    <string name="smoke">Smoker</string>
+    <string name="dehydrate">Dehydrate</string>
+    <string name="broil">Broil</string>
+    <string name="reheat">Reheat</string>
+
+    <string name="manual">Manual</string>
+    <string name="chicken">Chicken</string>
+    <string name="beef">Beef</string>
+    <string name="pork">Pork</string>
+    <string name="fish">Fish</string>
+    <string name="lamb">Lamb</string>
+
+    <string name="preheating_mc">Preheating</string>
+    <string name="ignition">Ignition</string>
+
+    <string name="apply">APPLY</string>
+    <string name="select_many_text">Select as many as you would like.</string>
+
+    <string name="charts_title">COOKING CHARTS</string>
+    <string name="charts_chuck_roast">Chuck Roast</string>
+    <string name="charts_cook_method">Cooking Method</string>
+    <string name="charts_recipe_name">Recipe Name</string>
+    <string name="charts_grill_today">What are you thinking to\nGrill today?</string>
+    <string name="charts_choose_food_type">Choose the type of food available in\ncook mode selected.</string>
+    <string name="charts_preparation">PREPARATION</string>
+    <string name="charts_notes">NOTES</string>
+    <string name="charts_grill_temperature">GRILL TEMPERATURE</string>
+    <string name="charts_placeholder_text">Placeholder</string>
+    <string name="charts_filters_time_less_15">&lt; 15 min</string>
+    <string name="charts_filters_time_15_30">15 - 30 min</string>
+    <string name="charts_filters_time_30_60">30 - 60 min</string>
+    <string name="charts_filters_time_60_120">60 - 120 min</string>
+    <string name="charts_filters_time_over_120">+ 120 min</string>
+    <string name="charts_try_woodfire">Try Woodfire flavor</string>
+
+
+    <string name="support_button">CUSTOMER SUPPORT</string>
+    <string name="support_trouble">Still having trouble?</string>
+    <string name="support_call_us">GIVE US A CALL</string>
+    <string name="support_nevermind">NEVERMIND</string>
+
+    <string name="food_type_select">FOOD SELECTOR</string>
+    <string name="food_type_beef">Beef</string>
+    <string name="food_type_pork">Pork</string>
+    <string name="food_type_poultry">Poultry</string>
+    <string name="food_type_seafood">Seafood</string>
+    <string name="food_type_bread_cheese">Bread/Cheese</string>
+    <string name="food_type_fruit">Fruit</string>
+    <string name="food_type_lamb_veal">Lamb/\nVeal</string>
+    <string name="food_type_veggies">Veggies</string>
+    <string name="food_type_fish">Fish</string>
+    <string name="food_type_chicken">Chicken</string>
+    <string name="food_type_manual">Manual</string>
+    <string name="food_type_other">Other</string>
+
+    <string name="bluetooth_connect_to_grill">CONNECT TO GRILL</string>
+    <string name="bluetooth_choose_grill">Choose your Grill to start the setup\nprocess.</string>
+    <string name="settings_show_appliance">Show Appliance</string>
+    <string name="name_grill_default_length">0/15</string>
+    <string name="bluetooth_few_minutes">This may take a few minutes</string>
+    <string name="bluetooth_keep_open">Please, keep this screen open and live until the connection has completed.</string>
+
+    <string name="try_again">TRY AGAIN</string>
+    <string name="edit_email">EDIT EMAIL</string>
+
+    <string name="bluetooth_enable">Enable Bluetooth</string>
+    <string name="bluetooth_error_connection">CONNECTION TO APPLIANCE</string>
+    <string name="bluetooth_error_title">Looks like I wasn\'t able to connect. Let\'s try something else!</string>
+    <string name="bluetooth_error_tip_one">1. Reset your Grill.</string>
+    <string name="bluetooth_error_sub_one">Turn off your Grill by pressing the button.</string>
+    <string name="bluetooth_error_tip_two">2. Cycle the Wi-Fi on your mobile device.</string>
+    <string name="bluetooth_error_sub_two">Turn off Wi-Fi on your mobile device. Wait 10 seconds, then turn it back on and connect to your network.</string>
+    <string name="bluetooth_error_join_wifi">JOIN WI-FI</string>
+    <string name="bluetooth_error_wifi_body">Hmm... something is still not working. Don\'t worry! Here are some other things you can try.</string>
+    <string name="bluetooth_turn_on_grill">Turn on your Grill</string>
+    <string name="bluetooth_press_power_button">Press the power button\nto turn your Grill on.</string>
+
+    <string name="dialog_thermometer_place_therm">How to place your thermometer</string>
+    <string name="dialog_thermometer_dont_show">Don’t show me this again.</string>
+    <string name="dialog_thermometer_continue">Continue To Cooking</string>
+
+    <string name="bluetooth_wifi_password">My network doesn\'t require a password</string>
+    <string name="connect">CONNECT</string>
+    <string name="bluetooth_connect_to_wifi">CONNECTING TO WIFI</string>
+    <string name="bluetooth_start_cooking">Great! Let\'s start cooking together.</string>
+
+    <string name="to_the_dashboard">TO THE DASHBOARD</string>
+    <string name="pairing_wifi_connection">Our\nconnection\ncan be\nstronger!</string>
+    <string name="pairing_start_wifi">START PAIRING WIFI</string>
+    <string name="pairing_select_wifi">Select your Wi-Fi network</string>
+    <string name="pairing_network_two_bars">Make sure the network has at least 2 bars. If the signal is too weak, try moving your Grill closer to the router.</string>
+
+    <string name="region_select_country">Please select your country/region.</string>
+
+    <string name="woodfire_flavor">TRY WOODFIRE FLAVOR</string>
+    <string name="woodfire_add_rich">Add rich, fully developed smokiness to any dish.</string>
+    <string name="woodfire_tech">WOODFIRE TECHNOLOGY</string>
+    <string name="woodfire_filtering_option">When filtering by this option, the following cook mode will not be available: Broil</string>
+
+    <string name="loading_text">Loading...</string>
+    <string name="cooking_point">COOKING POINT</string>
+    <string name="doneness_point">DONENESS POINT</string>
+    <string name="internal_temp">INTERNAL TEMP</string>
+
+    <string name="view_privacy_policy">View Privacy Policy</string>
+
+
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="monitor_method">MONITOR METHOD</string>
+    <string name="add_food_notification_title">Add Food</string>
+    <string name="add_food_notification_body">Your grill is preheated and ready to go</string>
+    <string name="close_lid_notification_title">Close Lid</string>
+    <string name="close_lid_notification_body">The cook will not continue until the lid is closed.</string>
+    <string name="flip_food_notification_title">Time to Flip</string>
+    <string name="flip_food_notification_body">We’re halfway through your cook</string>
+    <string name="remove_food_notification_title">Remove Food</string>
+    <string name="cook_complete_notification_body">Your grill will stay warm for up to 5 minutes.</string>
+    <string name="get_food_therm_one_notification_body">Thermometer 1: Remove from the grill and allow it to rest. It will continue to cook with residual heat to reach the set temperature.</string>
+    <string name="get_food_therm_two_notification_body">Thermometer 2: Remove from the grill and allow it to rest. It will continue to cook with residual heat to reach the set temperature.</string>
+    <string name="cord_dimen_text">25ft max length, no less than 14\ngauge OR 50 ft, no less than 12\ngauge.</string>
+    <string name="outdoor_text">Suitable for outdoor use.</string>
+    <string name="ext_cord_text">If you require an extension cord it must be:</string>
+    <string name="gfci_text">Plug unit in to proper 3-\nprong GFCI outlets only</string>
+    <string name="plug_in_grill_text">Plug-in your grill</string>
+    <string name="turn_on_your_appliance">Turn on your appliance</string>
+    <string name="press_button_until_screen_lights_up">Press the rounded Start/Stop button until the screen lights up.</string>
+    <string name="got_it">Got it</string>
+    <string name="plug_in_dialog_title">Plug unit in to proper\n3-prong GFCI outlets only.</string>
+    <string name="confirm_account_label">Your account is not verified yet. Please check your spam folder.</string>
+    <string name="air_crisp_settings">Air Crisp Settings</string>
+    <string name="settings">Settings</string>
+
+    <string name="smoke_caps">SMOKE</string>
+    <string name="igniting">IGNITING</string>
+    <string name="plugin_dialogue_plugin">Plug-in your appliance</string>
+    <string name="press_start_button">Press the Start button on your Grill</string>
+    <string name="press_rounded_start_button">Press the rounded Start/Stop button until\nthe screen lights up</string>
+    <string name="connect_app_to_grill">Connect the app to your Grill</string>
+    <string name="activate_discovery_mode">Activate discovery mode on the Grill.</string>
+    <string name="hold_mode_activate_discovery">Please hold the mode button on the Grill for three seconds to activate discovery mode.</string>
+    <string name="oops_wifi_error">Oopss...\nunable to\nconnect with\nbluetooth</string>
+    <string name="lets_try_wifi">Let\'s try with Wi-Fi, you’ll be able to\ncontrol your cook from anywhere as long\nas internet connection is available.</string>
+    <string name="connect_with_wifi">CONNECT WITH WI-FI</string>
+    <string name="bluetooth_declined_network">Whoops, you declined to join the appliance network!</string>
+    <string name="bluetooth_allow_network">When prompted, allow your mobile device to connect to Appliance name\'s Wi-Fi network.</string>
+    <string name="bluetooth_tip_three">3. Reactivate Discovery mode.</string>
+    <string name="bluetooth_error_sub_three">After rebooting, hold for tree seconds the mode button on the Grill until you\'re prompted, and the Wi-Fi indicator begins to flash.</string>
+    <string name="connection_tips">CONNECTION TIPS</string>
+    <string name="bot_connection_tips">Grill Connection Tips</string>
+    <string name="unable_to_connect_simple_solution">Looks like I wasn\'t able to connect. Let\'s try a simple solution.</string>
+    <string name="reset_router">2. Reset your router.</string>
+    <string name="unplug_wait_sixty">Unplug the power cord from the wall (or the back of the router), wait 60 seconds, then plug it back in.</string>
+    <string name="wifi_password_tips">Wi-Fi Password Tips</string>
+    <string name="declined_local_area_network">Whoops! You declined permission for Ninja Kitchen to access your local area network.</string>
+    <string name="grill_detected">Grill detected</string>
+    <string name="model_number_example">model number # IG601</string>
+    <string name="we_are_connected_bt">We are connected to your Grill, now let\'s pair to Wi-Fi</string>
+    <string name="name_grill">Let\'s give your Ninja Grill a name</string>
+    <string name="name_grill_second">Give your Ninja appliance a name.</string>
+    <string name="accept_permission_prompts">You will need to accept the permission prompts so the app can connect to your Grill.</string>
+    <string name="select_ok">Select OK / Join to accept the permission prompts. These prompts must be accepted for the app to connect to the Grill.</string>
+    <string name="warning_dont_allow">If you select Don\'t Allow / Cancel, the app will not be able to access your Grill!</string>
+    <string name="timed_cooking_charts">Timed Cooking Charts</string>
+    <string name="filters">Filters</string>
+    <string name="mode">Mode</string>
+    <string name="time_lower">Time</string>
+    <string name="food">Food</string>
+    <string name="clear_all_filters">Clear All Filters</string>
+    <string name="popular_filter_groupings">Popular Filter Groupings</string>
+    <string name="follow_suggestions_below">Follow the suggestions below to ensure a successful cooking experience.</string>
+    <string name="charts_cook_time">COOK TIME</string>
+    <string name="chart_adjustments">Chart Adjustments</string>
+    <string name="times_listed">Times listed in these charts are based on the quantities defined. Please adjust time based on your own quantity of food.</string>
+    <string name="enter_verification_code">Enter Your Verification Code</string>
+    <string name="reset_password_lower">Reset Password</string>
+    <string name="why_create_an_account">Why Create An Account?</string>
+    <string name="type_network_pw">Type your network password</string>
+    <string name="hello_there">Hello there!</string>
+
+    <!--PAIRING INTERNATIONAL-->
+    <string name="pairing_international_step_one">Step 1 <font color="#E5E5E5">of 4</font></string>
+    <string name="pairing_international_step_two">Step 2 <font color="#E5E5E5">of 4</font></string>
+    <string name="pairing_international_step_three">Step 3 <font color="#E5E5E5">of 4</font></string>
+    <string name="pairing_international_step_four">Step 4 <font color="#E5E5E5">of 4</font></string>
+
+    <string name="powering_the_grill">POWERING THE GRILL</string>
+    <string name="plug_in_grill_international">1. Plug in your Grill</string>
+    <string name="plug_in_grill_international_first">Plug in the RCD. Once Plugged in, the light below the RESET button should be lit. If the light is not on, please try a different socket.</string>
+    <string name="plug_in_grill_international_second">Press the TEST button on the RCD. The light should turn off. Now press the RESET button, and light should reappear. You can now turn on your grill.</string>
+    <string name="turn_on_grill_international_content">Flip the power switch to the ON (|) position. This switch is located behind the control panel.</string>
+    <string name="rcd_requirements">The RCD must be plugged\ninto a compatible outlet.</string>
+    <string name="plug_in_grill_international_plain">Plug in your Grill</string>
+    <string name="turn_on_grill_plain">Turn on your grill</string>
+    <string name="flip_power_switch">Flip the power switch to the ON position.</string>
+    <string name="grill_screen_should">The grill screen should light up.</string>
+    <string name="discovery_mode">DISCOVERY MODE</string>
+    <string name="turn_on_discovery_prompt">Turn on Discovery Mode</string>
+    <string name="begin_discovery_content">Press and hold the dial for 3-5 seconds until you hear an audible beep. A Bluetooth icon will also begin to blink on the display.</string>
+
+    <!--    App Rating Prompt-->
+    <string name="af00145a691750156e6e82ef7f62d207709481be9">How\'s your Ninja experience?</string>
+    <string name="ac08e6f2622a1c2ee1732d29a1c7faa76c7bf472d">Tell us how we are doing.</string>
+    <string name="sad_submission_dialog_text">Sorry you’re having trouble, would you like to visit the support section?</string>
+    <string name="a89f5c281e8c6d66f20b3374e5cf48e07b95e88e9">Go to Support</string>
+    <string name="ab498945c3419dd2b537bb56c3f8caa01c5cc74bc">Dismiss</string>
+    <string name="a9f39f03bb0109fec245555473333ea958a5997ec">Submit</string>
+
+    <string name="rare">Rare</string>
+    <string name="medrare">Med Rare</string>
+    <string name="med">Med</string>
+    <string name="medwell">Med Well</string>
+    <string name="well">Well</string>
+
+<!--    need these translated-->
+    <string name="rare1">Rare 1</string>
+    <string name="rare2">Rare 2</string>
+    <string name="medrare3">M. Rare 3</string>
+    <string name="medrare4">M. Rare 4</string>
+    <string name="med5">Med 5</string>
+    <string name="med6">Med 6</string>
+    <string name="medwell7">M. Well 7</string>
+    <string name="medwell8">M. Well 8</string>
+    <string name="well9">Well 9</string>
+    <string name="unknown">Unknown</string>
+
+    <string name="calculating">Calculating</string>
+    <string name="cooking">Cooking</string>
+    <string name="idle">Idle</string>
+    <string name="offline">Offline</string>
+    <string name="probe_not_set">Probe Not Set</string>
+    <string name="resting">Resting</string>
+    <string name="complete">Complete</string>
+
+    <string name="low">Low</string>
+    <string name="high">Hi</string>
+
+    <string name="eula"><b>NINJA COOKING CONNECTED GRILL\nIMPORTANT: PLEASE READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT CAREFULLY BEFORE CONTINUING WITH THIS PROGRAM INSTALL OR USE OF THIS PRODUCT:</b>\n\nSharkNinja Operating LLC’s (“SharkNinja”) End-User License Agreement (“EULA”) is a legal agreement between You (either a single entity or an individual) and SharkNinja for SharkNinja’s Software Applications, including those installed by You onto your SharkNinja products or already installed on your device, including all firmware (referred hereafter as “SN APPS”). By installing, copying, checking a box, clicking a button confirming your agreement to these terms, or otherwise continuing to use the SN APPS, You agree to be bound by the terms of this EULA. This license agreement represents the entire agreement concerning SN APPS between You and SharkNinja, and it supersedes any prior proposal, representation, or understanding between the parties. If You do not agree to the terms of this EULA, do not install or use the SN APPS or this product. The SN APPS are protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties.\n\n<b>1. GRANT OF LICENSE. The SN APPS are licensed as follows:</b>\n1.1 Installation and Use. SharkNinja grants You the right to download, install, and use SN APPS on the specified platform for which the SN APP was designed and in connection with SharkNinja products with which the SN APPS are designed to operate (“SN Devices”).\n1.2 Backup Copies. You may also make a copy of SN APPS downloaded and installed by You for backup and archival purposes.\n\n<b>2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.</b>\n2.1 Maintenance of Copyright Notices. You must not remove or alter any copyright notices on any and all copies of the SN APPS.\n2.2 Distribution. You may not distribute copies of the SN APPS to third parties.\n2.3 Prohibition on Reverse Engineering, Decompilation, and Disassembly. You may not reverse engineer, decompile, or disassemble SN APPS, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation. SharkNinja strictly prohibits reverse engineering SN APPS or devices or taking any other action designed to manipulate the functionality of a connected device.2.4 Rental. You may not rent, lease, or lend SN APPS without written permission from SharkNinja.\n2.5 NOT FOR RESALE SOFTWARE. Applications identified as “Not for Resale” or “NFR,” may not be resold, transferred, or used for any purpose other than demonstration, test, or evaluation.\n2.6 Support Services. SharkNinja may provide You with support services related to SN APPS (“Support Services”). Any supplemental software code provided to You as part of the Support Services shall be considered part of SN APPS and subject to the terms and conditions of this EULA.\n2.7 Compliance with Applicable Laws. You must comply with all applicable laws regarding use of SN APPS.\n<b>3. UPDATES.</b> SharkNinja may provide You with upgrades or updates to SN APPS. This EULA will govern any upgrades provided by SharkNinja that replace and/or supplement SN APPS, unless such upgrade is accompanied by a separate EULA, in which case the terms of that EULA will govern. If You decide not to download and use an upgrade or update provided by SharkNinja, You understand that You could put SN Apps at risk to serious security threats or cause SN Apps to become unusable or unstable.\n<b>4. DATA AND PRIVACY.</b> SharkNinja is committed to ensuring your privacy by adhering to high standards of fairness and integrity. We are committed to keeping our customers informed about how we use the information we gather from You through the use of each of our websites or SN APPS. Our privacy practices are described in SharkNinja’s Privacy Policy, as well as in separate notices given when an app, product, or service is purchased or downloaded. By using SN APPs or providing us with your personal information, You are accepting and consenting to the practices, terms, and conditions described in SharkNinja’s Privacy Policy. At all times your information will be treated in accordance with the SharkNinja Privacy Policy, which is incorporated by reference into this EULA and can be viewed at the following URL:http://www.sharkninja.com/privacy.\n<b>5. THIRD-PARTY APPLICATION LIBRARIES AND EMBEDDED SOFTWARE.</b>\n5.1 You acknowledge that Ayla Networks, Inc. (“Ayla”) has provided certain application libraries that have been embedded into SN APPS (“Ayla Application Libraries”) and enables SN Devices to connect to the Ayla Cloud Service (“Ayla Embedded Software”).5.2 You will not use the Ayla Application Libraries except as an incorporated portion of SN APPS,unmodified from the form provided to You.\n5.3 You will not use the Ayla Embedded Software except as an incorporated portion of SN Devices, unmodified from the form provided to You.\n5.4 You will not modify, adapt, translate, or create derivative works based on, or decompile, disassemble, reverse engineer, or otherwise attempt to derive the source code or underlying algorithms of, the Ayla Application Libraries or the Ayla Embedded Software.\n5.5 SharkNinja retains all ownership of SN APPS (and the Ayla Application Libraries contained therein) and any software installed on SN Devices (including the Ayla Embedded Software) and only a license thereto is granted to You for use in connection with the SN APPS and SN Devices.\n5.6 You will not use the Ayla Application Libraries or Ayla Embedded Software to attempt to gain unauthorized access to or use of the systems/services of SharkNinja’s other licensors; nor will You transmit viruses, worms, Trojan horses, time bombs, spyware, malware, cancelbots, passive collection mechanisms, robots, data mining software, or any other malicious or invasive code or program into the systems/services of SharkNinja’s other licensors.\n5.7 You will not use the Ayla Application Libraries or Ayla Embedded Software to interfere with, breach, or circumvent any security feature, authentication feature, or any other feature that restricts or enforces limitations on the use of, or access to, the systems/services of SharkNinja’s other licensors.\n5.8 You will not probe, attack, scan, or test the vulnerability of the systems/services of SharkNinja’s other licensors.\n5.9 SharkNinja’s other licensors of the SN APPS, Ayla Application Libraries, and the Ayla Embedded Software are the express third-party beneficiaries of this EULA, and the provisions of this Section of this EULA are made expressly for the benefit of such licensors, and are enforceable by such licensors.\n<b>6. TERMINATION.</b> Without prejudice to any other rights, SharkNinja may terminate this EULA if You fail to comply with the terms and conditions of this EULA. In such event, You must destroy all copies of SN APPS in your possession.\n<b>7. COPYRIGHT.</b> All title, including but not limited to copyrights, in and to SN APPS and any copies thereof are owned by SharkNinja or its suppliers. All title and intellectual property rights in and to the content which may be accessed through use of SN APPS are the property of the respective content owner and may be protected by applicable copyright or other intellectual property laws and treaties. This EULA grants You no rights to use such content. All rights not expressly granted are reserved by SharkNinja.\n<b>8. OPEN SOURCE SOFTWARE.</b> You hereby acknowledge that SN APPS may contain software that is subject to “open source” or “free software” licenses (“Open Source Software”). The license granted by this EULA does not apply to Open Source Software contained in the SN APPS. Rather, the terms and conditions in the applicable Open Source Software license shall apply to the Open Source Software. Nothing in this EULA limits your rights under, or grants You rights that supersede, any Open Source Software license. You acknowledge that the Open Source Software license is solely between You and the applicable licensor of the Open Source Software. To the extent the terms of the licenses applicable to the Open Source Softwarerequire SharkNinja to provide the Open Source Software, in either source or executable form, or to provide copies of applicable license terms or other required information, You may obtain a copy of the software by contacting SharkNinja at the below physical address. Additional information about the Open Source Software, and its terms of use, may be found at www.sharkninja.com/privacy.\n<b>9. NO WARRANTIES.</b> SharkNinja expressly disclaims any warranty for SN APPS, Ayla Application Libraries, or Ayla Embedded Software. SN APPS, Ayla Application Libraries, and Ayla Embedded Software are provided ‘As Is’ without any express or implied warranty of any kind, including but not limited to any warranties of merchantability, noninfringement, fitness of a particular purpose, or title. SharkNinja does not warrant or assume responsibility for the accuracy or completeness of any information, text, graphics, links, or other items contained within the SN APPS. SharkNinja makes no warranties respecting any harm that may be caused by the transmission of a computer virus, worm, logic bomb, or other such computerprogram. SharkNinja further expressly disclaims any warranty or representation to any third party.\n<b>10. LIMITATION OF LIABILITY.</b> In no event shall SharkNinja or its suppliers be liable for any special, incidental, punitive, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits or confidential or other information, for business interruption, for personal injury, for loss of privacy, for failure to meet any duty including of good faith or of reasonable care, for negligence, and for any other pecuniary or other loss whatsoever) arising out of or in any way related to the use of or inability to use SN Devices or SN APPS, the provision of or failure to provide support or other services, information, software, and related content through the product or otherwise arising out of the use of SN APPS, or otherwise under or in connection with any provision of this EULA, even in the event of the fault, tort (including negligence), strict liability, breach of contract, or breach of warranty of SharkNinja or any supplier, and even if SharkNinja or any supplier has been advised of the possibility of such damages. SharkNinja shall have no liability with respect to the content of the SN APPS or any part thereof, including but not limited to errors or omissions contained therein, libel, infringements of rights of publicity, privacy, trademark rights, business interruption, personal injury, loss of privacy, moral rights, or the disclosure of confidential information.\n<b>11. APPLICABLE LAW.</b> The laws of the Commonwealth of Massachusetts will govern this EULA and You hereby consent to exclusive jurisdiction and venue in the state and federal courts sitting in the Commonwealth of Massachusetts.\n<b>12. ASSIGNMENT.</b> SharkNinja may assign this EULA without notice to Licensor.\n<b>13. ENTIRE AGREEMENT.</b> This EULA (including any addendum or amendment to this EULA which is included with the SN Devices) is the entire agreement between You and SharkNinja relating to the SN APPS and supersedes all prior or contemporaneous oral or written communications, proposals and representations with respect to the SN APPS or any other subject matter covered by this EULA. To the extent the terms of any SharkNinja policies or programs for support services conflict with the terms of this EULA, the terms of this EULA shall control. If You have questions regarding this EULA, please contact SharkNinja at 89 A Street, Suite 100, Needham, MA 02494.</string>
+    <string name="dataAndPrivacy"><b>DATA AND PRIVACY.</b> SharkNinja is committed to ensuring your privacy by adhering to high standards of fairness and integrity. We are committed to keeping our customers informed about how we use the information we gather from You through the use of each of our websites or SN APPS. Our privacy practices are described in SharkNinja’s Privacy Policy, as well as in separate notices given when an app, product, or service is purchased or downloaded. By using SN APPs or providing us with your personal information, You are accepting and consenting to the practices, terms, and conditions described in SharkNinja’s Privacy Policy. At all times your information will be treated in accordance with the SharkNinja Privacy Policy, which is incorporated by reference into this EULA and can be viewed at the following URL:http://www.sharkninja.com/privacy.</string>
+
+    <string name="turn_on_grill_international_updated">Flip the power switch to the ON (I) position. This switch is located on the back of the unit.\n\nNext, press the power button on the front panel.</string>
+
+    <string name="local_notification_offline_title">Connection Lost</string>
+    <string name="local_notification_offline_body">Your appliance has lost its Wi-Fi connection. Ensure you have Wi-Fi turned on and that the appliance is within range.</string>
+    <string name="about_this_app_description_no_data_protection">Terms of Use, Privacy Policy…</string>
+
+</resources>

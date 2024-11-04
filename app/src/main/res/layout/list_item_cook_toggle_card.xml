@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/wood_fire_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="14dp"
+        android:paddingBottom="10dp"
+        android:visibility="gone" >
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/horizontal_center_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <ImageView
+            android:id="@+id/wood_fire_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:src="@drawable/ic_woodfire"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/woodfire_view_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/gotham_book_bold"
+            android:lineHeight="20sp"
+            android:textColor="@color/darkest_grey"
+            android:textFontWeight="700"
+            android:maxLines="10"
+            android:textSize="@dimen/text_size_small"
+            app:layout_constraintBottom_toTopOf="@id/horizontal_center_guideline"
+            app:layout_constraintEnd_toStartOf="@id/wood_fire_toggle"
+            app:layout_constraintStart_toEndOf="@id/wood_fire_icon"
+            tools:text="Woodfire flavor technology" />
+
+        <TextView
+            android:id="@+id/woodfire_view_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotham_book_normal"
+            android:lineHeight="@dimen/line_height_small"
+            android:textColor="@color/darkest_grey"
+            android:textFontWeight="400"
+            android:textSize="@dimen/text_size_xsmall"
+            app:layout_constraintStart_toStartOf="@id/woodfire_view_label"
+            app:layout_constraintTop_toBottomOf="@id/horizontal_center_guideline"
+            tools:text="OFF" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/wood_fire_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:thumb="@drawable/settings_toggle_thumb"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:showText="false"
+            app:track="@drawable/toggle_background" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/probe_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/probe_view_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:src="@drawable/ic_thermometer_probe"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/probe_view_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotham_book_normal"
+            android:textColor="@color/darkest_grey"
+            android:textSize="@dimen/text_size_normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/probe_view_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/probe_toggle"
+            android:gravity="start"
+            android:maxLines="25"
+            tools:text="Thermometer #1" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/probe_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:thumb="@drawable/settings_toggle_thumb"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:showText="false"
+            app:track="@drawable/toggle_background" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/probe_toggle_on_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/probe_card_view">
+
+        <View
+            android:id="@+id/divider_probe"
+            style="@style/Divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:layout_marginEnd="20dp"
+            android:background="@color/dial_line_color"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/probe_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_small"
+            android:fontFamily="@font/gotham_book_bold"
+            android:textColor="@color/darkest_grey"
+            android:textFontWeight="700"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider_probe"
+            tools:text="350" />
+
+        <TextView
+            android:id="@+id/temp_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:fontFamily="@font/gotham_book_bold"
+            android:textColor="@color/darkest_grey"
+            android:textFontWeight="700"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintStart_toEndOf="@id/probe_value"
+            app:layout_constraintTop_toBottomOf="@id/divider_probe"
+            tools:text="°F" />
+
+
+        <TextView
+            android:id="@+id/temp_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotham_book_normal"
+            android:lineHeight="@dimen/line_height_small"
+            android:paddingBottom="30dp"
+            android:textColor="@color/darkest_grey"
+            android:textFontWeight="400"
+            android:textSize="@dimen/text_size_xsmall"
+            app:layout_constraintStart_toStartOf="@id/probe_value"
+            app:layout_constraintTop_toBottomOf="@id/probe_value"
+            android:layout_marginTop="5dp"
+            tools:text="TARGET TEMP" />
+
+        <ImageView
+            android:id="@+id/icon_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:src="@drawable/ic_iconoir_arrow_right"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

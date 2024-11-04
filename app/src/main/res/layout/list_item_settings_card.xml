@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="sections.home.fragments.SettingsFragment">
+
+    <View
+        android:id="@+id/listitem_settings_top_divider"
+        style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/listitem_settings_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_normal"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/listitem_settings_top_divider"
+        tools:visibility="visible">
+
+        <ImageView
+            android:id="@+id/listitem_settings_left_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@id/listitem_settings_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/listitem_settings_name"
+            tools:src="@drawable/ic_settings" />
+
+        <TextView
+            android:id="@+id/listitem_settings_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:fontFamily="@font/gotham_book_medium"
+            android:gravity="start"
+            android:lineHeight="@dimen/line_height_medium"
+            android:textColor="@color/text_color_primary"
+            android:textFontWeight="500"
+            android:textSize="@dimen/text_size_normal"
+            app:layout_constraintBottom_toTopOf="@id/listitem_settings_description"
+            app:layout_constraintEnd_toStartOf="@id/listitem_settings_right_icon"
+            app:layout_constraintStart_toEndOf="@id/listitem_settings_left_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Settings Title" />
+
+        <TextView
+            android:id="@+id/listitem_settings_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:fontFamily="@font/gotham_book_normal"
+            android:maxLines="1"
+            android:textSize="10sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/listitem_settings_right_icon"
+            app:layout_constraintStart_toStartOf="@id/listitem_settings_left_icon"
+            app:layout_constraintTop_toBottomOf="@id/listitem_settings_name"
+            tools:text="Here is a sample sentence so we can see how this looks." />
+
+
+        <ImageView
+            android:id="@+id/listitem_settings_right_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/text_color_primary"
+            tools:src="@drawable/ic_settings" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/listitem_settings_toggle_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/settings_toggle_thumb"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@id/listitem_settings_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/listitem_settings_name"
+            app:showText="false"
+            app:track="@drawable/settings_toggle_background" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/list_item_appliance_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/listitem_settings_top_divider"
+        tools:visibility="gone">
+
+        <TextView
+            android:id="@+id/listitem_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:fontFamily="@font/gotham_book_medium"
+            android:paddingVertical="@dimen/padding_normal"
+            android:paddingRight="@dimen/padding_xxsmall"
+            android:textColor="@color/text_color_primary"
+            android:textSize="@dimen/text_size_normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Appliance name" />
+
+        <TextView
+            android:id="@+id/listitem_detail_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:fontFamily="@font/gotham_book_medium"
+            android:paddingVertical="@dimen/padding_normal"
+            android:textColor="@color/text_color_primary"
+            android:textSize="@dimen/text_size_normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="value" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/listitem_settings_bottom_divider"
+        style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

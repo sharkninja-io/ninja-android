@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_large"
+    android:layout_marginEnd="@dimen/margin_large"
+    android:background="@drawable/dialog_rounded_background_with_border"
+    android:padding="@dimen/padding_xlarge">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="@dimen/width_none"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/dialog_request_notifications_title"
+        android:fontFamily="@font/gotham_book_medium"
+        android:textColor="@color/text_color_primary"
+        android:textSize="@dimen/text_size_normal"
+        android:lineHeight="@dimen/line_height_large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/body_text_view"
+        android:layout_width="@dimen/width_none"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_size_normal"
+        android:lineHeight="@dimen/line_height_large"
+        android:text="@string/dialog_request_notifications_body"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/text_view_medium_grey_light_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_text_view" />
+
+    <Button
+        android:id="@+id/notifications_enabled_button"
+        style="@style/Ninja.ButtonStyle"
+        android:layout_width="@dimen/width_none"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:text="@string/dialog_request_notifications_primary"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/body_text_view" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        style="@style/Ninja.ButtonStyleDialogGreenOutlineTransparent"
+        android:layout_width="@dimen/width_none"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:text="@string/dialog_request_notifications_secondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/notifications_enabled_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

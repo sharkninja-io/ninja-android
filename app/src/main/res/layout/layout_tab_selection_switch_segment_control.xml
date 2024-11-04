@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/motion_layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/motion_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutDescription="@xml/switch_motion_scene">
+
+        <View
+            android:id="@+id/switch_selected"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/centerGl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <TextView
+            android:id="@+id/switch_first_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_normal"
+            android:paddingBottom="@dimen/padding_normal"
+            android:gravity="center"
+            android:fontFamily="@font/gotham_book_bold"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toEndOf="@+id/centerGl"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/switch_second_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_normal"
+            android:paddingBottom="@dimen/padding_normal"
+            android:gravity="center"
+            android:fontFamily="@font/gotham_book_bold"
+            app:layout_constraintEnd_toStartOf="@+id/centerGl"
+            android:textColor="#999999" />
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</RelativeLayout>

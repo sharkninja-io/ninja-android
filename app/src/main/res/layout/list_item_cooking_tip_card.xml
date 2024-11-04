@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cooking_tip_card_background"
+    android:paddingBottom="@dimen/padding_normal">
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_bold"
+        android:maxLines="25"
+        android:textColor="@color/black1"
+        android:textFontWeight="700"
+        android:textSize="@dimen/text_size_small"
+        app:layout_constraintEnd_toStartOf="@id/item_top_right_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Do you want help chef?" />
+
+    <ImageView
+        android:id="@+id/item_top_right_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="7dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="24dp"
+        app:layout_constraintBottom_toBottomOf="@id/item_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item_title"
+        tools:src="@drawable/icon_close" />
+
+    <TextView
+        android:id="@+id/item_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_small"
+        android:fontFamily="@font/gotham_book_normal"
+        android:lineHeight="@dimen/line_height_xsmall"
+        android:maxLines="50"
+        android:textColor="@color/black1"
+        android:textSize="@dimen/text_size_xsmall"
+        app:layout_constraintEnd_toStartOf="@id/description_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_title"
+        tools:text="@string/cook_tip_description" />
+
+    <ImageView
+        android:id="@+id/description_image"
+        android:layout_width="47dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="@dimen/margin_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item_description"
+        tools:src="@drawable/therm_insert_1" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_description">
+
+        <TextView
+            android:id="@+id/item_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotham_book_italic"
+            android:lineHeight="@dimen/line_height_small"
+            android:textColor="@color/black1"
+            android:textFontWeight="500"
+            android:textSize="@dimen/text_size_small"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/cook_tip_link" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height=".5dp"
+            android:background="@color/black1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_link" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

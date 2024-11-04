@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/deep_black">
+
+    <com.sharkninja.ninja.connected.kitchen.ui.views.CookToolbarItemView
+        android:id="@+id/cook_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:isPreCook="false"
+        app:isEditScreen="true"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@id/save_button_container"
+        app:layout_constraintTop_toBottomOf="@id/cook_toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/deep_black">
+
+            <com.sharkninja.ninja.connected.kitchen.ui.views.HorizontalScrollMenuFoodSelector
+                android:id="@+id/food_selector_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_xlarge"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:isDarkThemeMenuFood="true"/>
+
+            <include
+                android:id="@+id/temperature_dial"
+                layout="@layout/layout_internal_temperature_dial_darkmode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/food_selector_menu" />
+
+            <com.sharkninja.ninja.connected.kitchen.ui.views.CookingTipItemView
+                android:id="@+id/cook_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/temperature_dial"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginHorizontal="@dimen/margin_large"
+                android:background="@color/deep_black"
+                android:layout_marginTop="@dimen/margin_large"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:cookTipItemTitle="@string/therm_cook_tip_title"
+                app:cookTipItemDescription="@string/therm_cook_tip_desc"
+                app:descriptionImage="@drawable/therm_insert_1"
+                app:isThermometerToolTip="true"
+                app:cookTipItemTopRightIcon="@drawable/ic_arrow_left"
+                app:isDarkTheme="true"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/save_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/deep_black"
+        android:paddingVertical="20dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_large"
+            android:textColor="@color/mc_text_and_icon_color"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:text="@string/save_changes_btn_cook_edit_probe"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

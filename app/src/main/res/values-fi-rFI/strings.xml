@@ -1,0 +1,677 @@
+<!--    Finnish-->
+<resources>
+    <string name="app_name">Ninja ProConnect</string>
+    <string name="forgot_password_header_text">Etkö voi kirjautua?</string>
+    <string name="forgot_password_sub_text">Lähetämme salasanan nollausohjeet sähköpostitse.</string>
+    <string name="forgot_password_button_text">NOLLAA SALASANA</string>
+    <string name="reset_password_header_text">Hienoa!</string>
+    <string name="reset_password_sub_text">Luodaan nyt uusi salasana.</string>
+
+    <string name="nav_bar_charts">Kaaviot</string>
+    <string name="nav_bar_cook">Valmistus</string>
+    <string name="nav_bar_settings">Asetukset</string>
+
+    <string name="auth_login_confirm_email_text">Ennen jatkamista sinun täytyy vahvistaa sähköpostitilisi.</string>
+    <string name="auth_login_reset_password_label">Lähetimme kirjautumisohjeet sähköpostitse.</string>
+    <string name="auth_login_error_text">Tämä sähköpostiosoite/salasanayhdistelmä ei kelpaa. Yritä uudelleen.</string>
+    <string name="auth_welcome_back_text">Hauska nähdä sinut taas</string>
+    <string name="auth_login_text">Aloita kirjautumalla Ninja-tililläsi.</string>
+    <string name="continue_button">JATKA</string>
+    <string name="continue_proper">Jatka</string>
+    <string name="auth_shark_ninja_login_hint">Tiesitkö, että voit käyttää Shark|Ninja-tiliäsi kirjautumiseen?</string>
+    <string name="auth_dont_have_account">Eikö sinulla ole tiliä?</string>
+    <string name="auth_already_have_account">Onko sinulla jo tili?</string>
+    <string name="auth_sign_up_here"><u>Rekisteröidy tässä</u></string>
+    <string name="auth_log_in_here"><u>Kirjaudu</u></string>
+    <string name="auth_button_login">KIRJAUTUMINEN</string>
+    <string name="auth_email_label">SÄHKÖPOSTI</string>
+    <string name="auth_password_label">SALASANA</string>
+    <string name="auth_button_register">REKISTERÖIDY NYT</string>
+    <string name="auth_username_hint">Kirjoita sähköpostiosoitteesi</string>
+    <string name="auth_password_hint">Kirjoita salasana</string>
+    <string name="auth_password_create_hint">Luo uusi salasana</string>
+    <string name="auth_create_account">Luo tili</string>
+    <string name="auth_login_forgot_password"><u>Unohditko salasanasi?</u></string>
+    <string name="reset_password_new_email">Another email has been sent.</string>
+    <string name="did_not_get_email_desc">Etkö saanut sähköpostia? Tarkista roskapostikansio. Jos viesti ei ole vieläkään saapunut muutaman minuutin jälkeen, napauta alla olevaa painiketta, niin lähetämme sen uudelleen. </string>
+    <string name="reset_password_almost_there">Melkein valmista.</string>
+    <string name="reset_password_sent_email_text">Lähetimme sähköpostin, jossa on salasanan nollausohjeet. Avaa sähköposti ja aloita napauttamalla Nollaa salasana -linkkiä.</string>
+    <string name="reset_password_enter_code">Syötä koodi</string>
+    <string name="reset_password_resend_code">LÄHETÄ KOODI UUDELLEEN</string>
+
+    <string name="auth_welcome">Tervetuloa!</string>
+    <string name="auth_create_account_text">Luodaan uusi Ninja-tilisi.</string>
+    <string name="auth_agree_to_terms">Hyväksyn <u>ehdot</u></string>
+    <string name="auth_privacy_notice_check_text">Olen lukenut ja ymmärtänyt <u>tietosuojailmoituksen</u></string>
+
+    <string name="auth_verify_email_header_text">Melkein valmista</string>
+    <string name="auth_verify_email_sub_text">Lähetimme sähköpostia osoitteeseen %1$s. Avaa sähköposti ja jatka napauttamalla Vahvista.</string>
+    <string name="auth_verify_resent_email_text">Lähetimme juuri sähköpostin uudelleen! Tarkista sähköpostisi ja vahvista tilisi.</string>
+    <string name="auth_verify_resend_button">LÄHETÄ SÄHKÖPOSTI UUDELLEEN</string>
+    <string name="auth_verify_verifying_header">Vahvistetaan... Odota muutama sekunti.</string>
+    <string name="auth_verify_verified_header">Tilisi on vahvistettu!</string>
+
+
+    <string name="pairing_step_one">Vaihe 1 <font color="#E5E5E5">/3</font></string>
+    <string name="pairing_step_two">Vaihe 2 <font color="#E5E5E5">/3</font></string>
+    <string name="pairing_step_three">Vaihe 3 <font color="#E5E5E5">/3</font></string>
+    <string name="pairing_network_tips_text"><u>En näe verkkoani</u></string>
+
+    <string name="step_one_of_two"><font color="#767676">Vaihe</font> <font color="#45BE55">1</font> <font color="#767676">/2</font></string>
+    <string name="step_two_of_two"><font color="#767676">Vaihe</font> <font color="#45BE55">2</font> <font color="#767676">/2</font></string>
+
+    <string name="woodFireDescription">Lisää täyteläistä, kehittynyttä savuisuutta mihin tahansa ruokaan, jota maustat pelleteillä.</string>
+
+    <string name="cooking_charts_description">Kulinaarinen Ninja-tiimi on kehittänyt ruoanlaittokaavioita, jotka auttavat sinua tekemään ruokaa onnistuneesti.</string>
+
+    <string name="pairing_permissions_error_sub_text">Myönnä käyttöoikeus mobiililaitteen asetuksista.
+    \n1. Avaa mobiililaitteen asetukset
+    \n2. Valitse Tietosuoja
+    \n3. Valitse Lähiverkko
+    \n4. Etsi Ninja Kitchen -sovellus ja
+    \nmyönnä käyttöoikeus kytkemällä päälle
+    \n5. Palaa Ninja Kitchen -sovellukseen</string>
+
+    <string name="pairing_grill_network_error_tip_1"><b>Nollaa grilli:</b> Kytke grilli pois päältä painamalla painiketta</string>
+    <string name="pairing_grill_network_error_tip_2"><b>Aktivoi Löydettävissä-tila uudelleen:</b> Paina grillin tilapainiketta kolme sekuntia.</string>
+    <string name="pairing_wifi_network_error_tip_1"><b>Unohtunut salasana:</b> Kokeile tarkistaa reitittimen takaosa tai kysy joltakulta, joka saattaa tietää sen.</string>
+    <string name="pairing_wifi_network_error_tip_2"><b>Palvelinongelma:</b> Varmista, että palvelin ei ole VPN- tai välityspalvelun.</string>
+    <string name="pairing_wifi_network_error_tip_3"><b>Muut:</b> Jos sinulla on Internet-ongelmia kodin muiden tuotteiden kanssa, ota yhteyttä Internet-palveluntarjoajaan.</string>
+
+    <string name="pairing_btle_wifi_network_error_tip_1_header"><b>1. Unohtunut salasana:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_1_sub">Kokeile tarkistaa reitittimen takaosa tai kysy joltakulta, joka saattaa tietää sen.</string>
+    <string name="pairing_btle_wifi_network_error_tip_2_header"><b>2. Palvelinongelma:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_2_sub">Varmista, että palvelin ei ole VPN- tai välityspalvelun.</string>
+    <string name="pairing_btle_wifi_network_error_tip_3_header"><b>3. Muut:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_3_sub">Jos sinulla on Internet-ongelmia kodin muiden tuotteiden kanssa, ota yhteyttä Internet-palveluntarjoajaan.</string>
+
+
+    <string name="pairing_customer_support_number">Ota yhteyttä soittamalla numeroon <b>1-855-427-5123</b></string>
+    <string name="customer_support_number">1-855-427-5123</string>
+
+    <string name="dialog_network_tips_title">Verkkovinkkejä</string>
+    <string name="dialog_network_tips_router">Nollaa reititin</string>
+    <string name="dialog_network_tips_unplug">Irrota virtajohto pistorasiasta (tai reitittimen takaosasta), odota 60 sekuntia ja kytke se takaisin.</string>
+    <string name="dialog_network_tips_check_type">Tarkista verkon tyyppi</string>
+    <string name="dialog_network_tips_ninja_grills">Ninja-grillit muodostavat yhteyden vain 2,4&#160;GHz:n verkkoihin. Varmista, että 2,4 GHz:n verkkoa ei ole piilotettu eikä kytketty pois päältä. Jos reitittimellä on sovellus, käytä sitä 2,4&#160;GHz:n verkon piilotuksen poistamiseen tai ottamiseen käyttöön. Vaihtoehtoisesti ota yhteyttä Internet-palveluntarjoajaan.</string>
+    <string name="dialog_network_tips_internet_issues">Jos sinulla on Internet-ongelmia kodin muiden tuotteiden kanssa, ota yhteyttä Internet-palveluntarjoajaan.</string>
+
+    <!--password validation-->
+    <string name="password_req_one_upper_letter">1 iso kirjain</string>
+    <string name="password_req_one_lower_letter">1 pieni kirjain</string>
+    <string name="password_req_eight_characters">Vähintään 8 merkkiä</string>
+    <string name="password_req_one_number">1 numero</string>
+
+    <string name="ninja_verify_deep_link">app://open.ninjakitchen.app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hei, tyhjä katkelma</string>
+
+    <!-- Settings Fragment-->
+    <string name="account">Tili</string>
+    <string name="account_description">Profiili, vaihda sähköpostiosoite, kirjaudu ulos&#8230;</string>
+    <string name="your_appliance">Laite</string>
+    <string name="your_appliance_description">Laitteen tiedot, takuutiedot, tuki&#8230;</string>
+    <string name="about_this_app">Tietoja tästä sovelluksesta</string>
+    <string name="about_this_app_description">Tietosuoja, käyttöehdot, tietosuojakäytäntö&#8230;</string>
+    <string name="cooking_notifications">Ruoanlaittoilmoitukset (push)</string>
+
+    <!-- Account Fragment-->
+    <string name="profile">Profiili</string>
+    <string name="preferences">Asetukset</string>
+    <string name="log_out">Kirjaudu ulos</string>
+    <string name="account_info_description">Nimi, osoite, puhelinnumero...</string>
+    <string name="preferences_description">Laitteesi, painoyksikkö, lämpötilayksikkö&#8230;</string>
+    <string name="sign_out_description">Haluatko varmasti kirjautua ulos?</string>
+    <string name="cancel">Peruuta</string>
+    <string name="cancel_upper">PERUUTA</string>
+    <string name="change_email">Vaihda sähköpostiosoite</string>
+    <string name="change_password">Vaihda salasana</string>
+
+    <!-- Change Email Fragment-->
+
+    <string name="new_email">UUSI SÄHKÖPOSTIOSOITE</string>
+    <string name="confirm_new_email">VAHVISTA UUSI SÄHKÖPOSTIOSOITE</string>
+    <string name="change_email_hint">Kirjoita sähköpostiosoitteesi</string>
+    <string name="change_email_btn">PÄIVITÄ + KIRJAUDU ULOS</string>
+
+    <!-- Profile Fragment -->
+    <string name="first_name">ETUNIMI*</string>
+    <string name="last_name">SUKUNIMI*</string>
+    <string name="address">OSOITE*</string>
+    <string name="address_two">OSOITERIVI KAKSI</string>
+    <string name="city">PAIKKAKUNTA*</string>
+    <string name="state_province">OSAVALTIO/PROVINSSI*</string>
+    <string name="zip_code">POSTINUMERO*</string>
+    <string name="phone_number">PUHELINNUMERO</string>
+    <string name="required_field">(*) Tämä kenttä on pakollinen</string>
+    <string name="account_subtitle">TILI</string>
+    <string name="delete_account_btn"><u>Poista tili</u></string>
+    <string name="save_changes">Tallenna muutokset</string>
+    <string name="okay">OK</string>
+    <string name="state">Tila</string>
+    <string name="required_field_error_msg">Pakollinen kenttä</string>
+
+    <!-- Profile Save Changes Dialog -->
+    <string name="dialog_save_changes_title">Muutoksia ei ole tallennettu.</string>
+    <string name="dialog_save_changes_desc">Haluatko tallentaa?</string>
+    <string name="dialog_save_changes_btn_save">Tallenna muutokset</string>
+    <string name="dialog_save_changes_btn_discard">Hylkää muutokset</string>
+    <string name="dialog_save_changes_btn_cancel"><u>Peruuta</u></string>
+
+    <!-- About This App Fragment -->
+    <!--    data protection, terms of use, privacy policy, information/legal notice-->
+    <string name="data_protection">Tietosuoja</string>
+    <string name="terms_of_use">Käyttöehdot</string>
+    <string name="privacy_policy">Tietosuojakäytäntö</string>
+    <string name="privacy_notice_btn">SHARKNINJAN TIETOSUOJAILMOITUS</string>
+    <string name="info_legal_notice">Tietoa/Oikeudellinen ilmoitus</string>
+    <string name="privacy_policy_description">SharkNinja (”me”) kerää henkilötietoja (esim. sähköpostiosoite ja yhdistetty IP-osoite) sinusta, kun käytät tätä Ninja Pro Connect -sovellusta. Käytämme henkilötietojasi hallinnoidaksemme tiliäsi ja tarjotaksemme liitettyyn laitteeseen liittyviä tuotteita ja palveluita, joita olet pyytänyt meiltä. Voimme jakaa kerättyjä tietoja tytäryhtiöidemme ja palveluntarjoajiemme kanssa.</string>
+    <string name="privacy_policy_description_pt_two">Kun kirjaudut, Ninja Pro Connect -sovellus luo valtuutustunnuksen, joka tallennetaan paikallisesti puhelimeesi ja päivitetään joka kerta, kun käytät Ninja Pro Connect -sovellusta. Tätä tunnusta käytetään vain pitämään sinut kirjautuneena sovellukseen. Lisätietoja siitä, miten käytämme kerättyjä tietoja, katso:</string>
+
+    <string name="about_this_app_caps">TIETOJA TÄSTÄ SOVELLUKSESTA</string>
+
+    <!--    Delete Account-->
+    <string name="delete_account">Poista tili</string>
+    <string name="listitem_settings_info_description">Tilin poistaminen poistaa pysyvästi kaikki tilin tiedot, mukaan lukien laitteen yhteydet.\n\nSinun on luotava uusi tili seuraavan kirjautumisyrityksen aikana.</string>
+    <string name="listitem_settings_info_name">Oletko varma?</string>
+    <string name="delete_account_button_text">POISTA PYSYVÄSTI</string>
+    <!--    Delete Account Dialog-->
+    <string name="delete_account_dialog_title_text">Haluatko varmasti poistaa tilisi?</string>
+    <string name="delete_account_dialog_description_text">Tätä ei voi perua, ja se voi kestää hetken.</string>
+    <string name="delete_account_dialog_delete_btn">POISTA TILI</string>
+    <string name="account_has_been_deleted">Tilisi on poistettu! Toivottavasti nähdään pian!</string>
+    <!-- Change Password Fragment-->
+    <string name="old_password">VANHA SALASANA</string>
+    <string name="password">UUSI SALASANA</string>
+    <string name="confirm_password">VAHVISTA UUSI SALASANA</string>
+    <string name="lets_create_new_password">Luodaan nyt uusi salasana.</string>
+    <string name="passwords_dont_match">Salasanat eivät täsmää</string>
+    <string name="forgot_password_btn"><u>Unohditko salasanasi?</u></string>
+    <string name="enter_your_password_hint">Kirjoita salasana</string>
+    <string name="enter_your_new_password_hint">Kirjoita uusi salasana</string>
+
+
+    <!-- Preferences Fragment -->
+    <string name="your_appliance_caps">LAITE</string>
+    <string name="weight_unit">PAINOYKSIKKÖ</string>
+    <string name="temperature_unit">LÄMPÖTILAYKSIKKÖ</string>
+
+    <!-- Error Dialog -->
+    <string name="something_went_wrong_title">Tapahtui virhe!</string>
+    <string name="something_went_wrong_description">Tallennusyritys epäonnistui. Yritetäänkö uudelleen?</string>
+    <string name="retry_btn">Yritä uudelleen</string>
+
+
+    <!--    Appliance Fragment-->
+    <string name="appliance_name">Ninja Woodfire&#8482; ProConnect XL -ulkogrilli ja savustin</string>
+    <string name="appliance_detail">Laitteen tiedot</string>
+    <string name="your_appliances">Laitteet</string>
+
+    <!--    Appliance Detail Fragment-->
+    <string name="fake_appliance_name">Ninja&#174; Foodi&#174; XL Pro</string>
+    <string name="appliance_notification_volume">Laitteen ilmoitusäänen voimakkuus</string>
+    <string name="serial_number">Sarjanumero</string>
+    <string name="model_number">Mallinumero</string>
+    <string name="dsn">DSN</string>
+    <string name="mac_address">Mac-osoite</string>
+    <string name="app_version">Sovelluksen versio</string>
+    <string name="firmware_version">Laiteohjelmiston versio</string>
+    <string name="appliance_error_log">Laitteen virheloki</string>
+    <string name="restore_factory_settings">Palauta tehdasasetukset</string>
+    <string name="delete_appliance">Poista laite</string>
+    <string name="support">Tuki</string>
+    <string name="warranty_information">Takuutiedot</string>
+    <string name="no_appliances_description">Ei vielä laitepariksi liitettyjä laitteita. Jos haluat aloittaa ruoanlaittoistuntojen seurannan laitteesta, lisää laite alla.</string>
+    <string name="add_appliance_btn">LISÄÄ LAITE</string>
+    <string name="add_another_appliance">LISÄÄ TOINEN LAITE</string>
+    <string name="dialog_delete_appliance_title">Haluatko varmasti poistaa laitteen?</string>
+    <string name="dialog_delete_appliance_description">Haluatko varmasti palauttaa tehdasasetukset?</string>
+    <string name="dialog_restore_factory_settings_title">Haluatko varmasti palauttaa tehdasasetukset?</string>
+    <string name="dialog_restore_factory_settings_description">Tätä ei voi perua, ja se voi kestää hetken.</string>
+    <string name="delete_appliance_btn">Poista laite</string>
+    <string name="restore_settings_btn">Palauta tehdasasetukset</string>
+    <string name="requesting_permissions">KÄYTTÖOIKEUKSIEN PYYTÄMINEN</string>
+    <string name="allow_permissions_main_prompt">Salli käyttöoikeudet\nyhteyden muodostamiseksi grilliin.</string>
+    <string name="permissions_overview">Hyväksy käyttöoikeuspyyntö napauttamalla OK tai Salli. Nämä pyynnöt täytyy hyväksyä, jotta sovellus voi muodostaa yhteyden grilliin.</string>
+    <string name="important_caps">TÄRKEÄÄ</string>
+    <string name="next_caps">SEURAAVA</string>
+    <string name="enable_bluetooth_description">Ota tämän laitteen Bluetooth käyttöön.</string>
+    <string name="detect_your_grill_description">Salli lähellä olevien laitteiden etsiminen\nja suhteellisen sijainnin määrittäminen</string>
+    <string name="detect_your_grill">Tunnista grilli</string>
+    <string name="enable_location_description">Salli sijainnin käyttöoikeus sovelluksen\nkäytön aikana</string>
+    <string name="enable_location">Ota sijainti käyttöön</string>
+    <string name="pairing_preparation">LAITEPARIN MUODOSTAMISEN VALMISTELU</string>
+    <string name="plug_in_grill">1. Kytke grilli pistorasiaan</string>
+    <string name="plug_in_grill_default"></string>
+    <string name="bluetooth_step_one_description">Kytke laite vain asianmukaisesti\nmaadoitettuun pistorasiaan.</string>
+    <string name="more_info">Lisätietoja</string>
+    <string name="bluetooth_step_two">2. Kytke grilli päälle</string>
+    <string name="bluetooth_step_two_description">Kytke grilli päälle painamalla painiketta\n3 sekuntia.</string>
+    <string name="bluetooth_step_three">3. Muodosta grilli laitepariksi.</string>
+    <string name="bluetooth_step_three_description">• Pidä säädintä painettuna 3–5 sekuntia, kunnes kuulet äänimerkin.\n\n• Valitse grilli painamalla alla olevaa SEURAAVA-painiketta.</string>
+    <string name="might_take_a_moment">Se voi kestää hetken.</string>
+    <string name="bear_with_me">Ole kärsivällinen!</string>
+
+    <!--    Bluetooth-->
+    <string name="android_permission_bluetooth_title">OTSIKKO</string>
+    <string name="android_permission_bluetooth_description">Bluetooth-kuvaus</string>
+    <string name="android_permission_bluetooth_denied_description">hylätty kuvaus</string>
+    <string name="bluetooth_disabled_dialog_title">Hups! Vaikuttaa siltä, että olet poistanut Bluetoothin käytöstä.</string>
+    <string name="bluetooth_disabled_dialog_description">Löydät sen matkapuhelimen asetuksista.</string>
+    <string name="bluetooth_disabled_dialog_button">Kytke päälle</string>
+    <string name="nearby_devices_error_title">Et sallinut lähellä olevien laitteiden sijainnin käyttöoikeutta!</string>
+    <string name="nearby_devices_error_desc">Kun sitä pyydetään, anna mobiililaitteesi muodostaa Bluetooth-yhteys, jotta voit hallita ja valvoa grilliäsi.</string>
+    <string name="location_error_title">Et sallinut sijainnin käyttöoikeutta!</string>
+    <string name="location_error_desc">Kun sitä pyydetään, anna mobiililaitteesi yhdistää sijaintisi, jotta voit tunnistaa grillisi helposti.</string>
+    <string name="bluetooth_paired_success_header">Hienoa! Meistä tulee hyviä kavereita!</string>
+    <string name="bluetooth_paired_success_default">Valmista tuli! Meistä tulee hyviä kavereita!</string>
+    <string name="bt_error_grill_connecting_title">Yhteyden muodostamisen aikana tapahtui virhe.</string>
+    <string name="bt_error_grill_connecting_instructions">Yritä muodostaa yhteys grilliin uudelleen.</string>
+    <string name="bt_connect_error_first_title">Grilliä ei löytynyt. Yritä uudelleen!</string>
+    <string name="bt_connect_error_first_intruction_title">Aktivoi etsintätila</string>
+    <string name="bt_connect_error_first_instruction">Aktivoi etsintätila pitämällä grillin säädintä painettuna 3–5 sekuntia. Laitepari on muodostettu, kun Bluetooth-kuvake muuttuu vilkkuvasta valkoiseksi.</string>
+    <string name="default_grill_name">Ninja ProConnect</string>
+    <string name="choose_a_name">VALITSE NIMI</string>
+    <string name="cool_name">Haluatko valita minulle siistin nimen?</string>
+    <string name="name_your_grill_empty_continue_button">EI KIITOS, JATKA</string>
+    <string name="bluetooth_permissions_error_button_go_to_settings">SIIRRY ASETUKSIIN</string>
+    <string name="hours_label">TUNNIT</string>
+    <string name="minutes_label">MIN</string>
+    <string name="seconds_label">S</string>
+
+    <!-- Cook Settings Dialog -->
+    <string name="cook_settings_go_back_dialog_title">Haluatko palata?</string>
+    <string name="cook_settings_go_back_dialog_description">Kaikki muutokset menetetään. Haluatko varmasti hylätä ne?</string>
+    <string name="cook_settings_go_back_dialog_top_button">HYLKÄÄ MUUTOKSET</string>
+
+    <string name="cook_tip_title">Haluatko auttaa kokkia?</string>
+    <string name="cook_tip_description">Kulinaarinen tiimimme on kehittänyt ruoanlaitto- kaavioita, jotka opastavat sinua laittamaan ruokaa onnistuneesti.</string>
+    <string name="cook_tip_link">Siirry ruoanlaittokaavioihin</string>
+
+    <string name="grill_accessory_dialog_title">Grillaustila</string>
+    <string name="smoke_accessory_dialog_title">Savustustila</string>
+    <string name="air_crisp_accessory_dialog_title">Aircrisp-tila</string>
+    <string name="roast_accessory_dialog_title">Paahtotila</string>
+    <string name="bake_accessory_dialog_title">Kypsytystila</string>
+    <string name="reheat_accessory_dialog_title">Uudelleenlämmitystila</string>
+    <string name="broil_accessory_dialog_title">Parilointitila</string>
+    <string name="dehydrate_accessory_dialog_title">Kuivaustila</string>
+
+    <string name="grill_accessory_dialog_description">Tätä ruoanlaittotilaa varten sinun on lisättävä grillilevy ja rasva-alusta. Varmista, että grilli on turvallinen lämmityksen aloittamiseksi.</string>
+    <string name="aircrisp_accessory_dialog_description">Tätä ruoanlaittotilaa varten sinun on lisättävä kaikki lisävarusteet. Varmista, että grilli on turvallinen lämmityksen aloittamiseksi.</string>
+    <string name="grill_accessory_dialog_button">Valmis</string>
+    <string name="empty"></string>
+
+    <string name="wood_fire_cardview_label">Woodfire-makutekniikka</string>
+    <string name="cook_time">VALMISTUSAIKA</string>
+    <string name="grill_temp">GRILLIN LÄMPÖTILA</string>
+
+    <string name="place_your_thermometer_dialog_description">Aseta sisäänrakennettu lämpömittari\nproteiinin\npaksuimpaan osaan, kun grilli\nesikuumenee.</string>
+    <string name="roast_settings_toolbar_title">Paahtoasetukset</string>
+    <string name="grill_settings_toolbar_title">Grillausasetukset</string>
+    <string name="smoke_settings_toolbar_title">Savustusasetukset</string>
+    <string name="air_crisp_settings_toolbar_title">Air Crisp -asetukset</string>
+    <string name="bake_settings_toolbar_title">Rapeaksipaistoasetukset</string>
+    <string name="broil_settings_toolbar_title">Parilointiasetukset</string>
+    <string name="dehydrate_settings_toolbar_title">Kuivausasetukset</string>
+    <string name="probe0_manual_title">Lämpömittari 1</string>
+    <string name="probe1_manual_title">Lämpömittari 2</string>
+    <string name="therm_cook_tip_title">Miten lämpömittari sijoitetaan?</string>
+    <string name="therm_cook_tip_desc">Aseta sisäänrakennettu lämpömittari\nproteiinin paksuimpaan\nosaan, kun grilli esikuumenee.</string>
+    <string name="target_temp">TAVOITELÄMPÖTILA</string>
+    <string name="poultry_probe_title">Linnunliha</string>
+    <string name="cook_mode_label">VALMISTUSTILA</string>
+    <string name="dialog_change_to_thermometer_cook_title">Haluatko asettaa lämpömittarin?</string>
+    <string name="dialog_change_to_thermometer_cook_description">Olet muuttamassa ruoanlaiton ohjaustyyppiä, sinun täytyy lisätä uusia asetuksia. Grilli ei enää toimi ajastetulla asetuksella.</string>
+    <string name="dialog_change_to_thermometer_cook_positive_button">KYLLÄ, LISÄÄ LÄMPÖMITTARI</string>
+    <string name="dialog_change_to_timed_cook_title">Haluatko vaihtaa ajastettuun valmistukseen?</string>
+    <string name="dialog_change_to_timed_cook_description"> Valmistus päättyy, kun ajastin käy loppuun, eikä silloin, kun lämpömittarit saavuttavat tavoitelämpötilansa. Lämpömittarin asetukset menetetään.</string>
+    <string name="dialog_change_to_timed_cook_positive_button">JATKA AJASTETTUUN VALMISTUKSEEN</string>
+    <string name="dialog_thermometer_not_plugged_in_title">Lämpömittaria ei ole kytketty.</string>
+    <string name="dialog_thermometer_not_plugged_in_description">Vähintään yksi lämpömittari on\nkytkettävä grilliin\nlämpömittaritilan käyttämiseksi.</string>
+    <string name="dialog_thermometer_not_plugged_in_button">TAKAISIN VALMISTUKSEEN</string>
+    <string name="dialog_thermometer_1_not_plugged_in_dashboard_description">Ensimmäinen lämpömittari on kytkettävä sen lukemien seuraamiseksi.</string>
+    <string name="dialog_thermometer_2_not_plugged_in_dashboard_description">Toinen lämpömittari on kytkettävä sen lukemien seuraamiseksi.</string>
+    <string name="dialog_thermometer_not_plugged_in_dashboard_button">OK</string>
+    <string name="dial_state_offline_timed_cooking">KYPSENNYS</string>
+    <string name="dial_state_lid_open">Sulje kansi</string>
+    <string name="doneness">KYPSYYS</string>
+    <string name="email_verification_loading_header">Vahvistetaan... Odota muutama sekunti.</string>
+    <string name="email_verification_verified_loading_header">Tilisi on vahvistettu!</string>
+    <string name="sp_user_cred_email">sharedPrefKeyEmail</string>
+    <string name="sp_user_cred_pw">sharedPrefKeyPW</string>
+
+    <!-- Request Notifications Dialog -->
+    <string name="dialog_request_notifications_title">Otetaanko ilmoitukset käyttöön?</string>
+    <string name="dialog_request_notifications_body">Saat reaaliaikaisia ilmoituksia grillin ja kokin tilasta.</string>
+    <string name="dialog_request_notifications_primary">Kyllä, pidä minut ajan tasalla!</string>
+    <string name="dialog_request_notifications_secondary">En halua ilmoituksia.</string>
+
+    <!--    Not Supported Dialog-->
+    <string name="dialog_not_supported_title">Ei tuettu</string>
+    <string name="dialog_not_supported_body">Kuivaus- ja parilointitilat eivät tue ruoanlaittoa lämpömittarin kanssa. Kokeile vaihtaa valmistustilaa, jos haluat seurata lämpömittareita.</string>
+    <string name="dialog_not_supported_body_intl">Kuivaus- ja lämmitystilat eivät tue ruoanlaittoa lämpömittarin kanssa. Kokeile vaihtaa valmistustilaa, jos haluat seurata lämpömittareita.</string>
+    <string name="dialog_not_supported_primary">SELVÄ</string>
+
+    <string name="save_changes_btn_cook_edit_probe">TALLENNA MUUTOKSET</string>
+    <string name="cook_settings_label">VALMISTUSASETUKSET</string>
+    <string name="save_changes_btn_cook_edit_probe_one_disabled">KYTKE LÄMPÖMITTARI 1</string>
+    <string name="save_changes_btn_cook_edit_probe_two_disabled">KYTKE LÄMPÖMITTARI 2</string>
+    <string name="start_cooking_button_online">ALOITA VALMISTUS</string>
+    <string name="start_cooking_button_chart">ALOITA VALMISTUS KAAVION KANSSA</string>
+    <string name="start_preheating_button_online">ALOITA ESIKUUMENNUS</string>
+    <string name="start_ignition_button_online">ALOITA SYTYTYS</string>
+    <string name="start_cooking_button_offline">GRILLI OFFLINE</string>
+    <string name="grill_cooling">Grilli jäähtyy</string>
+    <string name="grill_heating">Grilli kuumenee</string>
+
+    <string name="sign_out_pairing_dialog_title">Kirjaudutaanko ulos?</string>
+    <string name="sign_out_pairing_dialog_description">Sovelluksen käyttäminen edellyttää laiteparin muodostamista. Prosessin peruuttaminen kirjaa sinut ulos.</string>
+    <string name="sign_out_pairing_dialog_top_button">Kyllä, kirjaudu ulos</string>
+    <string name="sign_out_pairing_dialog_top_bottom_button">Ei, jatka laiteparin muodostamista</string>
+
+    <string name="cancel_pairing_dialog_title">Peruutetaanko laiteparin muodostaminen?</string>
+    <string name="cancel_pairing_dialog_description">Prosessi on aloitettava uudelleen, jos haluat muodostaa uuden laitteen laitepariksi.</string>
+    <string name="cancel_pairing_dialog_top_button">Kyllä, peruuta laiteparin muodostaminen</string>
+    <string name="cancel_pairing_dialog_bottom_button">Ei, jatka laiteparin muodostamista</string>
+    <string name="stronger_connection_screen_content">Wi-Fi-yhteyden avulla voit hallita grilliäsi missä tahansa, kunhan käytössäsi on Internet-yhteys.</string>
+    <string name="close_lid">Sulje\nkansi</string>
+    <string name="not_set">Ei asetettu</string>
+    <string name="add_food">Lisää\nruoka</string>
+    <string name="flip_food">Käännä\nruoka</string>
+    <string name="current_temp">Nykyinen lämpötila</string>
+    <string name="double_dash">­–</string>
+    <string name="get_food">Ota ruoka</string>
+    <string name="done">Valmis</string>
+    <string name="unplugged">Irrotettu</string>
+    <string name="cannot_read_temp">Lämpötilaa ei voi lukea</string>
+    <string name="until_complete">Kunnes valmis</string>
+    <string name="percent_progress">%1$s&#160;%%</string>
+    <string name="current_temp_and_temp_unit">%1$s%2$s</string>
+    <string name="faren">°F</string>
+    <string name="faren_with_temp">%1$s&#160;°F</string>
+    <string name="celsius">°C</string>
+    <string name="cook_complete">Valmis</string>
+    <string name="therm_has_reached_temp">Lämpömittari %1$s: Asetettu lepolämpötila on saavutettu.</string>
+    <string name="check_it_out">TUTUSTU SIIHEN</string>
+    <string name="okay_button">OK</string>
+    <string name="stop_cooking">LOPETA VALMISTUS</string>
+    <string name="back_to_dashboard">TAKAISIN KOONTINÄYTTÖÖN</string>
+    <string name="timed_cook">AJASTETTU VALMISTUS</string>
+    <string name="therm_cook">LÄMPÖMITTARI</string>
+    <string name="thermometers">Lämpömittarit</string>
+    <string name="grill_settings">Grillausasetukset</string>
+    <string name="all_offline">OFFLINE</string>
+    <string name="all_online">ONLINE</string>
+    <string name="skip_preheat">OHITA ESIKUUMENNUS</string>
+    <string name="preheating">ESIKUUMENNUS</string>
+    <string name="skip_ignition">OHITA SYTYTYS</string>
+    <string name="time">AIKA</string>
+    <string name="colon">:</string>
+    <string name="dial_zero">0&#160;%%</string>
+
+    <string name="mini_charts_chart_choice">Mitä ajattelit %1$s tänään?</string>
+    <string name="charts_filters_view_results">NÄYTÄ [%1$s] TULOSTA</string>
+    <string name="charts_use_chart_button">KÄYTÄ TÄTÄ KAAVIOTA</string>
+    <string name="charts_popular_groupings">Suositut suodatinryhmät</string>
+    <string name="charts_popular_groupings_results">%1$s tulosta</string>
+    <string name="name_grill_confirm_text">Olen uusi kokkiparisi %1$s.</string>
+    <string name="air_crisp_label">Air Crisp</string>
+    <string name="smoker_label">Savustin</string>
+    <string name="name_length_label">%1$s/15</string>
+    <string name="notification_permission_dialog_title">Muuta ilmoitusasetuksia</string>
+    <string name="notification_permission_dialog_body">Tämän ominaisuuden käyttö edellyttää, että tämä sovellus saa lähettää push-ilmoituksia.</string>
+
+    <string name="roast">Paahda</string>
+    <string name="bake">Paista</string>
+    <string name="aircrisp">Air Crisp</string>
+    <string name="grill">Grillaa</string>
+    <string name="smoke">Savusta</string>
+    <string name="dehydrate">Kuivata</string>
+    <string name="broil">Pariloi</string>
+    <string name="reheat">Lämmitä uudelleen</string>
+
+    <string name="manual">Manuaalinen</string>
+    <string name="chicken">Kana</string>
+    <string name="beef">Naudanliha</string>
+    <string name="pork">Sianliha</string>
+    <string name="fish">Kalat</string>
+    <string name="lamb">Karitsa</string>
+
+    <string name="preheating_mc">Esikuumennus</string>
+    <string name="ignition">Sytytys</string>
+
+    <string name="apply">KÄYTÄ</string>
+    <string name="select_many_text">Valitse niin monta kuin haluat.</string>
+
+    <string name="charts_title">RUOANLAITTOKAAVIOT</string>
+    <string name="charts_chuck_roast">Lapapaisti</string>
+    <string name="charts_cook_method">Valmistustapa</string>
+    <string name="charts_recipe_name">Reseptin nimi</string>
+    <string name="charts_grill_today">Mitä ajattelit\ngrillata tänään?</string>
+    <string name="charts_choose_food_type">Valitse valitussa valmistustilassa\nkäytettävissä oleva ruokatyyppi.</string>
+    <string name="charts_preparation">VALMISTELU</string>
+    <string name="charts_notes">HUOMAUTUKSET</string>
+    <string name="charts_grill_temperature">GRILLAUSLÄMPÖTILA</string>
+    <string name="charts_placeholder_text">Paikkamerkki</string>
+    <string name="charts_filters_time_less_15">&lt;15 min</string>
+    <string name="charts_filters_time_15_30">15–30 min</string>
+    <string name="charts_filters_time_30_60">30–60 min</string>
+    <string name="charts_filters_time_60_120">60–120 min</string>
+    <string name="charts_filters_time_over_120">+120 min</string>
+    <string name="charts_try_woodfire">Kokeile Woodfire-makua</string>
+
+
+    <string name="support_button">ASIAKASTUKI</string>
+    <string name="support_trouble">Jatkuvatko ongelmat?</string>
+    <string name="support_call_us">SOITA MEILLE</string>
+    <string name="support_nevermind">EI VÄLIÄ</string>
+
+    <string name="food_type_select">ELINTARVIKEVALITSIN</string>
+    <string name="food_type_beef">Naudanliha</string>
+    <string name="food_type_pork">Sianliha</string>
+    <string name="food_type_poultry">Linnunliha</string>
+    <string name="food_type_seafood">Merenelävät</string>
+    <string name="food_type_bread_cheese">Leipä/juusto</string>
+    <string name="food_type_fruit">Hedelmät</string>
+    <string name="food_type_lamb_veal">Lammas/\nvasikka</string>
+    <string name="food_type_veggies">Kasvikset</string>
+    <string name="food_type_fish">Kalat</string>
+    <string name="food_type_chicken">Kana</string>
+    <string name="food_type_manual">Manuaalinen</string>
+    <string name="food_type_other">Muut</string>
+
+    <string name="bluetooth_connect_to_grill">YHDISTÄ GRILLIIN</string>
+    <string name="bluetooth_choose_grill">Aloita asennus valitsemalla\ngrilli.</string>
+    <string name="settings_show_appliance">Näytä laite</string>
+    <string name="name_grill_default_length">0/15</string>
+    <string name="bluetooth_few_minutes">Tämä voi kestää muutaman minuutin</string>
+    <string name="bluetooth_keep_open">Pidä tämä näyttö avoinna, kunnes yhteys on muodostettu.</string>
+
+    <string name="try_again">YRITÄ UUDELLEEN</string>
+    <string name="edit_email">Muokkaa sähköpostia</string>
+
+
+    <string name="bluetooth_enable">Ota Bluetooth käyttöön</string>
+    <string name="bluetooth_error_connection">YHTEYS LAITTEESEEN</string>
+    <string name="bluetooth_error_title">Yhteyttä ei voitu muodostaa. Kokeillaan jotain muuta!</string>
+    <string name="bluetooth_error_tip_one">1. Nollaa grilli.</string>
+    <string name="bluetooth_error_sub_one">Kytke grilli pois päältä painamalla painiketta.</string>
+    <string name="bluetooth_error_tip_two">2. Käynnistä mobiililaitteen Wi-Fi uudelleen.</string>
+    <string name="bluetooth_error_sub_two">Kytke mobiililaitteen Wi-Fi pois päältä. Odota 10 sekuntia, kytke se sitten takaisin päälle ja muodosta yhteys verkkoon.</string>
+    <string name="bluetooth_error_join_wifi">LIITY WI-FI-VERKKOON</string>
+    <string name="bluetooth_error_wifi_body">Jokin ei vieläkään toimi. Ei huolta! Tässä on muita asioita, joita voit kokeilla.</string>
+    <string name="bluetooth_turn_on_grill">Kytke grilli päälle</string>
+    <string name="bluetooth_press_power_button">Kytke grilli päälle\npainamalla virtapainiketta.</string>
+
+    <string name="dialog_thermometer_place_therm">Lämpömittarin sijoittaminen</string>
+    <string name="dialog_thermometer_dont_show">Älä näytä tätä uudelleen.</string>
+    <string name="dialog_thermometer_continue">Jatka valmistukseen</string>
+
+    <string name="bluetooth_wifi_password">Verkko ei vaadi salasanaa</string>
+    <string name="connect">YHDISTÄ</string>
+    <string name="bluetooth_connect_to_wifi">YHDISTETÄÄN WI-FI-VERKKOON</string>
+    <string name="bluetooth_start_cooking">Hienoa! Aloitetaan ruoanlaitto yhdessä.</string>
+
+    <string name="to_the_dashboard">KOONTINÄYTTÖÖN</string>
+    <string name="pairing_wifi_connection">Yhteytemme\nvoi olla\nvahvempi!\n</string>
+    <string name="pairing_start_wifi">ALOITA WI-FI-VERKKOON YHDISTÄMINEN</string>
+    <string name="pairing_select_wifi">Valitse Wi-Fi-verkko</string>
+    <string name="pairing_network_two_bars">Varmista, että verkolla on vähintään 2 palkkia. Jos signaali on liian heikko, kokeile siirtää grilli lähemmäksi reititintä.</string>
+
+    <string name="region_select_country">Valitse maa/alue.</string>
+
+    <string name="woodfire_flavor">KOKEILE WOODFIRE-MAKUA</string>
+    <string name="woodfire_add_rich">Lisää täyteläistä, kehittynyttä savuisuutta mihin tahansa ruokaan.</string>
+    <string name="woodfire_tech">WOODFIRE-TEKNIIKKA</string>
+    <string name="woodfire_filtering_option">Kun suodatetaan tällä vaihtoehdolla, seuraava valmistustila ei ole käytettävissä: Parilointi</string>
+
+    <string name="loading_text">Ladataan...</string>
+    <string name="cooking_point">KIEHUMAPISTE</string>
+    <string name="doneness_point">KYPSYYSPISTE</string>
+    <string name="internal_temp">SISÄINEN LÄMPÖTILA</string>
+
+    <string name="view_privacy_policy">Näytä tietosuojakäytäntö</string>
+
+
+    <!--    MISSING IN FRENCH, DANISH, AND DUTCH-->
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="monitor_method">SEURANTATAPA</string>
+    <string name="add_food_notification_title">Lisää ruoka</string>
+    <string name="add_food_notification_body">Grilli on esikuumennettu ja käyttövalmis</string>
+    <string name="close_lid_notification_title">Sulje kansi</string>
+    <string name="close_lid_notification_body">Kypsyminen ei jatku, ennen kuin kansi on suljettu.</string>
+    <string name="flip_food_notification_title">Aika kääntää</string>
+    <string name="flip_food_notification_body">Kypsennys on puolivälissä</string>
+    <string name="remove_food_notification_title">Poista ruoka</string>
+    <string name="cook_complete_notification_body">Grilli pysyy lämpimänä jopa 5 minuuttia.</string>
+    <string name="get_food_therm_one_notification_body">Lämpömittari 1: Poista grillistä ja anna sen levätä. Se jatkaa kypsymistä jäännöslämmöllä asetetun lämpötilan saavuttamiseksi.</string>
+    <string name="get_food_therm_two_notification_body">Lämpömittari 2: Poista grillistä ja anna sen levätä. Se jatkaa kypsymistä jäännöslämmöllä asetetun lämpötilan saavuttamiseksi.</string>
+    <string name="cord_dimen_text">enintään 7,5&#160;m pitkä, vähintään 1,6\nmm TAI 15&#160;m, vähintään 2,0\nmm.</string>
+    <string name="outdoor_text">Soveltuu ulkokäyttöön.</string>
+    <string name="ext_cord_text">Jos tarvitset jatkojohtoa, sen on oltava:</string>
+    <string name="gfci_text">Kytke yksikkö vain asianmukaisesti\nmaadoitettuun pistorasiaan</string>
+    <string name="plug_in_grill_text">Kytke grilli pistorasiaan</string>
+    <string name="turn_on_your_appliance">Kytke laite päälle</string>
+    <string name="press_button_until_screen_lights_up">Paina pyöreää Start/Stop-painiketta, kunnes näyttö syttyy.</string>
+    <string name="got_it">Selvä</string>
+    <string name="plug_in_dialog_title">Kytke laite vain asianmukaisesti\nmaadoitettuun pistorasiaan.</string>
+    <string name="confirm_account_label">Tiliäsi ei ole vielä vahvistettu. Tarkista roskapostikansio.</string>
+    <string name="air_crisp_settings">Air Crisp -asetukset</string>
+    <string name="settings">Asetukset</string>
+    <!--    <string name="pounds">Pounds (lb)</string>-->
+    <!--    <string name="grams">Grams (g)</string>-->
+    <!--    <string name="kilograms">Kilograms (kg)</string>-->
+    <!--    <string name="ounces">Ounces (oz)</string>-->
+
+    <!--MISSED STRINGS FROM FIRST BATCH, addresses 1398, 1399, 1400, 1401, 1403-->
+    <string name="smoke_caps">SAVUSTA</string>
+    <string name="rare">Verinen</string>
+    <string name="medrare">Puoliraaka</string>
+    <string name="med">Med</string>
+    <string name="medwell">Medium kypsä</string>
+    <string name="well">Kypsä</string>
+    <string name="igniting">SYTYTYS</string>
+    <string name="plugin_dialogue_plugin">Kytke laite pistorasiaan</string>
+    <string name="press_start_button">Paina grillin käynnistyspainiketta</string>
+    <string name="press_rounded_start_button">Paina pyöreää Start/Stop-painiketta,\nkunnes näyttö syttyy</string>
+    <string name="connect_app_to_grill">Yhdistä sovellus grilliin</string>
+    <string name="activate_discovery_mode">Aktivoi etsintätila grillissä.</string>
+    <string name="hold_mode_activate_discovery">Aktivoi etsintätila pitämällä grillin tilapainiketta painettuna kolme sekuntia.</string>
+    <string name="oops_wifi_error">Bluetooth-\nyhteyttä\nei voi\nmuodostaa</string>
+    <string name="lets_try_wifi">Kokeile Wi-Fiä, voit hallita\nkypsennystä mistä tahansa niin kauan kuin\nInternet-yhteys on käytettävissä.</string>
+    <string name="connect_with_wifi">YHDISTÄ WI-FI-VERKKOON</string>
+    <string name="bluetooth_declined_network">Et liittynyt laitteen verkkoon!</string>
+    <string name="bluetooth_allow_network">Kun sitä pyydetään, anna mobiililaitteesi muodostaa yhteys laitteen nimen Wi-Fi-verkkoon.</string>
+    <string name="bluetooth_tip_three">3. Aktivoi etsintätila uudelleen.</string>
+    <string name="bluetooth_error_sub_three">Paina uudelleenkäynnistyksen jälkeen tilapainiketta kolme sekuntia, kunnes kehote tulee esiin ja Wi-Fi-merkkivalo alkaa vilkkua.</string>
+    <string name="connection_tips">YHDISTÄMISVINKKEJÄ</string>
+    <string name="bot_connection_tips">Grillin yhdistämisvinkkejä</string>
+    <string name="unable_to_connect_simple_solution">Yhteyttä ei voitu muodostaa. Kokeillaan yksinkertaista ratkaisua.</string>
+    <string name="reset_router">2. Nollaa reititin.</string>
+    <string name="unplug_wait_sixty">Irrota virtajohto pistorasiasta (tai reitittimen takaosasta), odota 60 sekuntia ja kytke se takaisin.</string>
+    <string name="wifi_password_tips">Wi-Fi-salasanavinkkejä</string>
+    <string name="declined_local_area_network">Hupsista! Kieltäydyit antamasta Ninja Kitchenille lähiverkon käyttöoikeutta.</string>
+    <string name="grill_detected">Grilli tunnistettu</string>
+    <string name="model_number_example">mallinumero IG601</string>
+    <string name="we_are_connected_bt">Yhteys grilliin on muodostettu, yhdistetään nyt Wi-Fi-verkkoon</string>
+    <string name="name_grill">Annetaan Ninja-grillille nimi</string>
+    <string name="name_grill_second">Anna Ninja-laitteelle nimi.</string>
+    <string name="accept_permission_prompts">Sinun täytyy hyväksyä käyttöoikeuspyynnöt, jotta sovellus voi muodostaa yhteyden grilliin.</string>
+    <string name="select_ok">Hyväksy käyttöoikeuspyyntö napauttamalla OK/Salli. Nämä pyynnöt täytyy hyväksyä, jotta sovellus voi muodostaa yhteyden grilliin.</string>
+    <string name="warning_dont_allow">Jos valitset Älä hyväksy / Peruuta, sovellus ei voi käyttää grilliä!</string>
+    <string name="timed_cooking_charts">Ajastetut ruoanlaittokaaviot</string>
+    <string name="filters">Suodattimet</string>
+    <string name="mode">Tila</string>
+    <string name="time_lower">Aika</string>
+    <string name="food">Ruoka</string>
+    <string name="clear_all_filters">Tyhjennä kaikki suodattimet</string>
+    <string name="popular_filter_groupings">Suositut suodatinryhmät</string>
+    <string name="follow_suggestions_below">Varmista onnistunut ruoanlaittokokemus noudattamalla alla olevia ehdotuksia.</string>
+    <string name="charts_cook_time">VALMISTUSAIKA</string>
+    <string name="chart_adjustments">Kaavion säädöt</string>
+    <string name="times_listed">Kaavioissa luetellut ajat perustuvat määriteltyihin määriin. Säädä aikaa oman ruokamääräsi mukaan.</string>
+    <string name="enter_verification_code">Syötä vahvistuskoodi</string>
+    <string name="reset_password_lower">Nollaa salasana</string>
+    <string name="why_create_an_account">Miksi luoda tili?</string>
+    <string name="type_network_pw">Kirjoita verkon salasana</string>
+    <string name="hello_there">Hei!</string>
+
+    <!--PAIRING INTERNATIONAL-->
+    <string name="pairing_international_step_one">Vaihe 1 <font color="#E5E5E5">/4</font></string>
+    <string name="pairing_international_step_two">Vaihe 2 <font color="#E5E5E5">/4</font></string>
+    <string name="pairing_international_step_three">Vaihe 3 <font color="#E5E5E5">/4</font></string>
+    <string name="pairing_international_step_four">Vaihe 4 <font color="#E5E5E5">/4</font></string>
+
+    <string name="powering_the_grill">VIRRAN KYTKEMINEN GRILLIIN</string>
+    <string name="plug_in_grill_international">1. Kytke grilli pistorasiaan</string>
+    <string name="plug_in_grill_international_first">Kytke vikavirtasuoja. Kytkemisen jälkeen RESET-painikkeen alapuolella olevan valon pitäisi palaa. Jos valo ei pala, kokeile toista pistorasiaa.</string>
+    <string name="plug_in_grill_international_second">Paina vikavirtasuojan TEST-painiketta. Valon pitäisi sammua. Paina taas RESET-painiketta, niin valo syttyy uudelleen. Nyt voit kytkeä grillin päälle.</string>
+    <string name="turn_on_grill_international_content">Käännä virtakytkin ON (|) -asentoon. Kytkin on ohjauspaneelin takana.</string>
+    <string name="rcd_requirements">Vikavirtasuoja täytyy kytkeä\nyhteensopivaan pistorasiaan.</string>
+    <string name="plug_in_grill_international_plain">Kytke grilli pistorasiaan</string>
+    <string name="turn_on_grill_plain">Kytke grilli päälle</string>
+    <string name="flip_power_switch">Käännä virtakytkin ON-asentoon.</string>
+    <string name="grill_screen_should">Grillin näytön pitäisi syttyä.</string>
+    <string name="discovery_mode">ETSINTÄTILA</string>
+    <string name="turn_on_discovery_prompt">Ota etsintätila käyttöön</string>
+    <string name="begin_discovery_content">Pidä säädintä painettuna 3–5 sekuntia, kunnes kuulet äänimerkin. Lisäksi Bluetooth-kuvake alkaa vilkkua näytössä.</string>
+
+
+    <!--    APP RATING PROMPT-->
+    <string name="af00145a691750156e6e82ef7f62d207709481be9">Millainen Ninja-kokemuksesi on?</string>
+    <string name="ac08e6f2622a1c2ee1732d29a1c7faa76c7bf472d">Kerro meille, kuinka onnistuimme.</string>
+    <string name="sad_submission_dialog_text">Ikävää, että sinulla on ongelmia, haluaisitko käydä tukiosiossa?</string>
+    <string name="a89f5c281e8c6d66f20b3374e5cf48e07b95e88e9">Siirry tukeen</string>
+    <string name="ab498945c3419dd2b537bb56c3f8caa01c5cc74bc">Hylkää</string>
+    <string name="a9f39f03bb0109fec245555473333ea958a5997ec">Lähetä</string>
+
+    <string name="rare1">Verinen 1</string>
+    <string name="rare2">Verinen 2</string>
+    <string name="medrare3">Puoliraaka 3</string>
+    <string name="medrare4">Puoliraaka 4</string>
+    <string name="med5">Medium 5</string>
+    <string name="med6">Medium 6</string>
+    <string name="medwell7">Medium kypsä 7</string>
+    <string name="medwell8">Medium kypsä 8</string>
+    <string name="well9">Kypsä 9</string>
+    <string name="unknown">Tuntematon</string>
+
+    <string name="calculating">Lasketaan</string>
+    <string name="cooking">Kypsennys</string>
+    <string name="idle">Jouten</string>
+    <string name="offline">Offline</string>
+    <string name="probe_not_set">Anturia ei asetettu</string>
+    <string name="resting">Lepo</string>
+    <string name="complete">Valmis</string>
+
+    <string name="low">Lo</string>
+    <string name="high">Hi</string>
+
+    <string name="local_notification_offline_title">Yhteys katkennut</string>
+    <string name="local_notification_offline_body">Laitteen Wi-Fi-yhteys on katkennut. Varmista, että Wi-Fi on päällä ja että laite on kantaman sisällä.</string>
+    <string name="about_this_app_description_no_data_protection">Käyttöehdot, Tietosuojakäytäntö&#8230;</string>
+
+
+</resources>

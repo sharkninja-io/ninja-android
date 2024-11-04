@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/cook_type_selector_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/gotham_book_medium"
+        android:lineHeight="16sp"
+        android:text="@string/monitor_method"
+        android:textColor="@color/black1"
+        android:textFontWeight="700"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.sharkninja.ninja.connected.kitchen.ui.views.RoundedSwitchSegmentedControl
+        android:id="@+id/switch_tab_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_large"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cook_type_selector_label"
+        app:selectedTabBackground="@drawable/selected_cook_type_tab_pre_cook_background"
+        app:selectedTextColor="@color/white_8F"
+        app:backgroundColor="@color/white_8F"
+        app:borderColor="@color/grey3"
+        app:unselectedTextColor="@color/darkest_grey"
+        app:checked="false"
+        app:cornerRadius="50dp"
+        app:strokeWidth="2dp"
+        app:textSize="12px"
+        android:layout_marginTop="@dimen/margin_small"
+        app:textToggleLeft="@string/timed_cook"
+        app:textToggleRight="@string/therm_cook" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

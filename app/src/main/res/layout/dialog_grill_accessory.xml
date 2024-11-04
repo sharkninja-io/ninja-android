@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dialog_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/grill_accessory_dialog_background">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="47dp"
+            android:fontFamily="@font/gotham_book_medium"
+            android:lineHeight="@dimen/line_height_large"
+            android:text="@string/grill_accessory_dialog_title"
+            android:textColor="@color/black1"
+            android:textFontWeight="500"
+            android:textSize="@dimen/text_size_normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/tray_and_plate_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/dialog_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dialog_title"
+            tools:visibility="gone">
+
+            <ImageView
+                android:id="@+id/grill_plate_iv"
+                android:layout_width="87dp"
+                android:layout_height="89dp"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:src="@drawable/grill_plate"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/centerGuideline"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/centerGuideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <ImageView
+                android:id="@+id/grease_tray_iv"
+                android:layout_width="87dp"
+                android:layout_height="89dp"
+                android:layout_marginStart="@dimen/margin_small"
+                android:src="@drawable/grease_tray"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@id/centerGuideline"
+                app:layout_constraintTop_toTopOf="@id/grill_plate_iv" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/all_accessories_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_large"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/dialog_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dialog_title"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/grill_plate_all_iv"
+                android:layout_width="87dp"
+                android:layout_height="89dp"
+                android:src="@drawable/grill_plate"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/grease_tray_all_iv"
+                android:layout_width="87dp"
+                android:layout_height="89dp"
+                android:layout_marginStart="@dimen/margin_small"
+                android:scaleType="fitXY"
+                android:src="@drawable/grease_tray"
+                app:layout_constraintEnd_toStartOf="@id/basket_all_iv"
+                app:layout_constraintStart_toEndOf="@id/grill_plate_all_iv"
+                app:layout_constraintTop_toTopOf="@id/grill_plate_all_iv" />
+
+            <ImageView
+                android:id="@+id/basket_all_iv"
+                android:layout_width="87dp"
+                android:layout_height="89dp"
+                android:src="@drawable/basket"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/grill_plate_all_iv" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/dialog_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_xlarge"
+            android:fontFamily="@font/gotham_book_normal"
+            android:gravity="center"
+            android:lineHeight="@dimen/line_height_medium"
+            android:paddingHorizontal="@dimen/margin_xlarge"
+            android:text="@string/grill_accessory_dialog_description"
+            android:textColor="@color/darkest_grey"
+            android:textFontWeight="500"
+            android:textSize="@dimen/text_size_normal"
+            app:layout_constraintBottom_toTopOf="@id/done_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/done_button"
+            style="@style/Ninja.ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_xlarge"
+            android:text="@string/grill_accessory_dialog_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

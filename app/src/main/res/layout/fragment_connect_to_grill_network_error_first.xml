@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="@dimen/margin_large"
+    android:layout_marginEnd="@dimen/margin_large"
+    tools:context=".sections.home.fragments.pairing.errors.ConnectToGrillNetworkErrorFirstFragment">
+
+    <TextView
+        android:id="@+id/grill_network_error_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xxlarge"
+        android:paddingTop="@dimen/element_spacing_xs"
+        android:paddingBottom="@dimen/element_spacing_xs"
+        android:textSize="12sp"
+        android:lineHeight="16sp"
+        android:textColor="@color/theme_reverse"
+        android:fontFamily="@font/gotham_book_bold"
+        android:textFontWeight="700"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/bluetooth_error_connection" />
+
+    <TextView
+        android:id="@+id/grill_network_error_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/theme_reverse"
+        android:text="@string/bluetooth_error_title"
+        android:textSize="@dimen/text_size_large"
+        android:lineHeight="@dimen/text_size_header"
+        app:layout_constraintTop_toBottomOf="@id/grill_network_error_header"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/error_tip_title_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:fontFamily="@font/gotham_book_bold"
+        android:textFontWeight="700"
+        android:textColor="@color/theme_reverse"
+        android:text="@string/bluetooth_error_tip_one"
+        android:textSize="@dimen/text_size_normal"
+        android:lineHeight="@dimen/text_size_medium"
+        app:layout_constraintTop_toBottomOf="@id/grill_network_error_title"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/error_tip_sub_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:paddingRight="@dimen/padding_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/darker_grey"
+        android:text="@string/bluetooth_error_sub_one"
+        android:textSize="@dimen/text_size_small"
+        android:lineHeight="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/error_tip_title_1"
+        app:layout_constraintEnd_toStartOf="@id/icon_start_button"/>
+
+    <ImageView
+        android:id="@+id/icon_start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_button_start"
+        app:layout_constraintTop_toTopOf="@id/error_tip_title_1"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/divider_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@color/lighter_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/icon_start_button" />
+
+    <TextView
+        android:id="@+id/error_tip_title_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:paddingRight="@dimen/padding_normal"
+        android:fontFamily="@font/gotham_book_bold"
+        android:textFontWeight="700"
+        android:textColor="@color/theme_reverse"
+        android:text="@string/bluetooth_error_tip_two"
+        android:textSize="@dimen/text_size_normal"
+        android:lineHeight="@dimen/text_size_medium"
+        app:layout_constraintTop_toBottomOf="@id/divider_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/icon_smart_phone"/>
+
+    <TextView
+        android:id="@+id/error_tip_sub_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:paddingRight="@dimen/padding_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/darker_grey"
+        android:text="@string/bluetooth_error_sub_two"
+        android:textSize="@dimen/text_size_small"
+        android:lineHeight="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/error_tip_title_2"
+        app:layout_constraintEnd_toStartOf="@id/icon_start_button"/>
+
+    <ImageView
+        android:id="@+id/icon_smart_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_phone_wifi"
+        app:layout_constraintTop_toTopOf="@id/error_tip_title_2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/divider_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@color/lighter_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/error_tip_sub_2" />
+
+    <TextView
+        android:id="@+id/error_tip_title_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:fontFamily="@font/gotham_book_bold"
+        android:textFontWeight="700"
+        android:textColor="@color/theme_reverse"
+        android:text="@string/bluetooth_tip_three"
+        android:textSize="@dimen/text_size_normal"
+        android:lineHeight="@dimen/text_size_medium"
+        app:layout_constraintTop_toBottomOf="@id/divider_2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/error_tip_sub_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:paddingRight="@dimen/padding_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/darker_grey"
+        android:text="@string/bluetooth_error_sub_three"
+        android:textSize="@dimen/text_size_small"
+        android:lineHeight="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/error_tip_title_3"
+        app:layout_constraintEnd_toStartOf="@id/icon_mode_button"/>
+
+    <ImageView
+        android:id="@+id/icon_mode_button"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_mode_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/error_tip_sub_3" />
+
+    <View
+        android:id="@+id/divider_3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@color/lighter_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/error_tip_sub_3" />
+
+    <Button
+        android:id="@+id/button_try_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginBottom="@dimen/margin_xlarge"
+        android:text="@string/try_again"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

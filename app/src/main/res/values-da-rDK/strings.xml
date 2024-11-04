@@ -1,0 +1,683 @@
+<!--    Danish(Dansk)-->
+<resources>
+    <string name="app_name">Ninja ProConnect</string>
+    <string name="forgot_password_header_text">Kan du ikke logge på?</string>
+    <string name="forgot_password_sub_text">Vi sender en e-mail til dig med vejledning til at nulstille din adgangskode.</string>
+    <string name="forgot_password_button_text">NULSTIL ADGANGSKODE</string>
+    <string name="reset_password_header_text">Sådan!</string>
+    <string name="reset_password_sub_text">Nu kan du oprette en ny adgangskode.</string>
+
+    <string name="nav_bar_charts">Kort</string>
+    <string name="nav_bar_cook">Tilberedning</string>
+    <string name="nav_bar_settings">Indstillinger</string>
+
+    <string name="auth_login_confirm_email_text">Du skal bekræfte din e-mailkonto, før du kan fortsætte.</string>
+    <string name="auth_login_reset_password_label">Vi har sendt en e-mail til dig med vejledning til at logge på.</string>
+    <string name="auth_login_error_text">Denne kombination af e-mail/adgangskode findes ikke. Prøv igen.</string>
+    <string name="auth_welcome_back_text">Hej igen</string>
+    <string name="auth_login_text">Log på med din Ninja-konto for at starte.</string>
+    <string name="continue_button">FORTSÆT</string>
+    <string name="continue_proper">Fortsæt</string>
+    <string name="auth_shark_ninja_login_hint">Vidste du, at du kan logge på ved at bruge din Shark|Ninja-konto?</string>
+    <string name="auth_dont_have_account">Har du ikke en konto?</string>
+    <string name="auth_already_have_account">Har du allerede en konto?</string>
+    <string name="auth_sign_up_here"><u>Registrer dig her</u></string>
+    <string name="auth_log_in_here"><u>Log på</u></string>
+    <string name="auth_button_login">LOG PÅ</string>
+    <string name="auth_email_label">E-MAIL</string>
+    <string name="auth_password_label">ADGANGSKODE</string>
+    <string name="auth_button_register">REGISTRER DIG</string>
+    <string name="auth_username_hint">Indtast din e-mailadresse</string>
+    <string name="auth_password_hint">Indtast din adgangskode</string>
+    <string name="auth_password_create_hint">Opret en ny adgangskode</string>
+    <string name="auth_create_account">Opret en konto</string>
+    <string name="auth_login_forgot_password"><u>Glemt din adgangskode?</u></string>
+    <string name="reset_password_new_email">Another email has been sent.</string>
+    <string name="did_not_get_email_desc">Har du ikke fået e-mailen? Se i din spammappe. Hvis du ikke har fået mailen efter nogle minutter, så tryk på knappen nedenfor for at få den tilsendt igen. </string>
+    <string name="reset_password_almost_there">Så er det næsten klaret.</string>
+    <string name="reset_password_sent_email_text">Vi har sendt en e-mail til dig med vejledning til at nulstille din adgangskode. Åbn e-mailen, og tryk på linket Nulstil adgangskode for at starte.</string>
+    <string name="reset_password_enter_code">Indtast koden</string>
+    <string name="reset_password_resend_code">SEND KODEN IGEN</string>
+
+    <string name="auth_welcome">Velkommen!</string>
+    <string name="auth_create_account_text">Lad os først oprette din nye Ninja-konto.</string>
+    <string name="auth_agree_to_terms">Jeg accepterer disse <u>Vilkår og betingelser</u></string>
+    <string name="auth_privacy_notice_check_text">Jeg har læst og accepterer denne <u>Meddelelse om beskyttelse af personoplysninger</u></string>
+
+    <string name="auth_verify_email_header_text">Så er det næsten klaret</string>
+    <string name="auth_verify_email_sub_text">Vi har sendt en e-mail til %1$s. Åbn e-mailen, og tryk på Bekræft for at gå videre.</string>
+    <string name="auth_verify_resent_email_text">Nu er e-mailen sendt til dig igen! Se i din mailboks, og bekræft din konto.</string>
+    <string name="auth_verify_resend_button">SEND E-MAILEN IGEN</string>
+    <string name="auth_verify_verifying_header">Kontrollerer ... vent et øjeblik.</string>
+    <string name="auth_verify_verified_header">Nu er din konto bekræftet!</string>
+
+
+    <string name="pairing_step_one">1. trin <font color="#E5E5E5">af 3</font></string>
+    <string name="pairing_step_two">2. trin <font color="#E5E5E5">af 3</font></string>
+    <string name="pairing_step_three">3. trin <font color="#E5E5E5">af 3</font></string>
+    <string name="pairing_network_tips_text"><u>Jeg kan ikke se mit netværk</u></string>
+
+    <string name="step_one_of_two"><font color="#767676">Trin</font> <font color="#45BE55">1</font> <font color="#767676">af 2</font></string>
+    <string name="step_two_of_two"><font color="#767676">Trin</font> <font color="#45BE55">2</font> <font color="#767676">af 2</font></string>
+
+    <string name="woodFireDescription">Du kan give alle retter en lækker røget smag ved hjælp af træpiller.</string>
+
+    <string name="cooking_charts_description">Vores Ninja-kokketeam har udarbejdet tilberedningskort med vejledning til at lave god mad på den rigtige måde.</string>
+
+    <string name="pairing_permissions_error_sub_text">Du skal tillade adgang i dine mobilindstillinger.
+
+    \n1. Åbn indstillingerne på din mobilenhed
+
+    \n2. Tryk på Anonymitet &amp; sikkerhed
+
+    \n3. Tryk på Lokalt netværk
+
+    \n4. Gå til Ninja Kitchen-appen, og
+
+    \nslå den til for at tillade adgang
+
+    \n5. Gå tilbage til Ninja Kitchen-appen.</string>
+
+    <string name="pairing_grill_network_error_tip_1"><b>Nulstil grillen:</b> Sluk for grillen ved at trykke på knappen</string>
+    <string name="pairing_grill_network_error_tip_2"><b>Genaktiver registreringstilstand:</b> Hold knappen til tilberedningsmetode på grillen inde i 3 sekunder.</string>
+    <string name="pairing_wifi_network_error_tip_1"><b>Glemt adgangskode:</b> Prøv at se bag på din router, eller kontakt en, der muligvis kender den.</string>
+    <string name="pairing_wifi_network_error_tip_2"><b>Serverproblem:</b> Kontroller, at dit netværk ikke er et VPN eller en proxyserver.</string>
+    <string name="pairing_wifi_network_error_tip_3"><b>Andet:</b> Hvis du har problemer med internettet på andre produkter i hjemmet, skal du kontakte din internetudbyder.</string>
+
+    <string name="pairing_btle_wifi_network_error_tip_1_header"><b>1. Glemt adgangskode:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_1_sub">Prøv at se bag på din router, eller kontakt en, der muligvis kender den.</string>
+    <string name="pairing_btle_wifi_network_error_tip_2_header"><b>2. Serverproblem:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_2_sub">Kontroller, at dit netværk ikke er et VPN eller en proxyserver.</string>
+    <string name="pairing_btle_wifi_network_error_tip_3_header"><b>3. Andet:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_3_sub">Hvis du har problemer med internettet på andre produkter i hjemmet, skal du kontakte din internetudbyder.</string>
+
+
+    <string name="pairing_customer_support_number">Ring til os <b>1-855-427-5123</b></string>
+    <string name="customer_support_number">1-855-427-5123</string>
+
+    <string name="dialog_network_tips_title">Netværkstip</string>
+    <string name="dialog_network_tips_router">Nulstil router</string>
+    <string name="dialog_network_tips_unplug">Tag stikket ud af kontakten (eller bag på routeren), vent 60 sekunder, og isæt stikket igen.</string>
+    <string name="dialog_network_tips_check_type">Kontroller netværkstypen</string>
+    <string name="dialog_network_tips_ninja_grills">Ninja-grillprodukter opretter kun forbindelse til 2,4&#160;GHz netværk. Kontroller, at dit 2,4&#160;GHz netværk ikke er skjult eller slået fra. Hvis du har en app til din router, kan du bruge den til at finde dit 2,4&#160;GHz netværk eller til at slå det til. Eller du kan kontakte din internetudbyder.</string>
+    <string name="dialog_network_tips_internet_issues">Hvis du har problemer med internettet på andre produkter i hjemmet, kan du kontakte din internetudbyder.</string>
+
+    <!--password validation-->
+    <string name="password_req_one_upper_letter">1 stort bogstav</string>
+    <string name="password_req_one_lower_letter">1 lille bogstav</string>
+    <string name="password_req_eight_characters">Mindst 8 tegn</string>
+    <string name="password_req_one_number">1 tal</string>
+
+    <string name="ninja_verify_deep_link">app://open.ninjakitchen.app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hej blank fragment</string>
+
+    <!-- Settings Fragment-->
+    <string name="account">Konto</string>
+    <string name="account_description">Profil, Rediger e-mailadresse, Log af &#8230;</string>
+    <string name="your_appliance">Dit apparat</string>
+    <string name="your_appliance_description">Oplysninger om apparat, Garantioplysninger, Support &#8230;</string>
+    <string name="about_this_app">Om denne app</string>
+    <string name="about_this_app_description">Databeskyttelse, Vilkår for anvendelse, Politik for beskyttelse af personoplysninger &#8230;</string>
+    <string name="cooking_notifications">Beskeder om tilberedning</string>
+
+    <!-- Account Fragment-->
+    <string name="profile">Profil</string>
+    <string name="preferences">Indstillinger</string>
+    <string name="log_out">Log af</string>
+    <string name="account_info_description">Navn, Adresse, Telefonnummer ...</string>
+    <string name="preferences_description">Dit apparat, Vægtenhed, Temperaturenhed &#8230;</string>
+    <string name="sign_out_description">Er du sikker på, du vil logge af?</string>
+    <string name="cancel">Annuller</string>
+    <string name="cancel_upper">ANNULLER</string>
+    <string name="change_email">Rediger e-mailadresse</string>
+    <string name="change_password">Rediger adgangskode</string>
+
+    <!-- Change Email Fragment-->
+
+    <string name="new_email">NY E-MAILADRESSE</string>
+    <string name="confirm_new_email">BEKRÆFT NY E-MAILADRESSE</string>
+    <string name="change_email_hint">Indtast din e-mailadresse</string>
+    <string name="change_email_btn">OPDATER + LOG AF</string>
+
+    <!-- Profile Fragment -->
+    <string name="first_name">FORNAVN*</string>
+    <string name="last_name">EFTERNAVN*</string>
+    <string name="address">ADRESSE*</string>
+    <string name="address_two">ADRESSELINJE 2</string>
+    <string name="city">BY*</string>
+    <string name="state_province">OMRÅDE*</string>
+    <string name="zip_code">POSTNUMMER*</string>
+    <string name="phone_number">TELEFONNUMMER</string>
+    <string name="required_field">(*) Dette felt skal udfyldes</string>
+    <string name="account_subtitle">KONTO</string>
+    <string name="delete_account_btn"><u>Slet konto</u></string>
+    <string name="save_changes">Gem ændringerne</string>
+    <string name="okay">OK</string>
+    <string name="state">Stat</string>
+    <string name="required_field_error_msg">Dette felt skal udfyldes</string>
+
+    <!-- Profile Save Changes Dialog -->
+    <string name="dialog_save_changes_title">Der er ændringer, som ikke er gemt.</string>
+    <string name="dialog_save_changes_desc">Vil du gemme dem?</string>
+    <string name="dialog_save_changes_btn_save">Gem ændringerne</string>
+    <string name="dialog_save_changes_btn_discard">Annuller ændringer</string>
+    <string name="dialog_save_changes_btn_cancel"><u>Annuller</u></string>
+
+    <!-- About This App Fragment -->
+    <!--    data protection, terms of use, privacy policy, information/legal notice-->
+    <string name="data_protection">Databeskyttelse</string>
+    <string name="terms_of_use">Vilkår for anvendelse</string>
+    <string name="privacy_policy">Politik for beskyttelse af personoplysninger</string>
+    <string name="privacy_notice_btn">MEDDELELSE OM SHARKNINJAS BESKYTTELSE AF PERSONOPLYSNINGER</string>
+    <string name="info_legal_notice">Information/Juridisk meddelelse</string>
+    <string name="privacy_policy_description">SharkNinja (heri betegnet \"vi\" eller \"os\") indsamler personoplysninger (f.eks. e-mailadresse og anvendt IP-adresse) om dig, når du bruger Ninja Pro Connect-appen. Vi bruger dine personoplysninger til at administrere din konto og til at levere produkter og service relateret til opkoblede apparater, som du har bedt os om. Vi vil eventuelt udveksle disse oplysninger med vores tilknyttede virksomheder og serviceudbydere.</string>
+    <string name="privacy_policy_description_pt_two">Når du logger på Ninja Pro Connect-appen, oprettes der et godkendelsestoken, som lagres på din mobiltelefon og opdateres, hver gang du bruger Ninja Pro Connect-appen. Dette token anvendes kun til at holde dig logget på appen. De kan få mere at vide om, hvordan vi anvender de indsamlede oplysninger, her:</string>
+
+    <string name="about_this_app_caps">OM DENNE APP</string>
+
+    <!--    Delete Account-->
+    <string name="delete_account">Slet konto</string>
+    <string name="listitem_settings_info_description">Hvis du sletter din konto permanent, slettes alle kontooplysninger, herunder også forbindelse til dine apparater.\n\nDu skal oprette en ny konto, næste gang du forsøger at logge på.</string>
+    <string name="listitem_settings_info_name">Er du sikker?</string>
+    <string name="delete_account_button_text">SLET PERMANENT</string>
+    <!--    Delete Account Dialog-->
+    <string name="delete_account_dialog_title_text">Er du sikker på, at du vil slette din konto?</string>
+    <string name="delete_account_dialog_description_text">Det kan ikke fortrydes og kan tage et stykke tid, inden det er gennemført.</string>
+    <string name="delete_account_dialog_delete_btn">SLET MIN KONTO</string>
+    <string name="account_has_been_deleted">Nu er din konto slettet! Håber, vi ses igen!</string>
+    <!-- Change Password Fragment-->
+    <string name="old_password">GAMMEL ADGANGSKODE</string>
+    <string name="password">NY ADGANGSKODE</string>
+    <string name="confirm_password">BEKRÆFT NY ADGANGSKODE</string>
+    <string name="lets_create_new_password">Nu kan du oprette en ny adgangskode.</string>
+    <string name="passwords_dont_match">Adgangskoderne stemmer ikke overens</string>
+    <string name="forgot_password_btn"><u>Glemt din adgangskode?</u></string>
+    <string name="enter_your_password_hint">Indtast din adgangskode</string>
+    <string name="enter_your_new_password_hint">Indtast din nye adgangskode</string>
+
+
+    <!-- Preferences Fragment -->
+    <string name="your_appliance_caps">DIT APPARAT</string>
+    <string name="weight_unit">VÆGTENHED</string>
+    <string name="temperature_unit">TEMPERATURENHED</string>
+
+    <!-- Error Dialog -->
+    <string name="something_went_wrong_title">Ups, der er opstået et problem!</string>
+    <string name="something_went_wrong_description">Ændringen blev ikke gemt. Prøv igen?</string>
+    <string name="retry_btn">Prøv igen</string>
+
+
+    <!--    Appliance Fragment-->
+    <string name="appliance_name">Ninja Woodfire&#8482; ProConnect XL udendørs grill og smoker</string>
+    <string name="appliance_detail">Oplysninger om apparat</string>
+    <string name="your_appliances">Dine apparater</string>
+
+    <!--    Appliance Detail Fragment-->
+    <string name="fake_appliance_name">Ninja&#174; Foodi&#174; XL Pro</string>
+    <string name="appliance_notification_volume">Antal beskeder om apparat</string>
+    <string name="serial_number">Serienummer</string>
+    <string name="model_number">Modelnummer</string>
+    <string name="dsn">DSN</string>
+    <string name="mac_address">MAC-adresse</string>
+    <string name="app_version">Appversion</string>
+    <string name="firmware_version">Firmwareversion</string>
+    <string name="appliance_error_log">Fejllog for apparat</string>
+    <string name="restore_factory_settings">Gendan fabriksindstillinger</string>
+    <string name="delete_appliance">Slet apparat</string>
+    <string name="support">Support</string>
+    <string name="warranty_information">Garantioplysninger</string>
+    <string name="no_appliances_description">Der ser ikke ud til at være parret et apparat endnu. For at følge tilberedningen via din enhed skal du tilføje et apparat nedenfor.</string>
+    <string name="add_appliance_btn">TILFØJ APPARAT</string>
+    <string name="add_another_appliance">TILFØJ ET APPARAT MERE</string>
+    <string name="dialog_delete_appliance_title">Er du sikker på, at du vil slette apparatet?</string>
+    <string name="dialog_delete_appliance_description">Er du sikker på, at du vil gendanne fabriksindstillingerne?</string>
+    <string name="dialog_restore_factory_settings_title">Er du sikker på, at du vil gendanne fabriksindstillingerne?</string>
+    <string name="dialog_restore_factory_settings_description">Det kan ikke fortrydes og kan tage et stykke tid, inden det er gennemført.</string>
+    <string name="delete_appliance_btn">Slet apparat</string>
+    <string name="restore_settings_btn">Gendan fabriksindstillinger</string>
+    <string name="requesting_permissions">ANMODNING OM TILLADELSE</string>
+    <string name="allow_permissions_main_prompt">Du skal give tilladelse\ntil at oprette forbindelse til grillen.</string>
+    <string name="permissions_overview">Tryk på OK eller Tillad for at acceptere anmodningerne om tilladelse. Disse anmodninger skal accepteres, for at appen kan oprette forbindelse til grillen.</string>
+    <string name="important_caps">VIGTIGT</string>
+    <string name="next_caps">NÆSTE</string>
+    <string name="enable_bluetooth_description">Slå Bluetooth til på denne enhed.</string>
+    <string name="detect_your_grill_description">Tillad at søge efter og finde den relative\nplacering af enheder i nærheden</string>
+    <string name="detect_your_grill">Lokaliser din grill</string>
+    <string name="enable_location_description">Tillad adgang til din position, mens du\nbruger appen</string>
+    <string name="enable_location">Aktiver position</string>
+    <string name="pairing_preparation">FORBEREDELSE TIL PARRING</string>
+    <string name="plug_in_grill">1. Isæt grillens strømstik</string>
+    <string name="plug_in_grill_default"></string>
+    <string name="bluetooth_step_one_description">Apparatets stik skal sættes i en kontakt\nmed jordforbindelse og fejlstrømsafbryder.</string>
+    <string name="more_info">Yderligere info</string>
+    <string name="bluetooth_step_two">2. Tænd for grillen</string>
+    <string name="bluetooth_step_two_description">Tænd for grillen ved at trykke på knappen\ni 3 sekunder.</string>
+    <string name="bluetooth_step_three">3. Par grillen med appen.</string>
+    <string name="bluetooth_step_three_description">• Tryk på drejeknappen og hold den inde i 3-5 sekunder, indtil der høres en biplyd.\n\n• Tryk på knappen NÆSTE nedenfor for at vælge grillen.</string>
+    <string name="might_take_a_moment">Det kan tage et stykke tid.</string>
+    <string name="bear_with_me">Vent et øjeblik!</string>
+
+    <!--    Bluetooth-->
+    <string name="android_permission_bluetooth_title">BETEGNELSE</string>
+    <string name="android_permission_bluetooth_description">bluetooth-beskrivelse</string>
+    <string name="android_permission_bluetooth_denied_description">afvist-beskrivelse</string>
+    <string name="bluetooth_disabled_dialog_title">Ups! Det ser ud til, at du har slået Bluetooth fra.</string>
+    <string name="bluetooth_disabled_dialog_description">Du kan finde funktionen under Indstillinger på din mobiltelefon.</string>
+    <string name="bluetooth_disabled_dialog_button">Slå til</string>
+    <string name="nearby_devices_error_title">Ups, du har afvist tilladelse til at registrere placeringen af enheder i nærheden!</string>
+    <string name="nearby_devices_error_desc">Når du bliver bedt om det, skal du tillade, at din mobilenhed opretter forbindelse til Bluetooth for at styre og overvåge din grill.</string>
+    <string name="location_error_title">Ups, du har afvist at give tilladelse til lokalisering!</string>
+    <string name="location_error_desc">Når du bliver bedt om det, skal du tillade, at din mobilenhed opretter forbindelse til din position for nemt at kunne registrere din grill.</string>
+    <string name="bluetooth_paired_success_header">Sådan! Vi skal nok finde ud af det sammen!</string>
+    <string name="bluetooth_paired_success_default">Så er det klaret! Vi skal nok finde ud af det sammen!</string>
+    <string name="bt_error_grill_connecting_title">Ups, der ser ud til at være problemer med at oprette forbindelse.</string>
+    <string name="bt_error_grill_connecting_instructions">Prøv at oprette forbindelse til grillen igen.</string>
+    <string name="bt_connect_error_first_title">Ups&#160;... der er problemer med at finde din grill. Prøv igen!</string>
+    <string name="bt_connect_error_first_intruction_title">Aktiver registreringstilstand</string>
+    <string name="bt_connect_error_first_instruction">Tryk på drejeknappen på grillen og hold den inde i 3-5 sekunder for at aktivere registreringstilstand. Dit apparat er parret, når Bluetooth-ikonet skifter fra at blinke til at lyse konstant hvid.</string>
+    <string name="default_grill_name">Ninja ProConnect</string>
+    <string name="choose_a_name">VÆLG ET NAVN</string>
+    <string name="cool_name">Vil du vælge et godt navn for mig?</string>
+    <string name="name_your_grill_empty_continue_button">NEJ TAK, FORTSÆT</string>
+    <string name="bluetooth_permissions_error_button_go_to_settings">GÅ TIL INDSTILLINGER</string>
+    <string name="hours_label">TIMER</string>
+    <string name="minutes_label">MIN.</string>
+    <string name="seconds_label">SEK.</string>
+
+    <!-- Cook Settings Dialog -->
+    <string name="cook_settings_go_back_dialog_title">Vil du gå tilbage?</string>
+    <string name="cook_settings_go_back_dialog_description">Alle ændringer går tabt. Er du sikker på, at du vil annullere dem?</string>
+    <string name="cook_settings_go_back_dialog_top_button">ANNULLER ÆNDRINGER</string>
+
+    <string name="cook_tip_title">Vil du have hjælp til tilberedningen?</string>
+    <string name="cook_tip_description">Vores kokketeam har udarbejdet tilberedningskort som vejledning til at tilberede god mad på den rigtige måde.</string>
+    <string name="cook_tip_link">Gå til tilberedningskort</string>
+
+    <string name="grill_accessory_dialog_title">Tilberedningsmetoden Grill</string>
+    <string name="smoke_accessory_dialog_title">Tilberedningsmetoden Røgning</string>
+    <string name="air_crisp_accessory_dialog_title">Tilberedningsmetoden AirCrisp</string>
+    <string name="roast_accessory_dialog_title">Tilberedningsmetoden Ovnstegning</string>
+    <string name="bake_accessory_dialog_title">Tilberedningsmetoden Bagning</string>
+    <string name="reheat_accessory_dialog_title">Tilberedningsmetoden Genopvarmning</string>
+    <string name="broil_accessory_dialog_title">Tilberedningsmetoden Ovngrilning</string>
+    <string name="dehydrate_accessory_dialog_title">Tilberedningsmetoden Dehydrator</string>
+
+    <string name="grill_accessory_dialog_description">Med denne tilberedningsmetode skal du bruge grillpladen og fedtopsamleren. Kontroller, at det er sikkert at bruge grillen, inden du starter varmefunktionen.</string>
+    <string name="aircrisp_accessory_dialog_description">Med denne tilberedningsmetode skal du bruge alle tilbehørsdelene. Kontroller, at det er sikkert at bruge grillen, inden du starter varmefunktionen.</string>
+    <string name="grill_accessory_dialog_button">Udfør</string>
+    <string name="empty"></string>
+
+    <string name="wood_fire_cardview_label">Teknologi til brændesmag</string>
+    <string name="cook_time">TILBEREDNINGSTID</string>
+    <string name="grill_temp">GRILLTEMPERATUR</string>
+
+    <string name="place_your_thermometer_dialog_description">Stik det indbyggede termometer\n i den tykkeste del af\n proteinet, mens grillen\n forvarmer.</string>
+    <string name="roast_settings_toolbar_title">Indstillinger til Ovnstegning</string>
+    <string name="grill_settings_toolbar_title">Indstillinger til Grill</string>
+    <string name="smoke_settings_toolbar_title">Indstillinger til Smoker</string>
+    <string name="air_crisp_settings_toolbar_title">Indstillinger til AirCrisp</string>
+    <string name="bake_settings_toolbar_title">Indstillinger til Bagning</string>
+    <string name="broil_settings_toolbar_title">Indstillinger til Ovngrilning</string>
+    <string name="dehydrate_settings_toolbar_title">Indstillinger til Dehydrator</string>
+    <string name="probe0_manual_title">Termometer 1</string>
+    <string name="probe1_manual_title">Termometer 2</string>
+    <string name="therm_cook_tip_title">Isætning af termometeret</string>
+    <string name="therm_cook_tip_desc">Stik det indbyggede termometer i den\ntykkeste del af proteinet, mens\ngrillen forvarmer.</string>
+    <string name="target_temp">MÅLTEMPERATUR</string>
+    <string name="poultry_probe_title">Fjerkræ</string>
+    <string name="cook_mode_label">TILBEREDNINGSMETODE</string>
+    <string name="dialog_change_to_thermometer_cook_title">Vil du indstille et termometer?</string>
+    <string name="dialog_change_to_thermometer_cook_description">Du er ved at ændre typen af tilberedningsstyring, og derfor skal du tilføje nye indstillinger. Grillen anvender ikke længere en tidsindstilling.</string>
+    <string name="dialog_change_to_thermometer_cook_positive_button">JA, TILFØJ ET TERMOMETER</string>
+    <string name="dialog_change_to_timed_cook_title">Vil du skifte til Tilberedning med timer?</string>
+    <string name="dialog_change_to_timed_cook_description"> Tilberedningen stopper, når timeren er udløbet, og ikke når måltemperaturen er nået på de indstillede termometre. Dine termometerindstillinger går tabt.</string>
+    <string name="dialog_change_to_timed_cook_positive_button">FORTSÆT TIL TILBEREDNING MED TIMER</string>
+    <string name="dialog_thermometer_not_plugged_in_title">Termometer ikke tilsluttet.</string>
+    <string name="dialog_thermometer_not_plugged_in_description">Der skal tilsluttes mindst ét termometer\ntil grillen for at bruge den i\ntermometertilstand.</string>
+    <string name="dialog_thermometer_not_plugged_in_button">TILBAGE TIL TILBEREDNING</string>
+    <string name="dialog_thermometer_1_not_plugged_in_dashboard_description">Dit første termometer skal tilsluttes for at se temperaturmålingen.</string>
+    <string name="dialog_thermometer_2_not_plugged_in_dashboard_description">Dit termometer nr. 2 skal tilsluttes for at se temperaturmålingen.</string>
+    <string name="dialog_thermometer_not_plugged_in_dashboard_button">OK</string>
+    <string name="dial_state_offline_timed_cooking">TILBEREDNING</string>
+    <string name="dial_state_lid_open">Luk låget</string>
+    <string name="doneness">TILPAS TILBEREDNING</string>
+    <string name="email_verification_loading_header">Kontrollerer ... vent et øjeblik.</string>
+    <string name="email_verification_verified_loading_header">Nu er din konto bekræftet!</string>
+    <string name="sp_user_cred_email">sharedPrefKeyEmail</string>
+    <string name="sp_user_cred_pw">sharedPrefKeyPW</string>
+
+    <!-- Request Notifications Dialog -->
+    <string name="dialog_request_notifications_title">Slå beskeder til?</string>
+    <string name="dialog_request_notifications_body">Du får beskeder med løbende opdatering af status for grillen og tilberedningen.</string>
+    <string name="dialog_request_notifications_primary">Ja, jeg vil gerne holdes orienteret!</string>
+    <string name="dialog_request_notifications_secondary">Jeg ønsker ikke at få beskeder.</string>
+
+    <!--    Not Supported Dialog-->
+    <string name="dialog_not_supported_title">Understøttes ikke</string>
+    <string name="dialog_not_supported_body">Med tilberedningsmetoderne Dehydrator og Ovngrilning er tilberedning med termometer ikke muligt. Hvis du vil bruge termometer, skal du skifte til en anden tilberedningsmetode.</string>
+    <string name="dialog_not_supported_body_intl">Med tilberedningsmetoderne Dehydrator og Genopvarmning er tilberedning med termometer ikke muligt. Hvis du vil bruge termometer, skal du skifte til en anden tilberedningsmetode.</string>
+    <string name="dialog_not_supported_primary">OK</string>
+
+    <string name="save_changes_btn_cook_edit_probe">GEM ÆNDRINGERNE</string>
+    <string name="cook_settings_label">TILBEREDNINGSINDSTILLINGER</string>
+    <string name="save_changes_btn_cook_edit_probe_one_disabled">TILSLUT TERMOMETER 1</string>
+    <string name="save_changes_btn_cook_edit_probe_two_disabled">TILSLUT TERMOMETER 2</string>
+    <string name="start_cooking_button_online">START TILBEREDNING</string>
+    <string name="start_cooking_button_chart">START TILBEREDNING MED KORT</string>
+    <string name="start_preheating_button_online">START FORVARMNING</string>
+    <string name="start_ignition_button_online">START ANTÆNDING</string>
+    <string name="start_cooking_button_offline">GRILL OFFLINE</string>
+    <string name="grill_cooling">Grillen køler af</string>
+    <string name="grill_heating">Grillen varmer op</string>
+
+    <string name="sign_out_pairing_dialog_title">Log af?</string>
+    <string name="sign_out_pairing_dialog_description">Adgang i appen kræver parring af apparatet. Du logges af, hvis du annullerer processen.</string>
+    <string name="sign_out_pairing_dialog_top_button">Ja, log af</string>
+    <string name="sign_out_pairing_dialog_top_bottom_button">Nej, fortsæt parring</string>
+
+    <string name="cancel_pairing_dialog_title">Annuller parring?</string>
+    <string name="cancel_pairing_dialog_description">Du skal starte processen igen, hvis du vil parre et nyt apparat.</string>
+    <string name="cancel_pairing_dialog_top_button">Ja, annuller parring</string>
+    <string name="cancel_pairing_dialog_bottom_button">Nej, fortsæt parring</string>
+    <string name="stronger_connection_screen_content">Ved parring via wi-fi kan du styre grillen, hvor som helst fra du har internetforbindelse.</string>
+    <string name="close_lid">Luk\nlåget</string>
+    <string name="not_set">Ikke indstillet</string>
+    <string name="add_food">Ilæg\nmadvare</string>
+    <string name="flip_food">Vend\nmadvare</string>
+    <string name="current_temp">Aktuel temperatur</string>
+    <string name="double_dash">--</string>
+    <string name="get_food">Hent madvare</string>
+    <string name="done">Udfør</string>
+    <string name="unplugged">Ikke tilsluttet</string>
+    <string name="cannot_read_temp">Temperatur kan ikke læses</string>
+    <string name="until_complete">Indtil færdig</string>
+    <string name="percent_progress">%1$s%%</string>
+    <string name="current_temp_and_temp_unit">%1$s%2$s</string>
+    <string name="faren">°&#160;F</string>
+    <string name="faren_with_temp">%1$s°&#160;F</string>
+    <string name="celsius">°&#160;C</string>
+    <string name="cook_complete">Færdigtilberedt</string>
+    <string name="therm_has_reached_temp">Termometer %1$s: Den indstillede hviletemperatur er nået.</string>
+    <string name="check_it_out">PRØV AT SE EFTER</string>
+    <string name="okay_button">OK</string>
+    <string name="stop_cooking">STOP TILBEREDNING</string>
+    <string name="back_to_dashboard">TILBAGE TIL KONTROLPANEL</string>
+    <string name="timed_cook">TILBEREDNING MED TIMER</string>
+    <string name="therm_cook">TERMOMETER</string>
+    <string name="thermometers">Termometre</string>
+    <string name="grill_settings">Indstillinger til Grill</string>
+    <string name="all_offline">OFFLINE</string>
+    <string name="all_online">ONLINE</string>
+    <string name="skip_preheat">UDELAD FORVARMNING</string>
+    <string name="preheating">FORVARMNING</string>
+    <string name="skip_ignition">UDELAD ANTÆNDING</string>
+    <string name="time">TID</string>
+    <string name="colon">:</string>
+    <string name="dial_zero">0%%</string>
+
+    <string name="mini_charts_chart_choice">Hvad vil du %1$s i dag?</string>
+    <string name="charts_filters_view_results">SE [%1$s] RESULTATER</string>
+    <string name="charts_use_chart_button">BRUG DETTE KORT</string>
+    <string name="charts_popular_groupings">Populære filtersammensætninger</string>
+    <string name="charts_popular_groupings_results">%1$s resultater</string>
+    <string name="name_grill_confirm_text">Jeg er din nye madlavningsmakker %1$s.</string>
+    <string name="air_crisp_label">AirCrisp</string>
+    <string name="smoker_label">Røgning</string>
+    <string name="name_length_label">%1$s/15</string>
+    <string name="notification_permission_dialog_title">Rediger beskedindstillinger</string>
+    <string name="notification_permission_dialog_body">Du skal tillade denne app at sende pushbeskeder for at bruge denne funktion.</string>
+
+    <string name="roast">Ovnstegning</string>
+    <string name="bake">Bagning</string>
+    <string name="aircrisp">AirCrisp</string>
+    <string name="grill">Grill</string>
+    <string name="smoke">Røgning</string>
+    <string name="dehydrate">Dehydrator</string>
+    <string name="broil">Ovngrilning</string>
+    <string name="reheat">Genopvarmning</string>
+
+    <string name="manual">Manuel</string>
+    <string name="chicken">Kylling</string>
+    <string name="beef">Oksekød</string>
+    <string name="pork">Svinekød</string>
+    <string name="fish">Fisk</string>
+    <string name="lamb">Lammekød</string>
+
+    <string name="preheating_mc">Forvarmning</string>
+    <string name="ignition">Antænding</string>
+
+    <string name="apply">ANVEND</string>
+    <string name="select_many_text">Du kan vælge alle dem, du ønsker.</string>
+
+    <string name="charts_title">TILBEREDNINGSKORT</string>
+    <string name="charts_chuck_roast">Tykkamssteg</string>
+    <string name="charts_cook_method">Fremgangsmåde</string>
+    <string name="charts_recipe_name">Opskriftsnavn</string>
+    <string name="charts_grill_today">Hvad vil du\ngrille i dag?</string>
+    <string name="charts_choose_food_type">Vælg den type af madvare,\nsom er mulig med den valgte tilberedningsmetode.</string>
+    <string name="charts_preparation">FORBEREDELSE</string>
+    <string name="charts_notes">BEMÆRK</string>
+    <string name="charts_grill_temperature">GRILLTEMPERATUR</string>
+    <string name="charts_placeholder_text">Placeholder</string>
+    <string name="charts_filters_time_less_15">&lt;15 min.</string>
+    <string name="charts_filters_time_15_30">15-30 min.</string>
+    <string name="charts_filters_time_30_60">30-60 min.</string>
+    <string name="charts_filters_time_60_120">60-120 min.</string>
+    <string name="charts_filters_time_over_120">Over 120 min.</string>
+    <string name="charts_try_woodfire">Prøv med brændesmag</string>
+
+
+    <string name="support_button">KUNDESUPPORT</string>
+    <string name="support_trouble">Er der stadig problemer?</string>
+    <string name="support_call_us">RING TIL OS</string>
+    <string name="support_nevermind">NEJ TAK</string>
+
+    <string name="food_type_select">VALG AF MADVARE</string>
+    <string name="food_type_beef">Oksekød</string>
+    <string name="food_type_pork">Svinekød</string>
+    <string name="food_type_poultry">Fjerkræ</string>
+    <string name="food_type_seafood">Fisk/skaldyr</string>
+    <string name="food_type_bread_cheese">Brød/ost</string>
+    <string name="food_type_fruit">Frugt</string>
+    <string name="food_type_lamb_veal">Lam/\nkalv</string>
+    <string name="food_type_veggies">Grønsager</string>
+    <string name="food_type_fish">Fisk</string>
+    <string name="food_type_chicken">Kylling</string>
+    <string name="food_type_manual">Manuel</string>
+    <string name="food_type_other">Andet</string>
+
+    <string name="bluetooth_connect_to_grill">OPRET FORBINDELSE TIL GRILL</string>
+    <string name="bluetooth_choose_grill">Vælg din grill for at starte\noprettelsesprocessen.</string>
+    <string name="settings_show_appliance">Vis apparat</string>
+    <string name="name_grill_default_length">0/15</string>
+    <string name="bluetooth_few_minutes">Det kan tage nogle minutter</string>
+    <string name="bluetooth_keep_open">Hold dette vindue åbent og aktivt, indtil der er oprettet forbindelse.</string>
+
+    <string name="try_again">PRØV IGEN</string>
+    <string name="edit_email">Rediger e-mailadresse</string>
+
+
+    <string name="bluetooth_enable">Aktiver Bluetooth</string>
+    <string name="bluetooth_error_connection">FORBINDELSE TIL APPARAT</string>
+    <string name="bluetooth_error_title">Det ser ud til, at jeg ikke kan oprette forbindelse. Vi prøver noget andet!</string>
+    <string name="bluetooth_error_tip_one">1. Nulstil grillen.</string>
+    <string name="bluetooth_error_sub_one">Sluk for grillen ved at trykke på knappen.</string>
+    <string name="bluetooth_error_tip_two">2. Slå wi-fi fra og til igen på din mobilenhed.</string>
+    <string name="bluetooth_error_sub_two">Slå wi-fi fra på din mobilenhed. Vent 10 sekunder, og slå det til igen, og opret forbindelse til dit netværk.</string>
+    <string name="bluetooth_error_join_wifi">OPRET FORBINDELSE TIL WI-FI</string>
+    <string name="bluetooth_error_wifi_body">Hmm ... der er stadig noget galt. Bare rolig! Her er nogle ting, du kan prøve.</string>
+    <string name="bluetooth_turn_on_grill">Tænd for grillen</string>
+    <string name="bluetooth_press_power_button">Tryk på tænd/sluk-knappen\nfor at tænde for grillen.</string>
+
+    <string name="dialog_thermometer_place_therm">Isætning af termometeret</string>
+    <string name="dialog_thermometer_dont_show">Vis ikke dette igen.</string>
+    <string name="dialog_thermometer_continue">Fortsæt til tilberedning</string>
+
+    <string name="bluetooth_wifi_password">Der er ingen adgangskode til mit netværk</string>
+    <string name="connect">OPRET FORBINDELSE</string>
+    <string name="bluetooth_connect_to_wifi">OPRETTER FORBINDELSE TIL WI-FI</string>
+    <string name="bluetooth_start_cooking">Sådan! Skal vi gå i gang med at lave mad!</string>
+
+    <string name="to_the_dashboard">TIL KONTROLPANELET</string>
+    <string name="pairing_wifi_connection">Forbindelsen\nkunne\ngodt være\nbedre!</string>
+    <string name="pairing_start_wifi">START PARRING MED WI-FI</string>
+    <string name="pairing_select_wifi">Vælg dit trådløse netværk</string>
+    <string name="pairing_network_two_bars">Kontroller, at netværket har mindst 2 streger. Hvis signalet er for svagt, så prøv at flytte grillen tættere på din router.</string>
+
+    <string name="region_select_country">Vælg land/område.</string>
+
+    <string name="woodfire_flavor">PRØV MED BRÆNDESMAG</string>
+    <string name="woodfire_add_rich">Du kan give alle retter en lækker røget smag.</string>
+    <string name="woodfire_tech">TEKNOLOGI TIL BRÆNDESMAG</string>
+    <string name="woodfire_filtering_option">Ved filtrering med denne funktion er følgende tilberedningsmetode ikke tilgængelig: Ovngrilning</string>
+
+    <string name="loading_text">Indlæser ...</string>
+    <string name="cooking_point">TILBEREDNINGSPUNKT</string>
+    <string name="doneness_point">PUNKT FOR TILPAS TILBEREDNING</string>
+    <string name="internal_temp">INDRE TEMPERATUR</string>
+
+    <string name="view_privacy_policy">Se politik for beskyttelse af personoplysninger</string>
+
+
+    <!--    MISSING IN FRENCH, DANISH, AND DUTCH-->
+    <string name="on">Tændt</string>
+    <string name="off">Slukket</string>
+    <string name="monitor_method">OVERVÅGNINGSMETODE</string>
+    <string name="add_food_notification_title">Ilæg madvare</string>
+    <string name="add_food_notification_body">Grillen er forvarmet og klar til brug</string>
+    <string name="close_lid_notification_title">Luk låget</string>
+    <string name="close_lid_notification_body">Tilberedningen fortsætter ikke, før låget er lukket.</string>
+    <string name="flip_food_notification_title">Klar til at vende</string>
+    <string name="flip_food_notification_body">Nu er vi nået midtvejs i tilberedningen</string>
+    <string name="remove_food_notification_title">Tag maden af</string>
+    <string name="cook_complete_notification_body">Grillen forbliver varm i op til 5 minutter.</string>
+    <string name="get_food_therm_one_notification_body">Termometer 1: Tag maden af grillen, og lad den hvile. Tilberedningen fortsætter ved hjælp af restvarmen, indtil den indstillede temperatur er nået.</string>
+    <string name="get_food_therm_two_notification_body">Termometer 2: Tag maden af grillen, og lad den hvile. Tilberedningen fortsætter ved hjælp af restvarmen, indtil den indstillede temperatur er nået.</string>
+    <string name="cord_dimen_text">Højst 7,5 m lang, mindst 2,5\nmm2 tyk ELLER 15 m lang og mindst 4\nmm2 tyk.</string>
+    <string name="outdoor_text">Kan anvendes udendørs.</string>
+    <string name="ext_cord_text">Hvis du skal bruge en forlængerledning, skal den være:</string>
+    <string name="gfci_text">Apparatets stik skal sættes i en kontakt med\njordforbindelse og fejlstrømsrelæ</string>
+    <string name="plug_in_grill_text">Isæt grillens strømstik</string>
+    <string name="turn_on_your_appliance">Tænd for apparatet</string>
+    <string name="press_button_until_screen_lights_up">Tryk på den runde start/stop-knap, indtil skærmbilledet bliver vist.</string>
+    <string name="got_it">OK</string>
+    <string name="plug_in_dialog_title">Apparatets stik skal sættes i en kontakt med\njordforbindelse og fejlstrømsrelæ.</string>
+    <string name="confirm_account_label">Din konto er ikke bekræftet endnu. Se i din spammappe.</string>
+    <string name="air_crisp_settings">Indstillinger til AirCrisp</string>
+    <string name="settings">Indstillinger</string>
+    <!--    <string name="pounds">Pounds (lb)</string>-->
+    <!--    <string name="grams">Grams (g)</string>-->
+    <!--    <string name="kilograms">Kilograms (kg)</string>-->
+    <!--    <string name="ounces">Ounces (oz)</string>-->
+
+    <!--MISSED STRINGS FROM FIRST BATCH, addresses 1398, 1399, 1400, 1401, 1403-->
+    <string name="smoke_caps">RØGNING</string>
+    <string name="rare">Rød</string>
+    <string name="medrare">Rosa</string>
+    <string name="med">Medium</string>
+    <string name="medwell">Medium gennemstegt</string>
+    <string name="well">Gennemstegt</string>
+    <string name="igniting">ANTÆNDING</string>
+    <string name="plugin_dialogue_plugin">Isæt apparatets strømstik</string>
+    <string name="press_start_button">Tryk på startknappen på grillen</string>
+    <string name="press_rounded_start_button">Tryk på den runde start/stop-knap, indtil\nskærmbilledet bliver vist</string>
+    <string name="connect_app_to_grill">Tilslut appen til grillen</string>
+    <string name="activate_discovery_mode">Aktiver registreringstilstand på grillen.</string>
+    <string name="hold_mode_activate_discovery">Tryk på registreringsknappen på grillen og hold den inde i 3 sekunder for at aktivere registreringstilstand.</string>
+    <string name="oops_wifi_error">Ups ...\nDer kan ikke\noprettes forbindelse\ntil Bluetooth</string>
+    <string name="lets_try_wifi">Lad os prøve med wi-fi, så du\nkan styre tilberedningen, hvor\nsom helst fra du har internetforbindelse.</string>
+    <string name="connect_with_wifi">OPRET FORBINDELSE MED WI-FI</string>
+    <string name="bluetooth_declined_network">Ups! Du har afvist at oprette forbindelse til apparatets netværk!</string>
+    <string name="bluetooth_allow_network">Når du bliver bedt om det, skal du tillade, at din mobilenhed opretter forbindelse til dit apparats wi-fi ved at vælge dets navn.</string>
+    <string name="bluetooth_tip_three">3. Genaktiver registreringstilstand</string>
+    <string name="bluetooth_error_sub_three">Efter genstart skal du holde registreringsknappen på grillen inde i 3 sekunder, så længe du bliver bedt om det, hvorefter Wi-Fi-lampen begynder at blinke.</string>
+    <string name="connection_tips">TIP TIL AT OPRETTE FORBINDELSE</string>
+    <string name="bot_connection_tips">Tip til at oprette forbindelse til grillen</string>
+    <string name="unable_to_connect_simple_solution">Det ser ud til, at jeg ikke kan oprette forbindelse. Lad os prøve med en nem løsning.</string>
+    <string name="reset_router">2. Nulstil din router.</string>
+    <string name="unplug_wait_sixty">Tag stikket ud af kontakten (eller bag på routeren), vent 60 sekunder, og isæt stikket igen.</string>
+    <string name="wifi_password_tips">Tip til adgangskode til wi-fi</string>
+    <string name="declined_local_area_network">Ups! Du har afvist tilladelse til, at Ninja Kitchen-appen må få adgang til dit lokalnetværk </string>
+    <string name="grill_detected">Grill registreret</string>
+    <string name="model_number_example">modelnummer # IG601</string>
+    <string name="we_are_connected_bt">Der er forbindelse til grillen, nu skal den parres med wi-fi</string>
+    <string name="name_grill">Vi skal give din Ninja-grill et navn</string>
+    <string name="name_grill_second">Giv dit Ninja-apparat et navn.</string>
+    <string name="accept_permission_prompts">Du skal give tilladelse, når du bliver bedt om det, så appen kan oprette forbindelse til grillen.</string>
+    <string name="select_ok">Tryk på OK/Tillad for at acceptere, når du bliver bedt om at tillade. Du skal give tilladelse, når du bliver bedt om det, for at appen kan oprette forbindelse til grillen.</string>
+    <string name="warning_dont_allow">Hvis du vælger Tillad ikke/Annuller, kan appen ikke oprette forbindelse til grillen.</string>
+    <string name="timed_cooking_charts">Kort til tilberedning med timer</string>
+    <string name="filters">Filtre</string>
+    <string name="mode">Metode</string>
+    <string name="time_lower">Tid</string>
+    <string name="food">Madvare</string>
+    <string name="clear_all_filters">Slet alle filtre</string>
+    <string name="popular_filter_groupings">Populære filtersammensætninger</string>
+    <string name="follow_suggestions_below">Brug forslagene nedenfor som hjælp til at tilberede maden på den rigtige måde.</string>
+    <string name="charts_cook_time">TILBEREDNINGSTID</string>
+    <string name="chart_adjustments">Justering af kortanvisninger</string>
+    <string name="times_listed">Tiderne i disse kort er baseret på de angivne mængder. Juster tilberedningstiden alt efter mængden af den mad, du laver.</string>
+    <string name="enter_verification_code">Indtast din bekræftelseskode</string>
+    <string name="reset_password_lower">Nulstil adgangskode</string>
+    <string name="why_create_an_account">Hvorfor skal jeg oprette en konto?</string>
+    <string name="type_network_pw">Indtast adgangskoden til dit netværk</string>
+    <string name="hello_there">Hej!</string>
+
+    <!--PAIRING INTERNATIONAL-->
+    <string name="pairing_international_step_one">1. trin <font color="#E5E5E5">af 4</font></string>
+    <string name="pairing_international_step_two">2. trin <font color="#E5E5E5">af 4</font></string>
+    <string name="pairing_international_step_three">3. trin <font color="#E5E5E5">af 4</font></string>
+    <string name="pairing_international_step_four">4. trin <font color="#E5E5E5">af 4</font></string>
+
+    <string name="powering_the_grill">SÅDAN TÆNDER DU FOR GRILLEN</string>
+    <string name="plug_in_grill_international">1. Isæt grillens strømstik</string>
+    <string name="plug_in_grill_international_first">Stikket skal isættes en kontakt med jordforbindelse. Når stikket er isat, lyser lampen under RESET-knappen. Hvis den ikke lyser, skal du prøve at sætte stikket i en anden kontakt.</string>
+    <string name="plug_in_grill_international_second">Tryk på testknappen på fejlstrømsafbryderen. Nu skal lampen slukke. Tryk dernæst på RESET-knappen, hvorefter lampen skal lyse. Nu kan du tænde for grillen.</string>
+    <string name="turn_on_grill_international_content">Vip tænd/sluk-knappen til tænd-positionen (|). Knappen er bag på betjeningspanelet.</string>
+    <string name="rcd_requirements">Fejlstrømsafbryderen skal være\nisat en stikkontakt som anvist.</string>
+    <string name="plug_in_grill_international_plain">Isæt grillens strømstik</string>
+    <string name="turn_on_grill_plain">Tænd for grillen</string>
+    <string name="flip_power_switch">Vip tænd/sluk-knappen til tænd-positionen.</string>
+    <string name="grill_screen_should">Grill-skærmbilledet bliver tændt.</string>
+    <string name="discovery_mode">REGISTRERINGSTILSTAND</string>
+    <string name="turn_on_discovery_prompt">Aktiver registreringstilstand</string>
+    <string name="begin_discovery_content">Tryk på drejeknappen og hold den inde i 3-5 sekunder, indtil der høres en biplyd. Der begynder desuden at blinke et Bluetooth-ikon på displayet.</string>
+
+
+    <!--    APP RATING PROMPT-->
+    <string name="af00145a691750156e6e82ef7f62d207709481be9">Hvad synes du om dit Ninja-produkt?</string>
+    <string name="ac08e6f2622a1c2ee1732d29a1c7faa76c7bf472d">Vi vil gerne vide, hvor tilfreds du er.</string>
+    <string name="sad_submission_dialog_text">Vi beklager, at der er et problem! Vil du se vores support-sektion?</string>
+    <string name="a89f5c281e8c6d66f20b3374e5cf48e07b95e88e9">Gå til support</string>
+    <string name="ab498945c3419dd2b537bb56c3f8caa01c5cc74bc">Nej tak</string>
+    <string name="a9f39f03bb0109fec245555473333ea958a5997ec">Send</string>
+
+    <string name="rare1">Rød 1</string>
+    <string name="rare2">Rød 2</string>
+    <string name="medrare3">Rosa 3</string>
+    <string name="medrare4">Rosa 4</string>
+    <string name="med5">Medium 5</string>
+    <string name="med6">Medium 6</string>
+    <string name="medwell7">Medium gennemstegt 7</string>
+    <string name="medwell8">Medium gennemstegt 8</string>
+    <string name="well9">Gennemstegt 9</string>
+    <string name="unknown">Ukendt</string>
+
+    <string name="calculating">Beregner</string>
+    <string name="cooking">Tilberedning</string>
+    <string name="idle">Inaktiv</string>
+    <string name="offline">Offline</string>
+    <string name="probe_not_set">Termometer ikke indstillet</string>
+    <string name="resting">Hvile</string>
+    <string name="complete">Færdig</string>
+
+    <string name="low">Lv</string>
+    <string name="high">Hj</string>
+
+    <string name="local_notification_offline_title">Forbindelsen er afbrudt</string>
+    <string name="local_notification_offline_body">Apparatet har mistet forbindelsen til wi-fi. Kontroller, at du har slået wi-fi til, og at apparatet er inden for rækkevidde.</string>
+    <string name="about_this_app_description_no_data_protection">Vilkår for anvendelse, Politik for beskyttelse af personoplysninger &#8230;</string>
+
+
+</resources>

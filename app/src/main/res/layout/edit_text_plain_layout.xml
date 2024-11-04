@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:lineHeight="@dimen/text_size_xlarge"
+        android:backgroundTint="@color/lighter_grey"
+        android:textCursorDrawable="@drawable/cursor_color_default"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="AUTOFILL_HINT_USERNAME"
+        tools:ignore="LabelFor"/>
+
+    <TextView
+        android:id="@+id/phoneCountryCodeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="@color/darker_grey"
+        android:textSize="24sp"
+        android:lineHeight="@dimen/text_size_xlarge"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editText"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/imageAssetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="-10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/editText"
+        app:layout_constraintBottom_toBottomOf="@id/editText"
+        app:layout_constraintHeight_max="21dp"
+        app:layout_constraintWidth_max="21dp"
+        android:src="@drawable/ic_icon_ico_eye_closed"
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/black" />
+
+    <com.sharkninja.ninja.connected.kitchen.ui.components.fields.CriteriaBox
+        android:id="@+id/uppercaseCriteriaBox"
+        android:layout_width="@dimen/width_none"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/editText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="4dp"
+        android:visibility="gone" />
+
+    <com.sharkninja.ninja.connected.kitchen.ui.components.fields.CriteriaBox
+        android:id="@+id/lowercaseCriteriaBox"
+        android:layout_width="@dimen/width_none"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/uppercaseCriteriaBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="4dp"
+        android:visibility="gone"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="@dimen/width_none"
+        android:layout_height="match_parent"
+        app:layout_constraintGuide_percent="0.5"
+        android:orientation="vertical"/>
+
+    <com.sharkninja.ninja.connected.kitchen.ui.components.fields.CriteriaBox
+        android:id="@+id/limitCriteriaBox"
+        android:layout_width="@dimen/width_none"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/guideline"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="4dp"
+        android:visibility="gone"/>
+
+    <com.sharkninja.ninja.connected.kitchen.ui.components.fields.CriteriaBox
+        android:id="@+id/numberCriteriaBox"
+        android:layout_width="@dimen/width_none"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/limitCriteriaBox"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

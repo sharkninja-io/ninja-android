@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF191923</color>
+    <color name="deep_black">#000000</color>
+    <color name="white_8F">#FFFFFFFF</color>
+    <color name="white_6F">#FFFFFF</color>
+    <color name="almost_white">#F7F7F7</color>
+    <color name="ninja_green">#45BE55</color>
+    <color name="alert_orange">#D27843</color>
+
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="warm1">#E6CD9B</color>
+    <color name="warm2">#EE864D</color>
+    <color name="warm3">#D26543</color>
+    <color name="warm4">#D55743</color>
+    <color name="warm5">#D54343</color>
+    <color name="warm6">#772135</color>
+    <color name="dialBackgroundPreheat">#342D5C</color>
+    <color name="dialBackgroundCooking">#39130D</color>
+    <color name="pink1">#A56495</color>
+    <color name="pink2">#E3B5D8</color>
+    <color name="lightBlue">#716FE7</color>
+    <color name="resting2">#45BE55</color>
+
+    <color name="restingGradient1">#716FE7</color>
+    <color name="restingGradient2">#A2659A</color>
+
+
+    <color name="preheatBackground1">#37356C</color>
+    <color name="preheatBackground10">#393365</color>
+    <color name="preheatBackground20">#3F325E</color>
+    <color name="preheatBackground30">#443257</color>
+    <color name="preheatBackground40">#49304E</color>
+    <color name="preheatBackground50">#4E3046</color>
+    <color name="preheatBackground60">#4E3046</color>
+    <color name="preheatBackground70">#55333E</color>
+    <color name="preheatBackground80">#603836</color>
+    <color name="preheatBackground90">#603836</color>
+    <color name="preheatBackground99">#6B3D2D</color>
+
+    <color name="cookingBackground1">#7D5236</color>
+    <color name="cookingBackground10">#814F31</color>
+    <color name="cookingBackground20">#703D24</color>
+    <color name="cookingBackground30">#6A3522</color>
+    <color name="cookingBackground40">#692D21</color>
+    <color name="cookingBackground50">#6A2622</color>
+    <color name="cookingBackground60">#692121</color>
+    <color name="cookingBackground70">#662021</color>
+    <color name="cookingBackground80">#581B1E</color>
+    <color name="cookingBackground90">#581B1E</color>
+    <color name="cookingBackground99">#48151C</color>
+
+    <color name="restingBackground1">#613838</color>
+    <color name="restingBackground10">#603947</color>
+    <color name="restingBackground20">#603955</color>
+    <color name="restingBackground30">#5F3960</color>
+    <color name="restingBackground40">#533960</color>
+    <color name="restingBackground50">#403960</color>
+    <color name="restingBackground60">#393960</color>
+    <color name="restingBackground70">#384961</color>
+    <color name="restingBackground80">#396060</color>
+    <color name="restingBackground90">#39604D</color>
+    <color name="restingBackground99">#39604D</color>
+    <color name="restingBackground100">#215E29</color>
+
+    <color name="lighter_grey">#FFE1E1E1</color>
+    <color name="light_grey">#EFEFEF</color>
+    <color name="medium_grey">#767676</color>
+    <color name="grey2.75">#999999</color>
+    <color name="greyOddball">#434343</color>
+    <color name="grey2">#767676</color>
+    <color name="grey3">#E5E5E5</color>
+    <color name="grey4">#333333</color>
+    <color name="dark_grey">#767676</color>
+    <color name="darker_grey">#FF74747F</color>
+    <color name="darkest_grey">#555555</color>
+
+
+    <color name="theme_logo">@color/white_8F</color>
+    <color name="theme_background">@color/white_8F</color>
+    <color name="theme_reverse">#121212</color>
+    <color name="theme_recycler_selected">#EFEFEF</color>
+
+    <color name="text_color_primary">#FF191923</color>
+
+    <color name="settings_background">@color/white_8F</color>
+
+    <color name="ninja_button_primary_background">@color/ninja_green</color>
+    <color name="ninja_button_secondary_background">@color/white_8F</color>
+    <color name="ninja_button_secondary_text">@color/ninja_green</color>
+    <color name="ninja_button_black_background">@color/deep_black</color>
+    <color name="ninja_button_red_background">@color/error_red</color>
+    <color name="ninja_button_orange_background">@color/warm4</color>
+
+
+    <color name="ninja_green_translucent">#1645BE55</color>
+    <color name="red_translucent">#16F52A4C</color>
+    <color name="error_red">#F52A4C</color>
+    <color name="ninja_green_selector">#389BE481</color>
+    <color name="toggle_thumb">@color/white_8F</color>
+    <color name="icon_color_black_white">@color/deep_black</color>
+
+    <color name="edit_text_background_tint">@color/black</color>
+    <color name="edit_text_hint_and_text_color">@color/darkest_grey</color>
+    <color name="appliance_card_text">@color/darkest_grey</color>
+    <color name="edit_text_icon">@color/medium_grey</color>
+    <color name="text_view_medium_grey_light_grey">@color/medium_grey</color>
+    <color name="black1">#181818</color>
+    <color name="darker_almost_white">#F5F5F5</color>
+    <color name="dial_background">@color/white_6F</color>
+    <color name="dial_line_color">#E5E5E5</color>
+    <color name="cook_fragment_background">#F7F7F7</color>
+    <color name="dialog_background">@color/white_6F</color>
+    <color name="menu_icon_unselected_background">@color/white_6F</color>
+    <color name="menu_icon_selected">@color/white_6F</color>
+    <color name="menu_unselected_icon">@color/darkest_grey</color>
+    <color name="cook_tip_background">#409BE481</color>
+    <color name="mc_cook_card_background">#80000000</color>
+    <color name="mc_text_and_icon_color">@color/white_6F</color>
+    <color name="mc_dial_divider_color">#999999</color>
+    <color name="toolbar_divider_precook">#E5E5E5</color>
+    <color name="appliance_picker_bg_online_dark_theme">#181818</color>
+    <color name="mc_offline_background">#181818</color>
+    <color name="default_cook_card_background">@color/white_6F</color>
+    <color name="dashboard_tab_unselected_offline">#767676</color>
+    <color name="temp_dial_line_dark_theme">#999999</color>
+    <color name="fire_flame_color_grill_active">#D27843</color>
+    <color name="fire_flame_color_grill_idle">#CCCCCC</color>
+    <color name="cook_card_disabled_background">#40000000</color>
+
+    <color name="add_food_start_color">#D55743</color>
+    <color name="add_food_end_color">#D27843</color>
+    <color name="dial_background_offline">@color/deep_black</color>
+    <color name="notification_banner_end_color">#393939</color>
+    <color name="resting_gradient_3">#8B6ABE</color>
+    <color name="icon_button_disable_light_background">#E5E5E5</color>
+    <color name="icon_button_disable_dark_background">#96555555</color>
+    <color name="disable_dark_icon_tint_color">#9F9F9F</color>
+    <color name="lid_open_start_color">#F52A4C</color>
+    <color name="lid_open_middle_color">#971B30</color>
+    <color name="lid_open_end_color">#5E0413</color>
+    <color name="divider_color">#F7F7F7</color>
+    <color name="divider_color_light">@color/grey3</color>
+    <color name="button_disabled_background_color">#E5E5E5</color>
+    <color name="dark_theme_dialog_text_color">@color/white_6F</color>
+
+
+</resources>

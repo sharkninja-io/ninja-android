@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/bluetoothPermissionsFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothPermissionsFragment"
+        android:label="fragment_bluetooth_permissions"
+        tools:layout="@layout/fragment_bluetooth_permissions">
+        <action
+            android:id="@+id/action_Permissions_to_pairingPreparation"
+            app:destination="@+id/bluetoothPairingPreparationFragment" />
+        <action
+            android:id="@+id/action_bluetoothPermissionsFragment_to_nearbyDevicesErrorFragment"
+            app:destination="@+id/nearbyDevicesErrorFragment" />
+        <action
+            android:id="@+id/action_bluetoothPermissionsFragment_to_locationPermissionErrorFragment"
+            app:destination="@id/locationPermissionErrorFragment" />
+        <action
+            android:id="@+id/action_openBluetoothDisabledDialog"
+            app:destination="@+id/bluetoothDisabledDialog" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bluetoothInternationalPermissionsFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothInternationalPermissionsFragment"
+        android:label="fragment_bluetooth_international_permissions"
+        tools:layout="@layout/fragment_bluetooth_international_permissions">
+        <action
+            android:id="@+id/action_bluetoothInternationalPermissionsFragment_to_bluetoothInternationalPairingPreparationFragment"
+            app:destination="@id/bluetoothInternationalPairingPreparationFragment" />
+        <action
+            android:id="@+id/action_bluetoothInternationalPermissionsFragment_to_nearbyDevicesErrorFragment"
+            app:destination="@id/nearbyDevicesErrorFragment" />
+        <action
+            android:id="@+id/action_bluetoothInternationalPermissionsFragment_to_locationPermissionErrorFragment"
+            app:destination="@id/locationPermissionErrorFragment" />
+        <action
+            android:id="@+id/action_bluetoothInternationalPermissionsFragment_to_bluetoothDisabledDialog"
+            app:destination="@id/bluetoothDisabledDialog" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bluetoothInternationalPairingPreparationFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothInternationalPairingPreparationFragment"
+        android:label="fragment_bluetooth_international_pairing_preparation"
+        tools:layout="@layout/fragment_bluetooth_international_pairing_preparation">
+        <action
+            android:id="@+id/action_bluetoothInternationalPairingPreparationFragment_to_bluetoothInternationalSecondPairingPreparationFragment"
+            app:destination="@id/bluetoothInternationalSecondPairingPreparationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bluetoothInternationalSecondPairingPreparationFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothInternationalSecondPairingPreparationFragment"
+        android:label="fragment_bluetooth_international_second_pairing_preparation"
+        tools:layout="@layout/fragment_bluetooth_international_second_pairing_preparation">
+        <action
+            android:id="@+id/action_bluetoothInternationalSecondPairingPreparationFragment_to_bluetoothInternationalFindDevicesFragment"
+            app:destination="@id/bluetoothInternationalFindDevicesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bluetoothInternationalFindDevicesFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothInternationalFindDevicesFragment"
+        android:label="fragment_bluetooth_international_find_devices"
+        tools:layout="@layout/fragment_bluetooth_international_find_devices">
+        <action
+            android:id="@+id/action_bluetoothInternationalFindDevicesFragment_to_bluetoothInternationalGrillDetectedFragment"
+            app:destination="@id/bluetoothInternationalGrillDetectedFragment" />
+        <action
+            android:id="@+id/action_bluetoothInternationalFindDevicesFragment_to_connectToBluetoothInternationalErrorFirstFragment"
+            app:destination="@id/connectToBluetoothInternationalErrorFirstFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/connectToBluetoothInternationalErrorFirstFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.ConnectToBluetoothInternationalErrorFirstFragment"
+        android:label="fragment_connect_to_bluetooth_international_error_first"
+        tools:layout="@layout/fragment_connect_to_bluetooth_error_first">
+        <action
+            android:id="@+id/action_connectToBluetoothInternationalErrorFirstFragment_to_bluetoothInternationalFindDevicesFragment"
+            app:destination="@id/bluetoothInternationalFindDevicesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bluetoothInternationalGrillDetectedFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothInternationalGrillDetectedFragment"
+        android:label="fragment_bluetooth_international_connected"
+        tools:layout="@layout/fragment_bluetooth_international_connected">
+        <action
+            android:id="@+id/action_bluetoothInternationalGrillDetectedFragment_to_bluetoothInternationalPairingFragment"
+            app:destination="@id/bluetoothInternationalPairingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bluetoothInternationalPairingFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothInternationalPairingFragment"
+        android:label="fragment_bluetooth_international_pairing"
+        tools:layout="@layout/fragment_bluetooth_international_pairing">
+        <action
+            android:id="@+id/action_bluetoothInternationalPairingFragment_to_bluetoothInternationalPairingPreparationFragment"
+            app:destination="@id/bluetoothInternationalPairingPreparationFragment" />
+        <action
+            android:id="@+id/action_bluetoothInternationalPairingFragment_to_bluetoothInternationalNameYourGrillFragment"
+            app:destination="@id/bluetoothInternationalNameYourGrillFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bluetoothInternationalNameYourGrillFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothInternationalNameYourGrillFragment"
+        android:label="fragment_bluetooth_international_name_your_grill"
+        tools:layout="@layout/fragment_bluetooth_name_your_grill">
+        <action
+            android:id="@+id/action_bluetoothInternationalNameYourGrillFragment_to_wifiInternationalOptionFragment"
+            app:destination="@id/wifiInternationalOptionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bluetoothPairingPreparationFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothPairingPreparationFragment"
+        android:label="bluetooth_pairing_preparation_fragment"
+        tools:layout="@layout/fragment_bluetooth_pairing_preparation">
+        <action
+            android:id="@+id/action_bluetoothPreparation_to_bluetooth_connecting"
+            app:destination="@+id/bluetoothFindDevicesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bluetoothGrillDetectedFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothGrillDetectedFragment"
+        android:label="bluetooth_grill_detected_fragment"
+        tools:layout="@layout/fragment_bluetooth_connected">
+        <action
+            android:id="@+id/action_grillDetectedFragment_to_bluetoothPairingFragment"
+            app:destination="@+id/bluetoothPairingFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/bluetoothPairingFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothPairingFragment"
+        android:label="fragment_bluetooth_pairing"
+        tools:layout="@layout/fragment_bluetooth_pairing">
+        <action
+            android:id="@+id/action_bluetoothPairingFragment_to_pairingPreparationsFraagment"
+            app:destination="@+id/bluetoothPairingPreparationFragment" />
+        <action
+            android:id="@+id/action_bluetoothPairingFragment_to_bluetoothNameYourGrillFragment"
+            app:destination="@id/bluetoothNameYourGrillFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bluetoothNameYourGrillFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothNameYourGrillFragment"
+        android:label="fragment_bluetooth_name_your_grill"
+        tools:layout="@layout/fragment_bluetooth_name_your_grill">
+        <action
+            android:id="@+id/action_nameYourGrillFragment_to_wifiOptionFragment"
+            app:destination="@+id/wifiOptionFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/bluetoothFindDevicesFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.BluetoothFindDevicesFragment"
+        android:label="fragment_bluetooth_find_devices"
+        tools:layout="@layout/fragment_bluetooth_find_devices">
+        <action
+            android:id="@+id/action_bluetoothFindDevicesFragment_to_grillDetectedFragment"
+            app:destination="@+id/bluetoothGrillDetectedFragment" />
+        <action
+            android:id="@+id/action_bluetoothFindDevicesFragment_to_connectToBluetoothErrorFirstFragment"
+            app:destination="@id/connectToBluetoothErrorFirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bluetoothFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.BluetoothFragment"
+        android:label="fragment_bluetooth"
+        tools:layout="@layout/fragment_bluetooth" >
+        <action
+            android:id="@+id/action_bluetoothFragment_to_selectBTLEWifiFragment2"
+            app:destination="@id/selectBTLEWifiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pairingFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.PairingFragment"
+        android:label="fragment_pairing"
+        tools:layout="@layout/fragment_pairing">
+        <action
+            android:id="@+id/action_pairingFragment_to_bluetoothFragment"
+            app:destination="@id/bluetoothFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_pairingFragment"
+            app:destination="@id/pairingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_pairingPermissionsFragment"
+            app:destination="@id/pairingPermissionsFragment" />
+        <!--        <action-->
+        <!--            android:id="@+id/action_homeFragment_to_permissionsErrorFragment"-->
+        <!--            app:destination="@id/permissionsErrorFragment" />-->
+        <action
+            android:id="@+id/action_homeFragment_to_blueToothPermissionsFragment"
+            app:destination="@+id/bluetoothPermissionsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_toPreCook"
+            app:destination="@id/cook_graph" />
+        <action
+            android:id="@+id/action_homeFragment_to_bluetoothInternationalPermissionsFragment"
+            app:destination="@id/bluetoothInternationalPermissionsFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/inspireFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.InspireFragment"
+        android:label="fragment_inspire"
+        tools:layout="@layout/fragment_inspire" />
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.explore.fragments.ExploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore">
+        <action
+            android:id="@+id/action_exploreFragment_to_exploreRecipeFragment"
+            app:destination="@id/exploreRecipeFragment"/>
+        <action
+            android:id="@+id/action_exploreFragment_to_exploreAllFiltersFragment"
+            app:destination="@+id/exploreAllFiltersFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/exploreAllFiltersFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.explore.fragments.ExploreAllFiltersFragment"
+        android:label="fragment_explore_all_filters"
+        tools:layout="@layout/fragment_explore_all_filters"/>
+    <fragment
+        android:id="@+id/exploreRecipeFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.explore.fragments.ExploreRecipeFragment"
+        android:label="fragment_explore_recipe"
+        tools:layout="@layout/fragment_explore_recipe"/>
+    <fragment
+        android:id="@+id/recipesFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.RecipesFragment"
+        android:label="fragment_recipes"
+        tools:layout="@layout/fragment_recipes" />
+    <fragment
+        android:id="@+id/pairingPermissionsFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.PairingPermissionsFragment"
+        android:label="fragment_pairing_permissions"
+        tools:layout="@layout/fragment_pairing_permissions">
+        <action
+            android:id="@+id/action_pairingPermissionsFragment_to_pairingPreparationFragment"
+            app:destination="@id/pairingPreparationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pairingPreparationFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.PairingPreparationFragment"
+        android:label="fragment_pairing_preparation"
+        tools:layout="@layout/fragment_pairing_preparation">
+        <action
+            android:id="@+id/action_pairingPreparationFragment_to_plugDialogFragment"
+            app:destination="@id/plugDialogFragment" />
+        <action
+            android:id="@+id/action_pairingPreparationFragment_to_startDialogFragment"
+            app:destination="@id/startDialogFragment" />
+        <action
+            android:id="@+id/action_pairingPreparationFragment_to_discoveryDialogFragment"
+            app:destination="@id/discoveryDialogFragment" />
+        <action
+            android:id="@+id/action_pairingPreparationFragment_to_permissionsErrorFragment"
+            app:destination="@id/permissionsErrorFragment" />
+        <action
+            android:id="@+id/action_pairingPreparationFragment_to_connectToGrillFragment"
+            app:destination="@id/connectToGrillFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/connectToGrillFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.ConnectToGrillFragment"
+        android:label="fragment_connect_to_grill"
+        tools:layout="@layout/fragment_connect_to_grill">
+        <action
+            android:id="@+id/action_connectToGrillFragment_to_connectToWifiFragment"
+            app:destination="@id/selectWifiFragment" />
+        <action
+            android:id="@+id/action_connectToGrillFragment_to_connectToGrillErrorFragment"
+            app:destination="@id/connectToGrillErrorFragment" />
+        <action
+            android:id="@+id/action_connectToGrillFragment_to_connectToGrillNetworkErrorPersistentFragment"
+            app:destination="@id/connectToGrillNetworkErrorPersistentFragment" />
+        <action
+            android:id="@+id/action_connectToGrillFragment_to_connectToGrillNetworkErrorFirstFragment"
+            app:destination="@id/connectToGrillNetworkErrorFirstFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/plugDialogFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.dialogs.PlugDialogFragment"
+        android:label="fragment_plug_dialog"
+        tools:layout="@layout/fragment_plug_dialog" />
+    <dialog
+        android:id="@+id/startDialogFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.dialogs.StartDialogFragment"
+        android:label="fragment_start_dialog"
+        tools:layout="@layout/fragment_start_dialog" />
+    <dialog
+        android:id="@+id/discoveryDialogFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.dialogs.DiscoveryDialogFragment"
+        android:label="fragment_discovery_dialog"
+        tools:layout="@layout/fragment_discovery_dialog" />
+    <fragment
+        android:id="@+id/selectWifiFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.SelectWifiFragment"
+        android:label="fragment_select_wifi"
+        tools:layout="@layout/fragment_select_wifi">
+        <action
+            android:id="@+id/action_selectWifiFragment_to_enterWifiPasswordFragment"
+            app:destination="@id/enterWifiPasswordFragment" />
+        <action
+            android:id="@+id/action_selectWifiFragment_to_networkTipsDialogFragment"
+            app:destination="@id/networkTipsDialogFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/networkTipsDialogFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.dialogs.NetworkTipsDialogFragment"
+        android:label="fragment_network_tips_dialog"
+        tools:layout="@layout/fragment_network_tips_dialog" />
+
+    <fragment
+        android:id="@+id/connectToWifiFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.ConnectToWifiFragment"
+        android:label="fragment_connect_to_wifi"
+        tools:layout="@layout/fragment_connect_to_wifi">
+        <action
+            android:id="@+id/action_connectToWifiFragment_to_nameYourGrillFragment"
+            app:destination="@id/nameYourGrillFragment" />
+        <action
+            android:id="@+id/action_connectToWifiFragment_to_connectToWifiErrorFirstFragment"
+            app:destination="@id/connectToWifiErrorFirstFragment" />
+        <action
+            android:id="@+id/action_connectToWifiFragment_to_connectToWifiErrorPersistentFragment"
+            app:destination="@id/connectToWifiErrorPersistentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/enterWifiPasswordFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.EnterWifiPasswordFragment"
+        android:label="fragment_enter_wifi_password"
+        tools:layout="@layout/fragment_enter_wifi_password">
+        <action
+            android:id="@+id/action_enterWifiPasswordFragment_to_connectToWifiFragment"
+            app:destination="@id/connectToWifiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nameYourGrillFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.NameYourGrillFragment"
+        android:label="fragment_name_your_grill"
+        tools:layout="@layout/fragment_name_your_grill" >
+        <action
+            android:id="@+id/action_nameYourGrillFragment_to_wifiOptionFragment"
+            app:destination="@+id/wifiOptionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/wifiInternationalOptionFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.WiFiInternationalOptionFragment"
+        android:label="fragment_wifi_international_option"
+        tools:layout="@layout/fragment_wifi_option">
+        <action
+            android:id="@+id/action_wifiInternationalOptionFragment_to_selectBTLEWifiInternationalFragment"
+            app:destination="@id/selectBTLEWifiInternationalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/wifiOptionFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.WiFiOptionFragment"
+        android:label="fragment_wifi_option"
+        tools:layout="@layout/fragment_wifi_option" >
+        <action
+            android:id="@+id/action_wifiOptionFragment_to_selectBTLEWifiFragment"
+            app:destination="@id/selectBTLEWifiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/permissionsErrorFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.PermissionsErrorFragment"
+        android:label="fragment_permissions_error"
+        tools:layout="@layout/fragment_permissions_error" />
+    <fragment
+        android:id="@+id/connectToGrillErrorFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.ConnectToGrillErrorFragment"
+        android:label="fragment_connect_to_grill_error"
+        tools:layout="@layout/fragment_connect_to_grill_error">
+        <action
+            android:id="@+id/action_connectToGrillErrorFragment_to_pairingPreparationFragment"
+            app:destination="@id/pairingPreparationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/connectToGrillNetworkErrorFirstFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.ConnectToGrillNetworkErrorFirstFragment"
+        android:label="fragment_connect_to_grill_network_error_first"
+        tools:layout="@layout/fragment_connect_to_grill_network_error_first">
+        <action
+            android:id="@+id/action_connectToGrillNetworkErrorFirstFragment_to_pairingPreparationFragment"
+            app:destination="@id/pairingPreparationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/connectToGrillNetworkErrorPersistentFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.ConnectToGrillNetworkErrorPersistentFragment"
+        android:label="fragment_connect_to_grill_network_error_persistent"
+        tools:layout="@layout/fragment_connect_to_grill_network_error_persistent">
+        <action
+            android:id="@+id/action_connectToGrillNetworkErrorPersistentFragment_to_pairingPreparationFragment"
+            app:destination="@id/pairingPreparationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/connectToWifiErrorFirstFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.ConnectToWifiErrorFirstFragment"
+        android:label="fragment_connect_to_wifi_error_first"
+        tools:layout="@layout/fragment_connect_to_wifi_error_first">
+        <action
+            android:id="@+id/action_connectToWifiErrorFirstFragment_to_selectWifiFragment"
+            app:destination="@id/selectWifiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/connectToWifiErrorPersistentFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.ConnectToWifiErrorPersistentFragment"
+        android:label="fragment_connect_to_wifi_error_persistent"
+        tools:layout="@layout/fragment_connect_to_wifi_error_persistent">
+        <action
+            android:id="@+id/action_connectToWifiErrorPersistentFragment_to_selectWifiFragment"
+            app:destination="@id/selectWifiFragment" />
+    </fragment>
+    <action
+        android:id="@+id/global_to_home_fragment"
+        app:destination="@id/homeFragment"
+        app:launchSingleTop="true"
+        app:popUpTo="@id/homeFragment"
+        app:popUpToInclusive="true" />
+
+    <action
+        android:id="@+id/global_to_settings"
+        app:destination="@+id/settings_graph"
+        app:launchSingleTop="true"
+        />
+
+
+    <include
+        android:id="@+id/setting_nav"
+        app:graph="@navigation/settings_graph" />
+
+    <include
+        android:id="@+id/cook_nav"
+        app:graph="@navigation/cook_graph"
+        />
+
+    <dialog
+        android:id="@+id/bluetoothDisabledDialog"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.dialogs.BluetoothDisabledDialog"
+        android:label="dialog_bluetooth_disabled"
+        tools:layout="@layout/dialog_bluetooth_disabled" />
+    <fragment
+        android:id="@+id/nearbyDevicesErrorFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.NearbyDevicesErrorFragment"
+        android:label="fragment_nearby_devices_error"
+        tools:layout="@layout/fragment_nearby_devices_permissions_error" />
+    <fragment
+        android:id="@+id/locationPermissionErrorFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.LocationPermissionErrorFragment"
+        android:label="fragment_location_permissions_error"
+        tools:layout="@layout/fragment_nearby_devices_permissions_error" />
+
+
+    <fragment
+        android:id="@+id/selectBTLEWifiFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.SelectBTLEWifiFragment"
+        android:label="fragment_select_btle_wifi"
+        tools:layout="@layout/fragment_select_btle_wifi" >
+        <action
+            android:id="@+id/action_selectBTLEWifiFragment_to_networkTipsDialogFragment"
+            app:destination="@id/networkTipsDialogFragment" />
+        <action
+            android:id="@+id/action_selectBTLEWifiFragment_to_enterBTLEWifiPasswordFragment"
+            app:destination="@id/enterBTLEWifiPasswordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/selectBTLEWifiInternationalFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.SelectBTLEWifiInternationalFragment"
+        android:label="fragment_select_btle_wifi_international"
+        tools:layout="@layout/fragment_select_btle_wifi_international">
+        <action
+            android:id="@+id/action_selectBTLEWifiInternationalFragment_to_enterBTLEWifiInternationalPasswordFragment"
+            app:destination="@id/enterBTLEWifiInternationalPasswordFragment" />
+        <action
+            android:id="@+id/action_selectBTLEWifiInternationalFragment_to_networkTipsDialogFragment"
+            app:destination="@id/networkTipsDialogFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/enterBTLEWifiInternationalPasswordFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.EnterBTLEWifiInternationalPasswordFragment"
+        android:label="fragment_enter_btle_wifi_international_fragment"
+        tools:layout="@layout/fragment_enter_btle_wifi_password">
+        <action
+            android:id="@+id/action_enterBTLEWifiInternationalPasswordFragment_to_connectToBTLEWifiInternationalFragment"
+            app:destination="@id/connectToBTLEWifiInternationalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/enterBTLEWifiPasswordFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.EnterBTLEWifiPasswordFragment"
+        android:label="fragment_enter_btle_wifi_password"
+        tools:layout="@layout/fragment_enter_btle_wifi_password" >
+        <action
+            android:id="@+id/action_enterBTLEWifiPasswordFragment_to_connectToBTLEWifiFragment"
+            app:destination="@id/connectToBTLEWifiFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/connectToBTLEWifiFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.ConnectToBTLEWifiFragment"
+        android:label="fragment_connect_to_btle_wifi"
+        tools:layout="@layout/fragment_connect_to_btle_wifi" >
+        <action
+            android:id="@+id/action_connectToBTLEWifiFragment_to_connectToBTLEWifiErrorFirstFragment"
+            app:destination="@id/connectToBTLEWifiErrorFirstFragment" />
+        <action
+            android:id="@+id/action_connectToBTLEWifiFragment_to_connectToBTLEWifiErrorPersistentFragment"
+            app:destination="@id/connectToBTLEWifiErrorPersistentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/connectToBTLEWifiInternationalFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.bluetooth.ConnectToBTLEWifiInternationalFragment"
+        android:label="fragment_connect_to_btle_wifi_international"
+        tools:layout="@layout/fragment_connect_to_btle_wifi_international">
+        <action
+            android:id="@+id/action_connectToBTLEWifiInternationalFragment_to_connectToBTLEWifiInternationalErrorFirstFragment"
+            app:destination="@id/connectToBTLEWifiInternationalErrorFirstFragment" />
+        <action
+            android:id="@+id/action_connectToBTLEWifiInternationalFragment_to_connectToBTLEWifiInternationalErrorPersistentFragment"
+            app:destination="@id/connectToBTLEWifiInternationalErrorPersistentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/connectToBluetoothErrorFirstFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.ConnectToBluetoothErrorFirstFragment"
+        android:label="fragment_connect_to_bluetooth_error_first"
+        tools:layout="@layout/fragment_connect_to_bluetooth_error_first" >
+        <action
+            android:id="@+id/action_connectToBluetoothErrorFirstFragment_to_bluetoothFindDevicesFragment"
+            app:destination="@id/bluetoothFindDevicesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bluetoothPersistentErrorFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.BluetoothPersistentErrorFragment"
+        android:label="fragment_bluetooth_persistent_error"
+        tools:layout="@layout/fragment_bluetooth_persistent_error" >
+        <action
+            android:id="@+id/action_bluetoothPersistentErrorFragment_to_pairingPermissionsFragment"
+            app:destination="@id/pairingPermissionsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/connectToBTLEWifiErrorFirstFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.ConnectToBTLEWifiErrorFirstFragment"
+        android:label="fragment_connect_to_btle_wifi_error_first"
+        tools:layout="@layout/fragment_connect_to_btle_wifi_error_first" >
+        <action
+            android:id="@+id/action_connectToBTLEWifiErrorFirstFragment_to_selectBTLEWifiFragment"
+            app:destination="@id/selectBTLEWifiFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/connectToBTLEWifiInternationalErrorFirstFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.ConnectToBTLEWifiInternationalErrorFirstFragment"
+        android:label="fragment_connect_to_wifi_international_error_first"
+        tools:layout="@layout/fragment_connect_to_btle_wifi_error_first">
+        <action
+            android:id="@+id/action_connectToBTLEWifiInternationalErrorFirstFragment_to_selectBTLEWifiInternationalFragment"
+            app:destination="@id/selectBTLEWifiInternationalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/connectToBTLEWifiInternationalErrorPersistentFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.ConnectToBTLEWifiInternationalErrorPersistentFragment"
+        android:label="fragment_connect_to_wifi_international_error_persistent"
+        tools:layout="@layout/fragment_connect_to_btle_wifi_error_persistent">
+        <action
+            android:id="@+id/action_connectToBTLEWifiInternationalErrorPersistentFragment_to_selectBTLEWifiInternationalFragment"
+            app:destination="@id/selectBTLEWifiInternationalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/connectToBTLEWifiErrorPersistentFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.pairing.errors.ConnectToBTLEWifiErrorPersistentFragment"
+        android:label="fragment_connect_to_btle_wifi_error_persistent"
+        tools:layout="@layout/fragment_connect_to_btle_wifi_error_persistent" >
+        <action
+            android:id="@+id/action_connectToBTLEWifiErrorPersistentFragment_to_selectBTLEWifiFragment"
+            app:destination="@id/selectBTLEWifiFragment" />
+    </fragment>
+
+</navigation>

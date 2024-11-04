@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- default view size -->
+    <dimen name="view_size_none">0dp</dimen>
+    <dimen name="view_size_xsmall">4dp</dimen>
+    <dimen name="view_size_small">8dp</dimen>
+    <dimen name="view_size_normal">12dp</dimen>
+    <dimen name="view_size_large">16dp</dimen>
+    <dimen name="view_size_xlarge">20dp</dimen>
+    <dimen name="view_size_xxlarge">24dp</dimen>
+    <dimen name="view_size_xxxlarge">28dp</dimen>
+    <dimen name="view_size_xxxxlarge">32dp</dimen>
+    <dimen name="view_size_xxxxxlarge">36dp</dimen>
+    <dimen name="view_size_xxxxxxlarge">40dp</dimen>
+    <dimen name="view_size_xxxxxxxlarge">44dp</dimen>
+    <dimen name="view_size_xxxxxxxxlarge">48dp</dimen>
+    <dimen name="view_size_xxxxxxxxxlarge">52dp</dimen>
+    <dimen name="view_size_xxxxxxxxxxlarge">56dp</dimen>
+    <dimen name="view_size_xxxxxxxxxxxlarge">60dp</dimen>
+
+    <!-- elements -->
+    <dimen name="element_height_xxxs">8dp</dimen>
+    <dimen name="element_height_s">32dp</dimen>
+
+    <dimen name="element_stroke_width_s">1dp</dimen>
+
+    <dimen name="element_spacing_xs">4dp</dimen>
+    <dimen name="element_spacing_s">8dp</dimen>
+    <dimen name="element_spacing_m">12dp</dimen>
+
+    <dimen name="element_spacing_l">16dp</dimen>
+    <dimen name="element_spacing_xl">24dp</dimen>
+
+    <dimen name="card_elevation">3dp</dimen>
+
+    <!-- default weight -->
+
+    <!-- default height -->
+    <dimen name="height_none">0dp</dimen>
+    <dimen name="height_xxxsmall">1dp</dimen>
+    <dimen name="height_xsmall">4dp</dimen>
+    <dimen name="height_xxsmall">2dp</dimen>
+    <dimen name="height_small">8dp</dimen>
+    <dimen name="height_normal">16dp</dimen>
+    <dimen name="height_large">24dp</dimen>
+    <dimen name="height_xlarge">32dp</dimen>
+    <dimen name="height_xxlarge">40dp</dimen>
+    <dimen name="height_xxxlarge">48dp</dimen>
+    <dimen name="height_xxxxlarge">56dp</dimen>
+
+    <dimen name="height_settings_recycler">150dp</dimen>
+    <dimen name="height_dnd_time_card">80dp</dimen>
+
+    <dimen name="reset_progress_bar_size">120dp</dimen>
+    <dimen name="reset_progress_image_size">60dp</dimen>
+
+    <!-- default width -->
+    <dimen name="width_none">0dp</dimen>
+    <dimen name="width_xxxsmall">1dp</dimen>
+    <dimen name="width_xsmall">4dp</dimen>
+    <dimen name="width_xxsmall">2dp</dimen>
+    <dimen name="width_small">8dp</dimen>
+    <dimen name="width_normal">16dp</dimen>
+    <dimen name="width_large">24dp</dimen>
+    <dimen name="width_xlarge">32dp</dimen>
+    <dimen name="width_xxlarge">40dp</dimen>
+    <dimen name="width_xxxlarge">48dp</dimen>
+    <dimen name="width_xxxxlarge">56dp</dimen>
+
+    <dimen name="support_id_background_width">76dp</dimen>
+
+    <dimen name="robot_selection_image_size">120dp</dimen>
+
+    <!-- default margin -->
+    <dimen name="margin_none">0dp</dimen>
+    <dimen name="margin_xxxsmall">1dp</dimen>
+    <dimen name="margin_xxsmall">2dp</dimen>
+    <dimen name="margin_xsmall">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_small_plus">9dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_xxlarge">64dp</dimen>
+    <dimen name="margin_xxxlarge">72dp</dimen>
+    <dimen name="margin_xxxxlarge">128dp</dimen>
+    <dimen name="margin_xxxxxxxxxxxxxlarge">68dp</dimen>
+    <dimen name="margin_xxxxxxxxxxxxxxlarge">72dp</dimen>
+
+    <!-- default padding-->
+    <dimen name="padding_none">0dp</dimen>
+    <dimen name="padding_xxxsmall">1dp</dimen>
+    <dimen name="padding_xxsmall">4dp</dimen>
+    <dimen name="padding_xsmall">7dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+    <dimen name="padding_xxlarge">40dp</dimen>
+    <dimen name="padding_xxxlarge">96dp</dimen>
+
+    <!-- default size-->
+    <dimen name="text_size_xxsmall">10sp</dimen>
+    <dimen name="text_size_xsmall">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_medium_normal">18sp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+    <dimen name="text_size_xlarge">32sp</dimen>
+    <dimen name="text_size_xxlarge">40sp</dimen>
+
+    <dimen name="text_size_header">28sp</dimen>
+
+    <!-- default line height-->
+    <dimen name="line_height_xsmall">16sp</dimen>
+    <dimen name="line_height_small">18sp</dimen>
+    <dimen name="line_height_medium">20sp</dimen>
+    <dimen name="line_height_large">24sp</dimen>
+    <dimen name="line_height_xlarge">28sp</dimen>
+    <dimen name="line_height_xxlarge">32sp</dimen>
+
+    <!-- default radius-->
+    <dimen name="default_card_radius">8dp</dimen>
+    <dimen name="radius_xxxsmall">4dp</dimen>
+    <dimen name="radius_xxsmall">6dp</dimen>
+    <dimen name="radius_xsmall">8dp</dimen>
+    <dimen name="radius_small">12dp</dimen>
+    <dimen name="radius_normal">16dp</dimen>
+    <dimen name="radius_large">24dp</dimen>
+    <dimen name="radius_xlarge">32dp</dimen>
+    <dimen name="radius_xxlarge">64dp</dimen>
+    <dimen name="radius_xxxlarge">68dp</dimen>
+    <dimen name="radius_xxxxlarge">72dp</dimen>
+    <dimen name="radius_xxxxxlarge">76dp</dimen>
+    <dimen name="radius_xxxxxxlarge">80dp</dimen>
+
+    <!-- default elevation-->
+    <dimen name="elevation_small">4dp
+    </dimen> <!-- This is the default for elevated views. is this necessary?" -->
+    <dimen name="map_bottom_sheet_elevation">16dp</dimen>
+
+    <!-- history -->
+    <dimen name="history_stats_view_height">120dp</dimen>
+    <dimen name="history_stats_icon_size">24dp</dimen>
+
+    <dimen name="history_calendar_day_normal_size">30dp</dimen>
+    <dimen name="history_calendar_day_normal_fontsize">5dp</dimen>
+    <dimen name="history_calendar_day_selected_size">50dp</dimen>
+    <dimen name="history_calendar_day_selected_fontsize">8dp</dimen>
+    <dimen name="history_calendar_day_new">40dp</dimen>
+
+    <dimen name="history_calendar_row_vertical_padding">8dp</dimen>
+    <dimen name="history_calendar_month_label_top_padding">15dp</dimen>
+
+    <dimen name="history_day_overview_timeline_height">8dp</dimen>
+    <dimen name="history_day_overview_timeline_event_max_overlap">2dp</dimen>
+
+    <dimen name="history_day_detailview_listitem_upper_width">5dp</dimen>
+    <dimen name="history_day_detailview_listitem_full_height">54dp</dimen>
+    <dimen name="history_day_detailview_between_event_spacing">36dp</dimen>
+    <dimen name="map_bottom_sheet_height">220dp</dimen>
+    <dimen name="dashboard_bottom_sheet_max_peek_height">160dp</dimen>
+
+    <dimen name="dashboard_bottom_sheet_peek_height">65dp</dimen>
+
+    <dimen name="dashboard_bottom_sheet_clean_button_bottom_margin">88dp</dimen>
+    <dimen name="dashboard_bottom_sheet_explore_confirm_peek_height">250dp</dimen>
+    <dimen name="phone_country_code_width">60dp</dimen>
+    <dimen name="indicator_size">3dp</dimen>
+
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+    <item name="letter_spacing_1" format="float" type="dimen">0.1</item>
+    <item name="letter_spacing_0.9" format="float" type="dimen">0.09</item>
+</resources>

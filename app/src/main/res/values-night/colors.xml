@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="theme_logo">#121212</color>-->
+<!--    <color name="theme_background">@color/deep_black</color>-->
+<!--    <color name="theme_reverse">#FFFFFF</color>-->
+<!--    <color name="theme_recycler_selected">#FF74747F</color>-->
+
+<!--    <color name="text_color_primary">#FFE1E1E1</color>-->
+
+<!--    <color name="settings_background">@color/deep_black</color>-->
+
+<!--    <color name="ninja_button_secondary_background">@color/deep_black</color>-->
+<!--    <color name="ninja_button_secondary_text">@color/ninja_green</color>-->
+
+<!--    <color name="ninja_button_black_background">#FFFFFF</color>-->
+<!--    <color name="ninja_button_black_text">@color/deep_black</color>-->
+
+<!--    <color name="toggle_thumb">@color/deep_black</color>-->
+<!--    <color name="icon_color_black_white">@color/white_no_dark_version</color>-->
+
+<!--    <color name="edit_text_background_tint">@color/light_grey</color>-->
+<!--    <color name="edit_text_hint">@color/almost_white</color>-->
+<!--    <color name="appliance_card_text">#E5E5E5</color>-->
+<!--    <color name="edit_text_icon">@color/almost_white</color>-->
+<!--    <color name="text_view_medium_grey_light_grey">#F7F7F7</color>-->
+<!--    <color name="darkest_grey">@color/medium_grey</color>-->
+<!--    <color name="darker_grey">@color/almost_white</color>-->
+
+<!--    <color name="medium_grey">#767676</color>-->
+<!--    <color name="black1">#FFE1E1E1</color>-->
+<!--    <color name="white">#000000</color>-->
+<!--    <color name="darker_almost_white">#F5F5F5</color>-->
+<!--    <color name="dial_background">#333333</color>-->
+<!--    <color name="dialog_background">#414141</color>-->
+<!--    <color name="menu_icon_unselected_background">#414141</color>-->
+<!--    <color name="cook_fragment_background">#181818</color>-->
+<!--    <color name="menu_unselected_icon">#FFE1E1E1</color>-->
+<!--    <color name="default_cook_card_background">#80000000</color>-->
+
+
+
+
+</resources>

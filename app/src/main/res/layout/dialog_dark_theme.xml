@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_dark_theme_background"
+    android:paddingBottom="@dimen/margin_xlarge"
+    android:paddingHorizontal="@dimen/margin_xlarge"
+    >
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:fontFamily="@font/gotham_book_medium"
+        android:lineHeight="@dimen/line_height_large"
+        android:textColor="@color/dark_theme_dialog_text_color"
+        android:textSize="@dimen/text_size_normal"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/dialog_change_to_thermometer_cook_title" />
+
+    <TextView
+        android:id="@+id/dialog_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:gravity="center"
+        android:lineHeight="@dimen/line_height_medium"
+        android:lineSpacingExtra="1sp"
+        android:textColor="@color/dark_theme_dialog_text_color"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialog_title"
+        tools:text="@string/dialog_change_to_thermometer_cook_description" />
+
+    <Button
+        android:id="@+id/top_button"
+        style="@style/Ninja.ButtonStyleDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialog_description"
+        tools:text="YES, ADD A THERMOMETER" />
+
+    <Button
+        android:id="@+id/bottom_button"
+        style="@style/Ninja.ButtonStyleDialogGreenOutlineTransparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_button"
+        tools:text="CANCEL" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

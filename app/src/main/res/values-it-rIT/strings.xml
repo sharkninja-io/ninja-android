@@ -1,0 +1,680 @@
+<!--    Italian-->
+<resources>
+    <string name="app_name">Ninja ProConnect</string>
+    <string name="forgot_password_header_text">Non riesci ad accedere?</string>
+    <string name="forgot_password_sub_text">Ti invieremo un\'email con le istruzioni per reimpostare la password.</string>
+    <string name="forgot_password_button_text">REIMPOSTA PASSWORD</string>
+    <string name="reset_password_header_text">Ottimo!</string>
+    <string name="reset_password_sub_text">Ora creiamo una nuova password.</string>
+
+    <string name="nav_bar_charts">Tabelle</string>
+    <string name="nav_bar_cook">Cottura</string>
+    <string name="nav_bar_settings">Impostazioni</string>
+
+    <string name="auth_login_confirm_email_text">È necessario confermare l\'account email prima di continuare.</string>
+    <string name="auth_login_reset_password_label">Ti abbiamo inviato le istruzioni per accedere.</string>
+    <string name="auth_login_error_text">Questa combinazione di email/password non è corretta. Riprova.</string>
+    <string name="auth_welcome_back_text">Piacere di rivederti</string>
+    <string name="auth_login_text">Per iniziare, effettua l\'accesso con il tuo account Ninja.</string>
+    <string name="continue_button">CONTINUA</string>
+    <string name="continue_proper">Continua</string>
+    <string name="auth_shark_ninja_login_hint">Sai che puoi utilizzare il tuo account Shark|Ninja per accedere?</string>
+    <string name="auth_dont_have_account">Non hai un account?</string>
+    <string name="auth_already_have_account">Hai già un account?</string>
+    <string name="auth_sign_up_here"><u>Registrati qui</u></string>
+    <string name="auth_log_in_here"><u>Accedi</u></string>
+    <string name="auth_button_login">ACCEDI</string>
+    <string name="auth_email_label">EMAIL</string>
+    <string name="auth_password_label">PASSWORD</string>
+    <string name="auth_button_register">REGISTRATI ORA</string>
+    <string name="auth_username_hint">Digita la tua email</string>
+    <string name="auth_password_hint">Digita la password</string>
+    <string name="auth_password_create_hint">Crea una nuova password</string>
+    <string name="auth_create_account">Crea un account</string>
+    <string name="auth_login_forgot_password"><u>Password dimenticata?</u></string>
+    <string name="reset_password_new_email">Another email has been sent.</string>
+    <string name="did_not_get_email_desc">Non hai ricevuto l\'email? Controlla nella cartella della posta indesiderata. Se il messaggio non arriva entro qualche minuto, seleziona il pulsante qui sotto e lo invieremo di nuovo. </string>
+    <string name="reset_password_almost_there">Ci siamo quasi.</string>
+    <string name="reset_password_sent_email_text">Ti abbiamo inviato un\'email con le istruzioni per reimpostare la password. Apri l\'email e seleziona Reimposta la password per procedere.</string>
+    <string name="reset_password_enter_code">Inserisci il codice</string>
+    <string name="reset_password_resend_code">INVIA DI NUOVO IL CODICE</string>
+
+    <string name="auth_welcome">Benvenuto!</string>
+    <string name="auth_create_account_text">Creiamo il tuo nuovo account Ninja.</string>
+    <string name="auth_agree_to_terms">Accetto i <u>Termini e condizioni</u></string>
+    <string name="auth_privacy_notice_check_text">Ho letto e accetto la <u>Informativa sulla privacy</u></string>
+
+    <string name="auth_verify_email_header_text">Ci siamo quasi</string>
+    <string name="auth_verify_email_sub_text">Abbiamo inviato un\'email a %1$s. Apri l\'email e seleziona Verifica per procedere.</string>
+    <string name="auth_verify_resent_email_text">Abbiamo appena inviato nuovamente l\'email! Verifica l\'email per confermare l\'account.</string>
+    <string name="auth_verify_resend_button">INVIA DI NUOVO L\'EMAIL</string>
+    <string name="auth_verify_verifying_header">Verifica in corso... attendi qualche secondo.</string>
+    <string name="auth_verify_verified_header">Il tuo account è stato verificato!</string>
+
+
+    <string name="pairing_step_one">Fase 1 <font color="#E5E5E5">di 3</font></string>
+    <string name="pairing_step_two">Fase 2 <font color="#E5E5E5">di 3</font></string>
+    <string name="pairing_step_three">Fase 3 <font color="#E5E5E5">di 3</font></string>
+    <string name="pairing_network_tips_text"><u>Non vedo la mia rete.</u></string>
+
+    <string name="step_one_of_two"><font color="#767676">Fase</font> <font color="#45BE55">1</font> <font color="#767676">di 2</font></string>
+    <string name="step_two_of_two"><font color="#767676">Fase</font> <font color="#45BE55">2</font> <font color="#767676">di 2</font></string>
+
+    <string name="woodFireDescription">Aggiungi una nota affumicata ricca e completa a tutti i tuoi piatti utilizzando il pellet in dotazione.</string>
+
+    <string name="cooking_charts_description">Il nostro team culinario Ninja ha realizzato delle tabelle di cottura per aiutarti ad avere successo in cucina.</string>
+
+    <string name="pairing_permissions_error_sub_text">Vai nelle impostazioni del dispositivo mobile per concedere l\'accesso.
+    \n1. Apri le impostazioni del dispositivo mobile
+
+    \n2. Seleziona Privacy
+    \n3. Seleziona Rete locale
+    \n4. Cerca l\'app Ninja Kitchen e
+
+    \nattiva l\'autorizzazione
+    \n
+5. Torna all\'app Ninja Kitchen</string>
+
+    <string name="pairing_grill_network_error_tip_1"><b>Ripristina la griglia:</b> Spegni la griglia premendo l\'apposito pulsante</string>
+    <string name="pairing_grill_network_error_tip_2"><b>Riattiva la modalità di rilevamento:</b> Tieni premuto per tre secondi il pulsante della modalità presente sulla griglia.</string>
+    <string name="pairing_wifi_network_error_tip_1"><b>Password dimenticata:</b> Prova a guardare sul lato posteriore del router oppure chiedi a qualcuno che la conosce.</string>
+    <string name="pairing_wifi_network_error_tip_2"><b>Problema con il server:</b> Controlla che la rete non sia una VPN o un server proxy.</string>
+    <string name="pairing_wifi_network_error_tip_3"><b>Altro:</b> Se hai problemi relativi a internet anche con altri prodotti che usi in casa, contatta il tuo provider internet.</string>
+
+    <string name="pairing_btle_wifi_network_error_tip_1_header"><b>1. Password dimenticata:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_1_sub">Prova a guardare sul lato posteriore del router oppure chiedi a qualcuno che la conosce.</string>
+    <string name="pairing_btle_wifi_network_error_tip_2_header"><b>2. Problema con il server:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_2_sub">Controlla che la rete non sia una VPN o un server proxy.</string>
+    <string name="pairing_btle_wifi_network_error_tip_3_header"><b>3. Altro:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_3_sub">Se hai problemi relativi a internet anche con altri prodotti che usi in casa, contatta il tuo provider internet.</string>
+
+
+    <string name="pairing_customer_support_number">Contattaci chiamando il numero <b>1-855-427-5123</b></string>
+    <string name="customer_support_number">1-855-427-5123</string>
+
+    <string name="dialog_network_tips_title">Suggerimenti per la rete</string>
+    <string name="dialog_network_tips_router">Riavvia router</string>
+    <string name="dialog_network_tips_unplug">Scollega il cavo di alimentazione dalla presa elettrica (o dal retro del router), attendi 60 secondi, quindi ricollega il cavo.</string>
+    <string name="dialog_network_tips_check_type">Verifica il tipo di rete</string>
+    <string name="dialog_network_tips_ninja_grills">Le griglie Ninja possono connettersi solo a reti a 2,4 GHz. Assicurati che la rete a 2,4&#160;GHz non sia nascosta o disattivata. Se hai un\'app per il router, usala per rendere visibile o attivare la rete a 2,4&#160;GHz. In alternativa, rivolgiti al provider internet.</string>
+    <string name="dialog_network_tips_internet_issues">Se hai problemi relativi a internet anche con altri prodotti che usi in casa, contatta il tuo provider internet.</string>
+
+    <!--password validation-->
+    <string name="password_req_one_upper_letter">1 lettera maiuscola</string>
+    <string name="password_req_one_lower_letter">1 lettera minuscola</string>
+    <string name="password_req_eight_characters">8 o più caratteri</string>
+    <string name="password_req_one_number">1 numero</string>
+
+    <string name="ninja_verify_deep_link">app://open.ninjakitchen.app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Ciao blank fragment</string>
+
+    <!-- Settings Fragment-->
+    <string name="account">Account</string>
+    <string name="account_description">Profilo, Cambia email, Esci&#8230;</string>
+    <string name="your_appliance">Il tuo dispositivo</string>
+    <string name="your_appliance_description">Dettagli del dispositivo, Informazioni sulla garanzia, Assistenza&#8230;</string>
+    <string name="about_this_app">Informazioni sull\'app</string>
+    <string name="about_this_app_description">Protezione dei dati, Condizioni di utilizzo, Informativa sulla privacy&#8230;</string>
+    <string name="cooking_notifications">Notifiche (push) sulla cottura</string>
+
+    <!-- Account Fragment-->
+    <string name="profile">Profilo</string>
+    <string name="preferences">Preferenze</string>
+    <string name="log_out">Esci</string>
+    <string name="account_info_description">Nome, Indirizzo, Numero di telefono...</string>
+    <string name="preferences_description">Il tuo dispositivo, Unità di peso, Unità di temperatura&#8230;</string>
+    <string name="sign_out_description">Sei sicuro di volerti disconnettere?</string>
+    <string name="cancel">Annulla</string>
+    <string name="cancel_upper">ANNULLA</string>
+    <string name="change_email">Cambia email</string>
+    <string name="change_password">Cambia password</string>
+
+    <!-- Change Email Fragment-->
+
+    <string name="new_email">NUOVA EMAIL</string>
+    <string name="confirm_new_email">CONFERMA LA NUOVA EMAIL</string>
+    <string name="change_email_hint">Digita la tua email</string>
+    <string name="change_email_btn">AGGIORNA ED ESCI</string>
+
+    <!-- Profile Fragment -->
+    <string name="first_name">NOME*</string>
+    <string name="last_name">COGNOME*</string>
+    <string name="address">INDIRIZZO*</string>
+    <string name="address_two">INDIRIZZO (SECONDA RIGA)</string>
+    <string name="city">CITTÀ*</string>
+    <string name="state_province">STATO/PROVINCIA*</string>
+    <string name="zip_code">CAP*</string>
+    <string name="phone_number">NUMERO DI TELEFONO</string>
+    <string name="required_field">(*) Questo campo è obbligatorio</string>
+    <string name="account_subtitle">ACCOUNT</string>
+    <string name="delete_account_btn"><u>Elimina account</u></string>
+    <string name="save_changes">Salva modifiche</string>
+    <string name="okay">Ok</string>
+    <string name="state">Stato</string>
+    <string name="required_field_error_msg">Campo obbligatorio</string>
+
+    <!-- Profile Save Changes Dialog -->
+    <string name="dialog_save_changes_title">Sono presenti delle modifiche non salvate.</string>
+    <string name="dialog_save_changes_desc">Vuoi salvarle?</string>
+    <string name="dialog_save_changes_btn_save">Salva modifiche</string>
+    <string name="dialog_save_changes_btn_discard">Annulla modifiche</string>
+    <string name="dialog_save_changes_btn_cancel"><u>Annulla</u></string>
+
+    <!-- About This App Fragment -->
+    <!--    data protection, terms of use, privacy policy, information/legal notice-->
+    <string name="data_protection">Protezione dei dati</string>
+    <string name="terms_of_use">Condizioni di utilizzo</string>
+    <string name="privacy_policy">Informativa sulla privacy</string>
+    <string name="privacy_notice_btn">INFORMATIVA SULLA PRIVACY DI SHARKNINJA</string>
+    <string name="info_legal_notice">Informazioni/Note legali</string>
+    <string name="privacy_policy_description">SharkNinja (“noi”) raccoglie informazioni personali (ad es. indirizzo email e IP di connessione) sull\'Utente quando utilizza la presente App Ninja Pro Connect. Utilizziamo le informazioni personali per amministrare l\'account dell\'utente e per fornire prodotti e servizi relativi al dispositivo connesso. Potremmo condividere le informazioni raccolte con le società nostre affiliate e i nostri fornitori di servizi.</string>
+    <string name="privacy_policy_description_pt_two">Una volta effettuato l\'accesso correttamente, l\'app Ninja Pro Connect genera un token di autorizzazione che viene memorizzato localmente sul telefono dell\'utente e viene aggiornato ogni volta che si utilizza l\'app Ninja Pro Connect. Questo token viene utilizzato esclusivamente per mantenerti connesso all\'app. Per maggiori dettagli sull\'uso dei dati raccolti da parte nostra, consulta:</string>
+
+    <string name="about_this_app_caps">INFORMAZIONI SULL\'APP</string>
+
+    <!--    Delete Account-->
+    <string name="delete_account">Elimina account</string>
+    <string name="listitem_settings_info_description">Se elimini il tuo account, verranno rimosse definitivamente tutte le relative informazioni, comprese le connessioni al dispositivo.\n\nDovrai creare un nuovo account al successivo tentativo di accesso.</string>
+    <string name="listitem_settings_info_name">Sei sicuro?</string>
+    <string name="delete_account_button_text">ELIMINA DEFINITIVAMENTE</string>
+    <!--    Delete Account Dialog-->
+    <string name="delete_account_dialog_title_text">Sei sicuro di voler eliminare il tuo account?</string>
+    <string name="delete_account_dialog_description_text">Questa operazione non può essere annullata e può richiedere alcuni secondi.</string>
+    <string name="delete_account_dialog_delete_btn">ELIMINA IL MIO ACCOUNT</string>
+    <string name="account_has_been_deleted">Il tuo account è stato eliminato! Spero di rivederti presto!</string>
+    <!-- Change Password Fragment-->
+    <string name="old_password">VECCHIA PASSWORD</string>
+    <string name="password">NUOVA PASSWORD</string>
+    <string name="confirm_password">CONFERMA LA NUOVA PASSWORD</string>
+    <string name="lets_create_new_password">Ora creiamo una nuova password.</string>
+    <string name="passwords_dont_match">Le password non corrispondono</string>
+    <string name="forgot_password_btn"><u>Password dimenticata?</u></string>
+    <string name="enter_your_password_hint">Digita la password</string>
+    <string name="enter_your_new_password_hint">Digita la nuova password</string>
+
+
+    <!-- Preferences Fragment -->
+    <string name="your_appliance_caps">IL TUO DISPOSITIVO</string>
+    <string name="weight_unit">UNITÀ DI PESO</string>
+    <string name="temperature_unit">UNITÀ DI TEMPERATURA</string>
+
+    <!-- Error Dialog -->
+    <string name="something_went_wrong_title">Ops, si è verificato un problema!</string>
+    <string name="something_went_wrong_description">Il tentativo di salvataggio non è riuscito. Vuoi riprovare?</string>
+    <string name="retry_btn">Riprova</string>
+
+
+    <!--    Appliance Fragment-->
+    <string name="appliance_name">Griglia per esterno e affumicatore Ninja Woodfire&#8482; ProConnect XL</string>
+    <string name="appliance_detail">Dettagli del dispositivo</string>
+    <string name="your_appliances">I TUOI DISPOSITIVI</string>
+
+    <!--    Appliance Detail Fragment-->
+    <string name="fake_appliance_name">Ninja&#174; Foodi&#174; XL Pro</string>
+    <string name="appliance_notification_volume">Volume delle notifiche del dispositivo</string>
+    <string name="serial_number">Numero di serie</string>
+    <string name="model_number">Numero di modello</string>
+    <string name="dsn">DSN</string>
+    <string name="mac_address">Indirizzo Mac</string>
+    <string name="app_version">Versione dell\'app</string>
+    <string name="firmware_version">Versione del firmware</string>
+    <string name="appliance_error_log">Registro errori del dispositivo</string>
+    <string name="restore_factory_settings">Ripristina le impostazioni di fabbrica</string>
+    <string name="delete_appliance">Elimina dispositivo</string>
+    <string name="support">Assistenza</string>
+    <string name="warranty_information">Informazioni sulla garanzia</string>
+    <string name="no_appliances_description">Sembra che non sia stato ancora abbinato nessun dispositivo. Per iniziare a monitorare le tue sessioni di cucina direttamente dal dispositivo, aggiungi un dispositivo qui sotto.</string>
+    <string name="add_appliance_btn">AGGIUNGI DISPOSITIVO</string>
+    <string name="add_another_appliance">AGGIUNGI UN ALTRO DISPOSITIVO</string>
+    <string name="dialog_delete_appliance_title">Sei sicuro di voler eliminare il tuo dispositivo?</string>
+    <string name="dialog_delete_appliance_description">Sei sicuro di voler ripristinare le impostazioni di fabbrica?</string>
+    <string name="dialog_restore_factory_settings_title">Sei sicuro di voler ripristinare le impostazioni di fabbrica?</string>
+    <string name="dialog_restore_factory_settings_description">Questa operazione non può essere annullata e può richiedere alcuni secondi.</string>
+    <string name="delete_appliance_btn">Elimina dispositivo</string>
+    <string name="restore_settings_btn">Ripristina le impostazioni di fabbrica</string>
+    <string name="requesting_permissions">RICHIESTA DELLE AUTORIZZAZIONI IN CORSO</string>
+    <string name="allow_permissions_main_prompt">Per connettere la griglia\nè necessario concedere le autorizzazioni richieste.</string>
+    <string name="permissions_overview">Seleziona \"OK\" o \"Consenti\" per accettare le richieste di autorizzazione. Le richieste devono essere accettate per consentire all\'app di connettersi alla griglia.</string>
+    <string name="important_caps">IMPORTANTE</string>
+    <string name="next_caps">AVANTI</string>
+    <string name="enable_bluetooth_description">Attivare la funzionalità Bluetooth per questo dispositivo.</string>
+    <string name="detect_your_grill_description">Consente di trovare e valutare la posizione\nrelativa dei dispositivi nelle vicinanze</string>
+    <string name="detect_your_grill">Rileva la griglia</string>
+    <string name="enable_location_description">Consente di accedere alla tua posizione\nmentre utilizzi l\'app</string>
+    <string name="enable_location">Abilita posizione</string>
+    <string name="pairing_preparation">PREPARAZIONE DELLA PROCEDURA DI ABBINAMENTO</string>
+    <string name="plug_in_grill">1. Collega la griglia alla rete elettrica</string>
+    <string name="plug_in_grill_default"></string>
+    <string name="bluetooth_step_one_description">Inserisci la spina esclusivamente in un\'apposita presa GFCI\na 3 fori.</string>
+    <string name="more_info">Altre info</string>
+    <string name="bluetooth_step_two">2. Accendi la griglia</string>
+    <string name="bluetooth_step_two_description">Accendi la griglia tenendo premuto l\'apposito pulsante\nper 3 secondi.</string>
+    <string name="bluetooth_step_three">3. Abbina la griglia.</string>
+    <string name="bluetooth_step_three_description">• Tieni premuto il selettore per 3-5 secondi, fino a quando non avverti un segnale acustico.\n\n• Premi il pulsante AVANTI in basso per selezionare la griglia.</string>
+    <string name="might_take_a_moment">L\'operazione potrebbe richiedere qualche momento.</string>
+    <string name="bear_with_me">Ancora un attimo!</string>
+
+    <!--    Bluetooth-->
+    <string name="android_permission_bluetooth_title">TITOLO</string>
+    <string name="android_permission_bluetooth_description">descrizione bluetooth</string>
+    <string name="android_permission_bluetooth_denied_description">descrizione non disponibile</string>
+    <string name="bluetooth_disabled_dialog_title">Ops! Sembra che il Bluetooth sia stato disattivato.</string>
+    <string name="bluetooth_disabled_dialog_description">Puoi verificare nella sezione Impostazioni del tuo cellulare.</string>
+    <string name="bluetooth_disabled_dialog_button">Attiva</string>
+    <string name="nearby_devices_error_title">Ops, non hai autorizzato la condivisione della posizione dei dispositivi nelle vicinanze!</string>
+    <string name="nearby_devices_error_desc">Quando viene richiesto, consenti al dispositivo mobile di connettersi al Bluetooth per controllare e monitorare la griglia.</string>
+    <string name="location_error_title">Ops, non hai concesso l\'autorizzazione alla tua posizione!</string>
+    <string name="location_error_desc">Quando viene richiesto, consenti al dispositivo mobile di connettersi alla tua posizione per agevolare la localizzazione della griglia.</string>
+    <string name="bluetooth_paired_success_header">Ottimo! Diventeremo grandi amici!</string>
+    <string name="bluetooth_paired_success_default">Tutto pronto! Diventeremo grandi amici!</string>
+    <string name="bt_error_grill_connecting_title">Ops, sembra che si sia verificato un problema in fase di connessione.</string>
+    <string name="bt_error_grill_connecting_instructions">Riprova a stabilire la connessione con la griglia.</string>
+    <string name="bt_connect_error_first_title">Ops... Si è verificato un problema, non è stato possibile individuare la griglia. Riprova!</string>
+    <string name="bt_connect_error_first_intruction_title">Attiva la modalità di rilevamento</string>
+    <string name="bt_connect_error_first_instruction">Tieni premuto il selettore della griglia per 3-5 secondi per attivare la modalità di rilevamento. Quando l\'icona del Bluetooth passa da lampeggiante a bianca fissa, significa che la procedura di abbinamento è stata completata correttamente.</string>
+    <string name="default_grill_name">Ninja ProConnect</string>
+    <string name="choose_a_name">SCEGLI UN NOME</string>
+    <string name="cool_name">Vuoi scegliere un bel nome per me?</string>
+    <string name="name_your_grill_empty_continue_button">NO GRAZIE, CONTINUA</string>
+    <string name="bluetooth_permissions_error_button_go_to_settings">VAI ALLE IMPOSTAZIONI</string>
+    <string name="hours_label">ORE</string>
+    <string name="minutes_label">MIN</string>
+    <string name="seconds_label">SEC</string>
+
+    <!-- Cook Settings Dialog -->
+    <string name="cook_settings_go_back_dialog_title">Vuoi tornare indietro?</string>
+    <string name="cook_settings_go_back_dialog_description">Tutte le modifiche andranno perse. Sei sicuro di volerle annullare?</string>
+    <string name="cook_settings_go_back_dialog_top_button">ANNULLA MODIFICHE</string>
+
+    <string name="cook_tip_title">Vuoi una mano, chef?</string>
+    <string name="cook_tip_description">Il nostro team culinario ha realizzato delle tabelle di cottura per aiutarti a impostare correttamente le tue sessioni di cucina.</string>
+    <string name="cook_tip_link">Vai alle tabelle di cottura</string>
+
+    <string name="grill_accessory_dialog_title">Modalità di cottura alla griglia</string>
+    <string name="smoke_accessory_dialog_title">Modalità di cottura affumicatura</string>
+    <string name="air_crisp_accessory_dialog_title">Modalità di cottura Aircrisp</string>
+    <string name="roast_accessory_dialog_title">Modalità di cottura rosolatura</string>
+    <string name="bake_accessory_dialog_title">Modalità di cottura in forno</string>
+    <string name="reheat_accessory_dialog_title">Modalità di cottura riscaldamento</string>
+    <string name="broil_accessory_dialog_title">Modalità di cottura arrosto</string>
+    <string name="dehydrate_accessory_dialog_title">Modalità di cottura essiccazione</string>
+
+    <string name="grill_accessory_dialog_description">Per questa modalità di cottura devi aggiungere la piastra grill e la vaschetta di raccolta del grasso. Conferma che la griglia può iniziare la fase di riscaldamento in sicurezza.</string>
+    <string name="aircrisp_accessory_dialog_description">Per questa modalità di cottura devi aggiungere tutti gli accessori. Conferma che la griglia può iniziare la fase di riscaldamento in sicurezza.</string>
+    <string name="grill_accessory_dialog_button">Fatto</string>
+    <string name="empty"></string>
+
+    <string name="wood_fire_cardview_label">Tecnologia salva-sapore Woodfire</string>
+    <string name="cook_time">TEMPO DI COTTURA</string>
+    <string name="grill_temp">TEMPERATURA DELLA GRIGLIA</string>
+
+    <string name="place_your_thermometer_dialog_description">Inserisci il termometro integrato\n nella parte più spessa del cibo da cuocere\n mentre la griglia esegue il\n preriscaldamento.</string>
+    <string name="roast_settings_toolbar_title">Impostazioni per la rosolatura</string>
+    <string name="grill_settings_toolbar_title">Impostazioni della griglia</string>
+    <string name="smoke_settings_toolbar_title">Impostazioni per l\'affumicatura</string>
+    <string name="air_crisp_settings_toolbar_title">Impostazioni per Air Crisp</string>
+    <string name="bake_settings_toolbar_title">Impostazioni per la cottura in forno</string>
+    <string name="broil_settings_toolbar_title">Impostazioni per la cottura arrosto</string>
+    <string name="dehydrate_settings_toolbar_title">Impostazioni per l\'essiccazione</string>
+    <string name="probe0_manual_title">Termometro n. 1</string>
+    <string name="probe1_manual_title">Termometro n. 2</string>
+    <string name="therm_cook_tip_title">Come si posiziona il termometro?</string>
+    <string name="therm_cook_tip_desc">Inserisci il termometro integrato nella\nparte più spessa del cibo da cuocere mentre\nla griglia esegue il preriscaldamento.</string>
+    <string name="target_temp">TEMPERATURA FINALE</string>
+    <string name="poultry_probe_title">Pollame</string>
+    <string name="cook_mode_label">MODALITÀ DI COTTURA</string>
+    <string name="dialog_change_to_thermometer_cook_title">Vuoi impostare un termometro?</string>
+    <string name="dialog_change_to_thermometer_cook_description">Stai per modificare il metodo di controllo della cottura, quindi dovrai aggiungere nuovi parametri. La griglia non funzionerà più secondo un tempo di cottura programmato.</string>
+    <string name="dialog_change_to_thermometer_cook_positive_button">SÌ, AGGIUNGI UN TERMOMETRO</string>
+    <string name="dialog_change_to_timed_cook_title">Vuoi passare alla cottura temporizzata?</string>
+    <string name="dialog_change_to_timed_cook_description"> La cottura terminerà allo scadere del tempo segnato dal timer, invece che al raggiungimento delle temperature finali impostate per i termometri. Le impostazioni dei termometri verranno ignorate.</string>
+    <string name="dialog_change_to_timed_cook_positive_button">PASSA ALLA COTTURA TEMPORIZZATA</string>
+    <string name="dialog_thermometer_not_plugged_in_title">Termometro non collegato.</string>
+    <string name="dialog_thermometer_not_plugged_in_description">Per utilizzare la modalità termometro è necessario che\nalmeno un termometro sia\ncollegato alla griglia.</string>
+    <string name="dialog_thermometer_not_plugged_in_button">TORNA ALLA COTTURA</string>
+    <string name="dialog_thermometer_1_not_plugged_in_dashboard_description">Per tracciare la lettura del primo termometro è necessario collegarlo.</string>
+    <string name="dialog_thermometer_2_not_plugged_in_dashboard_description">Per tracciare la lettura del secondo termometro è necessario collegarlo.</string>
+    <string name="dialog_thermometer_not_plugged_in_dashboard_button">OK</string>
+    <string name="dial_state_offline_timed_cooking">COTTURA</string>
+    <string name="dial_state_lid_open">Chiudi il coperchio</string>
+    <string name="doneness">LIVELLO DI COTTURA</string>
+    <string name="email_verification_loading_header">Verifica in corso..., attendi qualche secondo.</string>
+    <string name="email_verification_verified_loading_header">Il tuo account è stato verificato!</string>
+    <string name="sp_user_cred_email">sharedPrefKeyEmail</string>
+    <string name="sp_user_cred_pw">sharedPrefKeyPW</string>
+
+    <!-- Request Notifications Dialog -->
+    <string name="dialog_request_notifications_title">Attivare le notifiche?</string>
+    <string name="dialog_request_notifications_body">Riceverai notifiche in tempo reale sullo stato della griglia e della cottura.</string>
+    <string name="dialog_request_notifications_primary">Sì, tienimi informato!</string>
+    <string name="dialog_request_notifications_secondary">Non desidero ricevere notifiche.</string>
+
+    <!--    Not Supported Dialog-->
+    <string name="dialog_not_supported_title">Non supportato</string>
+    <string name="dialog_not_supported_body">Le modalità di cottura essiccazione e cottura arrosto non supportano l\'uso dei termometri. Se desideri monitorare la cottura mediante i termometri, prova a cambiare la modalità di cottura.</string>
+    <string name="dialog_not_supported_body_intl">Le modalità di cottura essiccazione e cottura riscaldamento non supportano l\'uso dei termometri. Se desideri monitorare la cottura mediante i termometri, prova a cambiare la modalità di cottura.</string>
+    <string name="dialog_not_supported_primary">OK, CAPITO</string>
+
+    <string name="save_changes_btn_cook_edit_probe">SALVA MODIFICHE</string>
+    <string name="cook_settings_label">IMPOSTAZIONI DI COTTURA</string>
+    <string name="save_changes_btn_cook_edit_probe_one_disabled">COLLEGA TERMOMETRO N. 1</string>
+    <string name="save_changes_btn_cook_edit_probe_two_disabled">COLLEGA TERMOMETRO N. 2</string>
+    <string name="start_cooking_button_online">AVVIA LA COTTURA</string>
+    <string name="start_cooking_button_chart">AVVIA LA COTTURA COME DA TABELLA</string>
+    <string name="start_preheating_button_online">AVVIA IL PRERISCALDAMENTO</string>
+    <string name="start_ignition_button_online">AVVIA L\'ACCENSIONE</string>
+    <string name="start_cooking_button_offline">GRIGLIA NON COLLEGATA</string>
+    <string name="grill_cooling">RAFFREDDAMENTO GRIGLIA</string>
+    <string name="grill_heating">RISCALDAMENTO GRIGLIA</string>
+
+    <string name="sign_out_pairing_dialog_title">Vuoi uscire?</string>
+    <string name="sign_out_pairing_dialog_description">Per accedere all\'app è necessario eseguire la procedura di abbinamento. Annullando la procedura, verrai disconnesso.</string>
+    <string name="sign_out_pairing_dialog_top_button">Sì, voglio uscire</string>
+    <string name="sign_out_pairing_dialog_top_bottom_button">No, procedi con l\'abbinamento</string>
+
+    <string name="cancel_pairing_dialog_title">Annullare l\'abbinamento?</string>
+    <string name="cancel_pairing_dialog_description">Per connettere un nuovo dispositivo sarà necessario ripetere questa procedura.</string>
+    <string name="cancel_pairing_dialog_top_button">Sì, annulla l\'abbinamento</string>
+    <string name="cancel_pairing_dialog_bottom_button">No, procedi con l\'abbinamento</string>
+    <string name="stronger_connection_screen_content">Eseguendo l\'abbinamento con la rete Wi-Fi, puoi controllare la cottura ovunque tu sia, posto che sia disponibile una connessione Internet.</string>
+    <string name="close_lid">Chiudi\nil coperchio</string>
+    <string name="not_set">Non impostata</string>
+    <string name="add_food">Aggiungi\nil cibo</string>
+    <string name="flip_food">Gira\nil cibo</string>
+    <string name="current_temp">Temperatura attuale</string>
+    <string name="double_dash">--</string>
+    <string name="get_food">Ritira il cibo</string>
+    <string name="done">Fatto</string>
+    <string name="unplugged">Non collegata</string>
+    <string name="cannot_read_temp">Impossibile leggere la temperatura</string>
+    <string name="until_complete">Fino al termine</string>
+    <string name="percent_progress">%1$s%%</string>
+    <string name="current_temp_and_temp_unit">%1$s%2$s</string>
+    <string name="faren">°F</string>
+    <string name="faren_with_temp">%1$s°F</string>
+    <string name="celsius">°C</string>
+    <string name="cook_complete">Cottura terminata</string>
+    <string name="therm_has_reached_temp">Termometro %1$s: è stata raggiunta la temperatura di riposo.</string>
+    <string name="check_it_out">DAI UN\'OCCHIATA</string>
+    <string name="okay_button">OK</string>
+    <string name="stop_cooking">ARRESTA LA COTTURA</string>
+    <string name="back_to_dashboard">TORNA AL DASHBOARD</string>
+    <string name="timed_cook">COTTURA TEMPORIZZATA</string>
+    <string name="therm_cook">TERMOMETRO</string>
+    <string name="thermometers">Termometri</string>
+    <string name="grill_settings">Impostazioni della griglia</string>
+    <string name="all_offline">OFFLINE</string>
+    <string name="all_online">ONLINE</string>
+    <string name="skip_preheat">SALTA PRERISCALDAMENTO</string>
+    <string name="preheating">PRERISCALDAMENTO</string>
+    <string name="skip_ignition">SALTA ACCENSIONE</string>
+    <string name="time">ORA</string>
+    <string name="colon">:</string>
+    <string name="dial_zero">0%%</string>
+
+    <string name="mini_charts_chart_choice">Cosa pensavi di cucinare con %1$s oggi?</string>
+    <string name="charts_filters_view_results">VISUALIZZA [%1$s] RISULTATI</string>
+    <string name="charts_use_chart_button">USA QUESTA TABELLA</string>
+    <string name="charts_popular_groupings">Gruppi di filtri di uso comune</string>
+    <string name="charts_popular_groupings_results">%1$s risultati</string>
+    <string name="name_grill_confirm_text">Sono il tuo nuovo aiutante in cucina, %1$s.</string>
+    <string name="air_crisp_label">Air Crisp</string>
+    <string name="smoker_label">Affumicatura</string>
+    <string name="name_length_label">%1$s/15</string>
+    <string name="notification_permission_dialog_title">Cambia impostazioni di notifica</string>
+    <string name="notification_permission_dialog_body">Devi consentire all\'app di inviare le notifiche push per utilizzare questa funzione.</string>
+
+    <string name="roast">Rosolatura</string>
+    <string name="bake">Cottura al forno</string>
+    <string name="aircrisp">Air Crisp</string>
+    <string name="grill">Griglia</string>
+    <string name="smoke">Affumicatura</string>
+    <string name="dehydrate">Essiccazione</string>
+    <string name="broil">Cottura arrosto</string>
+    <string name="reheat">Riscaldamento</string>
+
+    <string name="manual">Manuale</string>
+    <string name="chicken">Pollo</string>
+    <string name="beef">Manzo</string>
+    <string name="pork">Maiale</string>
+    <string name="fish">Pesce</string>
+    <string name="lamb">Agnello</string>
+
+    <string name="preheating_mc">Preriscaldamento</string>
+    <string name="ignition">Accensione</string>
+
+    <string name="apply">APPLICA</string>
+    <string name="select_many_text">Seleziona tutte le opzioni che desideri.</string>
+
+    <string name="charts_title">TABELLE DI COTTURA</string>
+    <string name="charts_chuck_roast">Collo</string>
+    <string name="charts_cook_method">Metodo di cottura</string>
+    <string name="charts_recipe_name">Nome della ricetta</string>
+    <string name="charts_grill_today">Cosa pensavi di\ncuocere alla griglia oggi?</string>
+    <string name="charts_choose_food_type">Scegli il tipo di cibo disponibile nella\nmodalità di cottura selezionata.</string>
+    <string name="charts_preparation">PREPARAZIONE</string>
+    <string name="charts_notes">NOTE</string>
+    <string name="charts_grill_temperature">TEMPERATURA DELLA GRIGLIA</string>
+    <string name="charts_placeholder_text">Segnaposto</string>
+    <string name="charts_filters_time_less_15">Meno di 15 min</string>
+    <string name="charts_filters_time_15_30">15 - 30 min</string>
+    <string name="charts_filters_time_30_60">30 - 60 min</string>
+    <string name="charts_filters_time_60_120">60 - 120 min</string>
+    <string name="charts_filters_time_over_120">Più di 120 min</string>
+    <string name="charts_try_woodfire">Prova il sapore Woodfire</string>
+
+
+    <string name="support_button">ASSISTENZA CLIENTI</string>
+    <string name="support_trouble">Hai ancora problemi?</string>
+    <string name="support_call_us">CHIAMACI</string>
+    <string name="support_nevermind">NON IMPORTA</string>
+
+    <string name="food_type_select">SELETTORE ALIMENTI</string>
+    <string name="food_type_beef">Manzo</string>
+    <string name="food_type_pork">Maiale</string>
+    <string name="food_type_poultry">Pollame</string>
+    <string name="food_type_seafood">Pescato</string>
+    <string name="food_type_bread_cheese">Pane/formaggio</string>
+    <string name="food_type_fruit">Frutta</string>
+    <string name="food_type_lamb_veal">Agnello/\nvitello</string>
+    <string name="food_type_veggies">Verdura</string>
+    <string name="food_type_fish">Pesce</string>
+    <string name="food_type_chicken">Pollo</string>
+    <string name="food_type_manual">Manuale</string>
+    <string name="food_type_other">Altro</string>
+
+    <string name="bluetooth_connect_to_grill">CONNETTI ALLA GRIGLIA</string>
+    <string name="bluetooth_choose_grill">Seleziona la griglia per avviare la procedura\ndi impostazione.</string>
+    <string name="settings_show_appliance">Mostra dispositivo</string>
+    <string name="name_grill_default_length">0/15</string>
+    <string name="bluetooth_few_minutes">Potrebbero essere necessari alcuni minuti</string>
+    <string name="bluetooth_keep_open">Tieni aperta e attiva questa schermata finché non è stata stabilita la connessione</string>
+
+    <string name="try_again">RIPROVA</string>
+    <string name="edit_email">Modifica indirizzo email</string>
+
+
+    <string name="bluetooth_enable">Abilita Bluetooth</string>
+    <string name="bluetooth_error_connection">CONNESSIONE AL DISPOSITIVO</string>
+    <string name="bluetooth_error_title">Non sono riuscito a connettermi. Proviamo qualcos\'altro!</string>
+    <string name="bluetooth_error_tip_one">1. Ripristina la griglia.</string>
+    <string name="bluetooth_error_sub_one">Spegni la griglia premendo l\'apposito pulsante.</string>
+    <string name="bluetooth_error_tip_two">2. Disattiva e riattiva il Wi-Fi sul dispositivo mobile.</string>
+    <string name="bluetooth_error_sub_two">Disattiva il Wi-Fi sul dispositivo mobile. Attendi 10 secondi, quindi riattivalo e connettiti alla rete.</string>
+    <string name="bluetooth_error_join_wifi">CONNETTI AL WI-FI</string>
+    <string name="bluetooth_error_wifi_body">Hmm... c\'è ancora qualcosa che non va. Non preoccuparti! Ecco alcune altre cose che puoi provare.</string>
+    <string name="bluetooth_turn_on_grill">Accendi la griglia</string>
+    <string name="bluetooth_press_power_button">Premi il pulsante di accensione\nper attivare la griglia.</string>
+
+    <string name="dialog_thermometer_place_therm">Come si posiziona il termometro</string>
+    <string name="dialog_thermometer_dont_show">Non mostrarlo di nuovo.</string>
+    <string name="dialog_thermometer_continue">Continua la cottura</string>
+
+    <string name="bluetooth_wifi_password">La mia rete non richiede una password.</string>
+    <string name="connect">CONNETTI</string>
+    <string name="bluetooth_connect_to_wifi">CONNESSIONE AL WI-FI</string>
+    <string name="bluetooth_start_cooking">Ottimo! Iniziamo a cucinare insieme.</string>
+
+    <string name="to_the_dashboard">VAI AL DASHBOARD</string>
+    <string name="pairing_wifi_connection">Puoi rendere\nla connessione\nancora più\nsolida!</string>
+    <string name="pairing_start_wifi">AVVIA LA PROCEDURA DI ABBINAMENTO CON IL WI-FI</string>
+    <string name="pairing_select_wifi">Seleziona la tua rete Wi-Fi</string>
+    <string name="pairing_network_two_bars">Verifica che il segnale della rete abbia almeno 2 barre. Se il segnale è troppo debole, prova ad avvicinare la griglia al router.</string>
+
+    <string name="region_select_country">Seleziona il tuo paese/regione.</string>
+
+    <string name="woodfire_flavor">PROVA IL SAPORE DEL FORNO A LEGNA</string>
+    <string name="woodfire_add_rich">Aggiungi una nota affumicata ricca e completa a tutti i tuoi piatti.</string>
+    <string name="woodfire_tech">TECNOLOGIA WOODFIRE</string>
+    <string name="woodfire_filtering_option">Applicando questo filtro, la seguente modalità di cottura non sarà disponibile: cottura arrosto</string>
+
+    <string name="loading_text">Caricamento in corso...</string>
+    <string name="cooking_point">PUNTO DI COTTURA</string>
+    <string name="doneness_point">LIVELLO DI COTTURA</string>
+    <string name="internal_temp">TEMPERATURA INTERNA</string>
+
+    <string name="view_privacy_policy">Visualizza l\'informativa sulla privacy</string>
+
+
+    <!--    MISSING IN FRENCH, DANISH, AND DUTCH-->
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="monitor_method">METODO DI MONITORAGGIO</string>
+    <string name="add_food_notification_title">Aggiungi il cibo</string>
+    <string name="add_food_notification_body">La griglia si è preriscaldata ed è pronta</string>
+    <string name="close_lid_notification_title">Chiudi il coperchio</string>
+    <string name="close_lid_notification_body">La cottura proseguirà solo dopo la chiusura del coperchio.</string>
+    <string name="flip_food_notification_title">È ora di girare</string>
+    <string name="flip_food_notification_body">Siamo a metà cottura</string>
+    <string name="remove_food_notification_title">Rimuovi il cibo</string>
+    <string name="cook_complete_notification_body">La griglia rimane calda fino a 5 minuti.</string>
+    <string name="get_food_therm_one_notification_body">Termometro 1: rimuovi dalla griglia e lascia riposare. La cottura proseguirà grazie al calore residuo fino a raggiungere la temperatura impostata.</string>
+    <string name="get_food_therm_two_notification_body">Termometro 2: rimuovi dalla griglia e lascia riposare. La cottura proseguirà grazie al calore residuo fino a raggiungere la temperatura impostata.</string>
+    <string name="cord_dimen_text">sia lunga massimo 7,5 m (25 piedi), almeno 14\nAWG, OPPURE 15 m (50 piedi), almeno 12\nAWG.</string>
+    <string name="outdoor_text">Adatta per l\'uso all\'aperto.</string>
+    <string name="ext_cord_text">Se devi utilizzare una prolunga, verifica che:</string>
+    <string name="gfci_text">Inserisci la spina esclusivamente in un\'apposita presa GFCI a 3\n fori.</string>
+    <string name="plug_in_grill_text">Collega la griglia</string>
+    <string name="turn_on_your_appliance">Attiva il dispositivo</string>
+    <string name="press_button_until_screen_lights_up">Premi il pulsante rotondo Start/Stop fino all\'accensione dello schermo.</string>
+    <string name="got_it">Capito</string>
+    <string name="plug_in_dialog_title">Inserisci la spina esclusivamente in un\'apposita presa GFCI a\n3 fori.</string>
+    <string name="confirm_account_label">Il tuo account non è ancora stato verificato. Controlla nella cartella della posta indesiderata.</string>
+    <string name="air_crisp_settings">Impostazioni per Air Crisp</string>
+    <string name="settings">Impostazioni</string>
+    <!--    <string name="pounds">Pounds (lb)</string>-->
+    <!--    <string name="grams">Grams (g)</string>-->
+    <!--    <string name="kilograms">Kilograms (kg)</string>-->
+    <!--    <string name="ounces">Ounces (oz)</string>-->
+
+    <!--MISSED STRINGS FROM FIRST BATCH, addresses 1398, 1399, 1400, 1401, 1403-->
+    <string name="smoke_caps">AFFUMICATURA</string>
+    <string name="rare">Al sangue</string>
+    <string name="medrare">Cottura media/al sangue</string>
+    <string name="med">Cottura media</string>
+    <string name="medwell">Cottura media/ben cotto</string>
+    <string name="well">Ben cotto</string>
+    <string name="igniting">ACCENSIONE</string>
+    <string name="plugin_dialogue_plugin">Collega il dispositivo alla rete elettrica</string>
+    <string name="press_start_button">Premi il pulsante Start sulla griglia</string>
+    <string name="press_rounded_start_button">Premi il pulsante rotondo Start/Stop fino\nall\'accensione dello schermo.</string>
+    <string name="connect_app_to_grill">Connetti l\'app alla griglia</string>
+    <string name="activate_discovery_mode">Attiva la modalità di rilevamento sulla griglia.</string>
+    <string name="hold_mode_activate_discovery">Tieni premuto il pulsante della modalità sulla griglia per tre secondi per attivare la modalità di rilevamento.</string>
+    <string name="oops_wifi_error">Ops...\nnon è stato possibile\nstabilire la connessione\nBluetooth</string>
+    <string name="lets_try_wifi">Proviamo con il Wi-Fi, potrai\ncontrollare la cottura ovunque tu sia, a\ncondizione che sia disponibile una connessione Internet.</string>
+    <string name="connect_with_wifi">CONNETTI AL WI-FI</string>
+    <string name="bluetooth_declined_network">Ops, non hai autorizzato la connessione alla rete del dispositivo!</string>
+    <string name="bluetooth_allow_network">Quando viene richiesto, consenti al dispositivo mobile di connettersi alla rete Wi-Fi di “nome dispositivo”.</string>
+    <string name="bluetooth_tip_three">3. Riattiva la modalità di rilevamento.</string>
+    <string name="bluetooth_error_sub_three">Dopo il riavvio, tieni premuto per tre secondi il pulsante della modalità presente sulla griglia finché non senti un segnale acustico e l\'indicatore Wi-Fi inizia a lampeggiare.</string>
+    <string name="connection_tips">CONSIGLI PER LA CONNESSIONE</string>
+    <string name="bot_connection_tips">Consigli per la connessione della griglia</string>
+    <string name="unable_to_connect_simple_solution">Non sono riuscito a connettermi. Proviamo con una soluzione semplice.</string>
+    <string name="reset_router">2. Riavvia il router.</string>
+    <string name="unplug_wait_sixty">Scollega il cavo di alimentazione dalla presa elettrica (o dal retro del router), attendi 60 secondi, quindi ricollega il cavo.</string>
+    <string name="wifi_password_tips">Consigli per la password Wi-Fi</string>
+    <string name="declined_local_area_network">Ops! Non hai autorizzato Ninja Kitchen ad accedere alla tua rete locale.</string>
+    <string name="grill_detected">Griglia rilevata</string>
+    <string name="model_number_example">Numero di modello IG601</string>
+    <string name="we_are_connected_bt">Siamo connessi alla tua griglia, ora stabiliamo la connessione con il Wi-Fi</string>
+    <string name="name_grill">Ora diamo un nome alla tua griglia Ninja</string>
+    <string name="name_grill_second">Dai un nome al tuo dispositivo Ninja.</string>
+    <string name="accept_permission_prompts">Dovrai accettare le richieste di autorizzazione per consentire all\'app di connettersi alla griglia.</string>
+    <string name="select_ok">Seleziona OK/Connetti per accettare le richieste di autorizzazione. Le richieste devono essere accettate per consentire all\'app di connettersi alla griglia.</string>
+    <string name="warning_dont_allow">Se selezioni Non consentire/Annulla, l\'app non potrà accedere alla griglia!</string>
+    <string name="timed_cooking_charts">Tabelle di cottura temporizzata</string>
+    <string name="filters">Filtri</string>
+    <string name="mode">Modalità</string>
+    <string name="time_lower">Ora</string>
+    <string name="food">Cibo</string>
+    <string name="clear_all_filters">Cancella tutti i filtri</string>
+    <string name="popular_filter_groupings">Gruppi di filtri di uso comune</string>
+    <string name="follow_suggestions_below">Segui i suggerimenti qui sotto per ottenere un\'esperienza di cottura ottimale.</string>
+    <string name="charts_cook_time">TEMPO DI COTTURA</string>
+    <string name="chart_adjustments">Adeguamenti delle tabelle</string>
+    <string name="times_listed">I tempi indicati in queste tabelle si basano sulle quantità specificate. Regola i tempi in base alle quantità che intendi cucinare.</string>
+    <string name="enter_verification_code">Inserisci il tuo codice di verifica</string>
+    <string name="reset_password_lower">Reimposta la password</string>
+    <string name="why_create_an_account">Perché creare un account?</string>
+    <string name="type_network_pw">Digita la password della rete</string>
+    <string name="hello_there">Ciao!</string>
+
+    <!--PAIRING INTERNATIONAL-->
+    <string name="pairing_international_step_one">Fase 1 <font color="#E5E5E5">di 4</font></string>
+    <string name="pairing_international_step_two">Fase 2 <font color="#E5E5E5">di 4</font></string>
+    <string name="pairing_international_step_three">Fase 3 <font color="#E5E5E5">di 4</font></string>
+    <string name="pairing_international_step_four">Fase 4 <font color="#E5E5E5">di 4</font></string>
+
+    <string name="powering_the_grill">ACCENSIONE DELLA GRIGLIA</string>
+    <string name="plug_in_grill_international">1. Collega la griglia</string>
+    <string name="plug_in_grill_international_first">Collega il salvavita. Una volta collegato, la spia luminosa sotto il pulsante RESET dovrebbe essere illuminata. Se la luce non si illumina, prova con una presa diversa.</string>
+    <string name="plug_in_grill_international_second">Premi il pulsante TEST sul salvavita. La luce dovrebbe spegnersi. Ora premi il pulsante RESET; la luce dovrebbe riaccendersi. A questo punto puoi accendere la griglia.</string>
+    <string name="turn_on_grill_international_content">Posiziona l\'interruttore di accensione nella posizione ON (|). L\'interruttore si trova dietro il pannello di controllo.</string>
+    <string name="rcd_requirements">Il salvavita deve essere collegato\na una presa compatibile.</string>
+    <string name="plug_in_grill_international_plain">Collega la griglia</string>
+    <string name="turn_on_grill_plain">Accendi la griglia</string>
+    <string name="flip_power_switch">Posiziona l\'interruttore di accensione nella posizione ON.</string>
+    <string name="grill_screen_should">Lo schermo della griglia dovrebbe accendersi.</string>
+    <string name="discovery_mode">MODALITÀ DI RILEVAMENTO</string>
+    <string name="turn_on_discovery_prompt">Attiva la modalità di rilevamento</string>
+    <string name="begin_discovery_content">Tieni premuto il selettore per 3-5 secondi, fino a quando non avverti un segnale acustico. Sul display inizierà a lampeggiare un\'icona Bluetooth.</string>
+
+
+    <!--    APP RATING PROMPT-->
+    <string name="af00145a691750156e6e82ef7f62d207709481be9">Cosa pensi della tua esperienza con Ninja?</string>
+    <string name="ac08e6f2622a1c2ee1732d29a1c7faa76c7bf472d">Facci conoscere la tua opinione.</string>
+    <string name="sad_submission_dialog_text">Ci dispiace del problema, vuoi visitare la sezione dell\'assistenza?</string>
+    <string name="a89f5c281e8c6d66f20b3374e5cf48e07b95e88e9">Vai all\'assistenza</string>
+    <string name="ab498945c3419dd2b537bb56c3f8caa01c5cc74bc">Ignora</string>
+    <string name="a9f39f03bb0109fec245555473333ea958a5997ec">Invia</string>
+
+    <string name="rare1">Al sangue 1</string>
+    <string name="rare2">Al sangue 2</string>
+    <string name="medrare3">Cottura media/al sangue 3</string>
+    <string name="medrare4">Cottura media/al sangue 4</string>
+    <string name="med5">Cottura media  5</string>
+    <string name="med6">Cottura media  6</string>
+    <string name="medwell7">Cottura media/ben cotto 7</string>
+    <string name="medwell8">Cottura media/ben cotto 8</string>
+    <string name="well9">Ben cotto 9</string>
+    <string name="unknown">Ignota</string>
+
+    <string name="calculating">Calcolo in corso</string>
+    <string name="cooking">Cottura</string>
+    <string name="idle">Al minimo</string>
+    <string name="offline">Non collegata</string>
+    <string name="probe_not_set">Sonda non impostata</string>
+    <string name="resting">A riposo</string>
+    <string name="complete">Completa</string>
+
+    <string name="low">Bassa</string>
+    <string name="high">Alta</string>
+
+    <string name="local_notification_offline_title">Connessione persa</string>
+    <string name="local_notification_offline_body">Il dispositivo ha perso la connessione Wi-Fi. Controlla che la rete Wi-Fi sia stata attivata e che il disposizione si trovi entro il raggio di portata previsto.</string>
+    <string name="about_this_app_description_no_data_protection">Condizioni di utilizzo, Informativa sulla privacy&#8230;</string>
+
+
+</resources>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_graph"
+    app:startDestination="@id/settingsFragment">
+
+    <fragment
+        android:id="@+id/warrantyInformationWebViewFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.WarrantyInformationWebViewFragment"
+        android:label="fragment_warranty_information_webview"
+        tools:layout="@layout/fragment_warranty_information_webview"/>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_settingsFragment_to_accountFragment"
+            app:destination="@+id/accountFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_aboutThisAppFragment"
+            app:destination="@+id/aboutThisAppFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_appliancesFragment"
+            app:destination="@+id/appliancesFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_notificationPermissionDialog"
+            app:destination="@id/notificationPermissionDialog" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account">
+
+        <action
+            android:id="@+id/action_accountFragment_to_signOutDialog"
+            app:destination="@id/signOutDialog" />
+        <action
+            android:id="@+id/action_accountFragment_to_profileFragment"
+            app:destination="@+id/profileFragment" />
+        <action
+            android:id="@+id/action_accountFragment_to_changeEmailFragment"
+            app:destination="@+id/changeEmailFragment" />
+        <action
+            android:id="@+id/action_accountFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment" />
+        <action
+            android:id="@+id/action_accountFragment_to_preferencesFragment"
+            app:destination="@id/preferencesFragment" />
+        <action
+            android:id="@+id/action_Authentication"
+            app:destination="@id/authenticationActivity" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/termsOfUseWebViewFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.TermsOfUseFragment"
+        android:label="fragment_termsOfUseWebView"
+        tools:layout="@layout/fragment_terms_of_use_webview"/>
+
+    <activity
+        android:id="@+id/authenticationActivity"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.authentication.activities.AuthenticationActivity"
+        android:label="activity_authentication"
+        tools:layout="@layout/activity_authentication" />
+    <dialog
+        android:id="@+id/signOutDialog"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.dialogs.SignOutDialog"
+        android:label="dialog_sign_out"
+        tools:layout="@layout/dialog_sign_out"/>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_stateSelectionBottomSheet"
+            app:destination="@+id/stateSelectionBottomSheet" />
+        <action
+            android:id="@+id/action_Authentication"
+            app:destination="@id/authenticationActivity" />
+        <action
+            android:id="@+id/action_profileFragment_to_accountFragment"
+            app:destination="@+id/accountFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_deleteAccountFragment"
+            app:destination="@+id/deleteAccountFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/changeEmailFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.ChangeEmailFragment"
+        android:label="fragment_change_email"
+        tools:layout="@layout/fragment_change_email">
+        <action
+            android:id="@+id/action_Authentication"
+            app:destination="@id/authenticationActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password">
+        <action
+            android:id="@+id/action_Authentication"
+            app:destination="@id/authenticationActivity" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/stateSelectionBottomSheet"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.StateSelectionBottomSheet"
+        android:label="StateSelectionBottomSheet">
+        <argument
+            android:name="countryArg"
+            app:argType="string" />
+    </dialog>
+
+    <fragment
+        android:id="@+id/preferencesFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.PreferencesFragment"
+        android:label="fragment_preferences"
+        tools:layout="@layout/fragment_preferences">
+        <action
+            android:id="@+id/action_preferenceSelection"
+            app:destination="@id/preferenceSelectionBottomSheet" />
+
+    </fragment>
+
+    <dialog
+        android:id="@+id/preferenceSelectionBottomSheet"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.PreferenceSelectionBottomSheet"
+        android:label="PreferenceSelectionBottomSheet"
+        tools:layout="@layout/bottom_sheet_preference_selection">
+
+        <argument
+            android:name="preferenceType"
+            app:argType="string" />
+    </dialog>
+
+    <fragment
+        android:id="@+id/appliancesFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.AppliancesFragment"
+        android:label="fragment_appliances"
+        tools:layout="@layout/fragment_appliances">
+        <action
+            android:id="@+id/action_appliancesFragment_to_applianceLandingFragment"
+            app:destination="@+id/applianceLandingFragment" />
+        <action
+            android:id="@+id/action_appliancesFragment_to_home"
+            app:destination="@id/home_graph" />
+        <action
+            android:id="@+id/action_appliancesFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/applianceLandingFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.ApplianceLandingFragment"
+        android:label="fragment_appliance_landing"
+        tools:layout="@layout/fragment_appliance_landing">
+        <action
+            android:id="@+id/action_applianceLandingFragment_to_applianceDetailFragment"
+            app:destination="@+id/applianceDetailFragment" />
+        <action
+            android:id="@+id/action_applianceLanding_to_supportFragment"
+            app:destination="@+id/supportFragment" />
+        <action
+            android:id="@+id/action_applianceLandingFragment_to_warrantyInformationWebViewFragment"
+            app:destination="@id/warrantyInformationWebViewFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/applianceDetailFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.ApplianceDetailFragment"
+        android:label="fragment_appliance_detail"
+        tools:layout="@layout/fragment_appliance_detail" >
+        <action
+            android:id="@+id/action_applianceDetailFragment_to_restoreFactorySettingsDialog"
+            app:destination="@+id/restoreFactorySettingsDialog" />
+        <action
+            android:id="@+id/action_applianceDetailFragment_to_deleteApplianceDialog"
+            app:destination="@+id/deleteApplianceDialog" />
+        <action
+            android:id="@+id/action_toSettingsFragment"
+            app:destination="@+id/settingsFragment" />
+        <action
+            android:id="@+id/action_showProgressBar"
+            app:destination="@id/settingsProgressBarDialog" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/aboutThisAppFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.AboutThisAppFragment"
+        android:label="fragment_about_this_app"
+        tools:layout="@layout/fragment_about_this_app">
+        <action
+            android:id="@+id/action_aboutThisAppFragment_to_privacyPolicyFragment"
+            app:destination="@+id/privacyPolicyFragment" />
+        <action
+            android:id="@+id/action_aboutThisAppFragment_to_termsOfUseWebViewFragment"
+            app:destination="@id/termsOfUseWebViewFragment" />
+        <action
+            android:id="@+id/action_aboutThisAppFragment_to_eulaFragment"
+            app:destination="@id/eulaFragment" />
+        <action
+            android:id="@+id/action_aboutThisAppFragment_to_dataProtectionFragment"
+            app:destination="@id/dataProtectionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/eulaFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.EULAFragment"
+        android:label="fragment_eula"
+        tools:layout="@layout/fragment_eula"/>
+    <fragment
+        android:id="@+id/privacyPolicyFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.PrivacyPolicyFragment"
+        android:label="fragment_privacy_policy"
+        tools:layout="@layout/fragment_privacy_policy" />
+    <fragment
+        android:id="@+id/dataProtectionWebViewFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.DataProtectionWebViewFragment"
+        android:label="fragment_data_protection_webview"
+        tools:layout="@layout/fragment_data_protection_webview"/>
+    <fragment
+        android:id="@+id/dataProtectionFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.DataProtectionFragment"
+        android:label="fragment_data_protection"
+        tools:layout="@layout/fragment_data_protection">
+        <action
+            android:id="@+id/action_dataProtectionFragment_to_dataProtectionWebViewFragment"
+            app:destination="@id/dataProtectionWebViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.SupportFragment"
+        android:label="fragment_support"
+        tools:layout="@layout/fragment_support" />
+    <fragment
+        android:id="@+id/deleteAccountFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.fragments.DeleteAccountFragment"
+        android:label="fragment_delete_account"
+        tools:layout="@layout/fragment_delete_account" >
+        <action
+            android:id="@+id/action_Authentication"
+            app:destination="@id/authenticationActivity" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/settingsProgressBarDialog"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.dialogs.SettingsProgressBarDialog"
+        android:label="dialog_progress_bar_settings"
+        tools:layout="@layout/layout_progress_bar_dialog" >
+        <action
+            android:id="@+id/action_loading_to_appliancesFragment"
+            app:destination="@id/appliancesFragment" />
+    </dialog>
+    <dialog
+        android:id="@+id/notificationPermissionDialog"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.settings.dialogs.NotificationPermissionDialog"
+        android:label="NotificationPermissionDialog"
+        tools:layout="@layout/dialog_notification_permission" />
+
+
+</navigation>

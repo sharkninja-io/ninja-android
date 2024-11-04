@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/settings_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/page_sub_header"
+        style="@style/Settings.SubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:text="@string/your_appliance" />
+
+    <TextView
+        android:id="@+id/page_header"
+        style="@style/Settings.Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_small"
+        android:paddingBottom="@dimen/padding_normal"
+        tools:text="@string/fake_appliance_name" />
+
+    <com.sharkninja.ninja.connected.kitchen.ui.views.SettingsListItemView
+        android:id="@+id/appliance_detail_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:listItemLeftIcon="@drawable/ic_appliance"
+        app:listItemRightIcon="@drawable/ic_iconoir_arrow_right"
+        app:listItemTitle="@string/appliance_detail"
+        app:listItemTopDivider="true" />
+
+    <com.sharkninja.ninja.connected.kitchen.ui.views.SettingsListItemView
+        android:id="@+id/warranty_information_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:listItemLeftIcon="@drawable/ic_iconoir_book"
+        app:listItemRightIcon="@drawable/ic_iconoir_arrow_right"
+        app:listItemTitle="@string/warranty_information"
+        app:listItemTopDivider="true" />
+
+    <com.sharkninja.ninja.connected.kitchen.ui.views.SettingsListItemView
+        android:id="@+id/support_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:listItemBottomDivider="true"
+        app:listItemLeftIcon="@drawable/ic_iconoir_chat_bubble"
+        app:listItemRightIcon="@drawable/ic_iconoir_arrow_right"
+        app:listItemTitle="@string/support"
+        app:listItemTopDivider="true" />
+
+</LinearLayout>

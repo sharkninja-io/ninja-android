@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/authentication_graph"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.authentication.fragments.SignInFragment"
+        tools:layout="@layout/fragment_sign_in">
+        <action
+            android:id="@+id/action_signInFragment_to_homeActivity"
+            app:destination="@id/homeActivity" />
+        <action
+            android:id="@+id/action_signInFragment_to_createAccountFragment"
+            app:destination="@id/createAccountFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.activities.HomeActivity"
+        tools:layout="@layout/activity_home" />
+    <fragment
+        android:id="@+id/createAccountFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.authentication.fragments.CreateAccountFragment"
+        tools:layout="@layout/fragment_create_account">
+        <action
+            android:id="@+id/action_createAccountFragment_to_whyCreateAccountFragment"
+            app:destination="@id/whyCreateAccountFragment" />
+        <action
+            android:id="@+id/action_createAccountFragment_to_emailVerificationFragment"
+            app:destination="@id/emailVerificationFragment" />
+        <action
+            android:id="@+id/action_createAccountFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/whyCreateAccountFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.authentication.fragments.WhyCreateAccountFragment"
+        tools:layout="@layout/fragment_why_create_account" />
+    <fragment
+        android:id="@+id/emailVerificationFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.authentication.fragments.EmailVerificationFragment"
+        tools:layout="@layout/fragment_email_verification">
+        <action
+            android:id="@+id/action_emailVerificationFragment_to_homeActivity"
+            app:destination="@id/homeActivity" />
+        <action
+            android:id="@+id/action_emailVerificationFragment_to_createAccountFragment"
+            app:destination="@id/createAccountFragment" />
+        <action
+            android:id="@+id/action_emailVerificationFragment_to_signInFragment"
+            app:destination="@+id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.authentication.fragments.ForgotPasswordFragment"
+        tools:layout="@layout/fragment_forgot_password">
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_confirmCodeFragment"
+            app:destination="@id/confirmCodeFragment" />
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_createAccountFragment"
+            app:destination="@id/createAccountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.authentication.fragments.ResetPasswordFragment"
+        tools:layout="@layout/fragment_reset_password">
+        <action
+            android:id="@+id/action_resetPasswordFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/countryRegionFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.authentication.fragments.CountryRegionFragment"
+        tools:layout="@layout/fragment_country_region">
+        <action
+            android:id="@+id/action_countryRegionFragment_to_createAccountFragment"
+            app:destination="@id/createAccountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmCodeFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.authentication.fragments.ConfirmCodeFragment"
+        tools:layout="@layout/fragment_confirm_code">
+        <action
+            android:id="@+id/action_confirmCodeFragment_to_resetPasswordFragment"
+            app:destination="@id/resetPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verifySignInFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.authentication.fragments.VerifySignInFragment"
+        tools:layout="@layout/fragment_verify_sign_in">
+        <action
+            android:id="@+id/action_verifySignInFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="ninjakitchen://open.ninjakitchen.app/verify" />
+    </fragment>
+</navigation>

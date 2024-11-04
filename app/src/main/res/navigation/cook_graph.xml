@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cook_graph"
+    app:startDestination="@id/preCookFragment">
+
+    <fragment
+        android:id="@+id/preCookFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.home.fragments.PreCookFragment"
+        android:label="fragment_pre_cook"
+        tools:layout="@layout/fragment_pre_cook">
+
+        <action
+            android:id="@+id/action_preCookFragment_to_timedCookDashboard"
+            app:destination="@+id/timedCookDashboard" />
+
+        <action
+            android:id="@+id/action_preCookFragment_to_editCookTimeTempFragment"
+            app:destination="@id/editCookTimeTempFragment" />
+        <action
+            android:id="@+id/action_preCookFragment_to_editGrillTempFragment"
+            app:destination="@id/editGrillTempFragment" />
+
+        <action
+            android:id="@+id/action_preCookFragment_to_editFoodTempProbe0Fragment"
+            app:destination="@id/editFoodTempProbe0Fragment" />
+
+        <action
+            android:id="@+id/action_preCookFragment_to_editFoodTempProbe1Fragment"
+            app:destination="@id/editFoodTempProbe1Fragment" />
+
+        <action
+            android:id="@+id/action_preCookFragment_to_grillAccessoryDialog"
+            app:destination="@id/grillAccessoryDialog" />
+        <action
+            android:id="@+id/action_preCookFragment_to_chartAccessoryDialog"
+            app:destination="@id/chartAccessoryDialog" />
+        <action
+            android:id="@+id/action_preCookFragment_to_placeYourThermomterDialog"
+            app:destination="@+id/placeYourThermometerDialog" />
+        <action
+            android:id="@+id/action_preCookFragment_to_cookFragment"
+            app:destination="@+id/cookFragment" />
+        <action
+            android:id="@+id/action_preCookFragment_to_home"
+            app:destination="@id/home_graph" />
+        <action
+            android:id="@+id/action_preCookFragment_to_requestNotificationsDialog"
+            app:destination="@id/requestNotificationsDialog" />
+        <action
+            android:id="@+id/action_showProgressBar"
+            app:destination="@id/progressBarDialogPreCook" />
+        <action
+            android:id="@+id/action_preCookFragment_to_supportFragmentCook"
+            app:destination="@id/supportFragmentCook" />
+
+    </fragment>
+
+
+    <dialog
+        android:id="@+id/progressBarDialogPreCook"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.dialogs.ProgressBarDialogPreCook"
+        android:label="dialog_progress_bar_precook"
+        tools:layout="@layout/layout_progress_bar_dialog" >
+        <action
+            android:id="@+id/action_progressBar_dialog_to_CookFragment"
+            app:destination="@+id/cookFragment" />
+    </dialog>
+
+    <dialog
+        android:id="@+id/progressBarDialogCook"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.dialogs.ProgressBarDialogCook"
+        android:label="dialog_progress_bar_cook"
+        tools:layout="@layout/layout_progress_bar_dialog" />
+
+    <action
+        android:id="@+id/global_to_cook_fragment"
+        app:destination="@id/preCookFragment"
+        app:launchSingleTop="true"
+        app:popUpTo="@id/preCookFragment"
+        app:popUpToInclusive="true" />
+
+    <fragment
+        android:id="@+id/cookFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.fragments.CookFragment"
+        android:label="fragment_cook"
+        tools:layout="fragment_cook">
+        <action
+            android:id="@+id/action_cookFragment_to_editFoodTempProbe0Fragment"
+            app:destination="@+id/cookEditFoodTempProbe0Fragment" />
+        <action
+            android:id="@+id/action_cookFragment_to_editFoodTempProbe1Fragment"
+            app:destination="@+id/cookEditFoodTempProbe1Fragment" />
+        <action
+            android:id="@+id/action_cookFragment_to_EditTimeTempFragment"
+            app:destination="@+id/cookTimeTempFragment" />
+        <action
+            android:id="@+id/action_cookFragment_to_EditGrillTempFragment"
+            app:destination="@+id/cookEditTempFragment" />
+        <action
+            android:id="@+id/action_toPreCook"
+            app:destination="@id/preCookFragment" />
+        <action
+            android:id="@+id/action_showPlugInTherm1"
+            app:destination="@id/plugInThermometer1Dialog" />
+        <action
+            android:id="@+id/action_showPlugInTherm2"
+            app:destination="@id/plugInThermometer2Dialog" />
+        <action
+            android:id="@+id/action_showProgressBar"
+            app:destination="@id/progressBarDialogCook" />
+
+    </fragment>
+
+    <dialog
+        android:id="@+id/editCookTimeTempFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.fragments.EditCookTimeTempFragment"
+        android:label="fragment_cook_time_grill_temp"
+        tools:layout="@layout/fragment_cook_time_grill_temp">
+        <action
+            android:id="@+id/editCookTimeTempFragment_to_miniChartsPreview"
+            app:destination="@+id/miniChartFragment" />
+    </dialog>
+
+    <dialog
+        android:id="@+id/editGrillTempFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.fragments.EditGrillTempFragment"
+        android:label="fragment_grill_temp"
+        tools:layout="@layout/fragment_grill_temp" />
+
+    <dialog
+        android:id="@+id/editFoodTempProbe0Fragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.fragments.EditFoodTempProbe0Fragment"
+        android:label="fragment_probe0"
+        tools:layout="@layout/fragment_probe" />
+
+    <dialog
+        android:id="@+id/editFoodTempProbe1Fragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.fragments.EditFoodTempProbe1Fragment"
+        android:label="fragment_probe1"
+        tools:layout="@layout/fragment_probe" />
+
+    <dialog
+        android:id="@+id/grillAccessoryDialog"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.dialogs.GrillAccessoryDialog"
+        android:label="dialog_grill_accessory"
+        tools:layout="@layout/dialog_grill_accessory">
+<!--        <action-->
+<!--            android:id="@+id/action_grillAccessoryDialog_to_cookFragment"-->
+<!--            app:destination="@+id/cookFragment" />-->
+        <action
+            android:id="@+id/action_showProgressBar"
+            app:destination="@id/progressBarDialogPreCook"/>
+    </dialog>
+
+    <dialog
+        android:id="@+id/placeYourThermometerDialog"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.dialogs.PlaceYourThermometerDialogFragment"
+        android:label="dialog_place_your_thermometer"
+        tools:layout="@layout/dialog_place_your_thermometer" />
+
+    <fragment
+        android:id="@+id/miniChartFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.fragments.MiniChartsFragment"
+        android:label="miniChartsFragment"
+        tools:layout="@layout/fragment_mini_charts">
+        <action
+            android:id="@+id/miniChartToSelectedChart"
+            app:destination="@+id/chartDisplayFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chartDisplayFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.fragments.ChartDisplayFragment"
+        android:label="chartDisplayFragment"
+        tools:layout="@layout/fragment_chart_display" >
+        <action
+            android:id="@+id/action_chartDisplayFragment_to_grillAccessoryDialogCharts"
+            app:destination="@id/chartAccessoryDialog" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/chartAccessoryDialog"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.explore.dialogs.GrillAccessoryDialogCharts"
+        android:label="dialog_grill_accessory"
+        tools:layout="@layout/dialog_grill_accessory">
+        <action
+            android:id="@+id/action_chartAccessoryDialog_to_preCookFragment"
+            app:destination="@id/preCookFragment" />
+    </dialog>
+
+    <dialog
+        android:id="@+id/cookEditTempFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.fragments.CookEditTempFragment"
+        android:label="fragment_cook_edit_temp"
+        tools:layout="@layout/fragment_cook_edit_temp" />
+    <dialog
+        android:id="@+id/cookTimeTempFragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.fragments.CookEditTimeTempFragment"
+        android:label="fragment_cook_edit_time_temp"
+        tools:layout="@layout/fragment_cook_edit_time_temp" />
+    <dialog
+        android:id="@+id/cookEditFoodTempProbe0Fragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.fragments.CookEditFoodTempProbe0Fragment"
+        android:label="fragment_cook_edit_food_temp_probe_0"
+        tools:layout="@layout/fragment_probe_darkmode" />
+
+    <dialog
+        android:id="@+id/cookEditFoodTempProbe1Fragment"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.fragments.CookEditFoodTempProbe1Fragment"
+        android:label="fragment_cook_edit_food_temp_probe_1"
+        tools:layout="@layout/fragment_probe_darkmode" />
+    <dialog
+        android:id="@+id/plugInThermometer1Dialog"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.dialogs.PlugInThermometer1Dialog"
+        android:label="dialog_plug_in_thermometer_1"
+        tools:layout="@layout/dialog_dark_theme" />
+    <dialog
+        android:id="@+id/plugInThermometer2Dialog"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.dialogs.PlugInThermometer2Dialog"
+        android:label="dialog_plug_in_thermometer_1"
+        tools:layout="@layout/dialog_dark_theme" />
+    <dialog
+        android:id="@+id/requestNotificationsDialog"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.dialogs.RequestNotificationsDialog"
+        android:label="dialog_request_notifications"
+        tools:layout="@layout/dialog_request_notifications" />
+
+    <fragment
+        android:id="@+id/supportFragmentCook"
+        android:name="com.sharkninja.ninja.connected.kitchen.sections.cook.fragments.SupportFragmentCook"
+        android:label="fragment_support"
+        tools:layout="@layout/fragment_support" />
+</navigation>

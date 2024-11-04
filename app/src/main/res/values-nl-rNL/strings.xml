@@ -1,0 +1,678 @@
+<!--    Dutch-->
+<resources>
+
+    <string name="app_name">Ninja ProConnect</string>
+    <string name="forgot_password_header_text">Lukt het aanmelden niet?</string>
+    <string name="forgot_password_sub_text">We sturen je een e-mail met instructies om je wachtwoord opnieuw in te stellen.</string>
+    <string name="forgot_password_button_text">WACHTWOORD OPNIEUW INSTELLEN</string>
+    <string name="reset_password_header_text">Mooi zo!</string>
+    <string name="reset_password_sub_text">Laten we een nieuw wachtwoord aanmaken.</string>
+
+    <string name="nav_bar_charts">Tabellen</string>
+    <string name="nav_bar_cook">Koken</string>
+    <string name="nav_bar_settings">Instellingen</string>
+
+    <string name="auth_login_confirm_email_text">Je moet je e-mailaccount bevestigen voordat we verdergaan.</string>
+    <string name="auth_login_reset_password_label">We hebben je een e-mail gestuurd met instructies om je aan te melden.</string>
+    <string name="auth_login_error_text">Deze combinatie van e-mail en wachtwoord is ongeldig. Probeer het nog eens.</string>
+    <string name="auth_welcome_back_text">Welkom terug</string>
+    <string name="auth_login_text">Meld je aan met je Ninja-account om te beginnen.</string>
+    <string name="continue_button">DOORGAAN</string>
+    <string name="continue_proper">Doorgaan</string>
+    <string name="auth_shark_ninja_login_hint">Weet je dat jouw Shark|Ninja-account kan gebruiken om je aan te melden?</string>
+    <string name="auth_dont_have_account">Heb je geen account?</string>
+    <string name="auth_already_have_account">Heb je al een account?</string>
+    <string name="auth_sign_up_here"><u>Hier registreren</u></string>
+    <string name="auth_log_in_here"><u>Aanmelden</u></string>
+    <string name="auth_button_login">AANMELDEN</string>
+    <string name="auth_email_label">E-MAIL</string>
+    <string name="auth_password_label">WACHTWOORD</string>
+    <string name="auth_button_register">NU REGISTREREN</string>
+    <string name="auth_username_hint">Vul je e-mailadres in</string>
+    <string name="auth_password_hint">Vul je wachtwoord in</string>
+    <string name="auth_password_create_hint">Maak een nieuw wachtwoord aan</string>
+    <string name="auth_create_account">Maak een account aan</string>
+    <string name="auth_login_forgot_password"><u>Wachtwoord vergeten?</u></string>
+    <string name="reset_password_new_email">Another email has been sent.</string>
+    <string name="did_not_get_email_desc">Heb je de e-mail niet ontvangen? Kijk in je spammap. Heb je het bericht na enkele minuten nog niet ontvangen? Tik op onderstaande knop. Dan verzenden we het opnieuw. </string>
+    <string name="reset_password_almost_there">We zijn er bijna.</string>
+    <string name="reset_password_sent_email_text">We hebben je een e-mail gestuurd met instructies om je wachtwoord opnieuw in te stellen. Open de e-mail en tik op Wachtwoord opnieuw instellen om te beginnen.</string>
+    <string name="reset_password_enter_code">Vul de code in</string>
+    <string name="reset_password_resend_code">CODE OPNIEUW VERZENDEN</string>
+
+    <string name="auth_welcome">Welkom!</string>
+    <string name="auth_create_account_text">Laten we jouw nieuwe Ninja-account aanmaken.</string>
+    <string name="auth_agree_to_terms">Ik ga akkoord met de <u>Algemene voorwaarden</u></string>
+    <string name="auth_privacy_notice_check_text">Ik ben bekend met de <u>Privacyverklaring</u></string>
+
+    <string name="auth_verify_email_header_text">We zijn er bijna</string>
+    <string name="auth_verify_email_sub_text">We hebben een e-mail verzonden naar %1$s. Open de e-mail en tik op Bevestigen om verder te gaan.</string>
+    <string name="auth_verify_resent_email_text">We hebben de e-mail zojuist opnieuw verzonden! Controleer je e-mail om je account te bevestigen.</string>
+    <string name="auth_verify_resend_button">E-MAIL OPNIEUW VERZENDEN</string>
+    <string name="auth_verify_verifying_header">Bezig met verifiëren... even geduld alsjeblieft.</string>
+    <string name="auth_verify_verified_header">Je account is geverifieerd!</string>
+
+
+    <string name="pairing_step_one">Stap 1 <font color="#E5E5E5">van 3</font></string>
+    <string name="pairing_step_two">Stap 2 <font color="#E5E5E5">van 3</font></string>
+    <string name="pairing_step_three">Stap 3 <font color="#E5E5E5">van 3</font></string>
+    <string name="pairing_network_tips_text"><u>Ik zie mijn netwerk niet</u></string>
+
+    <string name="step_one_of_two"><font color="#767676">Stap</font> <font color="#45BE55">1</font> <font color="#767676">van 2</font></string>
+    <string name="step_two_of_two"><font color="#767676">Stap</font> <font color="#45BE55">2</font> <font color="#767676">van 2</font></string>
+
+    <string name="woodFireDescription">Geef elk gerecht dat je maakt een rijke, volledig ontwikkelde rokerige smaak met pellets.</string>
+
+    <string name="cooking_charts_description">Het culinaire team van Ninja heeft tabellen opgesteld die je zullen helpen bij de bereiding van geslaagde gerechten.</string>
+
+    <string name="pairing_permissions_error_sub_text">Ga naar de instellingen op je mobiele telefoon om toegang te verlenen.
+    \n1. Open de instellingen op je mobiele apparaat
+    \n2. Selecteer Privacy
+    \n3. Selecteer Lokaal netwerk
+    \n4. Zoek de Ninja Kitchen-app op en
+    \nschakel de knop in om toestemming te verlenen
+    \n5. Ga terug naar de Ninja Kitchen-app</string>
+
+    <string name="pairing_grill_network_error_tip_1"><b>Stel je grill opnieuw in:</b> Schakel de grill uit door op de knop te drukken</string>
+    <string name="pairing_grill_network_error_tip_2"><b>Schakel de detectiemodus weer in:</b> Houd de modusknop op de grill drie seconden ingedrukt.</string>
+    <string name="pairing_wifi_network_error_tip_1"><b>Wachtwoord vergeten:</b> Kijk op de achterkant van je router of vraag het aan iemand die het kan weten.</string>
+    <string name="pairing_wifi_network_error_tip_2"><b>Serverprobleem:</b> Zorg dat jouw netwerk geen VPN of proxyserver is.</string>
+    <string name="pairing_wifi_network_error_tip_3"><b>Overige:</b> Heb je internetproblemen met andere producten bij jou thuis? Neem dan contact op met je internetprovider.</string>
+
+    <string name="pairing_btle_wifi_network_error_tip_1_header"><b>1. Wachtwoord vergeten:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_1_sub">Kijk op de achterkant van je router of vraag het aan iemand die het kan weten.</string>
+    <string name="pairing_btle_wifi_network_error_tip_2_header"><b>2. Serverprobleem:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_2_sub">Zorg dat jouw netwerk geen VPN of proxyserver is.</string>
+    <string name="pairing_btle_wifi_network_error_tip_3_header"><b>3. Overige:</b></string>
+    <string name="pairing_btle_wifi_network_error_tip_3_sub">Heb je internetproblemen met andere producten bij jou thuis? Neem dan contact op met je internetprovider.</string>
+
+
+    <string name="pairing_customer_support_number">Bel ons op het volgende telefoonnummer: <b>1-855-427-5123</b></string>
+    <string name="customer_support_number">1-855-427-5123</string>
+
+    <string name="dialog_network_tips_title">Netwerktips</string>
+    <string name="dialog_network_tips_router">Stel de router opnieuw in</string>
+    <string name="dialog_network_tips_unplug">Trek de stekker uit het stopcontact (of uit de achterkant van de router), wacht 60 seconden en steek hem er dan weer in.</string>
+    <string name="dialog_network_tips_check_type">Controleer het netwerktype</string>
+    <string name="dialog_network_tips_ninja_grills">Ninja-grills maken alleen verbinding met 2.4GHz-netwerken. Controleer of jouw 2.4GHz-netwerk niet is verborgen of uitgeschakeld. Heb je een app voor jouw router? Gebruik die dan om jouw 2,4GHz-netwerk weer te geven of in te schakelen. Of neem contact op met jouw internetprovider.</string>
+    <string name="dialog_network_tips_internet_issues">Heb je internetproblemen met andere producten bij jou thuis? Neem dan contact op met je internetprovider.</string>
+
+    <!--password validation-->
+    <string name="password_req_one_upper_letter">1 hoofdletter</string>
+    <string name="password_req_one_lower_letter">1 kleine letter</string>
+    <string name="password_req_eight_characters">8 tekens of meer</string>
+    <string name="password_req_one_number">1 cijfer</string>
+
+    <string name="ninja_verify_deep_link">app://open.ninjakitchen.app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hallo leeg fragment</string>
+
+    <!-- Settings Fragment-->
+    <string name="account">Account</string>
+    <string name="account_description">Profiel, E-mail wijzigen, Afmelden&#8230;</string>
+    <string name="your_appliance">Jouw apparaat</string>
+    <string name="your_appliance_description">Apparaatgegevens, Garantiegegevens, Ondersteuning&#8230;</string>
+    <string name="about_this_app">Over deze app</string>
+    <string name="about_this_app_description">Gegevensbescherming, Gebruiksvoorwaarden, Privacybeleid&#8230;</string>
+    <string name="cooking_notifications">Kookmeldingen (push)</string>
+
+    <!-- Account Fragment-->
+    <string name="profile">Profiel</string>
+    <string name="preferences">Voorkeuren</string>
+    <string name="log_out">Afmelden</string>
+    <string name="account_info_description">Naam, Adres, Telefoonnummer...</string>
+    <string name="preferences_description">Jouw apparaat, Gewichtseenheid, Temperatuureenheid&#8230;</string>
+    <string name="sign_out_description">Weet je zeker dat je je wil afmelden?</string>
+    <string name="cancel">Annuleren</string>
+    <string name="cancel_upper">ANNULEREN</string>
+    <string name="change_email">E-mail wijzigen</string>
+    <string name="change_password">Wachtwoord wijzigen</string>
+
+    <!-- Change Email Fragment-->
+
+    <string name="new_email">NIEUW E-MAILADRES</string>
+    <string name="confirm_new_email">NIEUW E-MAILADRES BEVESTIGEN</string>
+    <string name="change_email_hint">Vul je e-mailadres in</string>
+    <string name="change_email_btn">BIJWERKEN + AFMELDEN</string>
+
+    <!-- Profile Fragment -->
+    <string name="first_name">VOORNAAM*</string>
+    <string name="last_name">ACHTERNAAM*</string>
+    <string name="address">ADRES*</string>
+    <string name="address_two">ADRESREGEL TWEE</string>
+    <string name="city">WOONPLAATS*</string>
+    <string name="state_province">PROVINCIE*</string>
+    <string name="zip_code">POSTCODE*</string>
+    <string name="phone_number">TELEFOONNUMMER</string>
+    <string name="required_field">(*) Verplicht veld</string>
+    <string name="account_subtitle">ACCOUNT</string>
+    <string name="delete_account_btn"><u>Account verwijderen</u></string>
+    <string name="save_changes">Wijzigingen opslaan</string>
+    <string name="okay">Oké</string>
+    <string name="state">Status</string>
+    <string name="required_field_error_msg">Verplicht veld</string>
+
+    <!-- Profile Save Changes Dialog -->
+    <string name="dialog_save_changes_title">Je wijzigingen zijn niet opgeslagen.</string>
+    <string name="dialog_save_changes_desc">Wil je ze opslaan?</string>
+    <string name="dialog_save_changes_btn_save">Wijzigingen opslaan</string>
+    <string name="dialog_save_changes_btn_discard">Wijzigingen negeren</string>
+    <string name="dialog_save_changes_btn_cancel"><u>Annuleren</u></string>
+
+    <!-- About This App Fragment -->
+    <!--    data protection, terms of use, privacy policy, information/legal notice-->
+    <string name="data_protection">Gegevensbescherming</string>
+    <string name="terms_of_use">Gebruiksvoorwaarden</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <string name="privacy_notice_btn">PRIVACYVERKLARING VAN SHARKNINJA</string>
+    <string name="info_legal_notice">Informatie/Juridische kennisgeving</string>
+    <string name="privacy_policy_description">Wanneer je deze Ninja Pro Connect-app gebruikt, verzamelt SharkNinja (\"we/wij\" of \"ons\") persoonlijke gegevens van jou, zoals je e-mailadres en het verbonden IP-adres. We gebruiken jouw persoonlijke gegevens om je account te beheren en om producten en diensten te leveren die te maken hebben met het aangesloten apparaat, en die je bij ons hebt aangevraagd. We kunnen de verzamelde gegevens delen met onze partners en dienstverleners.</string>
+    <string name="privacy_policy_description_pt_two">Bij een succesvolle aanmelding genereert de Ninja Pro Connect-app een autorisatietoken dat lokaal op je telefoon wordt opgeslagen en telkens wanneer je de Ninja Pro Connect-app gebruikt, wordt vernieuwd. Dit token wordt alleen gebruikt om je aangemeld te houden in de app. Wil je meer weten over hoe wij de verzamelde gegevens gebruiken? Kijk dan op:</string>
+
+    <string name="about_this_app_caps">OVER DEZE APP</string>
+
+    <!--    Delete Account-->
+    <string name="delete_account">Account verwijderen</string>
+    <string name="listitem_settings_info_description">Wanneer je jouw account verwijdert, verwijder je ook alle accountgegevens, dus ook de verbindingen met het apparaat.\n\nJe zal dan een nieuwe account moeten aanmaken wanneer je je weer wil aanmelden.</string>
+    <string name="listitem_settings_info_name">Weet je het zeker?</string>
+    <string name="delete_account_button_text">PERMANENT VERWIJDEREN</string>
+    <!--    Delete Account Dialog-->
+    <string name="delete_account_dialog_title_text">Weet je zeker dat je jouw account wil verwijderen?</string>
+    <string name="delete_account_dialog_description_text">Dit kan niet meer ongedaan worden gemaakt en het kan even duren.</string>
+    <string name="delete_account_dialog_delete_btn">MIJN ACCOUNT VERWIJDEREN</string>
+    <string name="account_has_been_deleted">Je account is verwijderd! Hopelijk tot snel!</string>
+    <!-- Change Password Fragment-->
+    <string name="old_password">OUD WACHTWOORD</string>
+    <string name="password">NIEUW WACHTWOORD</string>
+    <string name="confirm_password">NIEUW WACHTWOORD BEVESTIGEN</string>
+    <string name="lets_create_new_password">Laten we een nieuw wachtwoord aanmaken.</string>
+    <string name="passwords_dont_match">Wachtwoorden komen niet overeen</string>
+    <string name="forgot_password_btn"><u>Wachtwoord vergeten?</u></string>
+    <string name="enter_your_password_hint">Vul je wachtwoord in</string>
+    <string name="enter_your_new_password_hint">Vul je nieuwe wachtwoord in</string>
+
+
+    <!-- Preferences Fragment -->
+    <string name="your_appliance_caps">JOUW APPARAAT</string>
+    <string name="weight_unit">GEWICHTSEENHEID</string>
+    <string name="temperature_unit">TEMPERATUUREENHEID</string>
+
+    <!-- Error Dialog -->
+    <string name="something_went_wrong_title">Oeps, er is iets fout gegaan!</string>
+    <string name="something_went_wrong_description">Het opslaan is mislukt. Nog eens proberen?</string>
+    <string name="retry_btn">Opnieuw proberen</string>
+
+
+    <!--    Appliance Fragment-->
+    <string name="appliance_name">Ninja Woodfire&#8482; ProConnect XL Outdoor Grill &amp; Smoker</string>
+    <string name="appliance_detail">Apparaatgegevens</string>
+    <string name="your_appliances">Jouw apparaten</string>
+
+    <!--    Appliance Detail Fragment-->
+    <string name="fake_appliance_name">Ninja&#174; Foodi&#174; XL Pro</string>
+    <string name="appliance_notification_volume">Volume van apparaatmelding</string>
+    <string name="serial_number">Serienummer</string>
+    <string name="model_number">Modelnummer</string>
+    <string name="dsn">DSN</string>
+    <string name="mac_address">Mac-adres</string>
+    <string name="app_version">Appversie</string>
+    <string name="firmware_version">Firmwareversie</string>
+    <string name="appliance_error_log">Foutenlogboek van apparaat</string>
+    <string name="restore_factory_settings">Terugzetten naar fabrieksinstellingen</string>
+    <string name="delete_appliance">Apparaat verwijderen</string>
+    <string name="support">Ondersteuning</string>
+    <string name="warranty_information">Garantiegegevens</string>
+    <string name="no_appliances_description">Zo te zien is er nog geen apparaat gekoppeld. Voeg hieronder een apparaat toe om je kooksessies vanaf jouw apparaat te kunnen volgen.</string>
+    <string name="add_appliance_btn">APPARAAT TOEVOEGEN</string>
+    <string name="add_another_appliance">NOG EEN APPARAAT TOEVOEGEN</string>
+    <string name="dialog_delete_appliance_title">Weet je zeker dat je jouw apparaat wil verwijderen?</string>
+    <string name="dialog_delete_appliance_description">Je gaat terug naar de fabrieksinstellingen. Weet je het zeker?</string>
+    <string name="dialog_restore_factory_settings_title">Je gaat terug naar de fabrieksinstellingen. Weet je het zeker?</string>
+    <string name="dialog_restore_factory_settings_description">Dit kan niet meer ongedaan worden gemaakt en het kan even duren.</string>
+    <string name="delete_appliance_btn">Apparaat verwijderen</string>
+    <string name="restore_settings_btn">Terugzetten naar fabrieksinstellingen</string>
+    <string name="requesting_permissions">TOESTEMMING VRAGEN</string>
+    <string name="allow_permissions_main_prompt">Geef toestemming\nom verbinding te maken met jouw grill.</string>
+    <string name="permissions_overview">Tik op “OK” of “Toestaan” om de verzoeken om toestemming te accepteren. Deze verzoeken moet je accepteren om de app verbinding te laten maken met jouw grill.</string>
+    <string name="important_caps">BELANGRIJK</string>
+    <string name="next_caps">VOLGENDE</string>
+    <string name="enable_bluetooth_description">Schakel Bluetooth in voor dit apparaat.</string>
+    <string name="detect_your_grill_description">Geef toestemming om nabijgelegen apparaten te vinden en hun onderlinge\npositie vast te stellen.</string>
+    <string name="detect_your_grill">Jouw grill detecteren</string>
+    <string name="enable_location_description">Verleen toegang tot jouw locatie tijdens\ngebruik van de app</string>
+    <string name="enable_location">Locatie inschakelen</string>
+    <string name="pairing_preparation">KOPPELING VOORBEREIDEN</string>
+    <string name="plug_in_grill">1. Sluit de grill aan</string>
+    <string name="plug_in_grill_default"></string>
+    <string name="bluetooth_step_one_description">Sluit het apparaat alleen aan op passend 3-polig GFCI\n-stopcontact.</string>
+    <string name="more_info">Meer info</string>
+    <string name="bluetooth_step_two">2. Schakel de grill in</string>
+    <string name="bluetooth_step_two_description">Schakel de grill in door de knop\n3 seconden in te drukken.</string>
+    <string name="bluetooth_step_three">3. Koppel de gril.</string>
+    <string name="bluetooth_step_three_description">• Houd de draaiknop 3-5 seconden ingedrukt totdat je een pieptoon hoort.\n\n• Druk op de NEXT-knop eronder om jouw gril te selecteren.</string>
+    <string name="might_take_a_moment">Dit kan even duren.</string>
+    <string name="bear_with_me">Even geduld alsjeblieft!</string>
+
+    <!--    Bluetooth-->
+    <string name="android_permission_bluetooth_title">TITEL</string>
+    <string name="android_permission_bluetooth_description">beschrijving bluetooth</string>
+    <string name="android_permission_bluetooth_denied_description">beschrijving geweigerd</string>
+    <string name="bluetooth_disabled_dialog_title">Oeps! Zo te zien heb je bluetooth uitgeschakeld.</string>
+    <string name="bluetooth_disabled_dialog_description">Dat kan je vinden onder de instellingen van je mobiele telefoon.</string>
+    <string name="bluetooth_disabled_dialog_button">Inschakelen</string>
+    <string name="nearby_devices_error_title">Oh jee, je hebt geweigerd om de positie van nabijgelegen apparaten te delen!</string>
+    <string name="nearby_devices_error_desc">Laat jouw mobiele apparaat, wanneer daarom wordt gevraagd, verbinding maken met jouw bluetooth om jouw gril te kunnen bedienen en volgen.</string>
+    <string name="location_error_title">Oh jee, je hebt geweigerd om toestemming te geven voor het delen van jouw locatie!</string>
+    <string name="location_error_desc">Laat jouw mobiele apparaat, wanneer daarom wordt gevraagd, verbinding maken met jouw locatie om jouw grill gemakkelijk te kunnen detecteren.</string>
+    <string name="bluetooth_paired_success_header">Mooi zo! Wij worden vast dikke vrienden!</string>
+    <string name="bluetooth_paired_success_default">We zijn er klaar voor! Wij worden vast dikke vrienden!</string>
+    <string name="bt_error_grill_connecting_title">Oeps, zo te zien is er iets misgegaan bij het maken van de verbinding.</string>
+    <string name="bt_error_grill_connecting_instructions">Probeer opnieuw om verbinding te maken met jouw grill.</string>
+    <string name="bt_connect_error_first_title">Oeps... Jouw grill is niet gevonden. Probeer het nog eens.</string>
+    <string name="bt_connect_error_first_intruction_title">Schakel de detectiemodus in</string>
+    <string name="bt_connect_error_first_instruction">Houd de draaiknop 3-5 seconden ingedrukt om de detectiemodus in te schakelen. Het koppelen is gelukt wanneer het Bluetoothpictogram niet meer knippert en wit oplicht.</string>
+    <string name="default_grill_name">Ninja ProConnect</string>
+    <string name="choose_a_name">KIES EEN NAAM</string>
+    <string name="cool_name">Wil je me een leuke naam geven?</string>
+    <string name="name_your_grill_empty_continue_button">NEE BEDANKT, DOORGAAN</string>
+    <string name="bluetooth_permissions_error_button_go_to_settings">GA NAAR INSTELLINGEN</string>
+    <string name="hours_label">UUR</string>
+    <string name="minutes_label">MIN</string>
+    <string name="seconds_label">SEC</string>
+
+    <!-- Cook Settings Dialog -->
+    <string name="cook_settings_go_back_dialog_title">Wil je teruggaan?</string>
+    <string name="cook_settings_go_back_dialog_description">Alle wijzigingen gaan verloren. Weet je zeker dat je ze wil verwijderen?</string>
+    <string name="cook_settings_go_back_dialog_top_button">WIJZIGINGEN NEGEREN</string>
+
+    <string name="cook_tip_title">Wil je helpen, chef?</string>
+    <string name="cook_tip_description">Ons culinaire team heeft bereidings tabellen gemaakt om je aanwijzingen te geven voor het instellen van jouw kook sessie.</string>
+    <string name="cook_tip_link">Ga naar bereidingstabellen</string>
+
+    <string name="grill_accessory_dialog_title">Grillstand (Grlll)</string>
+    <string name="smoke_accessory_dialog_title">Rookstand (Smoke)</string>
+    <string name="air_crisp_accessory_dialog_title">Aircrispstand (Aircrisp)</string>
+    <string name="roast_accessory_dialog_title">Roosterstand (Roast)</string>
+    <string name="bake_accessory_dialog_title">Bakstand (Bake)</string>
+    <string name="reheat_accessory_dialog_title">Opwarmstand (Reheat)</string>
+    <string name="broil_accessory_dialog_title">Braadstand (Broil)</string>
+    <string name="dehydrate_accessory_dialog_title">Droogstand (Dehydrate)</string>
+
+    <string name="grill_accessory_dialog_description">Voor deze stand moet je de grillplaat en de vetopvangbak gebruiken. Bevestig dat de grill veilig kan beginnen met verwarmen.</string>
+    <string name="aircrisp_accessory_dialog_description">Voor deze stand moet je alle accessoires gebruiken. Bevestig dat de grill veilig kan beginnen met verwarmen.</string>
+    <string name="grill_accessory_dialog_button">Klaar</string>
+    <string name="empty"></string>
+
+    <string name="wood_fire_cardview_label">Houtvuursmaaktechnologie</string>
+    <string name="cook_time">BEREIDINGSTIJD</string>
+    <string name="grill_temp">GRILLTEMPERATUUR</string>
+
+    <string name="place_your_thermometer_dialog_description">Steek de ingebouwde thermometer\n in het dikste deel van je\n proteïnebron terwijl de grill\n voorverwarmt.</string>
+    <string name="roast_settings_toolbar_title">Roast-instellingen</string>
+    <string name="grill_settings_toolbar_title">Grill-instellingen</string>
+    <string name="smoke_settings_toolbar_title">Smoke-instellingen</string>
+    <string name="air_crisp_settings_toolbar_title">Air Crisp-instellingen</string>
+    <string name="bake_settings_toolbar_title">Bake Crisp-instellingen</string>
+    <string name="broil_settings_toolbar_title">Broil-instellingen</string>
+    <string name="dehydrate_settings_toolbar_title">Dehydrate-instellingen</string>
+    <string name="probe0_manual_title">Thermometer 1</string>
+    <string name="probe1_manual_title">Thermometer 2</string>
+    <string name="therm_cook_tip_title">Thermometer plaatsen?</string>
+    <string name="therm_cook_tip_desc">Steek de ingebouwde thermometer in het\ndikste deel van je proteïnebron terwijl de\ngrill voorverwarmt.</string>
+    <string name="target_temp">DOELTEMPERATUUR</string>
+    <string name="poultry_probe_title">Gevogelte</string>
+    <string name="cook_mode_label">KOOKSTAND</string>
+    <string name="dialog_change_to_thermometer_cook_title">Wil je een thermometer instellen?</string>
+    <string name="dialog_change_to_thermometer_cook_description">Je gaat de bereidingsmethode wijzigen, dus je zal nieuwe instellingen moeten toevoegen. De grill werkt niet meer met een ingestelde tijd.</string>
+    <string name="dialog_change_to_thermometer_cook_positive_button">JA, VOEG EEN THERMOMETER TOE</string>
+    <string name="dialog_change_to_timed_cook_title">Wil je overschakelen naar tijdgestuurde bereiding?</string>
+    <string name="dialog_change_to_timed_cook_description"> Je gerecht zal klaar zijn zodra de timer afloopt, in plaats van wanneer de thermometers hun streeftemperaturen bereiken. De instellingen van de thermometer gaan verloren.</string>
+    <string name="dialog_change_to_timed_cook_positive_button">DOORGAAN NAAR TIJDGESTUURDE BEREIDING</string>
+    <string name="dialog_thermometer_not_plugged_in_title">Thermometer niet aangesloten.</string>
+    <string name="dialog_thermometer_not_plugged_in_description">Er moet minimaal 1 thermometer\nop de grill zijn aangesloten om\nde thermometerfunctie te gebruiken.</string>
+    <string name="dialog_thermometer_not_plugged_in_button">TERUG NAAR KOKEN</string>
+    <string name="dialog_thermometer_1_not_plugged_in_dashboard_description">Je eerste thermometer moet zijn aangesloten om de uitlezing te kunnen volgen.</string>
+    <string name="dialog_thermometer_2_not_plugged_in_dashboard_description">Je tweede thermometer moet zijn aangesloten om de uitlezing te kunnen volgen.</string>
+    <string name="dialog_thermometer_not_plugged_in_dashboard_button">OKÉ</string>
+    <string name="dial_state_offline_timed_cooking">KOKEN</string>
+    <string name="dial_state_lid_open">Deksel sluiten</string>
+    <string name="doneness">GARING</string>
+    <string name="email_verification_loading_header">Bezig met verifiëren... even geduld alsjeblieft.</string>
+    <string name="email_verification_verified_loading_header">Je account is geverifieerd!</string>
+    <string name="sp_user_cred_email">sharedPrefKeyEmail</string>
+    <string name="sp_user_cred_pw">sharedPrefKeyPW</string>
+
+    <!-- Request Notifications Dialog -->
+    <string name="dialog_request_notifications_title">Meldingen inschakelen?</string>
+    <string name="dialog_request_notifications_body">Je ontvangt realtime meldingen over de status van je grill en de bereiding.</string>
+    <string name="dialog_request_notifications_primary">Ja, hou me op de hoogte!</string>
+    <string name="dialog_request_notifications_secondary">Ik wil geen meldingen krijgen.</string>
+
+    <!--    Not Supported Dialog-->
+    <string name="dialog_not_supported_title">Niet ondersteund</string>
+    <string name="dialog_not_supported_body">De droog- en braadfuncties (Dehydrate en Broil) ondersteunen geen bereiding met thermometer. Probeer een andere bereidingsfunctie als je de thermometers wil kunnen volgen.</string>
+    <string name="dialog_not_supported_body_intl">De droog- en braadfuncties (Dehydrate en Opwarmen) ondersteunen geen bereiding met thermometer. Probeer een andere bereidingsfunctie als je de thermometers wil kunnen volgen.</string>
+    <string name="dialog_not_supported_primary">BEGREPEN</string>
+
+    <string name="save_changes_btn_cook_edit_probe">WIJZIGINGEN OPSLAAN</string>
+    <string name="cook_settings_label">KOOKINSTELLINGEN</string>
+    <string name="save_changes_btn_cook_edit_probe_one_disabled">THERMOMETER 1 AANSLUITEN</string>
+    <string name="save_changes_btn_cook_edit_probe_two_disabled">THERMOMETER 2 AANSLUITEN</string>
+    <string name="start_cooking_button_online">BEREIDING STARTEN</string>
+    <string name="start_cooking_button_chart">BEREIDING STARTEN MET TABEL</string>
+    <string name="start_preheating_button_online">VOORVERWARMEN STARTEN</string>
+    <string name="start_ignition_button_online">ONTSTEKING STARTEN</string>
+    <string name="start_cooking_button_offline">GRILL OFFLINE</string>
+    <string name="grill_cooling">Grill bezig met afkoelen</string>
+    <string name="grill_heating">Grill bezig met voorverwarmen</string>
+
+    <string name="sign_out_pairing_dialog_title">Afmelden?</string>
+    <string name="sign_out_pairing_dialog_description">Koppelen is nodig om toegang te krijgen tot de app. Wanneer je het proces annuleert, word je afgemeld.</string>
+    <string name="sign_out_pairing_dialog_top_button">Ja, meld me af</string>
+    <string name="sign_out_pairing_dialog_top_bottom_button">Nee, ga door met koppelen</string>
+
+    <string name="cancel_pairing_dialog_title">Koppelen annuleren?</string>
+    <string name="cancel_pairing_dialog_description">Je moet opnieuw beginnen als je een nieuw apparaat wil koppelen.</string>
+    <string name="cancel_pairing_dialog_top_button">Ja, annuleer het koppelen</string>
+    <string name="cancel_pairing_dialog_bottom_button">Nee, ga door met koppelen</string>
+    <string name="stronger_connection_screen_content">Als koppelt met wifi, kun je jouw grill overal besturen, zolang er maar een internetverbinding is.</string>
+    <string name="close_lid">Deksel\nsluiten</string>
+    <string name="not_set">Niet ingesteld</string>
+    <string name="add_food">Voedsel\ntoevoegen</string>
+    <string name="flip_food">Voedsel\nomdraaien</string>
+    <string name="current_temp">Huidige temperatuur</string>
+    <string name="double_dash">--</string>
+    <string name="get_food">Voedsel pakken</string>
+    <string name="done">Klaar</string>
+    <string name="unplugged">Niet aangesloten</string>
+    <string name="cannot_read_temp">Temperatuur uitlezen niet mogelijk</string>
+    <string name="until_complete">Tot voltooid</string>
+    <string name="percent_progress">%1$s%%</string>
+    <string name="current_temp_and_temp_unit">%1$s%2$s</string>
+    <string name="faren">°F</string>
+    <string name="faren_with_temp">%1$s°F</string>
+    <string name="celsius">°C</string>
+    <string name="cook_complete">Bereiding voltooid</string>
+    <string name="therm_has_reached_temp">Thermometer %1$s: De ingestelde rusttemperatuur is bereikt.</string>
+    <string name="check_it_out">CONTROLEER</string>
+    <string name="okay_button">OKÉ</string>
+    <string name="stop_cooking">BEREIDING STOPPEN</string>
+    <string name="back_to_dashboard">TERUG NAAR DASHBOARD</string>
+    <string name="timed_cook">TIJDGESTUURDE BEREIDING</string>
+    <string name="therm_cook">THERMOMETER</string>
+    <string name="thermometers">Thermometers</string>
+    <string name="grill_settings">Grill-instellingen</string>
+    <string name="all_offline">OFFLINE</string>
+    <string name="all_online">ONLINE</string>
+    <string name="skip_preheat">VOORVERWARMEN OVERSLAAN</string>
+    <string name="preheating">VOORVERWARMEN</string>
+    <string name="skip_ignition">ONTSTEKING OVERSLAAN</string>
+    <string name="time">TIJD</string>
+    <string name="colon">:</string>
+    <string name="dial_zero">0%%</string>
+
+    <string name="mini_charts_chart_choice">Wat wil je vandaag %1$s?</string>
+    <string name="charts_filters_view_results">[%1$s] RESULTATEN WEERGEVEN</string>
+    <string name="charts_use_chart_button">DEZE TABEL GEBRUIKEN</string>
+    <string name="charts_popular_groupings">Populaire filtergroepen</string>
+    <string name="charts_popular_groupings_results">%1$s resultaten</string>
+    <string name="name_grill_confirm_text">Ik ben je nieuwe kookmaatje, %1$s.</string>
+    <string name="air_crisp_label">Air Crisp</string>
+    <string name="smoker_label">Smoker</string>
+    <string name="name_length_label">%1$s/15</string>
+    <string name="notification_permission_dialog_title">Meldingsinstellingen wijzigen</string>
+    <string name="notification_permission_dialog_body">Je moet deze app toestemming geven om pushmeldingen te versturen, als je deze functie wil gebruiken.</string>
+
+    <string name="roast">Roosteren</string>
+    <string name="bake">Bakken</string>
+    <string name="aircrisp">Air Crisp</string>
+    <string name="grill">Grill</string>
+    <string name="smoke">Roken</string>
+    <string name="dehydrate">Drogen</string>
+    <string name="broil">Braden</string>
+    <string name="reheat">Opwarmen</string>
+
+    <string name="manual">Handmatig</string>
+    <string name="chicken">Kip</string>
+    <string name="beef">Rund</string>
+    <string name="pork">Varken</string>
+    <string name="fish">Vis</string>
+    <string name="lamb">Lam</string>
+
+    <string name="preheating_mc">Voorverwarmen</string>
+    <string name="ignition">Ontsteking</string>
+
+    <string name="apply">TOEPASSEN</string>
+    <string name="select_many_text">Selecteer er zoveel als je wil.</string>
+
+    <string name="charts_title">BEREIDINGSTABELLEN</string>
+    <string name="charts_chuck_roast">Stoofvlees</string>
+    <string name="charts_cook_method">Bereidingsmethode</string>
+    <string name="charts_recipe_name">Receptnaam</string>
+    <string name="charts_grill_today">Wat wil je vandaag\ngrillen?</string>
+    <string name="charts_choose_food_type">Kies het soort voedsel dat beschikbaar is in de geselecteerde\nbereidingsmethode.</string>
+    <string name="charts_preparation">VOORBEREIDING</string>
+    <string name="charts_notes">NOTITIES</string>
+    <string name="charts_grill_temperature">GRILLTEMPERATUUR</string>
+    <string name="charts_placeholder_text">Tijdelijke aanduiding</string>
+    <string name="charts_filters_time_less_15">&lt; 15 min</string>
+    <string name="charts_filters_time_15_30">15 - 30 min</string>
+    <string name="charts_filters_time_30_60">30 - 60 min</string>
+    <string name="charts_filters_time_60_120">60 - 120 min</string>
+    <string name="charts_filters_time_over_120">+ 120 min</string>
+    <string name="charts_try_woodfire">Houtvuursmaak proberen</string>
+
+
+    <string name="support_button">KLANTONDERSTEUNING</string>
+    <string name="support_trouble">Nog steeds problemen?</string>
+    <string name="support_call_us">BEL ONS</string>
+    <string name="support_nevermind">MAAKT NIET UIT</string>
+
+    <string name="food_type_select">VOEDSELKIEZER</string>
+    <string name="food_type_beef">Rund</string>
+    <string name="food_type_pork">Varken</string>
+    <string name="food_type_poultry">Gevogelte</string>
+    <string name="food_type_seafood">Zeevruchten</string>
+    <string name="food_type_bread_cheese">Brood/kaas</string>
+    <string name="food_type_fruit">Fruit</string>
+    <string name="food_type_lamb_veal">Lam/\nkalf</string>
+    <string name="food_type_veggies">Groenten</string>
+    <string name="food_type_fish">Vis</string>
+    <string name="food_type_chicken">Kip</string>
+    <string name="food_type_manual">Handmatig</string>
+    <string name="food_type_other">Overige</string>
+
+    <string name="bluetooth_connect_to_grill">VERBINDING MAKEN MET GRILL</string>
+    <string name="bluetooth_choose_grill">Kies jouw grill om te beginnen met het installatie\nproces.</string>
+    <string name="settings_show_appliance">Apparaat weergeven</string>
+    <string name="name_grill_default_length">0/15</string>
+    <string name="bluetooth_few_minutes">Dit kan een paar minuten duren</string>
+    <string name="bluetooth_keep_open">Houd dit scherm open en actief totdat de verbinding is voltooid</string>
+
+    <string name="try_again">OPNIEUW PROBEREN</string>
+    <string name="edit_email">E-mail bewerken</string>
+
+
+    <string name="bluetooth_enable">Bluetooth inschakelen</string>
+    <string name="bluetooth_error_connection">VERBINDING MET APPARAAT</string>
+    <string name="bluetooth_error_title">Zo te zien kon ik geen verbinding maken. Laten we iets anders proberen!</string>
+    <string name="bluetooth_error_tip_one">1. Stel je grill opnieuw in.</string>
+    <string name="bluetooth_error_sub_one">Schakel de grill uit door op de knop te drukken</string>
+    <string name="bluetooth_error_tip_two">2. Zet de wifi op je mobiele apparaat uit en aan.</string>
+    <string name="bluetooth_error_sub_two">Schakel de wifi op je mobiele apparaat uit. Wacht 10 seconden, schakel de wifi weer in en maak verbinding met je netwerk.</string>
+    <string name="bluetooth_error_join_wifi">VERBINDING MET WIFI</string>
+    <string name="bluetooth_error_wifi_body">Er is nog steeds iets dat niet werkt. Geen zorgen! Er zijn nog een paar dingen die je kan proberen.</string>
+    <string name="bluetooth_turn_on_grill">Je grill inschakelen</string>
+    <string name="bluetooth_press_power_button">Druk op de aan/uit-knop\nom je grill in te schakelen.</string>
+
+    <string name="dialog_thermometer_place_therm">Thermometer plaatsen?</string>
+    <string name="dialog_thermometer_dont_show">Laat dit niet meer zien.</string>
+    <string name="dialog_thermometer_continue">Doorgaan met koken</string>
+
+    <string name="bluetooth_wifi_password">Mij netwerk vraagt niet om een wachtwoord</string>
+    <string name="connect">VERBINDING MAKEN</string>
+    <string name="bluetooth_connect_to_wifi">VERBINDING MAKEN MET WIFI</string>
+    <string name="bluetooth_start_cooking">Mooi zo! Laten we gaan koken.</string>
+
+    <string name="to_the_dashboard">NAAR HET DASHBOARD</string>
+    <string name="pairing_wifi_connection">Onze\nverbinding\nkan\nsterker!</string>
+    <string name="pairing_start_wifi">KOPPELING MET WIFI STARTEN</string>
+    <string name="pairing_select_wifi">Selecteer jouw wifinetwerk</string>
+    <string name="pairing_network_two_bars">Controleer of het netwerk minimaal 2 streepjes heeft. Is het signaal te zwak? Probeer je Grill dan dichter bij de router te zetten.</string>
+
+    <string name="region_select_country">Selecteer jouw land/regio.</string>
+
+    <string name="woodfire_flavor">HOUTVUURSMAAK PROBEREN</string>
+    <string name="woodfire_add_rich">Geef elk gerecht een rijke, volledig ontwikkelde rokerige smaak.</string>
+    <string name="woodfire_tech">HOUTVUURTECHNOLOGIE</string>
+    <string name="woodfire_filtering_option">Wanneer je filtert op deze optie, is de volgende bereidingsmethode niet beschikbaar: Braden (Broil)</string>
+
+    <string name="loading_text">Bezig met laden...</string>
+    <string name="cooking_point">KOOKPUNT</string>
+    <string name="doneness_point">GARINGSPUNT</string>
+    <string name="internal_temp">KERNTEMPERATUUR</string>
+
+    <string name="view_privacy_policy">Privacybeleid weergeven</string>
+
+
+    <!--    MISSING IN FRENCH, DANISH, AND DUTCH-->
+    <string name="on">AAN</string>
+    <string name="off">UIT</string>
+    <string name="monitor_method">VOLGMETHODE</string>
+    <string name="add_food_notification_title">Voedsel toevoegen</string>
+    <string name="add_food_notification_body">Jouw grill is voorverwarmd en klaar voor gebruik</string>
+    <string name="close_lid_notification_title">Deksel sluiten</string>
+    <string name="close_lid_notification_body">Het bereidingsproces wordt pas voortgezet wanneer het deksel is gesloten.</string>
+    <string name="flip_food_notification_title">Tijd om te keren</string>
+    <string name="flip_food_notification_body">We zijn halverwege de bereidingstijd</string>
+    <string name="remove_food_notification_title">Voedsel uitnemen</string>
+    <string name="cook_complete_notification_body">Je grill blijft tot 5 minuten warm.</string>
+    <string name="get_food_therm_one_notification_body">Thermometer 1: Uit de grill nemen en laten rusten. De garing zal doorgaan dankzij de restwarmte en zo de ingestelde temperatuur bereiken.</string>
+    <string name="get_food_therm_two_notification_body">Thermometer 2: Uit de grill nemen en laten rusten. De garing zal doorgaan dankzij de restwarmte en zo de ingestelde temperatuur bereiken.</string>
+    <string name="cord_dimen_text">max. 25 voet lang en 14\ndik zijn OF 50 voet en minimaal 12\ndik.</string>
+    <string name="outdoor_text">Geschikt voor buitengebruik.</string>
+    <string name="ext_cord_text">Heb je een verlengsnoer nodig? Dan moet dat:</string>
+    <string name="gfci_text">Sluit het apparaat alleen aan op passend 3-\npolig GFCI-stopcontact.</string>
+    <string name="plug_in_grill_text">Sluit de grill aan</string>
+    <string name="turn_on_your_appliance">Schakel jouw apparaat in</string>
+    <string name="press_button_until_screen_lights_up">Houd de ronde start/stop-knop ingedrukt totdat de lampjes op het scherm oplichten</string>
+    <string name="got_it">Begrepen</string>
+    <string name="plug_in_dialog_title">Sluit het apparaat alleen aan op passend\n3-polig GFCI-stopcontact.</string>
+    <string name="confirm_account_label">Jouw account is nog niet geverifieerd. Kijk in je spammap.</string>
+    <string name="air_crisp_settings">Air Crisp-instellingen</string>
+    <string name="settings">Instellingen</string>
+    <!--    <string name="pounds">Pounds (lb)</string>-->
+    <!--    <string name="grams">Grams (g)</string>-->
+    <!--    <string name="kilograms">Kilograms (kg)</string>-->
+    <!--    <string name="ounces">Ounces (oz)</string>-->
+
+    <!--MISSED STRINGS FROM FIRST BATCH, addresses 1398, 1399, 1400, 1401, 1403-->
+    <string name="smoke_caps">ROKEN</string>
+    <string name="rare">Rare</string>
+    <string name="medrare">Med Rare</string>
+    <string name="med">Med</string>
+    <string name="medwell">Med Well</string>
+    <string name="well">Well</string>
+    <string name="igniting">ONTSTEKING</string>
+    <string name="plugin_dialogue_plugin">Sluit jouw apparaat aan</string>
+    <string name="press_start_button">Druk op de startknop van jouw grill</string>
+    <string name="press_rounded_start_button">Houd de ronde start/stop-knop ingedrukt totdat\nhet scherm oplicht</string>
+    <string name="connect_app_to_grill">Verbind de app met jouw grill</string>
+    <string name="activate_discovery_mode">Schakel de detectiemodus op de grill in.</string>
+    <string name="hold_mode_activate_discovery">Houd de modusknop op de grill 3 seconden ingedrukt om de detectiemodus in te schakelen.</string>
+    <string name="oops_wifi_error">Oeps... \nverbinding maken\nmet bluetooth\nis niet gelukt</string>
+    <string name="lets_try_wifi">Laten we het met wifi proberen. Dan kun je\nhet bereidingsproces altijd controleren, zolang\ner een internetverbinding beschikbaar is.</string>
+    <string name="connect_with_wifi">VERBINDING MAKEN MET WIFI</string>
+    <string name="bluetooth_declined_network">Oh jee, je hebt geweigerd om deel uit te maken van het app-netwerk!</string>
+    <string name="bluetooth_allow_network">Laat jouw mobiele apparaat, wanneer daarom wordt gevraagd, verbinding maken met het draadloze netwerk met de naam van de app.</string>
+    <string name="bluetooth_tip_three">3. Schakel de detectiemodus weer in.</string>
+    <string name="bluetooth_error_sub_three">Start opnieuw op, en houd dan de modusknop op de grill 3 seconden ingedrukt, totdat de prompt verschijnt, en de Wifi-indicator begint te knipperen.</string>
+    <string name="connection_tips">VERBINDINGSTIPS</string>
+    <string name="bot_connection_tips">Verbindingstips voor de grill</string>
+    <string name="unable_to_connect_simple_solution">Zo te zien kon ik geen verbinding maken. Laten we een simpele oplossing proberen.</string>
+    <string name="reset_router">2. Reset je router.</string>
+    <string name="unplug_wait_sixty">Trek de stekker uit het stopcontact (of uit de achterkant van de router), wacht 60 seconden en steek hem er dan weer in.</string>
+    <string name="wifi_password_tips">Tips voor wifi-wachtwoorden</string>
+    <string name="declined_local_area_network">Oh jee! Je hebt Ninja Kitchen geen toegang verleend tot jouw LAN (local area network).</string>
+    <string name="grill_detected">Grill gevonden</string>
+    <string name="model_number_example">modelnummer # IG601</string>
+    <string name="we_are_connected_bt">We zijn verbonden met jouw grill. Laten we nu verbinding maken met wifi.</string>
+    <string name="name_grill">Laten we jouw Ninja-grill een naam geven.</string>
+    <string name="name_grill_second">Geef jouw Ninja-apparaat een naam.</string>
+    <string name="accept_permission_prompts">Je moet de verzoeken om toestemming accepteren, zodat de app verbinding kan maken met jouw grill.</string>
+    <string name="select_ok">Selecteer OK / Meedoen om de verzoeken om toestemming te accepteren. Deze verzoeken moet je accepteren om de app verbinding te laten maken met de grill.</string>
+    <string name="warning_dont_allow">Als je Niet toestaan/Annuleren selecteert, krijgt de app geen toegang tot jouw grill!</string>
+    <string name="timed_cooking_charts">Tabellen met bereidingstijden</string>
+    <string name="filters">Filters</string>
+    <string name="mode">Stand</string>
+    <string name="time_lower">Tijd</string>
+    <string name="food">Voedsel</string>
+    <string name="clear_all_filters">Alle filters uitschakelen</string>
+    <string name="popular_filter_groupings">Populaire filtergroepen</string>
+    <string name="follow_suggestions_below">Volg onderstaande tips op voor een succesvolle kookervaring.</string>
+    <string name="charts_cook_time">BEREIDINGSTIJD</string>
+    <string name="chart_adjustments">Aanpassingen tabel</string>
+    <string name="times_listed">De tijden in deze tabel zijn gebaseerd op de vermelde hoeveelheden. Pas de tijd aan op basis van de hoeveelheid die jij gebruikt.</string>
+    <string name="enter_verification_code">Vul je verificatiecode in</string>
+    <string name="reset_password_lower">Wachtwoord opnieuw instellen</string>
+    <string name="why_create_an_account">Waarom moet je een account aanmaken?</string>
+    <string name="type_network_pw">Vul je nieuwe wachtwoord in</string>
+    <string name="hello_there">Hallo!</string>
+
+    <!--PAIRING INTERNATIONAL-->
+    <string name="pairing_international_step_one">Stap 1 <font color="#E5E5E5">van 4</font></string>
+    <string name="pairing_international_step_two">Stap 2 <font color="#E5E5E5">van 4</font></string>
+    <string name="pairing_international_step_three">Stap 3 <font color="#E5E5E5">van 4</font></string>
+    <string name="pairing_international_step_four">Stap 4 <font color="#E5E5E5">van 4</font></string>
+
+    <string name="powering_the_grill">DE GRILL INSCHAKELEN</string>
+    <string name="plug_in_grill_international">1. De grill aansluiten</string>
+    <string name="plug_in_grill_international_first">Steek de RCD-stekker in het stopcontact. Nadat de stekker is aangesloten, moet het lampje onder de RESET-knop branden. Brandt het lampje niet? Probeer dan een ander stopcontact.</string>
+    <string name="plug_in_grill_international_second">Druk op de TEST-knop van de RCD-stekker. Het lampje moet uitgaan. Druk op de RESET-knop. Het lampje moet weer gaan branden. Nu kun je de grill inschakelen.</string>
+    <string name="turn_on_grill_international_content">Zet de aan-uitschakelaar op AAN (|). De schakelaar bevindt zich achter het bedieningspaneel.</string>
+    <string name="rcd_requirements">De RCD-stekker moet op een\ngeschikt stopcontact worden aangesloten.</string>
+    <string name="plug_in_grill_international_plain">Je grill aansluiten</string>
+    <string name="turn_on_grill_plain">Je grill inschakelen</string>
+    <string name="flip_power_switch">Zet de aan-uitschakelaar op AAN.</string>
+    <string name="grill_screen_should">Het venster van de grill moet oplichten.</string>
+    <string name="discovery_mode">DETECTIEMODUS</string>
+    <string name="turn_on_discovery_prompt">Detectiemodus inschakelen</string>
+    <string name="begin_discovery_content">Houd de draaiknop 3-5 seconden ingedrukt, totdat je een pieptoon hoort. Op het display gaat er ook een bluetooth-pictogram knipperen.</string>
+
+
+    <!--    APP RATING PROMPT-->
+    <string name="af00145a691750156e6e82ef7f62d207709481be9">Wat is jouw ervaring met Ninja?</string>
+    <string name="ac08e6f2622a1c2ee1732d29a1c7faa76c7bf472d">Vertel wat je van ons vindt.</string>
+    <string name="sad_submission_dialog_text">Wat vervelend dat je een probleem hebt. Wil je Ondersteuning raadplegen?</string>
+    <string name="a89f5c281e8c6d66f20b3374e5cf48e07b95e88e9">Ga naar Ondersteuning</string>
+    <string name="ab498945c3419dd2b537bb56c3f8caa01c5cc74bc">Verwijderen</string>
+    <string name="a9f39f03bb0109fec245555473333ea958a5997ec">Verzenden</string>
+
+    <string name="rare1">Rare 1 (rood)</string>
+    <string name="rare2">Rare 2</string>
+    <string name="medrare3">M. Rare 3</string>
+    <string name="medrare4">M. Rare 4</string>
+    <string name="med5">Med 5</string>
+    <string name="med6">Med 6</string>
+    <string name="medwell7">M. Well 7</string>
+    <string name="medwell8">M. Well 8</string>
+    <string name="well9">Well 9 (doorbakken)</string>
+    <string name="unknown">Onbekend</string>
+
+    <string name="calculating">Berekenen</string>
+    <string name="cooking">Koken</string>
+    <string name="idle">Niet-actief</string>
+    <string name="offline">Offline</string>
+    <string name="probe_not_set">Probe Not Set</string>
+    <string name="resting">Rusten</string>
+    <string name="complete">Voltooid</string>
+
+    <string name="low">Low</string>
+    <string name="high">Hi</string>
+
+    <string name="local_notification_offline_title">Verbinding weggevallen</string>
+    <string name="local_notification_offline_body">Jouw apparaat is zijn wifi-verbinding kwijtgeraakt. Controleer of je wifi hebt ingeschakeld en of het apparaat binnen bereik is.</string>
+    <string name="about_this_app_description_no_data_protection">Gebruiksvoorwaarden, Privacybeleid&#8230;</string>
+
+
+</resources>

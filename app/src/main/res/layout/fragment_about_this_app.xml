@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/settings_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/page_header"
+        style="@style/Settings.Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_xlarge"
+        android:text="@string/about_this_app" />
+
+<!--    <com.sharkninja.ninja.connected.kitchen.ui.views.SettingsListItemView-->
+<!--        android:id="@+id/data_protection_card"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:listItemLeftIcon="@drawable/ic_iconoir_verified_user"-->
+<!--        app:listItemRightIcon="@drawable/ic_iconoir_arrow_right"-->
+<!--        app:listItemTitle="@string/data_protection"-->
+<!--        app:listItemTopDivider="true" />-->
+
+    <com.sharkninja.ninja.connected.kitchen.ui.views.SettingsListItemView
+        android:id="@+id/terms_of_use_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:listItemLeftIcon="@drawable/ic_iconoir_page"
+        app:listItemRightIcon="@drawable/ic_iconoir_arrow_right"
+        app:listItemTitle="@string/terms_of_use"
+        app:listItemTopDivider="true" />
+
+    <com.sharkninja.ninja.connected.kitchen.ui.views.SettingsListItemView
+        android:id="@+id/privacy_policy_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:listItemLeftIcon="@drawable/ic_iconoir_page"
+        app:listItemRightIcon="@drawable/ic_iconoir_arrow_right"
+        app:listItemTitle="@string/privacy_policy"
+        app:listItemTopDivider="true" />
+
+    <com.sharkninja.ninja.connected.kitchen.ui.views.SettingsListItemView
+        android:id="@+id/info_legal_notice_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:listItemBottomDivider="true"
+        app:listItemLeftIcon="@drawable/ic_iconoir_page_flip"
+        app:listItemRightIcon="@drawable/ic_iconoir_arrow_right"
+        app:listItemTitle="@string/info_legal_notice"
+        app:listItemTopDivider="true" />
+
+</LinearLayout>

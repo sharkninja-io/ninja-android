@@ -1,0 +1,195 @@
+{
+  "project_info": {
+    "project_number": "1083439894225",
+    "firebase_url": "https://sharkrobot-93748.firebaseio.com",
+    "project_id": "sharkrobot-93748",
+    "storage_bucket": "sharkrobot-93748.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083439894225:android:aee4150fcf081544037ff0",
+        "android_client_info": {
+          "package_name": "com.sharkninja.mapsmoothprofiler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083439894225-5vdeif7jgksnh5cb81596d5dtpjocdhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7DExi7HcxG6_btH6WPrbNoaIMobUwTe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083439894225-5vdeif7jgksnh5cb81596d5dtpjocdhn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1083439894225-9dopm6dr5m44diihal5qpotgmapd5lno.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sharkninja.shark.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083439894225:android:4afd2eaa85231c2e037ff0",
+        "android_client_info": {
+          "package_name": "com.sharkninja.ninja.connected.kitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083439894225-20n6p8iijefb62g9o3pk4l927tb4038b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sharkninja.ninja.connected.kitchen",
+            "certificate_hash": "76df31865ed3bef8ecba944a1d8aad13701ae0d1"
+          }
+        },
+        {
+          "client_id": "1083439894225-5vdeif7jgksnh5cb81596d5dtpjocdhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7DExi7HcxG6_btH6WPrbNoaIMobUwTe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083439894225-5vdeif7jgksnh5cb81596d5dtpjocdhn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1083439894225-9dopm6dr5m44diihal5qpotgmapd5lno.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sharkninja.shark.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083439894225:android:0a4a80ab3bf2f794",
+        "android_client_info": {
+          "package_name": "com.sharkninja.shark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083439894225-0kj9lvc0d1dsgmt4balfbk04vj19oimv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sharkninja.shark",
+            "certificate_hash": "2bdc35c06f187cda2a4b23823dbe5975e0afd587"
+          }
+        },
+        {
+          "client_id": "1083439894225-m7gk531lnhqh6hbcrbvh7gt5ghm4gllq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sharkninja.shark",
+            "certificate_hash": "fa2ec6d8f91ed825ef837565c77e8ec0cce80b47"
+          }
+        },
+        {
+          "client_id": "1083439894225-mctim72qsv745lpsdedlv3qni68i3h5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sharkninja.shark",
+            "certificate_hash": "bf451a94ac60bf4b3de938a91e79662c9c2929c1"
+          }
+        },
+        {
+          "client_id": "1083439894225-5vdeif7jgksnh5cb81596d5dtpjocdhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7DExi7HcxG6_btH6WPrbNoaIMobUwTe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083439894225-5vdeif7jgksnh5cb81596d5dtpjocdhn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1083439894225-9dopm6dr5m44diihal5qpotgmapd5lno.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sharkninja.shark.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083439894225:android:2948c9ac0e6cb714",
+        "android_client_info": {
+          "package_name": "com.sharkninja.shark.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083439894225-2k6njrgen6971lcjdfo8f10qu1qn0rfs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sharkninja.shark.debug",
+            "certificate_hash": "fa2ec6d8f91ed825ef837565c77e8ec0cce80b47"
+          }
+        },
+        {
+          "client_id": "1083439894225-5vdeif7jgksnh5cb81596d5dtpjocdhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7DExi7HcxG6_btH6WPrbNoaIMobUwTe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083439894225-5vdeif7jgksnh5cb81596d5dtpjocdhn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1083439894225-9dopm6dr5m44diihal5qpotgmapd5lno.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sharkninja.shark.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

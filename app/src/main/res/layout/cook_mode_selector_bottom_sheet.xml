@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/cookModeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:text="@string/cook_mode_label"
+        android:textColor="@color/black1"
+        android:textSize="12sp"
+        android:lineHeight="16sp"
+        android:fontFamily="@font/gotham_book_medium"
+        android:textFontWeight="700"
+        android:letterSpacing=".04"/>
+
+    <TextView
+        android:id="@+id/cookModeSelectionPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cookModeText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:text="@string/select_many_text"
+        android:textSize="12sp"
+        android:lineHeight="14.4sp"
+        android:fontFamily="@font/gotham_book_medium"
+        android:textFontWeight="400"
+        android:textColor="@color/darkest_grey"/>
+
+    <HorizontalScrollView
+        android:id="@+id/cookModeSelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="a scrolling container for Buttons horizontally Oriented"
+        android:orientation="horizontal"
+        android:scrollbars="none"
+        app:layout_constraintTop_toBottomOf="@id/cookModeSelectionPrompt">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="19dp"
+                android:layout_height="match_parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/grill_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/circle_background_unselected"
+                    />
+
+                <ImageView
+                    android:id="@+id/grill_icon_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_grill"
+                    android:elevation="5dp"
+                    app:layout_constraintTop_toTopOf="@+id/grill_icon"
+                    app:layout_constraintBottom_toBottomOf="@+id/grill_icon"
+                    app:layout_constraintLeft_toLeftOf="@+id/grill_icon"
+                    app:layout_constraintRight_toRightOf="@+id/grill_icon"/>
+
+                <TextView
+                    android:id="@+id/grill_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:text="@string/grill"
+                    android:textColor="@color/medium_grey"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/grill_icon"
+                    app:layout_constraintStart_toStartOf="@id/grill_icon"
+                    app:layout_constraintTop_toBottomOf="@id/grill_icon" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerOne"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/smoke_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/circle_background_unselected"
+                    />
+
+                <ImageView
+                    android:id="@+id/smoke_icon_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_smoke"
+                    android:elevation="5dp"
+                    app:layout_constraintTop_toTopOf="@+id/smoke_icon"
+                    app:layout_constraintBottom_toBottomOf="@+id/smoke_icon"
+                    app:layout_constraintLeft_toLeftOf="@+id/smoke_icon"
+                    app:layout_constraintRight_toRightOf="@+id/smoke_icon"/>
+
+                <TextView
+                    android:id="@+id/smoke_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:text="@string/smoker_label"
+                    android:textColor="@color/medium_grey"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/smoke_icon"
+                    app:layout_constraintStart_toStartOf="@id/smoke_icon"
+                    app:layout_constraintTop_toBottomOf="@id/smoke_icon" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerTwo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/aircrisp_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/circle_background_unselected"
+                    />
+
+                <ImageView
+                    android:id="@+id/aircrisp_icon_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_aircrisp"
+                    android:elevation="5dp"
+                    app:layout_constraintTop_toTopOf="@+id/aircrisp_icon"
+                    app:layout_constraintBottom_toBottomOf="@+id/aircrisp_icon"
+                    app:layout_constraintLeft_toLeftOf="@+id/aircrisp_icon"
+                    app:layout_constraintRight_toRightOf="@+id/aircrisp_icon"/>
+
+                <TextView
+                    android:id="@+id/aircrisp_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:text="@string/aircrisp"
+                    android:textColor="@color/medium_grey"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/aircrisp_icon"
+                    app:layout_constraintStart_toStartOf="@id/aircrisp_icon"
+                    app:layout_constraintTop_toBottomOf="@id/aircrisp_icon" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerThree"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/roast_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/circle_background_unselected"
+                    />
+
+                <ImageView
+                    android:id="@+id/roast_icon_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_roast"
+                    android:elevation="5dp"
+                    app:layout_constraintTop_toTopOf="@+id/roast_icon"
+                    app:layout_constraintBottom_toBottomOf="@+id/roast_icon"
+                    app:layout_constraintLeft_toLeftOf="@+id/roast_icon"
+                    app:layout_constraintRight_toRightOf="@+id/roast_icon"/>
+
+                <TextView
+                    android:id="@+id/roast_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:text="@string/roast"
+                    android:textColor="@color/medium_grey"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/roast_icon"
+                    app:layout_constraintStart_toStartOf="@id/roast_icon"
+                    app:layout_constraintTop_toBottomOf="@id/roast_icon" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerFour"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/bake_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/circle_background_unselected"
+                    />
+
+                <ImageView
+                    android:id="@+id/bake_icon_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_reheat"
+                    android:elevation="5dp"
+                    app:layout_constraintTop_toTopOf="@+id/bake_icon"
+                    app:layout_constraintBottom_toBottomOf="@+id/bake_icon"
+                    app:layout_constraintLeft_toLeftOf="@+id/bake_icon"
+                    app:layout_constraintRight_toRightOf="@+id/bake_icon"/>
+
+                <TextView
+                    android:id="@+id/bake_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:text="@string/bake"
+                    android:textColor="@color/medium_grey"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/bake_icon"
+                    app:layout_constraintStart_toStartOf="@id/bake_icon"
+                    app:layout_constraintTop_toBottomOf="@id/bake_icon" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerFive"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/broil_container"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/broil_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/circle_background_unselected"
+                    />
+
+                <ImageView
+                    android:id="@+id/broil_icon_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_broil"
+                    android:elevation="5dp"
+                    app:layout_constraintTop_toTopOf="@+id/broil_icon"
+                    app:layout_constraintBottom_toBottomOf="@+id/broil_icon"
+                    app:layout_constraintLeft_toLeftOf="@+id/broil_icon"
+                    app:layout_constraintRight_toRightOf="@+id/broil_icon"/>
+
+                <TextView
+                    android:id="@+id/broil_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:text="@string/broil"
+                    android:textColor="@color/medium_grey"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/broil_icon"
+                    app:layout_constraintStart_toStartOf="@id/broil_icon"
+                    app:layout_constraintTop_toBottomOf="@id/broil_icon" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerSix"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/reheat_container"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/reheat_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/circle_background_unselected"
+                    />
+
+                <ImageView
+                    android:id="@+id/reheat_icon_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_reheat"
+                    android:elevation="5dp"
+                    app:layout_constraintTop_toTopOf="@+id/reheat_icon"
+                    app:layout_constraintBottom_toBottomOf="@+id/reheat_icon"
+                    app:layout_constraintLeft_toLeftOf="@+id/reheat_icon"
+                    app:layout_constraintRight_toRightOf="@+id/reheat_icon"/>
+
+                <TextView
+                    android:id="@+id/reheat_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:text="@string/reheat"
+                    android:textColor="@color/medium_grey"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/reheat_icon"
+                    app:layout_constraintStart_toStartOf="@id/reheat_icon"
+                    app:layout_constraintTop_toBottomOf="@id/reheat_icon" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/spacerSeven"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="85dp"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/dehydrate_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/circle_background_unselected"
+                    />
+
+                <ImageView
+                    android:id="@+id/dehydrate_icon_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_dehydrate"
+                    android:elevation="5dp"
+                    app:layout_constraintTop_toTopOf="@+id/dehydrate_icon"
+                    app:layout_constraintBottom_toBottomOf="@+id/dehydrate_icon"
+                    app:layout_constraintLeft_toLeftOf="@+id/dehydrate_icon"
+                    app:layout_constraintRight_toRightOf="@+id/dehydrate_icon"/>
+
+                <TextView
+                    android:id="@+id/dehydrate_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/gotham_book_medium"
+                    android:text="@string/dehydrate"
+                    android:textColor="@color/medium_grey"
+                    android:textFontWeight="700"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@id/dehydrate_icon"
+                    app:layout_constraintStart_toStartOf="@id/dehydrate_icon"
+                    app:layout_constraintTop_toBottomOf="@id/dehydrate_icon" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <View
+        android:id="@+id/applyFiltersButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/cookModeSelector"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginHorizontal="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@drawable/rounded_edges_ninja_green_25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/applyFiltersButton"
+        app:layout_constraintBottom_toBottomOf="@+id/applyFiltersButton"
+        app:layout_constraintLeft_toLeftOf="@+id/applyFiltersButton"
+        app:layout_constraintRight_toRightOf="@+id/applyFiltersButton"
+        android:text="@string/apply"
+        android:textColor="@color/white_8F"
+        android:fontFamily="@font/gotham_book_medium"
+        android:textFontWeight="500"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:lineHeight="18sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/applyFiltersButton"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingsListItemView">
+        <attr name="listItemTitle" format="reference" />
+        <attr name="listItemDescription" format="reference" />
+        <attr name="listItemRightText" format="reference" />
+        <attr name="listItemLeftIcon" format="reference" />
+        <attr name="listItemRightIcon" format="reference" />
+        <attr name="listItemLeftIconBoundToTop" format="boolean" />
+        <attr name="listItemToggleView" format="boolean" />
+        <attr name="listItemBottomDivider" format="boolean" />
+        <attr name="listItemTopDivider" format="boolean" />
+        <attr name="listitem_detail_name" format="string" />
+        <attr name="listitem_detail" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CookingTipItemView">
+        <attr name="cookTipItemTitle" format="reference" />
+        <attr name="cookTipItemDescription" format="reference" />
+        <attr name="cookTipItemLink" format="reference" />
+        <attr name="cookTipItemTopRightIcon" format="reference" />
+        <attr name="isThermometerToolTip" format="boolean" />
+        <attr name="descriptionImage" format="reference" />
+        <attr name="isDarkTheme" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CookCardToggleListItemView">
+        <attr name="woodfireIcon" format="reference" />
+        <attr name="woodfireLabel" format="reference" />
+        <attr name="woodfireStatus" format="reference" />
+        <attr name="woodFireToggle" format="boolean" />
+        <attr name="probeIcon" format="reference" />
+        <attr name="probeName" format="string" />
+        <attr name="iconRight" format="reference" />
+        <attr name="probeToggle" format="boolean" />
+        <attr name="tempLabel" format="reference" />
+        <attr name="isWoodFireCardView" default="false" format="boolean" />
+        <attr name="isMonitorAndControlToggleItem" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CookCardTimeTempListItemView">
+        <attr name="valueLeftIcon" format="reference" />
+        <attr name="valueLeft" format="reference" />
+        <attr name="valueLeftLabel" format="reference" />
+        <attr name="valueRightIcon" format="reference" />
+        <attr name="valueRight" format="reference" />
+        <attr name="valueRightLabel" format="string" />
+        <attr name="timeTempIconRight" format="reference" />
+        <attr name="isMonitorAndControl" format="boolean" />
+        <attr name="isTimedCook" format="boolean" />
+        <attr name="isProbeCard" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CookPreCookToolbarItemView">
+        <attr name="isPreCook" format="boolean" />
+        <attr name="isEditScreen" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CookModeMenuView">
+        <attr name="isDarkThemeMenu" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FoodSelectorView">
+        <attr name="isDarkThemeMenuFood" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TabSelectionSwitchSegmentedControl">
+        <attr name="textToggleLeft" format="string" localization="suggested" />
+        <attr name="textToggleRight" format="string" localization="suggested" />
+        <attr name="selectedTabBackground" format="reference" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="unselectedTextColor" format="color" />
+        <attr name="borderColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="switchFontFamily" format="integer" />
+        <attr name="checked" format="boolean" />
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="@dimen/margin_large"
+    android:layout_marginEnd="@dimen/margin_large"
+    tools:context=".sections.home.fragments.pairing.SelectWifiFragment">
+
+    <include
+        android:id="@+id/progress_indicator"
+        layout="@layout/pairing_progress_indicator" />
+
+    <TextView
+        android:id="@+id/indicator_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/element_spacing_xs"
+        android:paddingBottom="@dimen/element_spacing_xs"
+        android:textSize="8sp"
+        android:lineHeight="16sp"
+        android:textColor="@color/ninja_green"
+        android:fontFamily="@font/gotham_book_bold"
+        android:textFontWeight="700"
+        app:layout_constraintTop_toBottomOf="@id/progress_indicator"
+        android:text="@string/pairing_step_three" />
+
+    <TextView
+        android:id="@+id/indicator_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/element_spacing_xs"
+        android:paddingBottom="@dimen/element_spacing_xs"
+        android:textSize="12sp"
+        android:lineHeight="16sp"
+        android:textColor="@color/ninja_green"
+        android:fontFamily="@font/gotham_book_bold"
+        android:textFontWeight="700"
+        app:layout_constraintTop_toBottomOf="@id/indicator_step"
+        android:text="CONNECTING TO WIFI" />
+
+    <TextView
+        android:id="@+id/wifi_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_medium"
+        android:textColor="@color/theme_reverse"
+        android:text="@string/pairing_select_wifi"
+        android:textSize="@dimen/text_size_large"
+        android:lineHeight="@dimen/text_size_header"
+        app:layout_constraintTop_toBottomOf="@id/indicator_header"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/wifi_sub"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/darker_grey"
+        android:text="@string/pairing_network_two_bars"
+        android:textSize="@dimen/text_size_normal"
+        android:lineHeight="@dimen/text_size_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wifi_title" />
+
+    <TextView
+        android:id="@+id/network_tips_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:text="@string/pairing_network_tips_text"
+        android:textColor="@color/ninja_green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wifi_sub" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/wifi_network_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/network_tips_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

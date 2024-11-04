@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Ninja.ButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:height">56dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/gotham_book_medium</item>
+        <item name="backgroundTint">@color/ninja_primary_button_background_color_state</item>
+        <item name="android:textColor">@color/ninja_primary_button_text_color_state</item>
+    </style>
+
+    <style name="Ninja.ButtonStyleSecondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:height">56dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/gotham_book_medium</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="backgroundTint">@color/ninja_button_secondary_background</item>
+        <item name="strokeColor">@color/ninja_button_secondary_text</item>
+        <item name="android:textColor">@color/ninja_button_secondary_text</item>
+    </style>
+
+    <style name="Ninja.ButtonStyleBlack" parent="Ninja.ButtonStyle">
+        <item name="backgroundTint">@color/ninja_black_button_background_color_state</item>
+        <item name="android:textColor">@color/ninja_primary_button_text_color_state</item>
+    </style>
+
+    <style name="Ninja.ButtonStyleRed" parent="Ninja.ButtonStyle">
+        <item name="android:textColor">@color/white_8F</item>
+        <item name="backgroundTint">@color/ninja_button_red_background</item>
+    </style>
+
+    <style name="Ninja.ButtonStyleOrange" parent="Ninja.ButtonStyle">
+        <item name="android:textColor">@color/white_8F</item>
+        <item name="backgroundTint">@color/ninja_button_orange_background</item>
+    </style>
+
+    <style name="Ninja.ButtonStyleRedOutline" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:height">56dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/gotham_book_medium</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="backgroundTint">@color/ninja_button_secondary_background</item>
+        <item name="strokeColor">@color/error_red</item>
+        <item name="android:textColor">@color/error_red</item>
+    </style>
+
+    <style name="Ninja.ButtonStyleDialogGreenOutlineTransparent" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:height">56dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/gotham_book_medium</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="strokeColor">@color/ninja_green</item>
+        <item name="android:textColor">@color/ninja_green</item>
+    </style>
+
+    <style name="Ninja.ButtonStyleDialog" parent="Widget.Material3.Button">
+        <item name="android:height">56dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/mc_text_and_icon_color</item>
+        <item name="fontFamily">@font/gotham_book_medium</item>
+    </style>
+
+    <style name="Ninja.Checkbox" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="background">@drawable/check_box_selector</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+
+
+    <style name="Profile.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_marginTop">@dimen/margin_large</item>
+        <item name="backgroundTint">@color/edit_text_background_tint</item>
+        <item name="fontFamily">@font/gotham_book_normal</item>
+        <item name="hintTextColor">@color/medium_grey</item>
+        <item name="android:textColor">@color/text_color_primary</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="Profile.ErrorMessage" parent="Widget.AppCompat.TextView">
+        <item name="android:text">@string/required_field_error_msg</item>
+        <item name="android:textColor">@color/error_red</item>
+        <item name="fontFamily">@font/gotham_book_normal</item>
+        <item name="android:textSize">@dimen/text_size_xsmall</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="Profile.TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+        <item name="android:textSize">@dimen/text_size_xsmall</item>
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:textColor">@color/text_view_medium_grey_light_grey</item>
+    </style>
+
+    <style name="Settings.Header" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="fontFamily">@font/gotham_book_normal</item>
+        <item name="android:textColor">@color/text_color_primary</item>
+    </style>
+
+    <style name="Settings.SubHeader" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/text_size_xsmall</item>
+        <item name="fontFamily">@font/gotham_book_bold</item>
+        <item name="android:textColor">@color/text_color_primary</item>
+    </style>
+
+    <style name="Label.TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/text_size_xsmall</item>
+        <item name="android:textColor">@color/edit_text_hint_and_text_color</item>
+        <item name="fontFamily">@font/gotham_book_normal</item>
+    </style>
+
+    <style name="ApplianceDetail.TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/text_color_primary</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="fontFamily">@font/gotham_book_medium</item>
+        <item name="android:layout_marginStart">@dimen/margin_normal</item>
+    </style>
+
+    <style name="Ninja.BottomSheetDialog" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Ninja.RoundedDialog</item>
+    </style>
+
+    <style name="Ninja.RoundedDialog" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/dialog_rounded</item>
+    </style>
+
+    <style name="Ninja.Picker" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="colorControlNormal">@color/text_view_medium_grey_light_grey</item>
+    </style>
+
+    <style name="DialogThemeFullScreen" parent="Theme.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@color/white_8F</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="DialogThemeFullScreenDarkTheme" parent="Theme.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@color/deep_black</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <style name="RoundedCornersDialog" parent="@style/Theme.MaterialComponents.Dialog">
+        <item name="dialogCornerRadius">12dp</item>
+        <item name="backgroundColor">@color/white_6F</item>
+    </style>
+
+    <style name="Widget.App.Button.IconOnly" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="strokeColor">@color/dark_grey</item>
+        <item name="android:backgroundTint">@color/rating_prompt_background</item>
+    </style>
+
+    <style name="Ninja.ToggleGroupButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:backgroundTint">@color/rating_prompt_background</item>
+    </style>
+
+</resources>

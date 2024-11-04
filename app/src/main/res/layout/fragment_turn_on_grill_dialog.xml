@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="@dimen/margin_large"
+    android:layout_marginEnd="@dimen/margin_large"
+    tools:context=".sections.home.fragments.pairing.dialogs.PlugDialogFragment">
+
+
+    <TextView
+        android:id="@+id/turnOnGrillHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_medium"
+        android:textColor="@color/theme_reverse"
+        android:text="@string/turn_on_grill_plain"
+        android:textSize="@dimen/text_size_normal"
+        android:lineHeight="@dimen/text_size_large"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/flipPowerOnPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/theme_reverse"
+        android:text="@string/flip_power_switch"
+        android:textSize="@dimen/text_size_large"
+        android:lineHeight="@dimen/text_size_header"
+        app:layout_constraintTop_toBottomOf="@id/turnOnGrillHeader"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bullet_header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:fontFamily="@font/gotham_book_normal"
+        android:textColor="@color/darker_grey"
+        android:text="@string/grill_screen_should"
+        android:textSize="14sp"
+        android:lineHeight="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/flipPowerOnPrompt" />
+
+    <ImageView
+        android:id="@+id/icon_plug_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:src="@drawable/hello_screen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bullet_header" />
+
+    <Button
+        android:id="@+id/button_got_it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/ninja_green"
+        android:layout_marginTop="42dp"
+        android:layout_marginStart="@dimen/margin_xxxlarge"
+        android:layout_marginEnd="@dimen/margin_xxxlarge"
+        android:layout_marginBottom="@dimen/margin_xlarge"
+        android:text="Got it"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/icon_plug_dialog"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
